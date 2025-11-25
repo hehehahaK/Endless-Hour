@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CurrentCheckpoint = null;
+        CurrentCheckpoint = FindObjectOfType<PlayerSuperclass>().transform.position;
     }
 
     // Update is called once per frame
@@ -17,12 +17,11 @@ public class LevelManager : MonoBehaviour
     {
         
     }
+    public Transform CurrentCheckpoint;   // where the player will respawn
+    public Transform player;              // drag your Player into this slot in the Inspector
+
     public void RespawnPlayer()
     {
-        if(CurrentCheckpoint != null)
-        {
-            FindObjectOfType<PlayerSuperclass>().transform.position = CurrentCheckpoint.transform.position;
-            //CHANGETO YOUR PLAYERCONTROLLER NAME IMPORTANTTTT
-        }
+    player.position = CurrentCheckpoint.position;
     }
 }

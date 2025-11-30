@@ -8,12 +8,12 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - backbuildings
   - Water
   - UI
-  - 
-  - 
-  - 
+  - backrow shops
+  - ground
+  - front shops
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: backshops
     uniqueID: 655646559
+    locked: 0
+  - name: mcs
+    uniqueID: 3834352817
     locked: 0
   - name: front shops
     uniqueID: 135852129

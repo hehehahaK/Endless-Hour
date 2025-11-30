@@ -1,0 +1,951 @@
+fileFormatVersion: 2
+guid: 769ded6f4f48b6f45a87a103954f811f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mcidle_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1255
+        width: 171
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a030c731dc806e5498de94e501967f86
+      internalID: 747540882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1255
+        width: 166
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d19759d3f4505e4a85fbab9e224e15b
+      internalID: -2128922167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_4
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1255
+        width: 163
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871bbc03975f743479f85fa86c0d78dc
+      internalID: -1605622156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_6
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1255
+        width: 159
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b31f63cbc466b64dba74066fbfa86d4
+      internalID: 1186632828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_8
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1255
+        width: 157
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bf097e365f81a4c9d0d485f9f60b6d
+      internalID: -1293476969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_10
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1255
+        width: 163
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb73574f02ac72442b7ea92bd61a8572
+      internalID: -594372864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1004
+        width: 166
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703ec6403348a5f44ac92de6440b8546
+      internalID: -718369992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1004
+        width: 175
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5dfe71629aede4295c00c97f9eaccd
+      internalID: 1368133717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1004
+        width: 178
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c787bccef25a740bcbf77ed996b391
+      internalID: -156378162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_18
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1004
+        width: 184
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9af213ea999edc49b860caaab563ab6
+      internalID: 902236774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_20
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1004
+        width: 187
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff65f15c37129cb4290bab13391c8c9c
+      internalID: -999269383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_22
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1004
+        width: 187
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b32e17af6c8b9418d584e9067ac784
+      internalID: -748318949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 187
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460452a28269f334aa0d2d743e20b096
+      internalID: 607919501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_26
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 753
+        width: 183
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9bc1844f15d304881df6766eb17b38
+      internalID: 269009627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_28
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 753
+        width: 181
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44ee093424ab094b813b9c23477b4b0
+      internalID: -459478238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_30
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 753
+        width: 177
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092d590973a7b88499d19b398ba02c98
+      internalID: -1261426430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_32
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 753
+        width: 166
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4ce00842c1e744b9eb4d787d411e7a
+      internalID: 2115643294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_34
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 753
+        width: 161
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da25996bc083684ead50835f45fbcba
+      internalID: -888786692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_36
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 502
+        width: 158
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8403870d1383e941839173235f992ee
+      internalID: 297684680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 502
+        width: 154
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcc83753a22a5f409c3255d04ee475f
+      internalID: -916044483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_40
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 502
+        width: 152
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eae85a81ab3cd84aa5f2082c214f36f
+      internalID: 2013776925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_42
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 502
+        width: 160
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1128e198f1ac76c4489fe08b74dd5118
+      internalID: 1455510529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_44
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 502
+        width: 168
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbc4c1ca00ba054397698c1408649b2
+      internalID: -119831179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_46
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 502
+        width: 172
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8b543d51786b04bbc6a635ca70bcf6
+      internalID: 1189144183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 251
+        width: 175
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fb74b61a4756844be0c8e1e24dfc11
+      internalID: -1102090302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_50
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 251
+        width: 182
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb49a25af7131a498ffd3c91278f674
+      internalID: -1026583785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_52
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 251
+        width: 184
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86cb78e0ec143c49bfa9d242db4eb99
+      internalID: -592421725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_54
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 251
+        width: 185
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf6b63399f99e4fb2d0c1f72f3268d
+      internalID: -151584815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_56
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 251
+        width: 185
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa30f9fe465ab104bba78d591c410683
+      internalID: -433789840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_58
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 251
+        width: 183
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79993c6899c2b640aca7aa73a961de9
+      internalID: -1800210643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 178
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3205769faab2e854990f0981fa47ca42
+      internalID: -1354075009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_62
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 175
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32e13a4e68913b449f2f472164d3b4b
+      internalID: 735512953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_64
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 170
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa674d739cb565438cce5b9f4cb5e9f
+      internalID: -147146680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_66
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 0
+        width: 166
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79de3df9e8a83149989444ff32670e8
+      internalID: -1612453849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_68
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 162
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2f71a096aa18e4387156c66d196e8c
+      internalID: -97885766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mcidle_70
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 0
+        width: 155
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49db5f56d4fe0048a77c06283711429
+      internalID: -334799846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mcidle_10: -594372864
+      mcidle_47: 1906539111
+      mcidle_9: 2029840267
+      mcidle_17: 648468613
+      mcidle_44: -119831179
+      mcidle_22: -748318949
+      mcidle_52: -592421725
+      mcidle_18: 902236774
+      mcidle_56: -433789840
+      mcidle_62: 735512953
+      mcidle_51: 1851802206
+      mcidle_3: -1094624983
+      mcidle_23: 1170555497
+      mcidle_38: -916044483
+      mcidle_40: 2013776925
+      mcidle_26: 269009627
+      mcidle_58: -1800210643
+      mcidle_21: -1407632150
+      mcidle_60: -1354075009
+      mcidle_69: 1758338940
+      mcidle_20: -999269383
+      mcidle_45: 107026493
+      mcidle_36: 297684680
+      mcidle_2: -2128922167
+      mcidle_48: -1102090302
+      mcidle_11: 293660556
+      mcidle_34: -888786692
+      mcidle_63: 1917440034
+      mcidle_71: 1801689516
+      mcidle_15: 1908955351
+      mcidle_13: -1365458818
+      mcidle_29: -1001656391
+      mcidle_28: -459478238
+      mcidle_68: -97885766
+      mcidle_35: 499043114
+      mcidle_50: -1026583785
+      mcidle_25: -1611814927
+      mcidle_12: -718369992
+      mcidle_0: 747540882
+      mcidle_57: 916025154
+      mcidle_55: -1749411708
+      mcidle_31: -1159830161
+      mcidle_27: 745717929
+      mcidle_30: -1261426430
+      mcidle_46: 1189144183
+      mcidle_6: 1186632828
+      mcidle_42: 1455510529
+      mcidle_24: 607919501
+      mcidle_61: -142985279
+      mcidle_65: 660143501
+      mcidle_16: -156378162
+      mcidle_1: 948289742
+      mcidle_5: 1036698200
+      mcidle_19: 2101378908
+      mcidle_66: -1612453849
+      mcidle_4: -1605622156
+      mcidle_49: 808639128
+      mcidle_7: -2092652888
+      mcidle_33: -1615695179
+      mcidle_64: -147146680
+      mcidle_70: -334799846
+      mcidle_59: -1731323808
+      mcidle_8: -1293476969
+      mcidle_32: 2115643294
+      mcidle_54: -151584815
+      mcidle_43: 292993849
+      mcidle_67: 2089173578
+      mcidle_37: 896354718
+      mcidle_14: 1368133717
+      mcidle_39: 241940346
+      mcidle_41: 1900402427
+      mcidle_53: 2118815958
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

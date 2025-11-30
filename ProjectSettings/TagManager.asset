@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ground
+    uniqueID: 1630746603
+    locked: 0
+  - name: buildings
+    uniqueID: 3347370093
+    locked: 0
+  - name: backshops
+    uniqueID: 655646559
+    locked: 0
+  - name: front shops
+    uniqueID: 135852129
+    locked: 0

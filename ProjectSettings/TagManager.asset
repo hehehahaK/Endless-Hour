@@ -8,12 +8,16 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
+<<<<<<< HEAD
   - ground
+=======
+  - backbuildings
+>>>>>>> c6971706215ac09b1fc24ef6b5dc5becae20e489
   - Water
   - UI
-  - 
-  - 
-  - 
+  - backrow shops
+  - ground
+  - front shops
   - 
   - 
   - 
@@ -52,6 +56,9 @@ TagManager:
     locked: 0
   - name: backshops
     uniqueID: 655646559
+    locked: 0
+  - name: mcs
+    uniqueID: 3834352817
     locked: 0
   - name: front shops
     uniqueID: 135852129

@@ -57,14 +57,16 @@ public class PlayerSuperclass : MonoBehaviour
                 GetComponent<SpriteRenderer>().flipX = false;
             }
         }
-         if (isImmune == true ){
-               SpriteFlicker();
-               immunityTime += Time.deltaTime;
-               if(immunityTime >=immunityDuration){
-                   isImmune = false;
-                   sr.enabled = true;
-               }
-           }
+        if (isImmune == true)
+        {
+            SpriteFlicker();
+            immunityTime += Time.deltaTime;
+            if (immunityTime >= immunityDuration)
+            {
+                isImmune = false;
+                sr.enabled = true;
+            }
+        }
         anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
         anim.SetFloat("Height", GetComponent<Rigidbody2D>().velocity.y);
         anim.SetBool("Grounded", grounded);
@@ -92,19 +94,19 @@ public class PlayerSuperclass : MonoBehaviour
             flickerTime = 0;
         }
     }
-//Damage function, we send a DMG INT value to subtract from health. it also calls LevelManager to respawn player upon death.
-   public void TakeDamage(int damage)
+    //Damage function, we send a DMG INT value to subtract from health. it also calls LevelManager to respawn player upon death.
+    public void TakeDamage(int damage)
     {
         if (!isImmune)
         {
             health -= damage;
             if (health <= 0)
-                {
+            {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = 20;
-                }
+            }
             Debug.Log("Player Health:" + health.ToString());
-            isImmune=true;
+            isImmune = true;
             immunityTime = 0f;
         }
         else
@@ -112,10 +114,10 @@ public class PlayerSuperclass : MonoBehaviour
             Debug.Log("Player took no damage.");
         }
     }
-    
-    
-    
-    }
+
+
+
+}
 
 
 

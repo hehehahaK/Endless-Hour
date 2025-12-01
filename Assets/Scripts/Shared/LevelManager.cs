@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CurrentCheckpoint = player;  
+        CurrentCheckpoint = player;
     }
 
     // Update is called once per frame
@@ -18,6 +18,6 @@ public class LevelManager : MonoBehaviour
     }
     public void RespawnPlayer()
     {
-    player.position = CurrentCheckpoint.position;
+        player.position = CurrentCheckpoint.position;
     }
 }

@@ -200,8 +200,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392753393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.62, y: -1.24, z: 0}
-  m_LocalScale: {x: 0.8509809, y: 0.6494, z: 1}
+  m_LocalPosition: {x: 5.6039, y: -1.24, z: 0}
+  m_LocalScale: {x: 0.85217226, y: 0.6494, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -251,7 +251,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.3832726
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -293,6 +293,7 @@ GameObject:
   - component: {fileID: 1152973624}
   - component: {fileID: 1152973623}
   - component: {fileID: 1152973625}
+  - component: {fileID: 1152973626}
   m_Layer: 0
   m_Name: Coren
   m_TagString: Untagged
@@ -360,7 +361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152973622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.559, y: -2.99, z: 0}
+  m_LocalPosition: {x: -4.19, y: -2.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -387,6 +388,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1152973626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152973622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cc3af5a61ca5408e8aefe5fe6c5cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  followSpeed: 2
+  offset: {x: 2, y: 0, z: 0}
+  sr: {fileID: 0}
+  playerSR: {fileID: 0}
+  teleportDistance: 6
 --- !u!1 &1828068591
 GameObject:
   m_ObjectHideFlags: 0

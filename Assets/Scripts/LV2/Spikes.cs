@@ -9,13 +9,13 @@ public class Spikes : MonoBehaviour
     public float distance;
     bool isFalling = false;
 
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
-    private void Update()
+     void Update()
     {
         Physics2D.queriesStartInColliders = false;
         if (!isFalling)
@@ -35,22 +35,4 @@ public class Spikes : MonoBehaviour
     
     }
        
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            PlayerStats playerStats = other.gameObject.GetComponent<PlayerStats>();
-            if (playerStats != null)
-            {
-                playerStats.TakeDamage(1);
-            }
-             FindObjectOfType<LevelManager>().RespawnPlayer();
-        }
-         else
-        {
-            rb.gravityScale = 0;           // Stop the movement
-            boxCollider2D.enabled = false; // Disable the collider
-        }
-    }
  }

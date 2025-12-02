@@ -2,24 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class wheel : EnemyController
+public class Wheel : MonoBehaviour, InterfaceInteractable
 {
-    public Transform player;
+    public bool IsTaken { get; private set; }
+    
 
-    void FixedUpdate()
+
+    // Start is called before the first frame update
+    void Start()
     {
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, maxSpeed * Time.deltaTime);
+        
     }
 
-    public new void OnTriggerEnter2D(Collider2D other)
+    public bool CanInteract()
     {
-        if (other.tag == "Player")
-        {
-            FindObjectOfType<PlayerStats>().TakeDamage(damage);
-        }
-        else if (other.tag == "Wall")
-        {
-            Flip();
-        }
+        return !IsTaken;
+    }
+    
+    public void Interact()
+    {
+        if (!CanInteract()) return;
+        // Logic for taking the wheel
     }
 }

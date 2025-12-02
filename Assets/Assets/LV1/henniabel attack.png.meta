@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: henniabel attack_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1695
+        width: 191
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb85a3472a1b6548990cc2c303c81f6
+      internalID: 1496566922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1695
+        width: 192
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e50ebfe73e8074aaaf8b8fef924586
+      internalID: -1719053225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_2
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1695
+        width: 192
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a833ac32779889c449120730b6b3cb26
+      internalID: 1400180810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_3
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1695
+        width: 192
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1242adc4481cf6f4d861681a2108bf66
+      internalID: 226526634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_4
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1695
+        width: 192
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8f6bcbbef5535458dbd966486f6455
+      internalID: 320934460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_5
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1695
+        width: 194
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9473db034c50199498c4fb8ecfe2e462
+      internalID: 1913667672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1363
+        width: 192
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b9bced59dba43469ead760250953fe
+      internalID: -977882134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_7
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1363
+        width: 193
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fb0f16b6755bc4ea211c09c11f41e6
+      internalID: 1427597547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1363
+        width: 192
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588c94320ef58564b837a52b1f332807
+      internalID: -676061153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_9
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1363
+        width: 186
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c651aa5b1a6340965eb481769f309
+      internalID: -398146944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_10
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1363
+        width: 182
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f754a8e81526a04bbf399772b96a105
+      internalID: -2032589590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_11
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1363
+        width: 172
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa422c5925d2e94a82aa7816ff61d05
+      internalID: -1052469502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1031
+        width: 168
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc014bed9bd18c458fb7552c45523f7
+      internalID: 1508270038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_13
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1031
+        width: 168
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1c41175833e94489bed63801a10eb
+      internalID: 71087089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_14
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1031
+        width: 206
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5bb7a88d2e18b42a82c95b612e03cb
+      internalID: 2046327022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_15
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1031
+        width: 201
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd7347334a336549a94b8d0373bde5c
+      internalID: 53395182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_16
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1031
+        width: 182
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90021777305577d489f8f0a9584970ef
+      internalID: -73424341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_17
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1031
+        width: 244
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14187f6d9a1227e41a7efb0011598339
+      internalID: -1255382624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 699
+        width: 373
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f94068189f57c4f82577fcdbf6fe83
+      internalID: 1515494500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_19
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 699
+        width: 248
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45426fcfc3546e04aafa4b7649a9ae67
+      internalID: 2065858718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_20
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 699
+        width: 244
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d0c4bf1379bce4493c8b8fc011e843
+      internalID: -1827263981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_21
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 699
+        width: 253
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84fea8e975a2994b94a99bb36525faf
+      internalID: -1664812222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_22
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 699
+        width: 260
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de2df74375bd00438c6102815586c63
+      internalID: 1698908389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_23
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 699
+        width: 263
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965bcbe5ddd442c4fb803575497109f3
+      internalID: 816318719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 367
+        width: 263
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c39991ead63ba4395a912076de475c
+      internalID: -417892450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_25
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 367
+        width: 252
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a28e6d0faaec04bb85d419bc012a30
+      internalID: -21576168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_26
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 367
+        width: 216
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c652ce8cb0465754ca4bd9cbcbb86a92
+      internalID: 1242970055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_27
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 367
+        width: 189
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34c941316aa6a94db3207529f8145c1
+      internalID: -481225925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_28
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 367
+        width: 156
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcc291a4e4418649a9747e15231fe4a
+      internalID: 1158416049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_29
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 367
+        width: 128
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3111fcd5680472741ab8c7544091cc9e
+      internalID: 1655127656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 23
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3619c148afd92a747b82f936037630b3
+      internalID: 1122731430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_31
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 35
+        width: 155
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b265d3578d20a1d4883d7276e672ebdb
+      internalID: -98232631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_32
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 35
+        width: 183
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8829c5aa988904eb7be5436d6e27c7
+      internalID: 1893081603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_33
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 35
+        width: 195
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9f052287509ab4f81a6546c3db0e85
+      internalID: 1387187222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_34
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 35
+        width: 196
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a575de7552f1340a64a5688fd24a4c
+      internalID: -2112723544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henniabel attack_35
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 35
+        width: 196
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0048dbd78146c4486901c9e328aa80
+      internalID: -1104490402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +870,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      henniabel attack_12: 1508270038
+      henniabel attack_10: -2032589590
+      henniabel attack_14: 2046327022
+      henniabel attack_18: 1515494500
+      henniabel attack_21: -1664812222
+      henniabel attack_24: -417892450
+      henniabel attack_7: 1427597547
+      henniabel attack_5: 1913667672
+      henniabel attack_16: -73424341
+      henniabel attack_27: -481225925
+      henniabel attack_30: 1122731430
+      henniabel attack_4: 320934460
+      henniabel attack_9: -398146944
+      henniabel attack_20: -1827263981
+      henniabel attack_6: -977882134
+      henniabel attack_35: -1104490402
+      henniabel attack_25: -21576168
+      henniabel attack_13: 71087089
+      henniabel attack_15: 53395182
+      henniabel attack_26: 1242970055
+      henniabel attack_28: 1158416049
+      henniabel attack_1: -1719053225
+      henniabel attack_17: -1255382624
+      henniabel attack_31: -98232631
+      henniabel attack_32: 1893081603
+      henniabel attack_23: 816318719
+      henniabel attack_29: 1655127656
+      henniabel attack_2: 1400180810
+      henniabel attack_33: 1387187222
+      henniabel attack_11: -1052469502
+      henniabel attack_19: 2065858718
+      henniabel attack_3: 226526634
+      henniabel attack_8: -676061153
+      henniabel attack_22: 1698908389
+      henniabel attack_34: -2112723544
+      henniabel attack_0: 1496566922
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

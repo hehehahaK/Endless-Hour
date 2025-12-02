@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - spikes
   layers:
   - Default
   - TransparentFX
@@ -61,4 +62,7 @@ TagManager:
     locked: 0
   - name: foreground
     uniqueID: 3116345865
+    locked: 0
+  - name: coren
+    uniqueID: 523323633
     locked: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c853a7c75221e5b468d31dc8d5384805
+guid: a6ccbe822760fc749948310effe4563e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprite-256px-4_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 753
+        width: 161
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0035a248a295c42b4827a7659deb39
+      internalID: -1932760668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-4_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 753
+        width: 159
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed46d7bad80357848bdac27522de0628
+      internalID: -2057508183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-4_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 45
+        width: 157
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e626e896adb3741ae1ac363383d9fa
+      internalID: -1115068582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-256px-4_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 45
+        width: 157
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0db4a5e5450864a920ac2fc3353c53
+      internalID: -1585737333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +198,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprite-256px-4_6: -592540974
+      sprite-256px-4_2: -1772269676
+      sprite-256px-4_4: -1115068582
+      sprite-256px-4_3: -2057508183
+      sprite-256px-4_7: -1585737333
+      sprite-256px-4_0: -1927650396
+      sprite-256px-4_5: -715263462
+      sprite-256px-4_1: -1932760668
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

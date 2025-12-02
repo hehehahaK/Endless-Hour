@@ -59,3 +59,6 @@ TagManager:
   - name: front shops
     uniqueID: 135852129
     locked: 0
+  - name: foreground
+    uniqueID: 3116345865
+    locked: 0

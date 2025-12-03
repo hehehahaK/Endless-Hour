@@ -1,0 +1,915 @@
+fileFormatVersion: 2
+guid: 9dcc72a7d8597a14c9ff6c4dc2eea084
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bestIdleSoFAr_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb24645f3f937754b90bc13f7646d1ca
+      internalID: 461644152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1210
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d921d415fa2574f86f2be951626967
+      internalID: 1980276273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1210
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf60029f184c5d48a0b7260c30b93aa
+      internalID: 1050382102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_3
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1210
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426947d5c88eba842a048a2224767a5c
+      internalID: 503765072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_4
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1210
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e40154ad7f0cf46968f26a31d944d1
+      internalID: 1872974244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_5
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1210
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54f7f20fea00c842b7fc8e76f586a71
+      internalID: 1607317645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e368e1003e04f9b4792d89e5f38abea1
+      internalID: 1884494625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 968
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a2f3279c783c44c9a12e2ff0d86124
+      internalID: -1811721163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_8
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 968
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448efeb782c46604db6807718311b2aa
+      internalID: 1685526117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_9
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 968
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ac33400a8631d4ebc49c174f0215e5
+      internalID: -1781425976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_10
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 968
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b006b5a47786a654c9752c81c631ad64
+      internalID: -1506850856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_11
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 968
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab3c6a8a35ff0d40801a86819b8212e
+      internalID: -15614619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 726
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59f67d629c83214b97103e02dfa69d7
+      internalID: 207703809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 726
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c4fe462f84ff94ca53164c14a4a259
+      internalID: 688499760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_14
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 726
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1436cd8505f1ce419615f6edf30f61d
+      internalID: 794826191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_15
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 726
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb5910ce3629a640bac331d2c81203c
+      internalID: -1301562655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_16
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 726
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f11ca73ff8175a42b2b5d4db920a458
+      internalID: -207502417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_17
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 726
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949a2af5aafe5ec4691db1c03c1ee6a6
+      internalID: 1339406338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc713324dd6a7e46ab67756328d3335
+      internalID: -2113518190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 484
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd40d3a22ccf1c429e3ff0dddb700f7
+      internalID: -1757558245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_20
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 484
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c11a18c8e2db14aafa4052a37d2593
+      internalID: -1283349788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_21
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 484
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7951eec446cbde42895159611119e0e
+      internalID: 1232927945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_22
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 484
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f7cf8e118914b4ebf7e1472a80a05d
+      internalID: 1460178692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_23
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 484
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ee3713f7331ce429178a5f1182bf87
+      internalID: -1962046683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c28a5be99a18c42988ec0367acc831
+      internalID: -707449930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 242
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5051b065f4abfe40acd9f1d1ad01190
+      internalID: -1464659392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_26
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 242
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d42c8ca1dc98b4d9b3029fb998b21c
+      internalID: 1041262331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_27
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 242
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa150758a3f6b0246beea1c05a58798e
+      internalID: 2076695571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_28
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 242
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c20f75424af2dc4aa1cbc663e6aaf93
+      internalID: 268553107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_29
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 242
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829c9c49d91642c44a799beb38c3737d
+      internalID: 1292442162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349ece1070c35454f8b592b387cf2b60
+      internalID: -1290858789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_31
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20e254d3f048044395eab76865fd68d
+      internalID: -49326754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_32
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 0
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ed989b744ac18438f694c82c44fb56
+      internalID: -1251907268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_33
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b00aaf4d65f5a849a92de30d82cd926
+      internalID: -542434356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_34
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 0
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d49d53e19fa31a4891082a2f376231e
+      internalID: 2099408413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFAr_35
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 0
+        width: 356
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0539ede994738ac429da854a0a2799c8
+      internalID: 574215051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bestIdleSoFAr_6: 1884494625
+      bestIdleSoFAr_7: -1811721163
+      bestIdleSoFAr_13: 688499760
+      bestIdleSoFAr_22: 1460178692
+      bestIdleSoFAr_9: -1781425976
+      bestIdleSoFAr_18: -2113518190
+      bestIdleSoFAr_4: 1872974244
+      bestIdleSoFAr_12: 207703809
+      bestIdleSoFAr_35: 574215051
+      bestIdleSoFAr_31: -49326754
+      bestIdleSoFAr_26: 1041262331
+      bestIdleSoFAr_5: 1607317645
+      bestIdleSoFAr_8: 1685526117
+      bestIdleSoFAr_2: 1050382102
+      bestIdleSoFAr_17: 1339406338
+      bestIdleSoFAr_34: 2099408413
+      bestIdleSoFAr_1: 1980276273
+      bestIdleSoFAr_19: -1757558245
+      bestIdleSoFAr_30: -1290858789
+      bestIdleSoFAr_3: 503765072
+      bestIdleSoFAr_16: -207502417
+      bestIdleSoFAr_23: -1962046683
+      bestIdleSoFAr_32: -1251907268
+      bestIdleSoFAr_15: -1301562655
+      bestIdleSoFAr_24: -707449930
+      bestIdleSoFAr_28: 268553107
+      bestIdleSoFAr_20: -1283349788
+      bestIdleSoFAr_25: -1464659392
+      bestIdleSoFAr_14: 794826191
+      bestIdleSoFAr_27: 2076695571
+      bestIdleSoFAr_10: -1506850856
+      bestIdleSoFAr_33: -542434356
+      bestIdleSoFAr_21: 1232927945
+      bestIdleSoFAr_0: 461644152
+      bestIdleSoFAr_11: -15614619
+      bestIdleSoFAr_29: 1292442162
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

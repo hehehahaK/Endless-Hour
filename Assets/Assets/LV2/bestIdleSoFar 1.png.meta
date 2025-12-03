@@ -1,0 +1,915 @@
+fileFormatVersion: 2
+guid: 51361a01c65386845bec6b9f05dc1309
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1295
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a819bd6be15c66a4496d873769a524e0
+      internalID: -1966626546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1295
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7600d0e2d0b36498e5cc6325785a7d
+      internalID: 1281438905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_2
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1295
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914a250b6bd5cd54db7c12081211e5fc
+      internalID: -1179492925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1295
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ea60e90575ddc459de0f947e96f5d8
+      internalID: 1612537088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1295
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac23039c4c3aaf43bb23174bafedf9a
+      internalID: -606889076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_5
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1295
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455b7187cdc7f2d469aab102ff2c53fe
+      internalID: 81328553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1036
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d5deb0285075741a52712d6e2e01dc
+      internalID: -2060897185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1036
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4cde092295b714eb3f9c45081885b2
+      internalID: -398473236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_8
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1036
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4573f75489f0abd42b57bf85e57c1ddb
+      internalID: -1553842088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1036
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4083d518ad9ebfc4d8955f789be355c7
+      internalID: -600690714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1036
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ffe7145fc247942a212ad608885fbb
+      internalID: 1386154699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_11
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1036
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09bfc685c682b64a934cd3b1cb55d80
+      internalID: 1903733561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 777
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b758d4b80727d45814c69220d2822e
+      internalID: -159446700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 777
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2c5e3817c3f414facee1096af558ab
+      internalID: -1518356560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_14
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 777
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ae4f9f13a0c7745837a35ddb214151
+      internalID: 1850036480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_15
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 777
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c1d9d00e8f9ad48b98d2d8cbe9f5e6
+      internalID: 910681316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_16
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 777
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90de6a7887342c9428c14b202b4fdd61
+      internalID: -1595246307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_17
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 777
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf14407ba899a2469cf9dcdb822726e
+      internalID: 804169474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec9301dcbd09834aacaaf12e2c83beb
+      internalID: -696141799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_19
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 518
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82dd4c599c624e488d7fb6274f9ccf8
+      internalID: 1531360556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 518
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937eaac7f7476114ba977d018848fbc0
+      internalID: -1374203731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_21
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 518
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fef02221123e24281c1abe965a1486
+      internalID: -1981526730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_22
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 518
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9906ddb7063c24caeec9fde8141d02
+      internalID: -1959623916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_23
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 518
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbeca174dc5dc14795ad80b75211701
+      internalID: 2146474776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d9378759552e46ad9899090d79140
+      internalID: -1557222660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 259
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6163f49fec8c8284c946c4dd35614d49
+      internalID: 1070104271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_26
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 259
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ba43d160fea074d83f9da8b2fe5f7f
+      internalID: -1117855945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_27
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 259
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48780a84e54e68946a2a7ec02f392172
+      internalID: -301706362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_28
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 259
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d3d9d8939bd104ab8617d3f459ef7a
+      internalID: 151251865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_29
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 259
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ed30dc82c01584abba8583cea78f37
+      internalID: 486974313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620141eda539d6946b57d17cc51f4ac6
+      internalID: -121403850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_31
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e944b64cbbef274ab69c5425631f9ad
+      internalID: -1802674746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af839942388e6144e91ca42950fe7b5c
+      internalID: -973402238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_33
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfee00639ddeb444a9b646afd426b1b
+      internalID: 2391796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_34
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb21392fb94d8b46ac5b83f73e24cf8
+      internalID: 1447500397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bestIdleSoFar 1_35
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 216
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37460d4d569d2c4fa1400270328fe32
+      internalID: -1280514452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bestIdleSoFar 1_6: -2060897185
+      bestIdleSoFar 1_28: 151251865
+      bestIdleSoFar 1_33: 2391796
+      bestIdleSoFar 1_31: -1802674746
+      bestIdleSoFar 1_16: -1595246307
+      bestIdleSoFar 1_18: -696141799
+      bestIdleSoFar 1_11: 1903733561
+      bestIdleSoFar 1_34: 1447500397
+      bestIdleSoFar 1_7: -398473236
+      bestIdleSoFar 1_14: 1850036480
+      bestIdleSoFar 1_32: -973402238
+      bestIdleSoFar 1_35: -1280514452
+      bestIdleSoFar 1_30: -121403850
+      bestIdleSoFar 1_8: -1553842088
+      bestIdleSoFar 1_19: 1531360556
+      bestIdleSoFar 1_2: -1179492925
+      bestIdleSoFar 1_3: 1612537088
+      bestIdleSoFar 1_15: 910681316
+      bestIdleSoFar 1_5: 81328553
+      bestIdleSoFar 1_10: 1386154699
+      bestIdleSoFar 1_12: -159446700
+      bestIdleSoFar 1_13: -1518356560
+      bestIdleSoFar 1_1: 1281438905
+      bestIdleSoFar 1_23: 2146474776
+      bestIdleSoFar 1_0: -1966626546
+      bestIdleSoFar 1_29: 486974313
+      bestIdleSoFar 1_20: -1374203731
+      bestIdleSoFar 1_9: -600690714
+      bestIdleSoFar 1_4: -606889076
+      bestIdleSoFar 1_22: -1959623916
+      bestIdleSoFar 1_24: -1557222660
+      bestIdleSoFar 1_26: -1117855945
+      bestIdleSoFar 1_27: -301706362
+      bestIdleSoFar 1_21: -1981526730
+      bestIdleSoFar 1_17: 804169474
+      bestIdleSoFar 1_25: 1070104271
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - spikes
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -14,8 +16,8 @@ TagManager:
   - backrow shops
   - ground
   - front shops
-  - 
-  - 
+  - NPCs
+  - MCs
   - 
   - 
   - 
@@ -53,6 +55,9 @@ TagManager:
   - name: backshops
     uniqueID: 655646559
     locked: 0
+  - name: torches
+    uniqueID: 1102237851
+    locked: 0
   - name: mcs
     uniqueID: 3834352817
     locked: 0
@@ -61,4 +66,7 @@ TagManager:
     locked: 0
   - name: foreground
     uniqueID: 3116345865
+    locked: 0
+  - name: columns
+    uniqueID: 3604664629
     locked: 0

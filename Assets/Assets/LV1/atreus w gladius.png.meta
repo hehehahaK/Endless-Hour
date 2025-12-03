@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: atreus w gladius_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1295
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1666f31d770254d46858ff56b65d8f68
+      internalID: 1960016047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1295
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66faf394006c48b4db72e4b5a73d7f1d
+      internalID: 323501589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1295
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf849a1ec46b829469ce83f1e8475329
+      internalID: -2052982640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_3
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1295
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb9355e9fc58a54eb79ae5994904b00
+      internalID: 1669334823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_4
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1295
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb104d9adcd6df446ae96220b3d0a5a8
+      internalID: 925429518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_5
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1295
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fd93731708c18479784686af60ae1b
+      internalID: -440123328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1036
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502447fafc868b345ade1e685e5a0ffa
+      internalID: 381418898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_7
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1036
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a1348514a04404e967ebbaf9008a90
+      internalID: 1833971750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_8
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1036
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69241213b1479504980803bc68ed6fbc
+      internalID: -1094054738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_9
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1036
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e2963c538886c40be5a8dfe03d5de4
+      internalID: 1594710611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_10
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1036
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0074d28ea6eeb646a4bbdc7c5d6c969
+      internalID: -1326033403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_11
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1036
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3004717b1937b4387af2c331af171d
+      internalID: 473638299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 777
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c591d477024ee41b98dbce9f82d2eb
+      internalID: 390810421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_13
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 777
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e19d11ad43120342b0bc786810999dd
+      internalID: 1204352026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_14
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 777
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5322b7bfefaa63546b192f9fd282eb7d
+      internalID: 1141446300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_15
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 777
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e2b7768c0e54848849416f60f7455b
+      internalID: 644944922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_16
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 777
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2035f1c1b7dcafb448633ce58aa4fad3
+      internalID: -1172218115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_17
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 777
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfaef97224f9264bb3ca757b5176038
+      internalID: 1869271046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671b9ab54aa04524a87e21a27861d1ed
+      internalID: -562248001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_19
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 518
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db3fc24173e57942bca56e3f73f9857
+      internalID: -986450388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_20
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 518
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cc5f95a3472ee4ea5406d4f56566b5
+      internalID: 719297445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_21
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 518
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b813d39f2420ddd459bcde75282d6a39
+      internalID: -271744306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_22
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 518
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a3e8099484e854abc17f7b38605cfe
+      internalID: 1049776763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_23
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 518
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccd817b2a71f9f47a90ff1b27854c7f
+      internalID: -374231661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd8c4eed089cbb4c90d88d58c673ea3
+      internalID: -1786794910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_25
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 259
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0791cdcfea689489b064ed98938996
+      internalID: -78770750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_26
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 259
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e3e00601253b64fa107ce01991d09c
+      internalID: 1454521304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_27
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 259
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0102339ec0bac4383f50f343f8b4a2
+      internalID: 922346624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_28
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 259
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca04dc6659f35634ab69bbf50333b413
+      internalID: 1589773779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_29
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 259
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a25bd0c32bab42960f6d1ab5814cf
+      internalID: -971664802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d21fb55b67421c468cd9aa53eff4fdd
+      internalID: -2021797881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_31
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0486e7cfa1aea4bb252dc070d08ae3
+      internalID: -1674602505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_32
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad6c7a1feddca44f9d64eb677a3e219
+      internalID: -250632321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_33
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 0
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5709e25fb14f0849b9d1d346be1c382
+      internalID: -1537409353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_34
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 0
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1b295b463000041b116150d8cdac01
+      internalID: 1652806704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w gladius_35
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 0
+        width: 373
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59148a9d02413d14896a3ed721d90ef3
+      internalID: -763946829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +870,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      atreus w gladius_8: -1094054738
+      atreus w gladius_15: 644944922
+      atreus w gladius_16: -1172218115
+      atreus w gladius_24: -1786794910
+      atreus w gladius_9: 1594710611
+      atreus w gladius_32: -250632321
+      atreus w gladius_18: -562248001
+      atreus w gladius_33: -1537409353
+      atreus w gladius_0: 1960016047
+      atreus w gladius_12: 390810421
+      atreus w gladius_28: 1589773779
+      atreus w gladius_14: 1141446300
+      atreus w gladius_19: -986450388
+      atreus w gladius_4: 925429518
+      atreus w gladius_17: 1869271046
+      atreus w gladius_20: 719297445
+      atreus w gladius_22: 1049776763
+      atreus w gladius_21: -271744306
+      atreus w gladius_23: -374231661
+      atreus w gladius_7: 1833971750
+      atreus w gladius_26: 1454521304
+      atreus w gladius_25: -78770750
+      atreus w gladius_3: 1669334823
+      atreus w gladius_10: -1326033403
+      atreus w gladius_31: -1674602505
+      atreus w gladius_13: 1204352026
+      atreus w gladius_27: 922346624
+      atreus w gladius_35: -763946829
+      atreus w gladius_2: -2052982640
+      atreus w gladius_6: 381418898
+      atreus w gladius_34: 1652806704
+      atreus w gladius_11: 473638299
+      atreus w gladius_1: 323501589
+      atreus w gladius_5: -440123328
+      atreus w gladius_29: -971664802
+      atreus w gladius_30: -2021797881
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

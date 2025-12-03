@@ -1,0 +1,915 @@
+fileFormatVersion: 2
+guid: 27424cbfaedd83640be3bd3e2cde8394
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girlyJump (2)_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2197
+        width: 313
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2607b4af38ef394f81b85d142398153
+      internalID: 118906550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2197
+        width: 318
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a20166bb71c5f74fa8af4b491006ed0
+      internalID: -1513999809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_2
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 2197
+        width: 322
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628de3c19b6fdfa47a3dfb421bde56ac
+      internalID: -647731347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_3
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2197
+        width: 334
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddb5fe44dfac8a4dbf0e37be92bbe3b
+      internalID: 1981827248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_4
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 2197
+        width: 334
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd62bc2d13c5d1458e3039b7a9ea855
+      internalID: -2074928951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_5
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 2220
+        width: 318
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b9e58320f4533469556ee76257e025
+      internalID: -896284556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1839
+        width: 294
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe91c8a780ca8ae4da6e444d1ca80b99
+      internalID: -1673431717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1866
+        width: 274
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cea9a03ffd6954383cfe26f3e01611
+      internalID: 1146177551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_8
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1866
+        width: 267
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b874271641b6f7643996745df0d6daf5
+      internalID: 1546159443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_9
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1869
+        width: 298
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2b9a146ba30ec4cb3278c1d0db7d48
+      internalID: 1149298221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_10
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1859
+        width: 315
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f1dcf82ea7ff54694f1ef80be79dbf
+      internalID: -1202815363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_11
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 1845
+        width: 329
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550af650816485044b333f6df73efa40
+      internalID: -162393102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1358
+        width: 355
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412c48ac0feb22146be6bfaaf016b9c0
+      internalID: -2046040667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_13
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1354
+        width: 339
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbab1101d731ec498613b254be52c5a
+      internalID: 1706887566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_14
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1354
+        width: 351
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219bb0e205ea0d14e8bcfdc4cff6d272
+      internalID: -584945616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_15
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1354
+        width: 357
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84ef5b4d4ecd9449be7508eb241aae3
+      internalID: -973205784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_16
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1354
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d066dc2e3bfa9f4fa1b895186d0f596
+      internalID: -710255090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_17
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 1354
+        width: 327
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d7350959d53ff47bfd3eb9c7070ad7
+      internalID: 213223773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 931
+        width: 317
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fdb87827a270945bd91fe21abb4290
+      internalID: -342016833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_19
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 931
+        width: 289
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a757f8c9f9bf6bf4eb8c8268b6deeac6
+      internalID: 213417312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_20
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 931
+        width: 278
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ad1f01c6ce0c348a071fba57988741
+      internalID: 1351771697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_21
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 931
+        width: 261
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50eba6f5cd1146b4bb8e1468985984c1
+      internalID: 235594707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_22
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 931
+        width: 256
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75753b2452a1d5b46a96f139822cd33e
+      internalID: 644980664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_23
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 931
+        width: 248
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36618ba5b31ff1b40bdb38130a27bc2b
+      internalID: 1752206252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 510
+        width: 264
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7ee6717eb986448b519dd5b2818d4d
+      internalID: 1997983736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 531
+        width: 351
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3438da5eed0a4aaad76cb31b68ee8
+      internalID: 225235978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_26
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 551
+        width: 357
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbffa7f0c87bac46a2b39cf2b93da0f
+      internalID: 1910056382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_27
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 586
+        width: 360
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2ac155ff2be2a46aa608aed847cad5
+      internalID: 1388401472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_28
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 593
+        width: 357
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee76de8318f2e3c4998d95891601c36d
+      internalID: -1648469653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_29
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 593
+        width: 354
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa5f20aaad0c584aa55fc3ceba4a2c0
+      internalID: 1654673974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 155
+        width: 354
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4543e9253ff542944b935d4c9e1e6459
+      internalID: 282462234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_31
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 139
+        width: 356
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bad2da5031f5a548b68fe6e690db0ff
+      internalID: 949447968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_32
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 123
+        width: 358
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7299da93beebc40807139693461621
+      internalID: 691427661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_33
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 87
+        width: 351
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35716291a0313b45a5dc2dc4b43db74
+      internalID: -977544120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_34
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 87
+        width: 351
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722a21d251730204f8fcdbfaecc5f464
+      internalID: -512548341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girlyJump (2)_35
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 87
+        width: 354
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4e5e5b562761f43918e7f5361124de
+      internalID: 888882033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      girlyJump (2)_34: -512548341
+      girlyJump (2)_10: -1202815363
+      girlyJump (2)_13: 1706887566
+      girlyJump (2)_27: 1388401472
+      girlyJump (2)_32: 691427661
+      girlyJump (2)_11: -162393102
+      girlyJump (2)_5: -896284556
+      girlyJump (2)_20: 1351771697
+      girlyJump (2)_9: 1149298221
+      girlyJump (2)_24: 1997983736
+      girlyJump (2)_12: -2046040667
+      girlyJump (2)_31: 949447968
+      girlyJump (2)_23: 1752206252
+      girlyJump (2)_19: 213417312
+      girlyJump (2)_25: 225235978
+      girlyJump (2)_29: 1654673974
+      girlyJump (2)_35: 888882033
+      girlyJump (2)_6: -1673431717
+      girlyJump (2)_26: 1910056382
+      girlyJump (2)_16: -710255090
+      girlyJump (2)_18: -342016833
+      girlyJump (2)_28: -1648469653
+      girlyJump (2)_22: 644980664
+      girlyJump (2)_8: 1546159443
+      girlyJump (2)_17: 213223773
+      girlyJump (2)_30: 282462234
+      girlyJump (2)_14: -584945616
+      girlyJump (2)_33: -977544120
+      girlyJump (2)_0: 118906550
+      girlyJump (2)_15: -973205784
+      girlyJump (2)_21: 235594707
+      girlyJump (2)_1: -1513999809
+      girlyJump (2)_3: 1981827248
+      girlyJump (2)_4: -2074928951
+      girlyJump (2)_7: 1146177551
+      girlyJump (2)_2: -647731347
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

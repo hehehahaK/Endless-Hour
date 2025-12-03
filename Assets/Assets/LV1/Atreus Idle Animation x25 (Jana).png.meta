@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: 00d28f617142250439f86403c214417e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b474c52c05701ae46b0f9ad8e9b27fe9
+      internalID: 248573055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1040
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7e37832a87e19479de20b54b637168
+      internalID: -1945911596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1040
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93b2693d78c61c4f89f7a8ca12c616f
+      internalID: 1265870053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1040
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab8e82b1f131964ab3971200defbb27
+      internalID: 145777330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_4
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1040
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34188d55afc3cf64480dc5f30e9df608
+      internalID: -521262023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf8854da152364f9dfc44b0a7281f1
+      internalID: 1831830769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 780
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f11cf56faff614e9cc78c81df318c9
+      internalID: 2045182245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_7
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 780
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081ce1be77cebf94f8fce6a516ba7d9d
+      internalID: -1290416427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_8
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 780
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8084a2c4b83196e4986d6230a83f483c
+      internalID: 1674147516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 780
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10dec89f4a22ab4b9b214d56383cc74
+      internalID: 1844319514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f394d63c93d13b40be015e65256c024
+      internalID: 34532281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 520
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffebe3f7bc50c243aa92621b264d83a
+      internalID: 1645639326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_12
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 520
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21875e67219ff3b469edb06c73532989
+      internalID: 322876545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_13
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 520
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e191afd66ed0f634eac751b7bbcd7b8b
+      internalID: 989731405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_14
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 520
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf860219ff79ac48bdbfff151857ebc
+      internalID: -103329178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3b5b117503d9649b8ef399124e606c
+      internalID: -2017214490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_16
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 260
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad89791beaf5bd44aec595a94873ec3
+      internalID: 1844422822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_17
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 260
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8302a7ea9f2a36c45898af3d0fd650aa
+      internalID: 296191864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_18
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 260
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf59d45602402648bdad235ae010fd9
+      internalID: -1412412286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_19
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 260
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c64204d36d07e54e8777c28966643e2
+      internalID: -1275122040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426aa7bf6828c2e478ac262c80a93378
+      internalID: -2144868799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_21
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50458fb90c25c6444a809219cb236e6a
+      internalID: 1099859753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_22
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb034114f5d98f49acab1ee3fece49d
+      internalID: 1226164276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_23
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3b7a66eb1e6da4d9b29c86c70e9126
+      internalID: 809258048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Idle Animation x25 (Jana)_24
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10175cff3641204ea68602c0c62e884
+      internalID: -1535239712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Atreus Idle Animation x25 (Jana)_5: 1831830769
+      Atreus Idle Animation x25 (Jana)_17: 296191864
+      Atreus Idle Animation x25 (Jana)_24: -1535239712
+      Atreus Idle Animation x25 (Jana)_2: 1265870053
+      Atreus Idle Animation x25 (Jana)_21: 1099859753
+      Atreus Idle Animation x25 (Jana)_15: -2017214490
+      Atreus Idle Animation x25 (Jana)_19: -1275122040
+      Atreus Idle Animation x25 (Jana)_14: -103329178
+      Atreus Idle Animation x25 (Jana)_6: 2045182245
+      Atreus Idle Animation x25 (Jana)_10: 34532281
+      Atreus Idle Animation x25 (Jana)_3: 145777330
+      Atreus Idle Animation x25 (Jana)_8: 1674147516
+      Atreus Idle Animation x25 (Jana)_13: 989731405
+      Atreus Idle Animation x25 (Jana)_12: 322876545
+      Atreus Idle Animation x25 (Jana)_1: -1945911596
+      Atreus Idle Animation x25 (Jana)_11: 1645639326
+      Atreus Idle Animation x25 (Jana)_0: 248573055
+      Atreus Idle Animation x25 (Jana)_4: -521262023
+      Atreus Idle Animation x25 (Jana)_18: -1412412286
+      Atreus Idle Animation x25 (Jana)_9: 1844319514
+      Atreus Idle Animation x25 (Jana)_22: 1226164276
+      Atreus Idle Animation x25 (Jana)_16: 1844422822
+      Atreus Idle Animation x25 (Jana)_23: 809258048
+      Atreus Idle Animation x25 (Jana)_7: -1290416427
+      Atreus Idle Animation x25 (Jana)_20: -2144868799
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerSuperclass : MonoBehaviour
 {
     // Movement Variables incl. jump and its relation w/ ground and speed
     public float moveSpeed;
     public float jumpHeight;
-    public KeyCode Spacebar;
-    public KeyCode L = KeyCode.LeftArrow;
-    public KeyCode R = KeyCode.RightArrow;
+    public KeyCode Spacebar = KeyCode.Space;
+    public KeyCode L = KeyCode.A;
+    public KeyCode R = KeyCode.D;
+    public KeyCode RunKey = KeyCode.LeftShift;
     public Transform groundCheck;// empty child positioned at the player’s feet. Used to detect if the player is touching ground.
     public float groundCheckRadius;
     public LayerMask whatIsGround; //this variable stores what is considered a ground to the character,defines which physics layers count as ground.
@@ -19,10 +21,16 @@ public class PlayerSuperclass : MonoBehaviour
 
     // Health Variables
     public int health = 20;
+    private float maxHealth = 20f;
+    private float normalAttackDamage = 5f;
+    private float BoostDuration = 30f;
+    private float BoostTime = 0f;
+    public float AttackDamage = 5f;
+
     private float flickerTime = 0f;
     private float flickerDuration = 0.1f;
-
     public bool isImmune = false;
+    public bool isBoosted = false;
     private float immunityTime = 0f;
     public float immunityDuration = 1.5f;
 
@@ -65,6 +73,15 @@ public class PlayerSuperclass : MonoBehaviour
             {
                 isImmune = false;
                 sr.enabled = true;
+            }
+        }
+        if (isBoosted == true)
+        {
+            BoostTime += Time.deltaTime;
+            if (BoostTime >= BoostDuration)
+            {
+                isBoosted = false;
+                AttackDamage = normalAttackDamage;
             }
         }
         anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
@@ -115,7 +132,21 @@ public class PlayerSuperclass : MonoBehaviour
         }
     }
 
-
+    public void Heal(int healAmount)
+    {
+        health += healAmount;
+        Debug.Log("Player Health:" + health.ToString());
+    }
+    public void AttackBoost(float boostAmount)
+    {
+        if (!isBoosted)
+        {
+            AttackDamage += boostAmount;
+            Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
+            BoostTime = 0f;
+            isBoosted = true;
+        }
+    }
 
 }
 

@@ -1,0 +1,915 @@
+fileFormatVersion: 2
+guid: cdf6eabc7d333d14b962cd78be7b709d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hitCapeDissapear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40499c4c5592a084b9eff5a3e57102c5
+      internalID: -825732320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_1
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2100
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5429aef2740525c438c33a0344c118f6
+      internalID: 929230189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_2
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 2100
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ad3c2a3769bf74eba23005b8cea569
+      internalID: 395032397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_3
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 2100
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326ca526b1b5fe2438cf5617da78ea38
+      internalID: 1249183310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_4
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 2100
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8596005cd27ef94bac33f27ba2b236b
+      internalID: 1607201314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_5
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 2100
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5657023e2bdd794d821a2b34b33f311
+      internalID: -1257371847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1e85100fc0bce488befc44c5da9107
+      internalID: 674471348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1680
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2c0aa0e28519c4bac13de0f1bf1ab8
+      internalID: 1048529913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_8
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1680
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05ceb3ca42998646a5fa02069f3518b
+      internalID: -1808417650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_9
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1680
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20892409ad669fb4f98e0a4d0cd401ba
+      internalID: -1863886701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_10
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 1680
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cb78cd7704c684fae893ddd992b70f
+      internalID: -682717251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_11
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1680
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94877aef95d8cf74cb9835138a3587e6
+      internalID: -240123800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a38045bd8522e4c9fec668dc5de1fc
+      internalID: -362776705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_13
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1260
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd339f0e759c51e419418e5bcaf5bdfb
+      internalID: 124798413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_14
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1260
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61c91a92284d55478fbe147871d0092
+      internalID: 298121328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_15
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1260
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb0ac60420efa40b8a793eda30ea17
+      internalID: -539092802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_16
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 1260
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ddf85e87bec144864d0d04c5cd45e
+      internalID: -1309037272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_17
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1260
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab72674fafcd5d468441e3ae194502d
+      internalID: -1366918414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b92b26a758b5e4286f2d7323186108
+      internalID: -1419894215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_19
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 840
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ced367f50ba8544b1d6c99caaf630d
+      internalID: 2060022040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_20
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 840
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4fa2ed4481c02419c0793a3139e575
+      internalID: 2131500341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_21
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 840
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec0502913132b64e91715cdcf39c25b
+      internalID: -1447331830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_22
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 840
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbcf6e3d7f576440ab7462c5b618d34
+      internalID: -512808112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_23
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 840
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e427e39fd45184098b7e8ee964fff5
+      internalID: 1206903104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab6d83bc253ea44b84e33bb84bc4ed4
+      internalID: -1326362397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_25
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 420
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67200e6ceb77834ba89afffffe4993c
+      internalID: -42311837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_26
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 420
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f818317ec45c04da726849282e8947
+      internalID: -767867419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_27
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 420
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaf51ebf193f654fad2ef50622bb4dc
+      internalID: 1514222480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_28
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 420
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff643580c33289b42acc33fa4be0a9f2
+      internalID: -1146987111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_29
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 420
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e41a33124399140ae44476b4c7b665
+      internalID: 503985119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a3aac5b8ee2f041893857ea7d9deea
+      internalID: 1759427937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_31
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 0
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9e0e7bd3fe65b4b975838154bf8975
+      internalID: -1082496490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_32
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 0
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0156197036d956d49968842c6ed0ded7
+      internalID: -314231472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_33
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 0
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e66ff18fc7ca0045b4351e2cfef5fa5
+      internalID: -200073401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_34
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 0
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed597478a5a99c448a17b40e15089a8
+      internalID: -794526372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitCapeDissapear_35
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 0
+        width: 571
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd7fe094c447ae46abea024195cd857
+      internalID: -1971814028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hitCapeDissapear_5: -1257371847
+      hitCapeDissapear_22: -512808112
+      hitCapeDissapear_20: 2131500341
+      hitCapeDissapear_35: -1971814028
+      hitCapeDissapear_26: -767867419
+      hitCapeDissapear_10: -682717251
+      hitCapeDissapear_6: 674471348
+      hitCapeDissapear_29: 503985119
+      hitCapeDissapear_28: -1146987111
+      hitCapeDissapear_34: -794526372
+      hitCapeDissapear_3: 1249183310
+      hitCapeDissapear_12: -362776705
+      hitCapeDissapear_18: -1419894215
+      hitCapeDissapear_25: -42311837
+      hitCapeDissapear_14: 298121328
+      hitCapeDissapear_30: 1759427937
+      hitCapeDissapear_19: 2060022040
+      hitCapeDissapear_7: 1048529913
+      hitCapeDissapear_17: -1366918414
+      hitCapeDissapear_21: -1447331830
+      hitCapeDissapear_11: -240123800
+      hitCapeDissapear_24: -1326362397
+      hitCapeDissapear_1: 929230189
+      hitCapeDissapear_23: 1206903104
+      hitCapeDissapear_2: 395032397
+      hitCapeDissapear_4: 1607201314
+      hitCapeDissapear_27: 1514222480
+      hitCapeDissapear_9: -1863886701
+      hitCapeDissapear_13: 124798413
+      hitCapeDissapear_31: -1082496490
+      hitCapeDissapear_16: -1309037272
+      hitCapeDissapear_15: -539092802
+      hitCapeDissapear_32: -314231472
+      hitCapeDissapear_0: -825732320
+      hitCapeDissapear_8: -1808417650
+      hitCapeDissapear_33: -200073401
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

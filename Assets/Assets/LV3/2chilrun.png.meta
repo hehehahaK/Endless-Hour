@@ -109,470 +109,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1088
-        width: 303
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8dee1690bbce1c4cbce04fcded110c2
-      internalID: 2074610306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_1
-      rect:
-        serializedVersion: 2
-        x: 318
-        y: 1090
-        width: 314
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2ae8266e0181b34b924a96740048738
-      internalID: -598549415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_2
-      rect:
-        serializedVersion: 2
-        x: 666
-        y: 1087
-        width: 298
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33aa27e6bbf0f2c4c8ae44f5ca2be612
-      internalID: -257806628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_3
-      rect:
-        serializedVersion: 2
-        x: 983
-        y: 1087
-        width: 298
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0b9ae3e7c035674a94fa4cc939e5c7e
-      internalID: 1495135343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_4
-      rect:
-        serializedVersion: 2
-        x: 1295
-        y: 1085
+        y: 1094
         width: 305
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7219acfce78b2824882cdf1fda24376b
-      internalID: 1336225176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_5
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 812
-        width: 313
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f9fcd10f3594a144a5c799a9bb09775
-      internalID: -615440737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_6
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 815
-        width: 271
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2313bf0e0bcd7cd4aa0313c7aba54fde
-      internalID: -86869566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_7
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 823
-        width: 300
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8376d4a5de0d5754e931ed0112033578
-      internalID: -843310270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_8
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 821
-        width: 302
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f5bf7c2241f2a442b78e184167ab10f
-      internalID: 737695431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_9
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 816
-        width: 306
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bd3aab90b275854d81c79521c80d36e
-      internalID: 402422580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_10
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 548
-        width: 312
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e323c699c98bfc94ea3e6cef790ce8ac
-      internalID: -605967685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_11
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 548
-        width: 300
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 889103ac2d634674bb16d937957f68cf
-      internalID: 167435116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_12
-      rect:
-        serializedVersion: 2
-        x: 662
-        y: 547
-        width: 300
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 720bcb3b13c34b6439095f362fb6c492
-      internalID: -467055505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_13
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 538
-        width: 304
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f563232afb3fb74ab97a53ac65b596b
-      internalID: 326623161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_14
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 543
-        width: 306
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94f8b6fe697c46740819c96e84d53aae
-      internalID: -772565677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_15
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 276
-        width: 308
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b464dd46201611e4e9f8a9fceb79eb48
-      internalID: -307745867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_16
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 280
-        width: 306
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e54bae1c6cfa7d47ba6bbe8b414846b
-      internalID: -886171635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_17
-      rect:
-        serializedVersion: 2
-        x: 655
-        y: 272
-        width: 317
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7eacd06308b2cb642995de1004e53e93
-      internalID: 721836105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_18
-      rect:
-        serializedVersion: 2
-        x: 984
-        y: 278
-        width: 286
-        height: 252
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a47828b03a7e2048a346f1f5e744833
-      internalID: 1284775252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_19
-      rect:
-        serializedVersion: 2
-        x: 1295
-        y: 277
-        width: 306
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 405613e36934b7e48a9c497789137908
-      internalID: 1552040434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_20
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 323
-        height: 271
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea5a07ec45036c644a831f3e31d899ce
-      internalID: 1918510645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_21
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 0
-        width: 312
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9396470c840c2604e819348f61efed34
-      internalID: 873742093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2chilrun_22
-      rect:
-        serializedVersion: 2
-        x: 661
-        y: 0
-        width: 294
         height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -581,18 +119,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 625579b9f86871942887d63728dbabd5
-      internalID: -963694559
+      spriteID: 3f7c245e4fb14a944bb99478bfdbee59
+      internalID: 1103135788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2chilrun_23
+      name: 2chilrun_1
       rect:
         serializedVersion: 2
-        x: 980
-        y: 0
+        x: 323
+        y: 1092
+        width: 293
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f96191d9e6cf98419a3230667e7379b
+      internalID: 6051171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1087
+        width: 314
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064b5e70ccbdb3b45b4b1a278c786364
+      internalID: -91995971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_3
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1087
+        width: 317
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6451fddb94f9ff4f92e60b8334b4396
+      internalID: 2116419724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_4
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1087
         width: 296
         height: 268
       alignment: 0
@@ -602,8 +203,407 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc0503bd310ad8049a919c5080bf5507
-      internalID: -1182995283
+      spriteID: 46eda83bfa28ff64fa684890f0dee767
+      internalID: 1858354975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 818
+        width: 298
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c834b90521f4a704ab851ad9a866354f
+      internalID: -337447914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 825
+        width: 303
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494bbc5dbd7cfc740a789e924cc189f7
+      internalID: 168997395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_7
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 829
+        width: 309
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f860d1b290a0182428ea73048dcfa8c0
+      internalID: 1255583000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_8
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 818
+        width: 301
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55df32863b78e63409048d7189c38e78
+      internalID: 990912250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_9
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 809
+        width: 296
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda126304e3c1aa4d8e463116e5a8265
+      internalID: -1889291838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 296
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f222b2146c6634d86b554679ff45aa
+      internalID: 1968581794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_11
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 547
+        width: 303
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc368cd15fcd45b438c9d117ba98f01a
+      internalID: 83495154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_12
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 551
+        width: 301
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c093e455ac3b11943a933dbdf075651f
+      internalID: 757243734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_13
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 544
+        width: 298
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991e3f5ee76af0479ea9a7526613cef
+      internalID: 1696483732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_14
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 553
+        width: 327
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135393c3dd0dfa041873c249791b8704
+      internalID: 26277050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 278
+        width: 283
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2b57637da6b494c8d4ebc0473616bf
+      internalID: 212246660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 284
+        width: 314
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8100ef846852ca743838d71274f3f300
+      internalID: -996596442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_17
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 280
+        width: 298
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd536a9fa97e7eb4781b458354aa3664
+      internalID: -703433056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_18
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 282
+        width: 274
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bc69d4cffd02842884d6a017f86d69
+      internalID: -760208770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_19
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 275
+        width: 258
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a812400921f0a46a5d9b7275e86bcc
+      internalID: -374438693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 298
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096713983b891dd42835edbab4da8aa2
+      internalID: 455996682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_21
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 8
+        width: 291
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb50e429d692de74ca923a4988e150d3
+      internalID: 927790470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_22
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 280
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecea7b2cc4eb784eb3c9ae549d1c2d6
+      internalID: -1561374295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2chilrun_23
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 0
+        width: 300
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e79ca08fe3cdd94984f721a7f9b5d29
+      internalID: 567296456
       vertices: []
       indices: 
       edges: []
@@ -612,10 +612,10 @@ TextureImporter:
       name: 2chilrun_24
       rect:
         serializedVersion: 2
-        x: 1293
+        x: 1289
         y: 0
-        width: 312
-        height: 268
+        width: 316
+        height: 269
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,8 +623,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d33ac2aff87a6314b812d29df86c7e21
-      internalID: -439966050
+      spriteID: 14ef11ea47cd9df45a53b92bbbcce821
+      internalID: -2049567493
       vertices: []
       indices: 
       edges: []
@@ -640,31 +640,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      2chilrun_23: -1182995283
-      2chilrun_10: -605967685
-      2chilrun_14: -772565677
-      2chilrun_16: -886171635
-      2chilrun_2: -257806628
-      2chilrun_8: 737695431
-      2chilrun_21: 873742093
-      2chilrun_22: -963694559
-      2chilrun_3: 1495135343
-      2chilrun_9: 402422580
-      2chilrun_4: 1336225176
-      2chilrun_12: -467055505
-      2chilrun_5: -615440737
-      2chilrun_13: 326623161
-      2chilrun_11: 167435116
-      2chilrun_1: -598549415
-      2chilrun_15: -307745867
-      2chilrun_7: -843310270
-      2chilrun_18: 1284775252
-      2chilrun_6: -86869566
-      2chilrun_19: 1552040434
-      2chilrun_20: 1918510645
-      2chilrun_17: 721836105
-      2chilrun_0: 2074610306
-      2chilrun_24: -439966050
+      2chilrun_23: -2036996810
+      2chilrun_10: 634585759
+      2chilrun_14: 708891072
+      2chilrun_16: 440716545
+      2chilrun_2: -2075046881
+      2chilrun_8: 1801852082
+      2chilrun_21: 1295598401
+      2chilrun_22: 1171817803
+      2chilrun_3: -707365618
+      2chilrun_9: -307075208
+      2chilrun_4: -1961967014
+      2chilrun_12: 106450411
+      2chilrun_5: 124712858
+      2chilrun_13: 511139805
+      2chilrun_11: 2106035039
+      2chilrun_1: -1450591810
+      2chilrun_15: 2133753347
+      2chilrun_7: 2048363486
+      2chilrun_18: -568994195
+      2chilrun_6: -1953252493
+      2chilrun_19: -2066988837
+      2chilrun_20: -1675245144
+      2chilrun_17: -540689525
+      2chilrun_0: 1103135788
+      2chilrun_24: 1143256595
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

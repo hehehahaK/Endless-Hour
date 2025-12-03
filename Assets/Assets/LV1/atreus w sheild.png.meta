@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: atreus w sheild_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1346
+        width: 247
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32c8b9880e5cf34baf03f44d8be7e4b
+      internalID: 951101000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1345
+        width: 245
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aa0bf949cd1c343bd8a48ccc594fce
+      internalID: 901154720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_2
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1346
+        width: 251
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc3c2930eb6e7543b3a84cad393659f
+      internalID: 797403637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1345
+        width: 256
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a716275fb99cc2947aba2ffe8d270b5f
+      internalID: 1248522450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_4
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1346
+        width: 257
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830a3ba4ef26b9b4986b0582c2cdff23
+      internalID: -338338921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_5
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 1346
+        width: 258
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ea30878238b6a4fa86bdfebf5f54aa
+      internalID: 2145989118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1078
+        width: 257
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be195f50ec9af4fa5584579a9bdf34
+      internalID: -1272898502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1078
+        width: 257
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ae3e75a0c4cc247af6641cc3544a74
+      internalID: 1581290122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_8
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1078
+        width: 254
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a1e73b371d7004db47f673811cf9d7
+      internalID: 1925834685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_9
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1078
+        width: 249
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd59072f99ebc44985557ec8c3be23a
+      internalID: 2069873363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_10
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1078
+        width: 247
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c891ffb7be2ebb7489155324b35f6955
+      internalID: -1894235956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_11
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1078
+        width: 236
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f03cbb8859322e4f9567474aab1c4ea
+      internalID: -913491450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 810
+        width: 234
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d0c875c7dc26f4d8082d909a85c350
+      internalID: 180104711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_13
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 810
+        width: 228
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62fe86f8e3e3ce41937d4b552264aef
+      internalID: -1583539666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_14
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 810
+        width: 222
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbce9ddff8d18cd4db7586bc0bf7bf0f
+      internalID: 1232241399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_15
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 810
+        width: 220
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a34fa784cb0ada468fd2389296b641b
+      internalID: -1876499898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_16
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 810
+        width: 222
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db0b61d58f483944b62e90a638bcfee
+      internalID: 655292330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_17
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 810
+        width: 221
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c7e010cd3f8704aabe244ce1e9a8d7
+      internalID: 58925319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 542
+        width: 225
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bca51c45da319847acb9c0591119fab
+      internalID: -1154916433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_19
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 542
+        width: 236
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc67c7e9c36d214db782f97cd988582
+      internalID: 1663281839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_20
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 542
+        width: 236
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3522f8519520f4a870ad714e02cebc
+      internalID: 1864019190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_21
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 542
+        width: 240
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141d1faf0ed6fa046a4ab1edd6a60f6d
+      internalID: 1346807630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_22
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 542
+        width: 247
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8705d141b0c7e8e4996aa827393f5e39
+      internalID: -1004193403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_23
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 542
+        width: 251
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bb0bf01d6984342ad4f3f4ee6f815c
+      internalID: -354933896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 274
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dec2da5d90a70459fe1e235dffd48c
+      internalID: 1628850116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_25
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 274
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e8445dd0dc29c4a99c91b6702c1353
+      internalID: -914052415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_26
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 274
+        width: 252
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0be8d0422fda44aa4f25c41b2cd34d
+      internalID: 960467921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_27
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 274
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1ef7e9a3a2ed947b3f7bfd269c3d92
+      internalID: -1369484717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_28
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 274
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6b8b76230bc9d4c8ee5d6ab3105a5f
+      internalID: 1803671632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_29
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 274
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6726661ff8e3d48ac89f06acd08bab
+      internalID: -219638784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 6
+        width: 260
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ab518ee52aad44d8e4efabc28158d7
+      internalID: 54882765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 6
+        width: 264
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a74567945f4154abba490c3480731b
+      internalID: 2138534802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_32
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 6
+        width: 268
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2126c2f192d44f49929d55c59166da1
+      internalID: 309415203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_33
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 6
+        width: 269
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff28c4a993f6ee438780bb471e7f90c
+      internalID: -737695483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_34
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 6
+        width: 276
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eff4ae4758a1447bed383e34f8e70b
+      internalID: -33010991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreus w sheild_35
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 6
+        width: 291
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d40a4e616cd24a43bda1cc950f5d3e2
+      internalID: 151289726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +870,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      atreus w sheild_3: 1248522450
+      atreus w sheild_21: 1346807630
+      atreus w sheild_15: -1876499898
+      atreus w sheild_33: -737695483
+      atreus w sheild_23: -354933896
+      atreus w sheild_18: -1154916433
+      atreus w sheild_24: 1628850116
+      atreus w sheild_1: 901154720
+      atreus w sheild_35: 151289726
+      atreus w sheild_11: -913491450
+      atreus w sheild_20: 1864019190
+      atreus w sheild_19: 1663281839
+      atreus w sheild_0: 951101000
+      atreus w sheild_4: -338338921
+      atreus w sheild_10: -1894235956
+      atreus w sheild_8: 1925834685
+      atreus w sheild_22: -1004193403
+      atreus w sheild_28: 1803671632
+      atreus w sheild_31: 2138534802
+      atreus w sheild_7: 1581290122
+      atreus w sheild_9: 2069873363
+      atreus w sheild_25: -914052415
+      atreus w sheild_29: -219638784
+      atreus w sheild_27: -1369484717
+      atreus w sheild_13: -1583539666
+      atreus w sheild_16: 655292330
+      atreus w sheild_6: -1272898502
+      atreus w sheild_12: 180104711
+      atreus w sheild_5: 2145989118
+      atreus w sheild_32: 309415203
+      atreus w sheild_14: 1232241399
+      atreus w sheild_30: 54882765
+      atreus w sheild_34: -33010991
+      atreus w sheild_17: 58925319
+      atreus w sheild_26: 960467921
+      atreus w sheild_2: 797403637
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sheild soliders_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1307
+        width: 178
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e4e13c9b560a749bb7e5f2fe5c1ea9
+      internalID: 1658817288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1309
+        width: 178
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9affb6b13184ca40a74ecaeb1f02baa
+      internalID: -477541408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_2
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1315
+        width: 199
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b432ac3fb2c471d4fbfe1f3f9c8345b1
+      internalID: 159188710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_3
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1315
+        width: 205
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e541989e0cb200845a49ebc0530d3ee8
+      internalID: -58508454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_4
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1312
+        width: 204
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea44c51f3f7df8346a20a1521d978fb7
+      internalID: -1350550454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_5
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1306
+        width: 188
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f641b664c7d825442a3b060112121274
+      internalID: -825874020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1047
+        width: 194
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef851c46689434741a4e6481b4596827
+      internalID: 1155516806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1048
+        width: 205
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112e183e814c5fc4091bf4f110d2f66b
+      internalID: -1823731748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_8
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1052
+        width: 219
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d75fc882c59a2544ad1911cfb45c927
+      internalID: -1342206569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_9
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1053
+        width: 220
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df030bcf33b91c8439a709255051aac4
+      internalID: -1140783176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_10
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1048
+        width: 219
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec0a10acef28c048a444f4821d300d3
+      internalID: -1954243240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_11
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1044
+        width: 208
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1117a910f4c554bbacef7b83c25239
+      internalID: -1401639280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 784
+        width: 197
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f541ebff1e6b47a4083531a563682dab
+      internalID: -930855372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 787
+        width: 189
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc017ee5c3aab544ba8c44d85e705fd2
+      internalID: -1829719638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 792
+        width: 192
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e952aeac7ddca8c45b0e1466c0761ac3
+      internalID: 327126148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_15
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 796
+        width: 195
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84980c18f31063e4c9e9df8d9098a7d0
+      internalID: 840279490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_16
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 792
+        width: 196
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb87b5b71054964283dd0d513454cce
+      internalID: 165477048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_17
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 784
+        width: 182
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd3a16dff878814f8155e18353ee2df
+      internalID: -122875287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 527
+        width: 203
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fecc4a1388c2c4983858d231746c2c
+      internalID: 1361569151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 530
+        width: 210
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5830cfbcc8af3f041aed3a77dde9e99b
+      internalID: 1641294709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_20
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 530
+        width: 215
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb451fa17f10274f8bb204ec87376ba
+      internalID: -1777476151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_21
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 531
+        width: 216
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd17f9b7589bab84e854a8630670d652
+      internalID: 502983244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_22
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 526
+        width: 216
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81b0cf7d220b6d4ca18739575498dce
+      internalID: -969215232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_23
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 522
+        width: 209
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b5e26354115241a6d7c855b7b2603
+      internalID: -1447908265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 262
+        width: 197
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fafc9cac104184099d858cd158a6ab
+      internalID: 1222338323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_25
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 265
+        width: 189
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931016ef4b97bcc44b5d32b7d98b7d49
+      internalID: 465084296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_26
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 268
+        width: 184
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c172f1a59cb54f248b3b9f0e1030f6bc
+      internalID: 1556544004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_27
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 274
+        width: 190
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16bdf1d7e0daa047a31ec514e2c3043
+      internalID: -1190993414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_28
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 270
+        width: 191
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b7ae56dca21484f9455b9c1c04804d
+      internalID: 1467538136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_29
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 262
+        width: 181
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2535b77a89fc40f43872f88dcc583aba
+      internalID: 1256513465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_30
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7631947856913d54282b9a0c38427cbf
+      internalID: 1895489655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_31
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 4
+        width: 204
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6072af2c8faca5a4593871e7f4c3d30e
+      internalID: -2123940768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_32
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 4
+        width: 212
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca87d014b95cc246bbda0493886f994
+      internalID: -425485096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_33
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 8
+        width: 216
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1773fa07ec2dace4b84a932dcd05bd7b
+      internalID: 1634939504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_34
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 9
+        width: 218
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbe40fdad208934ea3c1d7e79baa45e
+      internalID: 743420809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheild soliders_35
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 5
+        width: 217
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056ed07054d2a2348be35cf8a69d74aa
+      internalID: -350200897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +870,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sheild soliders_7: -1823731748
+      sheild soliders_34: 743420809
+      sheild soliders_28: 1467538136
+      sheild soliders_9: -1140783176
+      sheild soliders_19: 1641294709
+      sheild soliders_32: -425485096
+      sheild soliders_11: -1401639280
+      sheild soliders_35: -350200897
+      sheild soliders_25: 465084296
+      sheild soliders_6: 1155516806
+      sheild soliders_2: 159188710
+      sheild soliders_33: 1634939504
+      sheild soliders_27: -1190993414
+      sheild soliders_15: 840279490
+      sheild soliders_1: -477541408
+      sheild soliders_21: 502983244
+      sheild soliders_5: -825874020
+      sheild soliders_24: 1222338323
+      sheild soliders_0: 1658817288
+      sheild soliders_17: -122875287
+      sheild soliders_14: 327126148
+      sheild soliders_3: -58508454
+      sheild soliders_10: -1954243240
+      sheild soliders_26: 1556544004
+      sheild soliders_23: -1447908265
+      sheild soliders_31: -2123940768
+      sheild soliders_4: -1350550454
+      sheild soliders_16: 165477048
+      sheild soliders_12: -930855372
+      sheild soliders_8: -1342206569
+      sheild soliders_13: -1829719638
+      sheild soliders_20: -1777476151
+      sheild soliders_29: 1256513465
+      sheild soliders_22: -969215232
+      sheild soliders_18: 1361569151
+      sheild soliders_30: 1895489655
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

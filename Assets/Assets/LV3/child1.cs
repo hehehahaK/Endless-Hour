@@ -36,7 +36,7 @@ public class child1 : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        if (other.tag == "lvl3Wall"){
+        if (other.tag == "Wall"){
             Flip();
         }
     }

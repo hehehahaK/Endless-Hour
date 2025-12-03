@@ -108,10 +108,10 @@ TextureImporter:
       name: appleman_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1027
-        width: 160
-        height: 258
+        x: 25
+        y: 2611
+        width: 361
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041a416499c83434ca37a48a9eea14da
-      internalID: 1548315772
+      spriteID: 1ade397f30a39e74ab8ca4ea5323e1b3
+      internalID: 1183629897
       vertices: []
       indices: 
       edges: []
@@ -129,10 +129,10 @@ TextureImporter:
       name: appleman_1
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1027
-        width: 171
-        height: 258
+        x: 404
+        y: 2611
+        width: 361
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 267f690f5833f204f9881a9f5a8043d2
-      internalID: -743033639
+      spriteID: b8e57ba473996e14285bd534b713969f
+      internalID: -169289879
       vertices: []
       indices: 
       edges: []
@@ -150,10 +150,10 @@ TextureImporter:
       name: appleman_2
       rect:
         serializedVersion: 2
-        x: 337
-        y: 1027
-        width: 172
-        height: 257
+        x: 774
+        y: 2611
+        width: 361
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ae73979cd1e4334daac2a05b06435bb
-      internalID: -1787867920
+      spriteID: 5e0927254ec8f1c4dbc6b6f51993e8d4
+      internalID: -731546467
       vertices: []
       indices: 
       edges: []
@@ -171,10 +171,10 @@ TextureImporter:
       name: appleman_3
       rect:
         serializedVersion: 2
-        x: 518
-        y: 1026
-        width: 165
-        height: 259
+        x: 1153
+        y: 2611
+        width: 361
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e00ba3bd688b9a4aa7225ac451e8e83
-      internalID: 313322647
+      spriteID: 259910ebfbe59504dbcb90ee3f15dd32
+      internalID: -1654220209
       vertices: []
       indices: 
       edges: []
@@ -192,10 +192,10 @@ TextureImporter:
       name: appleman_4
       rect:
         serializedVersion: 2
-        x: 691
-        y: 1027
-        width: 153
-        height: 257
+        x: 1533
+        y: 2611
+        width: 361
+        height: 647
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9116827537201874899bea13ff7233f3
-      internalID: -1472671599
+      spriteID: d354184781fcdef448d02db8094ebc91
+      internalID: -828145179
       vertices: []
       indices: 
       edges: []
@@ -213,10 +213,10 @@ TextureImporter:
       name: appleman_5
       rect:
         serializedVersion: 2
-        x: 2
-        y: 770
-        width: 155
-        height: 254
+        x: 26
+        y: 1959
+        width: 361
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a18acd96d4f4f4aafcef7105a76eb8
-      internalID: 263850718
+      spriteID: 7a359404811e978448afa180a8ffcd69
+      internalID: -401638739
       vertices: []
       indices: 
       edges: []
@@ -234,10 +234,10 @@ TextureImporter:
       name: appleman_6
       rect:
         serializedVersion: 2
-        x: 175
-        y: 770
-        width: 153
-        height: 254
+        x: 401
+        y: 1959
+        width: 361
+        height: 642
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37668b421f12ce14da931f1496886f37
-      internalID: 629813518
+      spriteID: f9945c5c5ad6cc340b70e8de796b0141
+      internalID: 944862497
       vertices: []
       indices: 
       edges: []
@@ -255,10 +255,10 @@ TextureImporter:
       name: appleman_7
       rect:
         serializedVersion: 2
-        x: 334
-        y: 773
-        width: 159
-        height: 250
+        x: 774
+        y: 1959
+        width: 361
+        height: 644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d4105080b98d2e42ae782e22c818866
-      internalID: 1557454296
+      spriteID: cabb84109a7bd94468fbb9b0e5cce40b
+      internalID: -1602222859
       vertices: []
       indices: 
       edges: []
@@ -276,10 +276,10 @@ TextureImporter:
       name: appleman_8
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 145
-        height: 252
+        x: 1151
+        y: 1959
+        width: 361
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e379932995577164988f82955a748f4b
-      internalID: 525967511
+      spriteID: 27bffcad629a9d44d81756b03026adce
+      internalID: 1092866878
       vertices: []
       indices: 
       edges: []
@@ -297,10 +297,10 @@ TextureImporter:
       name: appleman_9
       rect:
         serializedVersion: 2
-        x: 677
-        y: 770
-        width: 163
-        height: 254
+        x: 1532
+        y: 1959
+        width: 361
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e94364b1301678246a4cfe6a5f40d805
-      internalID: 1286978126
+      spriteID: c4f710336172ce649ac2357988c7775f
+      internalID: -807550745
       vertices: []
       indices: 
       edges: []
@@ -318,10 +318,10 @@ TextureImporter:
       name: appleman_10
       rect:
         serializedVersion: 2
-        x: 2
-        y: 514
-        width: 134
-        height: 253
+        x: 11
+        y: 1308
+        width: 361
+        height: 647
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0803ad13c8d8547802177557dfb206
-      internalID: 682702847
+      spriteID: 9f8433e8a23daeb429dbe4e7b6a96895
+      internalID: -757740682
       vertices: []
       indices: 
       edges: []
@@ -339,10 +339,10 @@ TextureImporter:
       name: appleman_11
       rect:
         serializedVersion: 2
-        x: 164
-        y: 514
-        width: 142
-        height: 251
+        x: 392
+        y: 1308
+        width: 361
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71b6967e7ace9024e87b4aaed27dcb7f
-      internalID: -1808184889
+      spriteID: 2cf1f18c3052ac04b881bcaf073bcfd4
+      internalID: -1319619386
       vertices: []
       indices: 
       edges: []
@@ -360,10 +360,10 @@ TextureImporter:
       name: appleman_12
       rect:
         serializedVersion: 2
-        x: 328
-        y: 514
-        width: 152
-        height: 256
+        x: 776
+        y: 1308
+        width: 361
+        height: 644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,8 +371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dd8e4a6d872af94bbf26dcfeaeb6048
-      internalID: 1367287276
+      spriteID: a95bc08eb129e4442b2198a9f0811230
+      internalID: -230109996
       vertices: []
       indices: 
       edges: []
@@ -381,10 +381,10 @@ TextureImporter:
       name: appleman_13
       rect:
         serializedVersion: 2
-        x: 510
-        y: 515
-        width: 137
-        height: 250
+        x: 1158
+        y: 1308
+        width: 361
+        height: 641
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,8 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cd7bbf43e7830a41a3606633b7705eb
-      internalID: 878837797
+      spriteID: b4801e06850821143bbb0747ec7deaf2
+      internalID: -135012618
       vertices: []
       indices: 
       edges: []
@@ -402,10 +402,10 @@ TextureImporter:
       name: appleman_14
       rect:
         serializedVersion: 2
-        x: 673
-        y: 515
-        width: 149
-        height: 250
+        x: 1539
+        y: 1308
+        width: 361
+        height: 641
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,8 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b1f562897b43ff45a9f130f9f28a650
-      internalID: 1618234316
+      spriteID: d9bff78e13039f9488d2596ef7ae6022
+      internalID: 1545236447
       vertices: []
       indices: 
       edges: []
@@ -423,10 +423,10 @@ TextureImporter:
       name: appleman_15
       rect:
         serializedVersion: 2
-        x: 1
-        y: 257
-        width: 134
-        height: 255
+        x: 18
+        y: 655
+        width: 361
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,8 +434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b55b64b6fdcf5542b4b10f3ad79b7d1
-      internalID: -1914922782
+      spriteID: 8a2de9664b411a2458cb584edca7f7b0
+      internalID: 2106610104
       vertices: []
       indices: 
       edges: []
@@ -444,10 +444,10 @@ TextureImporter:
       name: appleman_16
       rect:
         serializedVersion: 2
-        x: 156
-        y: 256
-        width: 154
-        height: 254
+        x: 393
+        y: 655
+        width: 361
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,8 +455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 032aa667833f11746870c44f4d95c9b4
-      internalID: 2099050882
+      spriteID: 3f196be9370c3404fa55231c39a7124e
+      internalID: 2061987244
       vertices: []
       indices: 
       edges: []
@@ -465,10 +465,10 @@ TextureImporter:
       name: appleman_17
       rect:
         serializedVersion: 2
-        x: 326
-        y: 257
-        width: 148
-        height: 255
+        x: 768
+        y: 655
+        width: 361
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,8 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60a660c058a89304ab556c1af30da288
-      internalID: -1324699826
+      spriteID: 5a9af1e878fe4c1488e4b6d19f6d9fd6
+      internalID: -419615081
       vertices: []
       indices: 
       edges: []
@@ -486,10 +486,10 @@ TextureImporter:
       name: appleman_18
       rect:
         serializedVersion: 2
-        x: 502
-        y: 258
-        width: 152
-        height: 253
+        x: 1147
+        y: 655
+        width: 361
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,8 +497,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0727209a829624d49bd7e66635e88d29
-      internalID: 848040926
+      spriteID: 9c65f70295b736146b0967eced59dfef
+      internalID: -707101668
       vertices: []
       indices: 
       edges: []
@@ -507,10 +507,10 @@ TextureImporter:
       name: appleman_19
       rect:
         serializedVersion: 2
-        x: 675
-        y: 258
-        width: 148
-        height: 254
+        x: 1526
+        y: 655
+        width: 361
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,8 +518,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae65ede7d466c4f49bc8283092747103
-      internalID: 1582784571
+      spriteID: 1ab847658812ee64db1e5a05594f00f1
+      internalID: 1931562169
       vertices: []
       indices: 
       edges: []
@@ -528,10 +528,10 @@ TextureImporter:
       name: appleman_20
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 141
-        height: 256
+        x: 6
+        y: 3
+        width: 361
+        height: 647
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,8 +539,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77671997f7f5d7e4f9c0e3d66f5dd773
-      internalID: 188824009
+      spriteID: 736d8a9c47844ff41a81b9f72285008b
+      internalID: 1682615240
       vertices: []
       indices: 
       edges: []
@@ -549,10 +549,10 @@ TextureImporter:
       name: appleman_21
       rect:
         serializedVersion: 2
-        x: 157
-        y: 0
-        width: 168
-        height: 256
+        x: 386
+        y: 3
+        width: 361
+        height: 647
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,8 +560,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e78b76665613a9d4db850252f01bae57
-      internalID: -624869539
+      spriteID: 2882ce7a0b264a2468e3c753bde75e1c
+      internalID: 818270863
       vertices: []
       indices: 
       edges: []
@@ -570,10 +570,10 @@ TextureImporter:
       name: appleman_22
       rect:
         serializedVersion: 2
-        x: 333
-        y: 0
-        width: 157
-        height: 256
+        x: 770
+        y: 3
+        width: 361
+        height: 644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,8 +581,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2400cadd548927948b3b6fc1580c8c53
-      internalID: -457823574
+      spriteID: 9f6d5c7eeb0e5694fbe6bbea2df782d7
+      internalID: -1280270670
       vertices: []
       indices: 
       edges: []
@@ -591,10 +591,10 @@ TextureImporter:
       name: appleman_23
       rect:
         serializedVersion: 2
-        x: 513
-        y: 0
-        width: 160
-        height: 256
+        x: 1153
+        y: 3
+        width: 361
+        height: 642
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,8 +602,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3011180034708e41b95f88839a3cc1c
-      internalID: -28956432
+      spriteID: 823b0da7fae9e5a45b33a31e6111897a
+      internalID: -967416864
       vertices: []
       indices: 
       edges: []
@@ -612,10 +612,10 @@ TextureImporter:
       name: appleman_24
       rect:
         serializedVersion: 2
-        x: 692
-        y: 0
-        width: 158
-        height: 256
+        x: 1541
+        y: 3
+        width: 359
+        height: 645
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,8 +623,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a720141b76c1b2840bbc15d2a9c4653b
-      internalID: 852137975
+      spriteID: d96856ae866100a41aa2130047ff9905
+      internalID: 1083578040
       vertices: []
       indices: 
       edges: []
@@ -640,31 +640,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      appleman_8: 525967511
-      appleman_16: 2099050882
-      appleman_4: -1472671599
-      appleman_0: 1548315772
-      appleman_7: 1557454296
-      appleman_3: 313322647
-      appleman_6: 629813518
-      appleman_24: 852137975
-      appleman_15: -1914922782
-      appleman_14: 1618234316
-      appleman_18: 848040926
-      appleman_20: 188824009
-      appleman_12: 1367287276
-      appleman_2: -1787867920
-      appleman_10: 682702847
-      appleman_1: -743033639
-      appleman_17: -1324699826
-      appleman_23: -28956432
-      appleman_21: -624869539
-      appleman_9: 1286978126
-      appleman_5: 263850718
-      appleman_13: 878837797
-      appleman_19: 1582784571
-      appleman_11: -1808184889
-      appleman_22: -457823574
+      appleman_8: 1092866878
+      appleman_16: 2061987244
+      appleman_4: -828145179
+      appleman_0: 1183629897
+      appleman_7: -1602222859
+      appleman_3: -1654220209
+      appleman_6: 944862497
+      appleman_24: 1083578040
+      appleman_15: 2106610104
+      appleman_14: 1545236447
+      appleman_18: -707101668
+      appleman_20: 1682615240
+      appleman_12: -230109996
+      appleman_2: -731546467
+      appleman_10: -757740682
+      appleman_1: -169289879
+      appleman_17: -419615081
+      appleman_23: -967416864
+      appleman_21: 818270863
+      appleman_9: -807550745
+      appleman_5: -401638739
+      appleman_13: -135012618
+      appleman_19: 1931562169
+      appleman_11: -1319619386
+      appleman_22: -1280270670
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

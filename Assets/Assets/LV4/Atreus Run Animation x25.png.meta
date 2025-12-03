@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7cd8d24602eeb344a8ccc62aeb10c4da
+guid: 08734a31a75eb6a419f3d391dbdccc16
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite-256px-25_0
+      name: Atreus Run Animation x25_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1036
-        width: 130
-        height: 256
+        x: 0
+        y: 884
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43ec775058a55564bbd76c12962069b0
-      internalID: 703193335
+      spriteID: 18645d58a58fecd4b90c28dc4cdadfe1
+      internalID: -2080164748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_1
+      name: Atreus Run Animation x25_1
       rect:
         serializedVersion: 2
-        x: 276
-        y: 1036
-        width: 132
-        height: 256
+        x: 320
+        y: 884
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ebcec47e77a33246a22b53fc365fd20
-      internalID: -518502501
+      spriteID: 49bc8e56022949645bdf7b14fbe475d2
+      internalID: -1301285038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_2
+      name: Atreus Run Animation x25_2
       rect:
         serializedVersion: 2
-        x: 492
-        y: 1036
-        width: 136
-        height: 256
+        x: 640
+        y: 884
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5efba9cb1c009947967eb76369537f4
-      internalID: -1115973835
+      spriteID: 616fd69ad130d4046ad78151e33dedf5
+      internalID: 412085427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_3
+      name: Atreus Run Animation x25_3
       rect:
         serializedVersion: 2
-        x: 708
-        y: 1036
-        width: 138
-        height: 257
+        x: 960
+        y: 884
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e76aadf3454b6dc4facf9f4e3460965f
-      internalID: 2015823138
+      spriteID: 9fe69672965677e44b1254a5aa04fe9a
+      internalID: 1703052514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_4
+      name: Atreus Run Animation x25_4
       rect:
         serializedVersion: 2
-        x: 924
-        y: 1036
-        width: 139
-        height: 258
+        x: 1280
+        y: 884
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5149f940bafab2640834633635fd781a
-      internalID: -844201831
+      spriteID: c6d7a9216b715e54c95acf511fcb3783
+      internalID: -2038228553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_5
+      name: Atreus Run Animation x25_5
       rect:
         serializedVersion: 2
-        x: 60
-        y: 777
-        width: 139
-        height: 259
+        x: 0
+        y: 663
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcabb3ebbed8a914fa3bb18c9206c651
-      internalID: -1021818474
+      spriteID: 7a694e458dd5dc14ba7b11ff22ab603c
+      internalID: 1848377310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_6
+      name: Atreus Run Animation x25_6
       rect:
         serializedVersion: 2
-        x: 276
-        y: 777
-        width: 140
-        height: 259
+        x: 320
+        y: 663
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99d6b74611b175844a0865c19927bd6d
-      internalID: 714250489
+      spriteID: 84c151994bcfd7348b4ceb110aeeff46
+      internalID: -652497820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_7
+      name: Atreus Run Animation x25_7
       rect:
         serializedVersion: 2
-        x: 492
-        y: 777
-        width: 140
-        height: 259
+        x: 640
+        y: 663
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1bcccd4f6e54fc43aeb4b03aef2b8e1
-      internalID: 667655134
+      spriteID: ef4c4fc7c1c84e64ca846dac71069083
+      internalID: 454030993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_8
+      name: Atreus Run Animation x25_8
       rect:
         serializedVersion: 2
-        x: 708
-        y: 777
-        width: 140
-        height: 259
+        x: 960
+        y: 663
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb73f953cc3a2641ba623f0136faccf
-      internalID: 1256047286
+      spriteID: 827370a5067bf7545bba0e2696835c2b
+      internalID: 1737833520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_9
+      name: Atreus Run Animation x25_9
       rect:
         serializedVersion: 2
-        x: 924
-        y: 777
-        width: 138
-        height: 259
+        x: 1280
+        y: 663
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c393675002f6b345ad178ddc36fa855
-      internalID: -1431842248
+      spriteID: 8ef9886ec97ee41479c03722172ed6d6
+      internalID: -1909247930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_10
+      name: Atreus Run Animation x25_10
       rect:
         serializedVersion: 2
-        x: 60
-        y: 518
-        width: 137
-        height: 259
+        x: 0
+        y: 442
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 889fd8847ee071c40aeff0c9b59f4c4e
-      internalID: -15524
+      spriteID: a6a519fdfca6b6b4386bc32efa65aae3
+      internalID: 1435351533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_11
+      name: Atreus Run Animation x25_11
       rect:
         serializedVersion: 2
-        x: 276
-        y: 518
-        width: 135
-        height: 259
+        x: 320
+        y: 442
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7509e6a5c414ef498b8b8acbe76301c
-      internalID: 943651604
+      spriteID: bc1815cea9da36340863b88222f14bb8
+      internalID: 449326015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_12
+      name: Atreus Run Animation x25_12
       rect:
         serializedVersion: 2
-        x: 492
-        y: 518
-        width: 133
-        height: 259
+        x: 640
+        y: 442
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +383,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0fac452caf8f5b43b6ca42c2ee547aa
-      internalID: 736676264
+      spriteID: a7d23631e064ada46974c2ff6e97bc5e
+      internalID: 1383790900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_13
+      name: Atreus Run Animation x25_13
       rect:
         serializedVersion: 2
-        x: 708
-        y: 518
-        width: 142
-        height: 259
+        x: 960
+        y: 442
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +404,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef29a385c21b1843a19b6f2d3b749f3
-      internalID: 1277165875
+      spriteID: 4ad65b63b943cfc47a5e6eefcf009264
+      internalID: -1085925464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_14
+      name: Atreus Run Animation x25_14
       rect:
         serializedVersion: 2
-        x: 924
-        y: 518
-        width: 152
-        height: 259
+        x: 1280
+        y: 442
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,20 +425,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3f7e8f5bb0ee54c8d0d4b9aa65df18
-      internalID: -1358459361
+      spriteID: 520947c298532914e9c5266e5ef63ef6
+      internalID: -1724545093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_15
+      name: Atreus Run Animation x25_15
       rect:
         serializedVersion: 2
-        x: 58
-        y: 259
-        width: 158
-        height: 259
+        x: 0
+        y: 221
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +446,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97d1dfb637ae3144c9c78d1b229bb59f
-      internalID: -1162946952
+      spriteID: b1c4df67c7b465e4089bef78c1f0af49
+      internalID: 1498329607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_16
+      name: Atreus Run Animation x25_16
       rect:
         serializedVersion: 2
-        x: 270
-        y: 259
-        width: 162
-        height: 259
+        x: 320
+        y: 221
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,20 +467,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8513a99ab025584ebfa084db4b25e7b
-      internalID: 637371540
+      spriteID: 385700fbee0bf0047860632a1adf9ac8
+      internalID: 340845355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_17
+      name: Atreus Run Animation x25_17
       rect:
         serializedVersion: 2
-        x: 485
-        y: 259
-        width: 163
-        height: 259
+        x: 640
+        y: 221
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,20 +488,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e138264c2abd303409ffa1127b0849fd
-      internalID: -7973949
+      spriteID: d064e19b4f3746f4b8414bdcab79c930
+      internalID: -65560784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_18
+      name: Atreus Run Animation x25_18
       rect:
         serializedVersion: 2
-        x: 699
-        y: 259
-        width: 161
-        height: 259
+        x: 960
+        y: 221
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,20 +509,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e82dbc5f467e9e24ab8491562e7be0b5
-      internalID: -1716484942
+      spriteID: fe2f71e764b924a42a5cb4a9a1438d43
+      internalID: 919576125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_19
+      name: Atreus Run Animation x25_19
       rect:
         serializedVersion: 2
-        x: 915
-        y: 259
-        width: 158
-        height: 259
+        x: 1280
+        y: 221
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,20 +530,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1977a5c325a810a45a29fd7311023837
-      internalID: -859163073
+      spriteID: 7b225474ec982bc458252699edaa2339
+      internalID: 1137704106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_20
+      name: Atreus Run Animation x25_20
       rect:
         serializedVersion: 2
-        x: 52
+        x: 0
         y: 0
-        width: 149
-        height: 259
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,20 +551,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5206178c69f811f49827c74abe9d40ad
-      internalID: -143575695
+      spriteID: 671038db0007d51409cea39ba1facb00
+      internalID: 1385184740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_21
+      name: Atreus Run Animation x25_21
       rect:
         serializedVersion: 2
-        x: 270
+        x: 320
         y: 0
-        width: 138
-        height: 259
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,20 +572,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 392c750421135b04ea387635cf979c21
-      internalID: -902639553
+      spriteID: cc7637d9d67f01a4497937fe483962b2
+      internalID: 1473994065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_22
+      name: Atreus Run Animation x25_22
       rect:
         serializedVersion: 2
-        x: 488
+        x: 640
         y: 0
-        width: 134
-        height: 258
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,20 +593,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89ca409d819f8064ba0e28b02fa675da
-      internalID: -760023171
+      spriteID: cfdd93e1632fb614ebf82f87ee12f2b7
+      internalID: 1479293042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_23
+      name: Atreus Run Animation x25_23
       rect:
         serializedVersion: 2
-        x: 707
+        x: 960
         y: 0
-        width: 128
-        height: 257
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,20 +614,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0934c4fb45e8dea4990b7cae7e80a356
-      internalID: -970155346
+      spriteID: 2771c351a73f7c14e83254bad8dd1905
+      internalID: 2086805483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_24
+      name: Atreus Run Animation x25_24
       rect:
         serializedVersion: 2
-        x: 924
+        x: 1280
         y: 0
-        width: 128
-        height: 257
+        width: 320
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,8 +635,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f22b3c24689b14c9144afbb00d09d5
-      internalID: -262823735
+      spriteID: c211080c459e0af4faf5887ca5587380
+      internalID: -1691221663
       vertices: []
       indices: 
       edges: []
@@ -652,31 +652,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite-256px-25_23: -970155346
-      sprite-256px-25_1: -518502501
-      sprite-256px-25_11: 943651604
-      sprite-256px-25_15: -1162946952
-      sprite-256px-25_24: -262823735
-      sprite-256px-25_3: 2015823138
-      sprite-256px-25_18: -1716484942
-      sprite-256px-25_16: 637371540
-      sprite-256px-25_8: 1256047286
-      sprite-256px-25_10: -15524
-      sprite-256px-25_17: -7973949
-      sprite-256px-25_6: 714250489
-      sprite-256px-25_22: -760023171
-      sprite-256px-25_4: -844201831
-      sprite-256px-25_2: -1115973835
-      sprite-256px-25_21: -902639553
-      sprite-256px-25_12: 736676264
-      sprite-256px-25_20: -143575695
-      sprite-256px-25_14: -1358459361
-      sprite-256px-25_9: -1431842248
-      sprite-256px-25_7: 667655134
-      sprite-256px-25_0: 703193335
-      sprite-256px-25_5: -1021818474
-      sprite-256px-25_19: -859163073
-      sprite-256px-25_13: 1277165875
+      Atreus Run Animation x25_12: 1383790900
+      Atreus Run Animation x25_11: 449326015
+      Atreus Run Animation x25_1: -1301285038
+      Atreus Run Animation x25_20: 1385184740
+      Atreus Run Animation x25_13: -1085925464
+      Atreus Run Animation x25_19: 1137704106
+      Atreus Run Animation x25_10: 1435351533
+      Atreus Run Animation x25_9: -1909247930
+      Atreus Run Animation x25_18: 919576125
+      Atreus Run Animation x25_3: 1703052514
+      Atreus Run Animation x25_21: 1473994065
+      Atreus Run Animation x25_4: -2038228553
+      Atreus Run Animation x25_16: 340845355
+      Atreus Run Animation x25_24: -1691221663
+      Atreus Run Animation x25_15: 1498329607
+      Atreus Run Animation x25_2: 412085427
+      Atreus Run Animation x25_23: 2086805483
+      Atreus Run Animation x25_6: -652497820
+      Atreus Run Animation x25_17: -65560784
+      Atreus Run Animation x25_0: -2080164748
+      Atreus Run Animation x25_8: 1737833520
+      Atreus Run Animation x25_22: 1479293042
+      Atreus Run Animation x25_5: 1848377310
+      Atreus Run Animation x25_14: -1724545093
+      Atreus Run Animation x25_7: 454030993
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

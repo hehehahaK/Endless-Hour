@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7cd8d24602eeb344a8ccc62aeb10c4da
+guid: 8af38ac68acde1f42b79c572896c68a9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite-256px-25_0
+      name: Atreus Idle Animation x25_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1036
-        width: 130
-        height: 256
+        x: 0
+        y: 876
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43ec775058a55564bbd76c12962069b0
-      internalID: 703193335
+      spriteID: 793a73071f2ebee439f315a4ff0dcba7
+      internalID: -1305454862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_1
+      name: Atreus Idle Animation x25_1
       rect:
         serializedVersion: 2
-        x: 276
-        y: 1036
-        width: 132
-        height: 256
+        x: 277
+        y: 876
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ebcec47e77a33246a22b53fc365fd20
-      internalID: -518502501
+      spriteID: 30fd79df7effc30409b69a71bce04022
+      internalID: -844084133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_2
+      name: Atreus Idle Animation x25_2
       rect:
         serializedVersion: 2
-        x: 492
-        y: 1036
-        width: 136
-        height: 256
+        x: 554
+        y: 876
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5efba9cb1c009947967eb76369537f4
-      internalID: -1115973835
+      spriteID: 7061b81f88e89314bae581cba683ebd7
+      internalID: 1399857926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_3
+      name: Atreus Idle Animation x25_3
       rect:
         serializedVersion: 2
-        x: 708
-        y: 1036
-        width: 138
-        height: 257
+        x: 831
+        y: 876
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e76aadf3454b6dc4facf9f4e3460965f
-      internalID: 2015823138
+      spriteID: 4dddfc35f3e66d549b9a35b81d282ac6
+      internalID: 1868684831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_4
+      name: Atreus Idle Animation x25_4
       rect:
         serializedVersion: 2
-        x: 924
-        y: 1036
-        width: 139
-        height: 258
+        x: 1108
+        y: 876
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5149f940bafab2640834633635fd781a
-      internalID: -844201831
+      spriteID: dbc669cea44f6ea419f60cff63b7f9f7
+      internalID: -1863640104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_5
+      name: Atreus Idle Animation x25_5
       rect:
         serializedVersion: 2
-        x: 60
-        y: 777
-        width: 139
-        height: 259
+        x: 0
+        y: 657
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcabb3ebbed8a914fa3bb18c9206c651
-      internalID: -1021818474
+      spriteID: 1938764eae47e9d46a4d59cc66417f75
+      internalID: 146969583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_6
+      name: Atreus Idle Animation x25_6
       rect:
         serializedVersion: 2
-        x: 276
-        y: 777
-        width: 140
-        height: 259
+        x: 277
+        y: 657
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99d6b74611b175844a0865c19927bd6d
-      internalID: 714250489
+      spriteID: 4cc87b0097e92b44eb34d389d2e16747
+      internalID: 453408134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_7
+      name: Atreus Idle Animation x25_7
       rect:
         serializedVersion: 2
-        x: 492
-        y: 777
-        width: 140
-        height: 259
+        x: 554
+        y: 657
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1bcccd4f6e54fc43aeb4b03aef2b8e1
-      internalID: 667655134
+      spriteID: 1d368c89dc097124390f71fff69ff020
+      internalID: 1577523400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_8
+      name: Atreus Idle Animation x25_8
       rect:
         serializedVersion: 2
-        x: 708
-        y: 777
-        width: 140
-        height: 259
+        x: 831
+        y: 657
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb73f953cc3a2641ba623f0136faccf
-      internalID: 1256047286
+      spriteID: 687cb4be7042f1b41b45d58b1031e04e
+      internalID: -664684491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_9
+      name: Atreus Idle Animation x25_9
       rect:
         serializedVersion: 2
-        x: 924
-        y: 777
-        width: 138
-        height: 259
+        x: 1108
+        y: 657
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c393675002f6b345ad178ddc36fa855
-      internalID: -1431842248
+      spriteID: d07ff86d1f7fbc54f94d0d176a167a92
+      internalID: -1421600739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_10
+      name: Atreus Idle Animation x25_10
       rect:
         serializedVersion: 2
-        x: 60
-        y: 518
-        width: 137
-        height: 259
+        x: 0
+        y: 438
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 889fd8847ee071c40aeff0c9b59f4c4e
-      internalID: -15524
+      spriteID: 3de1c5741c2fede44a9bc8bf2eda5d2e
+      internalID: -1081578768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_11
+      name: Atreus Idle Animation x25_11
       rect:
         serializedVersion: 2
-        x: 276
-        y: 518
-        width: 135
-        height: 259
+        x: 277
+        y: 438
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7509e6a5c414ef498b8b8acbe76301c
-      internalID: 943651604
+      spriteID: 1443fd7a7a8773547a7f804998781510
+      internalID: 2039971592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_12
+      name: Atreus Idle Animation x25_12
       rect:
         serializedVersion: 2
-        x: 492
-        y: 518
-        width: 133
-        height: 259
+        x: 554
+        y: 438
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +383,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0fac452caf8f5b43b6ca42c2ee547aa
-      internalID: 736676264
+      spriteID: 7393c5fb9be290243915f98e607cf286
+      internalID: -780716669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_13
+      name: Atreus Idle Animation x25_13
       rect:
         serializedVersion: 2
-        x: 708
-        y: 518
-        width: 142
-        height: 259
+        x: 831
+        y: 438
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +404,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef29a385c21b1843a19b6f2d3b749f3
-      internalID: 1277165875
+      spriteID: 72b0064e2a31093468fab78db98f5822
+      internalID: 919422780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_14
+      name: Atreus Idle Animation x25_14
       rect:
         serializedVersion: 2
-        x: 924
-        y: 518
-        width: 152
-        height: 259
+        x: 1108
+        y: 438
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,20 +425,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3f7e8f5bb0ee54c8d0d4b9aa65df18
-      internalID: -1358459361
+      spriteID: f49ee88961823bc45aa2e5c8cbd5c575
+      internalID: 1094328984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_15
+      name: Atreus Idle Animation x25_15
       rect:
         serializedVersion: 2
-        x: 58
-        y: 259
-        width: 158
-        height: 259
+        x: 0
+        y: 219
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +446,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97d1dfb637ae3144c9c78d1b229bb59f
-      internalID: -1162946952
+      spriteID: 543d526eb3d45484382138b53591cc5c
+      internalID: 1329978478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_16
+      name: Atreus Idle Animation x25_16
       rect:
         serializedVersion: 2
-        x: 270
-        y: 259
-        width: 162
-        height: 259
+        x: 277
+        y: 219
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,20 +467,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8513a99ab025584ebfa084db4b25e7b
-      internalID: 637371540
+      spriteID: 824a1cb7a466bbb4a939f9fbf8922fb5
+      internalID: 793642831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_17
+      name: Atreus Idle Animation x25_17
       rect:
         serializedVersion: 2
-        x: 485
-        y: 259
-        width: 163
-        height: 259
+        x: 554
+        y: 219
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,20 +488,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e138264c2abd303409ffa1127b0849fd
-      internalID: -7973949
+      spriteID: 8223e9b24250e724c8c8793d5cf22ce9
+      internalID: 1351127605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_18
+      name: Atreus Idle Animation x25_18
       rect:
         serializedVersion: 2
-        x: 699
-        y: 259
-        width: 161
-        height: 259
+        x: 831
+        y: 219
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,20 +509,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e82dbc5f467e9e24ab8491562e7be0b5
-      internalID: -1716484942
+      spriteID: a4f8e86099bdd6a4e80696b2f42762c7
+      internalID: 788805010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_19
+      name: Atreus Idle Animation x25_19
       rect:
         serializedVersion: 2
-        x: 915
-        y: 259
-        width: 158
-        height: 259
+        x: 1108
+        y: 219
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,20 +530,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1977a5c325a810a45a29fd7311023837
-      internalID: -859163073
+      spriteID: c832e8ba524e68c44b498a90c439420b
+      internalID: -742412463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_20
+      name: Atreus Idle Animation x25_20
       rect:
         serializedVersion: 2
-        x: 52
+        x: 0
         y: 0
-        width: 149
-        height: 259
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,20 +551,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5206178c69f811f49827c74abe9d40ad
-      internalID: -143575695
+      spriteID: 9471018591a35014fb326fad2ac396f2
+      internalID: -1833429883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_21
+      name: Atreus Idle Animation x25_21
       rect:
         serializedVersion: 2
-        x: 270
+        x: 277
         y: 0
-        width: 138
-        height: 259
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,20 +572,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 392c750421135b04ea387635cf979c21
-      internalID: -902639553
+      spriteID: 90b5eb3026c745241a2c09100fa4433a
+      internalID: -1083775758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_22
+      name: Atreus Idle Animation x25_22
       rect:
         serializedVersion: 2
-        x: 488
+        x: 554
         y: 0
-        width: 134
-        height: 258
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,20 +593,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89ca409d819f8064ba0e28b02fa675da
-      internalID: -760023171
+      spriteID: a3e4953c2af594e4d8367fadb364a1aa
+      internalID: -1537568702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_23
+      name: Atreus Idle Animation x25_23
       rect:
         serializedVersion: 2
-        x: 707
+        x: 831
         y: 0
-        width: 128
-        height: 257
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,20 +614,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0934c4fb45e8dea4990b7cae7e80a356
-      internalID: -970155346
+      spriteID: 1553da5c590628b4a9a0088aa59593bb
+      internalID: 1756431888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-256px-25_24
+      name: Atreus Idle Animation x25_24
       rect:
         serializedVersion: 2
-        x: 924
+        x: 1108
         y: 0
-        width: 128
-        height: 257
+        width: 277
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,8 +635,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f22b3c24689b14c9144afbb00d09d5
-      internalID: -262823735
+      spriteID: 80a85b344c9a4cd429d6dec4ab42ad3d
+      internalID: 1362471916
       vertices: []
       indices: 
       edges: []
@@ -652,31 +652,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite-256px-25_23: -970155346
-      sprite-256px-25_1: -518502501
-      sprite-256px-25_11: 943651604
-      sprite-256px-25_15: -1162946952
-      sprite-256px-25_24: -262823735
-      sprite-256px-25_3: 2015823138
-      sprite-256px-25_18: -1716484942
-      sprite-256px-25_16: 637371540
-      sprite-256px-25_8: 1256047286
-      sprite-256px-25_10: -15524
-      sprite-256px-25_17: -7973949
-      sprite-256px-25_6: 714250489
-      sprite-256px-25_22: -760023171
-      sprite-256px-25_4: -844201831
-      sprite-256px-25_2: -1115973835
-      sprite-256px-25_21: -902639553
-      sprite-256px-25_12: 736676264
-      sprite-256px-25_20: -143575695
-      sprite-256px-25_14: -1358459361
-      sprite-256px-25_9: -1431842248
-      sprite-256px-25_7: 667655134
-      sprite-256px-25_0: 703193335
-      sprite-256px-25_5: -1021818474
-      sprite-256px-25_19: -859163073
-      sprite-256px-25_13: 1277165875
+      Atreus Idle Animation x25_3: 1868684831
+      Atreus Idle Animation x25_17: 1351127605
+      Atreus Idle Animation x25_23: 1756431888
+      Atreus Idle Animation x25_6: 453408134
+      Atreus Idle Animation x25_4: -1863640104
+      Atreus Idle Animation x25_18: 788805010
+      Atreus Idle Animation x25_22: -1537568702
+      Atreus Idle Animation x25_24: 1362471916
+      Atreus Idle Animation x25_12: -780716669
+      Atreus Idle Animation x25_13: 919422780
+      Atreus Idle Animation x25_5: 146969583
+      Atreus Idle Animation x25_16: 793642831
+      Atreus Idle Animation x25_2: 1399857926
+      Atreus Idle Animation x25_7: 1577523400
+      Atreus Idle Animation x25_10: -1081578768
+      Atreus Idle Animation x25_11: 2039971592
+      Atreus Idle Animation x25_21: -1083775758
+      Atreus Idle Animation x25_14: 1094328984
+      Atreus Idle Animation x25_19: -742412463
+      Atreus Idle Animation x25_9: -1421600739
+      Atreus Idle Animation x25_20: -1833429883
+      Atreus Idle Animation x25_1: -844084133
+      Atreus Idle Animation x25_15: 1329978478
+      Atreus Idle Animation x25_0: -1305454862
+      Atreus Idle Animation x25_8: -664684491
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

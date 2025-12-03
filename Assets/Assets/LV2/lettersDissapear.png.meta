@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lettersDissapear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2065
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5f0ebd5ff23214a82df53763723b5e
+      internalID: 900470156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_1
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 2065
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff48ab9734d2b684faabc5a464d8f952
+      internalID: 1352073877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_2
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 2065
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e412b06b71bc584ea549dd347eb6377
+      internalID: -926064823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_3
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 2065
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35208d68aea54ef43809ee14334b8105
+      internalID: 226055233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_4
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 2065
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698f0b1026dd0ba4aa4397f9f904df37
+      internalID: 2033085873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_5
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 2065
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f37cbe9d88cd2447b96789d67b9cc0a
+      internalID: 1152343251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1652
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebc9ddc3b130d8438ecdb25e008b90d
+      internalID: 1090674474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1652
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a717b3e2b83c55f46b245b4b6339b095
+      internalID: -1870700927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_8
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1652
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d65379e3c436a04499e9f924bee49d4
+      internalID: 771693879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_9
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1652
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25ac55f0daa2a489e5bf75f2e5d094
+      internalID: -1166219259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_10
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1652
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fbfe82dfeb40b4fa29253f560a9a96
+      internalID: -1020141561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_11
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1652
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7261b763809d4d42b8fb309752e6116
+      internalID: 451449642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1239
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5023b635c2b173744879047cdf2e37ec
+      internalID: -1734270764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_13
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1239
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0274832e5d798234eb1ccb5f71a0ef93
+      internalID: -541566956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_14
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1239
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d41a56d0e13e04884847e786478b1d
+      internalID: -1170592344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_15
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1239
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329e825942c8a694fa7904b36220d95d
+      internalID: -1885386962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_16
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1239
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231ed5e50775178448e1a463440e9b55
+      internalID: -956539398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_17
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1239
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a36d6690208168408b1d727f06b48ed
+      internalID: 25186588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 826
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e52d4f51d933014989e7b0e8d63988b
+      internalID: -1002389244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_19
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 826
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89e54c72e8a16c40898998c475188f5
+      internalID: -2035315455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_20
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 826
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606c4a4c1e3851a4d8543563c6f84e8a
+      internalID: 1125171322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_21
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 826
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46499191a6966684bbfa1a7e8be016f2
+      internalID: 1549394433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_22
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 826
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304ae39cd31815547be89081ccc77024
+      internalID: -279934611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_23
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 826
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5465643fa1369408a82cd01a556d85
+      internalID: 1245685175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab3f853040d58147a1bf566725f1da2
+      internalID: 220335373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_25
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 413
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d706dd81bf4f8b644b5534d9e87b32ab
+      internalID: -2123722184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_26
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 413
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b797ea319fa3a9c4cbf46f8379401be9
+      internalID: -1255835875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_27
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 413
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18fb6a0691036c4d9c93f347fdb1068
+      internalID: -493803500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_28
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 413
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2dd44e038576b47a49be6c418050f6
+      internalID: -62569593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_29
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 413
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec4a0e46bfadb640a8a14350dc41597
+      internalID: 1152363138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67721fc382c75c34490497d38188bdd8
+      internalID: -2139136294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_31
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 0
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420cf1e43c916b1479861c5dad8b4d84
+      internalID: -330087722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_32
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40df99b9e6016042a9074238656f39b
+      internalID: -1134397793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_33
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 0
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837453e45ec0ae8478892d5995e940ec
+      internalID: 1794641887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_34
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467592b0bf0df6d438dee42711af03e2
+      internalID: -1536872271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettersDissapear_35
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 0
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3462c5d5bc9c4cd44afb5e552878efe9
+      internalID: 1291069754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +870,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lettersDissapear_5: 1152343251
+      lettersDissapear_8: 771693879
+      lettersDissapear_16: -956539398
+      lettersDissapear_26: -1255835875
+      lettersDissapear_34: -1536872271
+      lettersDissapear_19: -2035315455
+      lettersDissapear_27: -493803500
+      lettersDissapear_24: 220335373
+      lettersDissapear_30: -2139136294
+      lettersDissapear_22: -279934611
+      lettersDissapear_18: -1002389244
+      lettersDissapear_29: 1152363138
+      lettersDissapear_31: -330087722
+      lettersDissapear_33: 1794641887
+      lettersDissapear_21: 1549394433
+      lettersDissapear_7: -1870700927
+      lettersDissapear_35: 1291069754
+      lettersDissapear_4: 2033085873
+      lettersDissapear_17: 25186588
+      lettersDissapear_12: -1734270764
+      lettersDissapear_28: -62569593
+      lettersDissapear_9: -1166219259
+      lettersDissapear_10: -1020141561
+      lettersDissapear_3: 226055233
+      lettersDissapear_23: 1245685175
+      lettersDissapear_32: -1134397793
+      lettersDissapear_13: -541566956
+      lettersDissapear_20: 1125171322
+      lettersDissapear_6: 1090674474
+      lettersDissapear_25: -2123722184
+      lettersDissapear_11: 451449642
+      lettersDissapear_15: -1885386962
+      lettersDissapear_0: 900470156
+      lettersDissapear_1: 1352073877
+      lettersDissapear_2: -926064823
+      lettersDissapear_14: -1170592344
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

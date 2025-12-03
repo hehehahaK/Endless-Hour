@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - spikes
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -54,6 +55,9 @@ TagManager:
   - name: backshops
     uniqueID: 655646559
     locked: 0
+  - name: torches
+    uniqueID: 1102237851
+    locked: 0
   - name: mcs
     uniqueID: 3834352817
     locked: 0
@@ -63,6 +67,6 @@ TagManager:
   - name: foreground
     uniqueID: 3116345865
     locked: 0
-  - name: coren
-    uniqueID: 523323633
+  - name: columns
+    uniqueID: 3604664629
     locked: 0

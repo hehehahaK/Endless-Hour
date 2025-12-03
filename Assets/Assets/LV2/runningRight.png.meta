@@ -871,20 +871,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      runningRight_8: 2132843193
-      runningRight_7: -1095947076
-      runningRight_10: 2131707343
-      runningRight_12: -380489044
-      runningRight_21: 1669836538
-      runningRight_17: 1788388716
       runningRight_34: 667574668
+      runningRight_7: -1095947076
+      runningRight_12: -380489044
       runningRight_31: 368274536
+      runningRight_17: 1788388716
+      runningRight_35: -2028958641
       runningRight_3: -1537208390
       runningRight_24: 2135524679
+      runningRight_29: 304498069
       runningRight_6: -1584216222
-      runningRight_35: -2028958641
       runningRight_16: -994890078
-      runningRight_30: 297779339
+      runningRight_2: 1037072141
+      runningRight_21: 1669836538
+      runningRight_8: 2132843193
       runningRight_13: 1125279713
       runningRight_33: 1391357059
       runningRight_20: -1048651004
@@ -900,13 +900,13 @@ TextureImporter:
       runningRight_9: 503131268
       runningRight_23: -1109059804
       runningRight_25: -2101130680
+      runningRight_30: 297779339
       runningRight_11: -1117687584
       runningRight_14: 1244914533
-      runningRight_29: 304498069
-      runningRight_15: 181559269
       runningRight_26: -1193100894
+      runningRight_15: 181559269
       runningRight_5: 1931741190
-      runningRight_2: 1037072141
+      runningRight_10: 2131707343
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

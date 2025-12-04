@@ -48,7 +48,7 @@ public class PlayerSuperclass : MonoBehaviour
 
         if (Input.GetKey(L))
         {
-            Debug.Log("going left"); // note to anyone, remove later on!!
+            
             GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
             //player character moves horizontally to the left along the x-axis without disrupting jump
             if (GetComponent<SpriteRenderer>() != null)
@@ -57,7 +57,7 @@ public class PlayerSuperclass : MonoBehaviour
 
         if (Input.GetKey(R))
         {
-            Debug.Log("going right");
+            
             GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
             //player character moves horizontally to the right along the x-axis without disrupting jump
             if (GetComponent<SpriteRenderer>() != null)

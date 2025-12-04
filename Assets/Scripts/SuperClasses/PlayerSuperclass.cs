@@ -6,26 +6,28 @@ using UnityEngine.InputSystem;
 public class PlayerSuperclass : MonoBehaviour
 {
     // Movement Variables incl. jump and its relation w/ ground and speed
+    private float currentSpeed;
     public float moveSpeed;
     public float jumpHeight;
     public KeyCode Spacebar = KeyCode.Space;
     public KeyCode L = KeyCode.A;
     public KeyCode R = KeyCode.D;
     public KeyCode RunKey = KeyCode.LeftShift;
-    public Transform groundCheck;// empty child positioned at the player’s feet. Used to detect if the player is touching ground.
+    public Transform groundCheck;// empty child positioned at the player's feet. Used to detect if the player is touching ground.
     public float groundCheckRadius;
     public LayerMask whatIsGround; //this variable stores what is considered a ground to the character,defines which physics layers count as ground.
     private bool grounded;
     private Animator anim; // ANIMATOR 
     private SpriteRenderer sr; //SpritRenderer for flickering effect
+    private Rigidbody2D rb;
 
     // Health Variables
     public int health = 20;
-    private float maxHealth = 20f;
-    private float normalAttackDamage = 5f;
+    private int maxHealth = 20;
+    private int normalAttackDamage = 5;
     private float BoostDuration = 30f;
     private float BoostTime = 0f;
-    public float AttackDamage = 5f;
+    public int AttackDamage = 5;
 
     private float flickerTime = 0f;
     private float flickerDuration = 0.1f;
@@ -38,33 +40,47 @@ public class PlayerSuperclass : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public virtual void Update()
     {
+        if (Input.GetKey(RunKey))
+        {
+            currentSpeed = moveSpeed * 2f;
+        }
+        else
+        {
+            currentSpeed = moveSpeed;
+        }
         if (Input.GetKeyDown(Spacebar) && grounded)
         { Jump(); }
 
+        if (!Input.GetKey(L) && !Input.GetKey(R))
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        }
+
         if (Input.GetKey(L))
         {
-            
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+            Debug.Log("going left"); // note to anyone, remove later on!!
+            rb.velocity = new Vector2(-currentSpeed, rb.velocity.y);
             //player character moves horizontally to the left along the x-axis without disrupting jump
-            if (GetComponent<SpriteRenderer>() != null)
-            { GetComponent<SpriteRenderer>().flipX = true; }
+            if (sr != null)
+            { sr.flipX = true; }
         }
 
         if (Input.GetKey(R))
         {
-            
-            GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+            Debug.Log("going right");
+            rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
             //player character moves horizontally to the right along the x-axis without disrupting jump
-            if (GetComponent<SpriteRenderer>() != null)
+            if (sr != null)
             {
-                GetComponent<SpriteRenderer>().flipX = false;
+                sr.flipX = false;
             }
         }
+
         if (isImmune == true)
         {
             SpriteFlicker();
@@ -84,9 +100,10 @@ public class PlayerSuperclass : MonoBehaviour
                 AttackDamage = normalAttackDamage;
             }
         }
-        anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
-        anim.SetFloat("Height", GetComponent<Rigidbody2D>().velocity.y);
+        anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
+        anim.SetFloat("Height", rb.velocity.y);
         anim.SetBool("Grounded", grounded);
+        anim.SetBool("IsRunning", Input.GetKey(RunKey));
     }
 
     void FixedUpdate()
@@ -97,8 +114,9 @@ public class PlayerSuperclass : MonoBehaviour
 
     void Jump()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
     }
+
     void SpriteFlicker()
     {
         if (flickerTime < flickerDuration)
@@ -111,6 +129,7 @@ public class PlayerSuperclass : MonoBehaviour
             flickerTime = 0;
         }
     }
+
     //Damage function, we send a DMG INT value to subtract from health. it also calls LevelManager to respawn player upon death.
     public void TakeDamage(int damage)
     {
@@ -120,7 +139,7 @@ public class PlayerSuperclass : MonoBehaviour
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
-                health = 20;
+                health = maxHealth;
             }
             Debug.Log("Player Health:" + health.ToString());
             isImmune = true;
@@ -135,20 +154,29 @@ public class PlayerSuperclass : MonoBehaviour
     public void Heal(int healAmount)
     {
         health += healAmount;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
         Debug.Log("Player Health:" + health.ToString());
     }
-    public void AttackBoost(float boostAmount)
+
+    public void AttackBoost(int boostAmount)
     {
         if (!isBoosted)
         {
             AttackDamage += boostAmount;
-            Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
-            BoostTime = 0f;
             isBoosted = true;
         }
+        BoostTime = 0f;
+        Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
     }
 
+    // Permanent damage upgrade (doesn't expire)
+    public void SpecialBoost(int boostAmount)
+    {
+        normalAttackDamage += boostAmount;
+        AttackDamage = normalAttackDamage;
+        Debug.Log("Permanent Attack Damage Upgrade: " + AttackDamage.ToString());
+    }
 }
-
-
-

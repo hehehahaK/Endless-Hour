@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: chronofly
+  m_Name: ChronoIdle2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -34,10 +34,22 @@ AnimatorController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Chronovar Test 2_0
   serializedVersion: 5
-  m_AnimatorParameters: []
+  m_AnimatorParameters:
+  - m_Name: Phase2
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Phase3
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: Base Layer
+    m_Name: ChronovarLayer
     m_StateMachine: {fileID: 1895938147846856568}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -55,24 +67,50 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Base Layer
+  m_Name: ChronovarLayer
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 7502872922610820692}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_Position: {x: -180, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1651248848346352575}
     m_Position: {x: 235, y: 65, z: 0}
   m_ChildStateMachines: []
-  m_AnyStateTransitions: []
+  m_AnyStateTransitions:
+  - {fileID: 6636698785473201111}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: -170, y: 60, z: 0}
+  m_AnyStatePosition: {x: 80, y: -60, z: 0}
+  m_EntryPosition: {x: -150, y: 70, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 7502872922610820692}
+--- !u!1101 &6636698785473201111
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Phase2
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -1651248848346352575}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &7502872922610820692
 AnimatorState:
   serializedVersion: 6
@@ -80,7 +118,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ChronovarTest
+  m_Name: ChronovarIdle1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []

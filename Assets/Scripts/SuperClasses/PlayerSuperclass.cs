@@ -41,7 +41,7 @@ public class PlayerSuperclass : MonoBehaviour
 
     }
 
-    void Update()
+    public virtual void Update()
     {
         if (Input.GetKeyDown(Spacebar) && grounded)
         { Jump(); }

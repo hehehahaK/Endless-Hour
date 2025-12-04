@@ -16,10 +16,10 @@ public class PlayerSuperclass : MonoBehaviour
     public Transform groundCheck;// empty child positioned at the player's feet. Used to detect if the player is touching ground.
     public float groundCheckRadius;
     public LayerMask whatIsGround; //this variable stores what is considered a ground to the character,defines which physics layers count as ground.
-    private bool grounded;
-    private Animator anim; // ANIMATOR 
-    private SpriteRenderer sr; //SpritRenderer for flickering effect
-    private Rigidbody2D rb;
+    protected bool grounded;
+    protected Animator anim; // ANIMATOR 
+    protected SpriteRenderer sr; //SpritRenderer for flickering effect
+    protected Rigidbody2D rb;
 
     // Health Variables
     public int health = 20;
@@ -112,7 +112,7 @@ public class PlayerSuperclass : MonoBehaviour
         //exactly the character is considered by Unity's engine to be standing on the ground. 
     }
 
-    void Jump()
+    protected void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
     }

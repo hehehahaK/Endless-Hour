@@ -17,7 +17,7 @@ public class EnemyController : MonoBehaviour
     public Transform attackPoint;
     private float nextAttackTime = 0f;
 
-    private Transform player;
+    public Transform player;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private bool isDead = false;

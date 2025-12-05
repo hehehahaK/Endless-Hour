@@ -7,12 +7,14 @@ public class PlayerSuperclass : MonoBehaviour
 {
     // Movement Variables incl. jump and its relation w/ ground and speed
     private float currentSpeed;
+    private float currentSpeed;
     public float moveSpeed;
     public float jumpHeight;
     public KeyCode Spacebar = KeyCode.Space;
     public KeyCode L = KeyCode.A;
     public KeyCode R = KeyCode.D;
     public KeyCode RunKey = KeyCode.LeftShift;
+    public Transform groundCheck;// empty child positioned at the player's feet. Used to detect if the player is touching ground.
     public Transform groundCheck;// empty child positioned at the player's feet. Used to detect if the player is touching ground.
     public float groundCheckRadius;
     public LayerMask whatIsGround; //this variable stores what is considered a ground to the character,defines which physics layers count as ground.
@@ -25,8 +27,11 @@ public class PlayerSuperclass : MonoBehaviour
     public int health = 20;
     private int maxHealth = 20;
     private int normalAttackDamage = 5;
+    private int maxHealth = 20;
+    private int normalAttackDamage = 5;
     private float BoostDuration = 30f;
     private float BoostTime = 0f;
+    public int AttackDamage = 5;
     public int AttackDamage = 5;
 
     private float flickerTime = 0f;
@@ -41,10 +46,19 @@ public class PlayerSuperclass : MonoBehaviour
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    public virtual void Update()
     {
+        if (Input.GetKey(RunKey))
+        {
+            currentSpeed = moveSpeed * 2f;
+        }
+        else
+        {
+            currentSpeed = moveSpeed;
+        }
         if (Input.GetKey(RunKey))
         {
             currentSpeed = moveSpeed * 2f;
@@ -61,7 +75,10 @@ public class PlayerSuperclass : MonoBehaviour
         {
             Debug.Log("going left"); // note to anyone, remove later on!!
             rb.velocity = new Vector2(-currentSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(-currentSpeed, rb.velocity.y);
             //player character moves horizontally to the left along the x-axis without disrupting jump
+            if (sr != null)
+            { sr.flipX = true; }
             if (sr != null)
             { sr.flipX = true; }
         }
@@ -70,12 +87,16 @@ public class PlayerSuperclass : MonoBehaviour
         {
             Debug.Log("going right");
             rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
             //player character moves horizontally to the right along the x-axis without disrupting jump
+            if (sr != null)
             if (sr != null)
             {
                 sr.flipX = false;
+                sr.flipX = false;
             }
         }
+
 
         if (isImmune == true)
         {
@@ -100,6 +121,7 @@ public class PlayerSuperclass : MonoBehaviour
         anim.SetFloat("Height", GetComponent<Rigidbody2D>().velocity.y);
         anim.SetBool("Grounded", grounded);
         anim.SetBool("IsRunning", Input.GetKey(RunKey));
+        anim.SetBool("IsRunning", Input.GetKey(RunKey));
     }
 
     void FixedUpdate()
@@ -108,10 +130,12 @@ public class PlayerSuperclass : MonoBehaviour
         //exactly the character is considered by Unity's engine to be standing on the ground. 
     }
 
-    void Jump()
+    protected void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
     }
+
 
     void SpriteFlicker()
     {
@@ -126,6 +150,7 @@ public class PlayerSuperclass : MonoBehaviour
         }
     }
 
+
     //Damage function, we send a DMG INT value to subtract from health. it also calls LevelManager to respawn player upon death.
     public void TakeDamage(int damage)
     {
@@ -135,6 +160,7 @@ public class PlayerSuperclass : MonoBehaviour
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
+                health = maxHealth;
                 health = maxHealth;
             }
             Debug.Log("Player Health:" + health.ToString());
@@ -154,8 +180,14 @@ public class PlayerSuperclass : MonoBehaviour
         {
             health = maxHealth;
         }
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
         Debug.Log("Player Health:" + health.ToString());
     }
+
+    public void AttackBoost(int boostAmount)
 
     public void AttackBoost(int boostAmount)
     {
@@ -164,6 +196,18 @@ public class PlayerSuperclass : MonoBehaviour
             AttackDamage += boostAmount;
             isBoosted = true;
         }
+        BoostTime = 0f;
+        Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
+    }
+
+    // Permanent damage upgrade (doesn't expire)
+    public void SpecialBoost(int boostAmount)
+    {
+        normalAttackDamage += boostAmount;
+        AttackDamage = normalAttackDamage;
+        Debug.Log("Permanent Attack Damage Upgrade: " + AttackDamage.ToString());
+    }
+}
         BoostTime = 0f;
         Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
     }

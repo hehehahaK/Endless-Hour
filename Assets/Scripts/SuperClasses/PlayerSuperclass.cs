@@ -41,6 +41,7 @@ public class PlayerSuperclass : MonoBehaviour
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public virtual void Update()
@@ -53,19 +54,26 @@ public class PlayerSuperclass : MonoBehaviour
         {
             currentSpeed = moveSpeed;
         }
+        if (Input.GetKey(RunKey))
+        {
+            currentSpeed = moveSpeed * 2f;
+        }
+        else
+        {
+            currentSpeed = moveSpeed;
+        }
         if (Input.GetKeyDown(Spacebar) && grounded)
         { Jump(); }
 
-        if (!Input.GetKey(L) && !Input.GetKey(R))
-        {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-        }
 
         if (Input.GetKey(L))
         {
             Debug.Log("going left"); // note to anyone, remove later on!!
             rb.velocity = new Vector2(-currentSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(-currentSpeed, rb.velocity.y);
             //player character moves horizontally to the left along the x-axis without disrupting jump
+            if (sr != null)
+            { sr.flipX = true; }
             if (sr != null)
             { sr.flipX = true; }
         }
@@ -74,12 +82,15 @@ public class PlayerSuperclass : MonoBehaviour
         {
             Debug.Log("going right");
             rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
             //player character moves horizontally to the right along the x-axis without disrupting jump
             if (sr != null)
             {
                 sr.flipX = false;
+                sr.flipX = false;
             }
         }
+
 
         if (isImmune == true)
         {
@@ -101,8 +112,9 @@ public class PlayerSuperclass : MonoBehaviour
             }
         }
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
-        anim.SetFloat("Height", rb.velocity.y);
+        anim.SetFloat("Height", GetComponent<Rigidbody2D>().velocity.y);
         anim.SetBool("Grounded", grounded);
+        anim.SetBool("IsRunning", Input.GetKey(RunKey));
         anim.SetBool("IsRunning", Input.GetKey(RunKey));
     }
 
@@ -112,10 +124,12 @@ public class PlayerSuperclass : MonoBehaviour
         //exactly the character is considered by Unity's engine to be standing on the ground. 
     }
 
-    void Jump()
+    protected void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
     }
+
 
     void SpriteFlicker()
     {
@@ -130,6 +144,7 @@ public class PlayerSuperclass : MonoBehaviour
         }
     }
 
+
     //Damage function, we send a DMG INT value to subtract from health. it also calls LevelManager to respawn player upon death.
     public void TakeDamage(int damage)
     {
@@ -139,6 +154,7 @@ public class PlayerSuperclass : MonoBehaviour
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
+                health = maxHealth;
                 health = maxHealth;
             }
             Debug.Log("Player Health:" + health.ToString());
@@ -158,9 +174,12 @@ public class PlayerSuperclass : MonoBehaviour
         {
             health = maxHealth;
         }
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
         Debug.Log("Player Health:" + health.ToString());
     }
-
     public void AttackBoost(int boostAmount)
     {
         if (!isBoosted)
@@ -179,4 +198,5 @@ public class PlayerSuperclass : MonoBehaviour
         AttackDamage = normalAttackDamage;
         Debug.Log("Permanent Attack Damage Upgrade: " + AttackDamage.ToString());
     }
+    // Permanent damage upgrade (doesn't expire)
 }

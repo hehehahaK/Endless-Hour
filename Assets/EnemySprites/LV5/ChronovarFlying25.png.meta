@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 89a889f796cd0034595122b86fb42c9d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChronovarFlying25_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2507
+        width: 501
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901560e31572de24abbf585c1ba36035
+      internalID: -798349401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_1
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 2509
+        width: 537
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9544eabc32acac4789bc22c8dc0615e
+      internalID: -508387725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_2
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 2488
+        width: 590
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181561b7bd5662c4abc441bff672e622
+      internalID: 732451195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_3
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 2387
+        width: 510
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656f4eac14e58ce488b6e173e609bf28
+      internalID: 594254385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_4
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 2354
+        width: 397
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cbce8f29d674649a8e744c2e594b69
+      internalID: 507052281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_5
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 2433
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5686a64202188e24a98f2a5b93fd6385
+      internalID: 1266751506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1790
+        width: 347
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0d54643d2363d44888d10bef8d70a2
+      internalID: -698240551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_7
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1840
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8194ff6c37fc6dc4e9095e8687f63c26
+      internalID: -1838761371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_8
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1884
+        width: 341
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706cf1ad57e63ac4bb827eea856e4c7e
+      internalID: 798496337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_9
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 1924
+        width: 406
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a99d3e09d868f4cb09bf2bb21f79b5
+      internalID: 1206729337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_10
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1943
+        width: 435
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501db0aa4457b94448958d78657a6edd
+      internalID: 1834097879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_11
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1348
+        width: 434
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2486f2699d20dfb4abe8f8299d201d81
+      internalID: 1527835296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_12
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1340
+        width: 423
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a9e60242b9b6b42a4d3c8ab6bdb5f5
+      internalID: -1885912405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_13
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1334
+        width: 477
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e08c2107eab94d4abc597c0183678a7
+      internalID: -1446557531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_14
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1333
+        width: 527
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8191c348b7f2fd49a0e87815146e4c5
+      internalID: -1590765301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_15
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 1330
+        width: 590
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc63773c0a78784abb7cb0c5ed7a013
+      internalID: -1911988254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_16
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 738
+        width: 583
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996a96811b9029a4eaae26ffa7214aad
+      internalID: -249217736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_17
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 658
+        width: 525
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e191c3d5323a64dbabcefed163c711
+      internalID: 1219316510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_18
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 595
+        width: 410
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7006a17c509d4448c358eb1bcfaa18
+      internalID: -1860833057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_19
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 642
+        width: 333
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d103281cdc66a364d84db04defd6e499
+      internalID: -589860757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_20
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 719
+        width: 357
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f76c9d854d54249a1c9f321233e3b3
+      internalID: -1191878673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_21
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 690
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b2a11cb654a0d46acefff684b06de1
+      internalID: -1357722388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 151
+        width: 376
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e221f9a2afc313b4f8646fe3dc19d231
+      internalID: -921480742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_23
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 172
+        width: 422
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c758a99eecd8a4080dc9c6f89fde7c
+      internalID: 657907816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_24
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 180
+        width: 440
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf12596e9fcbd8d40ab26693347411f6
+      internalID: 1538564245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_25
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 168
+        width: 420
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3112bd4441b6f4694832c03c7a1bfb
+      internalID: 1796087604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronovarFlying25_26
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 160
+        width: 445
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a335273fbf3b4f043bec381abd2e8234
+      internalID: 2043436117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ChronovarFlying25_4: 507052281
+      ChronovarFlying25_19: -589860757
+      ChronovarFlying25_23: 657907816
+      ChronovarFlying25_1: -508387725
+      ChronovarFlying25_26: 2043436117
+      ChronovarFlying25_6: -698240551
+      ChronovarFlying25_13: -1446557531
+      ChronovarFlying25_9: 1206729337
+      ChronovarFlying25_10: 1834097879
+      ChronovarFlying25_14: -1590765301
+      ChronovarFlying25_16: -249217736
+      ChronovarFlying25_3: 594254385
+      ChronovarFlying25_12: -1885912405
+      ChronovarFlying25_8: 798496337
+      ChronovarFlying25_17: 1219316510
+      ChronovarFlying25_24: 1538564245
+      ChronovarFlying25_7: -1838761371
+      ChronovarFlying25_21: -1357722388
+      ChronovarFlying25_11: 1527835296
+      ChronovarFlying25_15: -1911988254
+      ChronovarFlying25_5: 1266751506
+      ChronovarFlying25_20: -1191878673
+      ChronovarFlying25_0: -798349401
+      ChronovarFlying25_25: 1796087604
+      ChronovarFlying25_22: -921480742
+      ChronovarFlying25_18: -1860833057
+      ChronovarFlying25_2: 732451195
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

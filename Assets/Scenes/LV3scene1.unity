@@ -1415,9 +1415,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 269290639}
-  - component: {fileID: 269290640}
   - component: {fileID: 269290641}
-  m_Layer: 0
+  - component: {fileID: 269290642}
+  m_Layer: 7
   m_Name: stairss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1443,28 +1443,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &269290640
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269290638}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -9.754112, y: -5.46327}
-  - {x: 4.84832, y: 5.0172887}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!114 &269290641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1477,6 +1455,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a503d640381c6dc4d80491f1d35679d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!60 &269290642
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269290638}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.0610619, y: 5.613249}
+      - {x: -4.184661, y: 1.3898027}
+      - {x: -9.9340515, y: -3.3719687}
+      - {x: -9.702996, y: -9.215862}
+      - {x: -4.7769585, y: -6.7705326}
+      - {x: -1.6572037, y: -4.22285}
+      - {x: 0.43584585, y: -2.5136044}
+      - {x: 5.1381035, y: 0.6704674}
+      - {x: 9.508339, y: 3.705377}
+      - {x: 4.605304, y: 5.1118417}
 --- !u!1 &282755021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,8 +1801,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -460614479
-  m_SortingLayer: 5
+  m_SortingLayerID: 135852129
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 73479697, guid: e48e7997d9a6a3b43a5ac367a7ad3e4c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1810,7 +1823,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338725174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.48, y: 0.41, z: 0}
+  m_LocalPosition: {x: 44.18, y: 0.99, z: 0}
   m_LocalScale: {x: 0.5418081, y: 0.45671415, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1914,7 +1927,7 @@ MonoBehaviour:
   isBoosted: 0
   immunityDuration: 1.5
   isOnStairs: 0
-  stairClimbBias: 0.75
+  stairClimbBias: 2.1
   stairSpeedMultiplier: 0.5
 --- !u!1 &340797317
 GameObject:
@@ -3417,11 +3430,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4374356616352567439, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
       propertyPath: m_SortingLayer
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4374356616352567439, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
       propertyPath: m_SortingLayerID
-      value: -460614479
+      value: 135852129
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
@@ -4240,9 +4253,9 @@ MonoBehaviour:
   Target: {fileID: 338725176}
   CameraSpeed: 6
   minX: -7
-  maxX: 34.8
+  maxX: 500
   minY: 0
-  maxY: 4.5
+  maxY: 10
 --- !u!114 &701742321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6381,7 +6394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1275174633}
   - component: {fileID: 1275174632}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stairslvl3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7329,7 +7342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1371138960}
   - component: {fileID: 1371138959}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stairslvl3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7867,7 +7880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425592209}
   - component: {fileID: 1425592208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stairslvl3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9318,7 +9331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1667275983}
   - component: {fileID: 1667275982}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stairslvl3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9363,8 +9376,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1178621431
-  m_SortingLayer: 7
+  m_SortingLayerID: 135852129
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 95e59bc7b90511544ac2126d1445cbed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

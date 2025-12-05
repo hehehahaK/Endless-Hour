@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: 9e29f978aa23f674ca09243b0325985f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtreusJumpin6_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1715
+        width: 242
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f91f3c5f28dd3469003c3e7b9138a3
+      internalID: -326789131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1716
+        width: 252
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6c120979ad50f41bb2af84fbe3473a
+      internalID: -1400899583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_2
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1716
+        width: 252
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f0a70c59337eb41bdfd6bfbe850dc9
+      internalID: -188191599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_3
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1717
+        width: 238
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c092de732b4b842a2511b5750d8d8a
+      internalID: 1994131601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_4
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1717
+        width: 226
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dd4671d1e1af0428b24e817b8064ff
+      internalID: 1158673314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1311
+        width: 215
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5121ac3cfde620347945a8657561b02e
+      internalID: 489920570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1311
+        width: 214
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db7dd7fab33bc94caf2aae46bded0d1
+      internalID: 800497024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_7
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1311
+        width: 217
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077c5d7a75965d6448061fb80d8e1ae4
+      internalID: 1986664419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_8
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1311
+        width: 244
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df0a6a6196b7a4fb57192d568f5c8b
+      internalID: 2081491384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_9
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1311
+        width: 274
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b35f56c37c5a714dad9aa0c03b2a157
+      internalID: -180385230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 904
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddb8749d871d3f40a4b5636a5247484
+      internalID: -1380640016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_11
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 972
+        width: 179
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fce6e1c0b00614f941942137cfde58
+      internalID: -170692221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_12
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 980
+        width: 180
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2ff161cb688a2448fd19f12e467893
+      internalID: -1144838040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_13
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 988
+        width: 179
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c497c817577c294c8c9dcd3c6661999
+      internalID: 694452778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_14
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 995
+        width: 178
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ecf042f7efdb84598c214eed77a1c5
+      internalID: 1883615575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 584
+        width: 184
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06a0512c3448a4439eacb2933db2f27
+      internalID: 680448676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_16
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 503
+        width: 229
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5030e2420a9d95f46b559ef0a1310fbc
+      internalID: -1462098811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_17
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 495
+        width: 237
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dd51539547c6247b51948ecb71e5ad
+      internalID: 1488759203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_18
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 495
+        width: 319
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb51a7e0f9654554d9e6b12d5c25c6e6
+      internalID: 5365031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_19
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 495
+        width: 264
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8463126cf8fe2b49b7530ebd47a72e8
+      internalID: 1189166031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 43
+        width: 262
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fc2c07d6a636548bfea0203966e7ef
+      internalID: 2145227113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_21
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 42
+        width: 246
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01ad4f24517bd044a80fe1eb4cdf520
+      internalID: 845192968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_22
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 85
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdc3b900afc0424280567e9cbb4c2f2
+      internalID: 1883491832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_23
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 85
+        width: 205
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8d87ab2f84c4041bfb89cf4111b491
+      internalID: -118987057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtreusJumpin6_24
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 83
+        width: 241
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d964cc6ddb95945aab65d510892b1f
+      internalID: 876702350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AtreusJumpin6_10: -1380640016
+      AtreusJumpin6_17: 1488759203
+      AtreusJumpin6_0: -326789131
+      AtreusJumpin6_19: 1189166031
+      AtreusJumpin6_7: 1986664419
+      AtreusJumpin6_8: 2081491384
+      AtreusJumpin6_24: 876702350
+      AtreusJumpin6_5: 489920570
+      AtreusJumpin6_15: 680448676
+      AtreusJumpin6_6: 800497024
+      AtreusJumpin6_23: -118987057
+      AtreusJumpin6_12: -1144838040
+      AtreusJumpin6_18: 5365031
+      AtreusJumpin6_21: 845192968
+      AtreusJumpin6_22: 1883491832
+      AtreusJumpin6_9: -180385230
+      AtreusJumpin6_14: 1883615575
+      AtreusJumpin6_16: -1462098811
+      AtreusJumpin6_3: 1994131601
+      AtreusJumpin6_2: -188191599
+      AtreusJumpin6_20: 2145227113
+      AtreusJumpin6_13: 694452778
+      AtreusJumpin6_4: 1158673314
+      AtreusJumpin6_1: -1400899583
+      AtreusJumpin6_11: -170692221
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

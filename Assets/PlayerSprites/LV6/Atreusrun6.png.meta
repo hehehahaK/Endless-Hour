@@ -42,11 +42,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  spriteMeshType: 0
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Atreusrun6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1384
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e8115286be0d042bc0024b6256a70b
+      internalID: 1011769449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1384
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bf5c353128fcd479102f5b9545a187
+      internalID: 1121780677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_2
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1384
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dd4cfa79df1da43830e7b1a80898be
+      internalID: -1846495214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_3
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1384
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff088410b0c61f47b6894e613e0e995
+      internalID: -1980409505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_4
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1384
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aea5a2f0c92e24eb18931f183f42cb
+      internalID: 1889881954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1038
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49878922a55dca04a80d710a4caefe4b
+      internalID: -443300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1038
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be600cc80de0a24f8bd7003409d0cf7
+      internalID: -1098173594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_7
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1038
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd55372e0a3086429e5454da70a475b
+      internalID: -1642989671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_8
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1038
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2864f3cbc792c7d419b731340a75ccb2
+      internalID: 5605651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_9
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1038
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbdae5eac5949041a4f07495d97c6f2
+      internalID: -542624891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 692
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e52e8b1212d4b945bf20634df59b67c
+      internalID: -522583034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_11
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 692
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd3af062b6762f42a4073fd68d368c9
+      internalID: 2016031111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_12
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 692
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7796afeff8a97b24592ea35566481c1f
+      internalID: -339921717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_13
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 692
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9569e2fc4f87a064e8e4c850ca3bfe72
+      internalID: -1139102277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_14
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 692
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aceaa70ba94b1648a9a7a099193c15d
+      internalID: -745403839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66fad5d8a0edb340a66e2a864c5c83e
+      internalID: -1175674286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 346
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f74981b04265d4f8f65082afec3320
+      internalID: -1965307259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 346
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f33f0d9877edb4db6584e062c5a50e
+      internalID: 947512986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_18
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 346
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87283dbe894a24489f491fe69c2024c
+      internalID: -1590962212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_19
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 346
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321b590874654d549881624ba50ff081
+      internalID: -787560145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29b41368c74a0d49a1ad3daf78f88f2
+      internalID: -415719765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_21
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f8ab67d07465846a01b74eda0dc17b
+      internalID: -489510164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_22
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125efd81f56aa834cb417c1902e1064d
+      internalID: -788147490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_23
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472de83e0edfcae42b7b294541736ac3
+      internalID: -1701471270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreusrun6_24
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 0
+        width: 386
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f553cb277e7b6843912e118491123c6
+      internalID: -5855863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +639,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Atreusrun6_5: -443300200
+      Atreusrun6_12: -339921717
+      Atreusrun6_15: -1175674286
+      Atreusrun6_24: -5855863
+      Atreusrun6_10: -522583034
+      Atreusrun6_11: 2016031111
+      Atreusrun6_23: -1701471270
+      Atreusrun6_4: 1889881954
+      Atreusrun6_8: 5605651
+      Atreusrun6_17: 947512986
+      Atreusrun6_0: 1011769449
+      Atreusrun6_9: -542624891
+      Atreusrun6_19: -787560145
+      Atreusrun6_21: -489510164
+      Atreusrun6_13: -1139102277
+      Atreusrun6_16: -1965307259
+      Atreusrun6_1: 1121780677
+      Atreusrun6_7: -1642989671
+      Atreusrun6_22: -788147490
+      Atreusrun6_20: -415719765
+      Atreusrun6_2: -1846495214
+      Atreusrun6_3: -1980409505
+      Atreusrun6_14: -745403839
+      Atreusrun6_18: -1590962212
+      Atreusrun6_6: -1098173594
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

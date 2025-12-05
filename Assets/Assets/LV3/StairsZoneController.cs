@@ -18,19 +18,37 @@ public class StairsZoneController : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other){
         
-        lvl3playercontrollerstairs player = FindObjectOfType<lvl3playercontrollerstairs>();
+        
+        lvl3playercontrollerstairs player = other.GetComponent<lvl3playercontrollerstairs>();
+        Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
 
-        if (other.tag=="Player"){
+        if (player != null && rb != null)
+        {
             player.isOnStairs = true;
+            
+            // CRITICAL FIX: Disable gravity so the vertical bias works
+            rb.gravityScale = 0f; 
+            
+            // Also zero out the current Y velocity to prevent instant sinking/flying
+            rb.velocity = new Vector2(rb.velocity.x, 0f);
         }
     }
 
     void OnTriggerExit2D(Collider2D other){
 
-        lvl3playercontrollerstairs player = FindObjectOfType<lvl3playercontrollerstairs>();
+        if (other.CompareTag("Player"))
+    {
+        lvl3playercontrollerstairs player = other.GetComponent<lvl3playercontrollerstairs>();
+        Rigidbody2D rb = other.GetComponent<Rigidbody2D>(); // Get the Rigidbody2D
 
-        if (other.tag=="Player"){
+        if (player != null && rb != null)
+        {
             player.isOnStairs = false;
+            
+            // CRITICAL FIX: Restore gravity when the player leaves the zone
+            // Set this back to your game's default gravity scale (usually 1 or more)
+            rb.gravityScale = 3f; // Use your default gravity scale here 
         }
+    }
     }
 }

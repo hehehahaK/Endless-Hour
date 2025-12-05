@@ -6,6 +6,7 @@ TagManager:
   tags:
   - spikes
   - Wall
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -70,6 +71,7 @@ TagManager:
   - name: columns
     uniqueID: 3604664629
     locked: 0
+<<<<<<< Updated upstream
   - name: Fountain
     uniqueID: 1820795941
     locked: 0
@@ -78,4 +80,8 @@ TagManager:
     locked: 0
   - name: SheildSolider
     uniqueID: 2960003879
+=======
+  - name: Platform
+    uniqueID: 219006721
+>>>>>>> Stashed changes
     locked: 0

@@ -58,9 +58,6 @@ TagManager:
   - name: torches
     uniqueID: 1102237851
     locked: 0
-  - name: mcs
-    uniqueID: 3834352817
-    locked: 0
   - name: front shops
     uniqueID: 135852129
     locked: 0
@@ -75,6 +72,9 @@ TagManager:
     locked: 0
   - name: Wagon
     uniqueID: 4157313477
+    locked: 0
+  - name: mcs
+    uniqueID: 3834352817
     locked: 0
   - name: Soliders
     uniqueID: 2960003879

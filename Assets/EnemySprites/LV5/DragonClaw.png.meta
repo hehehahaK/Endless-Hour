@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c671e4982803d504db7883e36d901661
+guid: c5f96b720b323d146a441bff961b01ce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,8 +69,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 1
-    textureFormat: 4
-    textureCompression: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chronovar Flying Idle_0
+      name: DragonClaw_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2360
-        width: 703
-        height: 512
+        x: 123
+        y: 2254
+        width: 394
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a008e4d52f2085b41a305d1e5e074b7a
-      internalID: -381576264
+      spriteID: 0fb3ba6af59b49946927503c35d1a083
+      internalID: -463889950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_1
+      name: DragonClaw_1
       rect:
         serializedVersion: 2
-        x: 1057
-        y: 2352
-        width: 649
-        height: 519
+        x: 765
+        y: 2254
+        width: 393
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cc6da9770e627d41bb1446d4a158f58
-      internalID: -1652856880
+      spriteID: baa6cd7073c9a0e48aacf9581451c991
+      internalID: -166886383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_2
+      name: DragonClaw_2
       rect:
         serializedVersion: 2
-        x: 1943
-        y: 2329
-        width: 675
-        height: 543
+        x: 1420
+        y: 2254
+        width: 395
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f9800e9f897a3c4c9f850a9560fa883
-      internalID: 658289966
+      spriteID: b9df48be64f67064fb974c2691c2e39a
+      internalID: -2118063573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_3
+      name: DragonClaw_3
       rect:
         serializedVersion: 2
-        x: 2721
-        y: 2312
-        width: 600
-        height: 560
+        x: 2070
+        y: 2254
+        width: 399
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eed539c6222d1d443902529c9e857aa2
-      internalID: 820422050
+      spriteID: eb442e25d9cbee8448f0ca5837071ce7
+      internalID: -1576377524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_4
+      name: DragonClaw_4
       rect:
         serializedVersion: 2
-        x: 3315
-        y: 2852
-        width: 13
-        height: 20
+        x: 2757
+        y: 2254
+        width: 376
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 452a5538af7c8d3448f4b7b011c0deb9
-      internalID: -2118985045
+      spriteID: a0ae4d0d86dd59446a4423ce39bc2b93
+      internalID: -1779554073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_5
+      name: DragonClaw_5
       rect:
         serializedVersion: 2
-        x: 3323
-        y: 2807
-        width: 4
-        height: 52
+        x: 216
+        y: 1731
+        width: 368
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 970e2493b036cc44594e3a745ffbc210
-      internalID: -183694574
+      spriteID: e0f98e636acc89b489332385a1a07403
+      internalID: -1100445518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_6
+      name: DragonClaw_6
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1582
-        width: 846
-        height: 378
+        x: 873
+        y: 1732
+        width: 407
+        height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59af2071d35eee04387764ad93134c01
-      internalID: -186559990
+      spriteID: b4bfa459d867d174a917edf6a1a67aff
+      internalID: -520034982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_7
+      name: DragonClaw_7
       rect:
         serializedVersion: 2
-        x: 874
-        y: 1582
-        width: 778
-        height: 365
+        x: 1485
+        y: 1735
+        width: 435
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 432f20caaf946c84d9e3ccdcf0835e64
-      internalID: -494849264
+      spriteID: 510f649a94de5184f9db0801e52f1514
+      internalID: -994163739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_8
+      name: DragonClaw_8
       rect:
         serializedVersion: 2
-        x: 875
-        y: 1686
-        width: 11
-        height: 9
+        x: 2093
+        y: 1736
+        width: 421
+        height: 358
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38200fbe6390d52489f1e59d8347dba7
-      internalID: 1897681593
+      spriteID: eddcf62bd7557e142b11f90145dbcdf4
+      internalID: 2016513725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_9
+      name: DragonClaw_9
       rect:
         serializedVersion: 2
-        x: 1926
-        y: 1481
-        width: 470
-        height: 494
+        x: 2698
+        y: 1736
+        width: 468
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1581e293153c3e40ba2656e675d32b9
-      internalID: -1530553462
+      spriteID: b6c85f468d32acc4c818d04ab35e504c
+      internalID: 842321824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_10
+      name: DragonClaw_10
       rect:
         serializedVersion: 2
-        x: 2679
-        y: 1582
-        width: 520
-        height: 396
+        x: 46
+        y: 1206
+        width: 569
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d41343ea500471f41aea8f05bedea1e8
-      internalID: 710056530
+      spriteID: a401e165e1977774e9017ac133279ab1
+      internalID: 1626438201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_11
+      name: DragonClaw_11
       rect:
         serializedVersion: 2
-        x: 153
-        y: 878
-        width: 528
-        height: 377
+        x: 706
+        y: 1205
+        width: 532
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb5b33a9308d24340a1301a8a9f1bf9b
-      internalID: 453485655
+      spriteID: b0150ffe48be6384ab661ca85d5c3b5e
+      internalID: 579223012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_12
+      name: DragonClaw_12
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 902
-        width: 581
-        height: 463
+        x: 1409
+        y: 1203
+        width: 473
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +383,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c996830cc09562a4ea44a3fba47d2f10
-      internalID: -2139605444
+      spriteID: b059e8811fc66d149b4e65be4af66046
+      internalID: -788161033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_13
+      name: DragonClaw_13
       rect:
         serializedVersion: 2
-        x: 1959
-        y: 913
-        width: 520
-        height: 570
+        x: 2040
+        y: 1204
+        width: 511
+        height: 253
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +404,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93c34d6da2c6fcc428da1006ddc22bcf
-      internalID: -898389936
+      spriteID: 88f3ef6ada45a9a4c8b5d014bd5c9747
+      internalID: -902376334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_14
+      name: DragonClaw_14
       rect:
         serializedVersion: 2
-        x: 2761
-        y: 896
-        width: 566
-        height: 583
+        x: 2656
+        y: 1205
+        width: 541
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,20 +425,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb61a0cafa30a5d429b7987e0c6f6b42
-      internalID: 365450842
+      spriteID: 9bc6706cd90f4cc40a743eaf525ca4b8
+      internalID: 1017117053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_15
+      name: DragonClaw_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 831
-        height: 591
+        x: 58
+        y: 681
+        width: 543
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +446,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45b42a36dcb39824bade6a8c2ad18009
-      internalID: 80112356
+      spriteID: 918c2d11d392bdb458d4af3b30e73152
+      internalID: 1490703610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_16
+      name: DragonClaw_16
       rect:
         serializedVersion: 2
-        x: 600
-        y: 167
-        width: 19
-        height: 5
+        x: 740
+        y: 681
+        width: 500
+        height: 317
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,20 +467,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0e6746a5d71a7045843202fc226242c
-      internalID: 2091450934
+      spriteID: f7fba861c5574f04d82e3e9cce6f2164
+      internalID: -1503774982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_17
+      name: DragonClaw_17
       rect:
         serializedVersion: 2
-        x: 928
-        y: 2
-        width: 793
-        height: 517
+        x: 1427
+        y: 680
+        width: 465
+        height: 328
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,20 +488,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a033cb464510b454196e14a83f9816dd
-      internalID: 1592759152
+      spriteID: 4d80c9bd3418ea44c983b1eb13be4796
+      internalID: 1607358890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_18
+      name: DragonClaw_18
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 2
-        width: 423
-        height: 14
+        x: 2062
+        y: 682
+        width: 479
+        height: 289
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,20 +509,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c911d752779a05a45a658d29864d40cf
-      internalID: 391022810
+      spriteID: 42b6c1f18a73aee46b4a1e1c499695de
+      internalID: 554893606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_19
+      name: DragonClaw_19
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 20
-        width: 224
-        height: 9
+        x: 2696
+        y: 680
+        width: 484
+        height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,20 +530,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8ee65f4ffe790842898afac5e6b9112
-      internalID: 1926669434
+      spriteID: 58e52bbb1fb0e2f4dbc6f402b24a4534
+      internalID: 610524738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_20
+      name: DragonClaw_20
       rect:
         serializedVersion: 2
-        x: 1922
-        y: 0
+        x: 130
+        y: 158
+        width: 484
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6967cd6f86913734aaa118b6e1ce728c
+      internalID: 2021836506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonClaw_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 158
         width: 481
-        height: 541
+        height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,20 +572,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47a89b0642d29f2418bdef6d2ae6b786
-      internalID: 331954287
+      spriteID: 4ae5ec79bba3006418d02771e6c5018e
+      internalID: -41854508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_21
+      name: DragonClaw_22
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 164
-        width: 522
-        height: 384
+        x: 1407
+        y: 158
+        width: 483
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,20 +593,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fad7eae71710a6439ec6545c72dc7fb
-      internalID: 986776591
+      spriteID: ca85c94bbe2fc284cbcda1c6b92d1955
+      internalID: 1175566960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chronovar Flying Idle_22
+      name: DragonClaw_23
       rect:
         serializedVersion: 2
-        x: 3302
-        y: 0
-        width: 26
-        height: 5
+        x: 2042
+        y: 158
+        width: 490
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,8 +614,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7899b51fc02de5643a849467ca1ddb62
-      internalID: 480126980
+      spriteID: 1e0971a097ff2a840a9918d127e13369
+      internalID: -1358829914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonClaw_24
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 158
+        width: 491
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dae0ab162656d43ab2b2da0bf06d21
+      internalID: 2087178303
       vertices: []
       indices: 
       edges: []
@@ -610,29 +652,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Chronovar Flying Idle_13: -898389936
-      Chronovar Flying Idle_5: -183694574
-      Chronovar Flying Idle_21: 986776591
-      Chronovar Flying Idle_14: 365450842
-      Chronovar Flying Idle_20: 331954287
-      Chronovar Flying Idle_4: -2118985045
-      Chronovar Flying Idle_12: -2139605444
-      Chronovar Flying Idle_8: 1897681593
-      Chronovar Flying Idle_22: 480126980
-      Chronovar Flying Idle_9: -1530553462
-      Chronovar Flying Idle_17: 1592759152
-      Chronovar Flying Idle_18: 391022810
-      Chronovar Flying Idle_2: 658289966
-      Chronovar Flying Idle_1: -1652856880
-      Chronovar Flying Idle_3: 820422050
-      Chronovar Flying Idle_7: -494849264
-      Chronovar Flying Idle_11: 453485655
-      Chronovar Flying Idle_16: 2091450934
-      Chronovar Flying Idle_6: -186559990
-      Chronovar Flying Idle_10: 710056530
-      Chronovar Flying Idle_0: -381576264
-      Chronovar Flying Idle_19: 1926669434
-      Chronovar Flying Idle_15: 80112356
+      DragonClaw_13: -902376334
+      DragonClaw_23: -1358829914
+      DragonClaw_19: 610524738
+      DragonClaw_10: 1626438201
+      DragonClaw_8: 2016513725
+      DragonClaw_14: 1017117053
+      DragonClaw_15: 1490703610
+      DragonClaw_1: -166886383
+      DragonClaw_4: -1779554073
+      DragonClaw_6: -520034982
+      DragonClaw_7: -994163739
+      DragonClaw_20: 2021836506
+      DragonClaw_22: 1175566960
+      DragonClaw_3: -1576377524
+      DragonClaw_17: 1607358890
+      DragonClaw_2: -2118063573
+      DragonClaw_5: -1100445518
+      DragonClaw_24: 2087178303
+      DragonClaw_0: -463889950
+      DragonClaw_12: -788161033
+      DragonClaw_18: 554893606
+      DragonClaw_9: 842321824
+      DragonClaw_11: 579223012
+      DragonClaw_16: -1503774982
+      DragonClaw_21: -41854508
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

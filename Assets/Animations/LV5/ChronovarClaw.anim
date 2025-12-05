@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ChronovarIdle
+  m_Name: ChronovarClaw
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0

@@ -7,14 +7,12 @@ public class PlayerSuperclass : MonoBehaviour
 {
     // Movement Variables incl. jump and its relation w/ ground and speed
     private float currentSpeed;
-    private float currentSpeed;
     public float moveSpeed;
     public float jumpHeight;
     public KeyCode Spacebar = KeyCode.Space;
     public KeyCode L = KeyCode.A;
     public KeyCode R = KeyCode.D;
     public KeyCode RunKey = KeyCode.LeftShift;
-    public Transform groundCheck;// empty child positioned at the player's feet. Used to detect if the player is touching ground.
     public Transform groundCheck;// empty child positioned at the player's feet. Used to detect if the player is touching ground.
     public float groundCheckRadius;
     public LayerMask whatIsGround; //this variable stores what is considered a ground to the character,defines which physics layers count as ground.
@@ -27,11 +25,8 @@ public class PlayerSuperclass : MonoBehaviour
     public int health = 20;
     private int maxHealth = 20;
     private int normalAttackDamage = 5;
-    private int maxHealth = 20;
-    private int normalAttackDamage = 5;
     private float BoostDuration = 30f;
     private float BoostTime = 0f;
-    public int AttackDamage = 5;
     public int AttackDamage = 5;
 
     private float flickerTime = 0f;
@@ -89,7 +84,6 @@ public class PlayerSuperclass : MonoBehaviour
             rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
             rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
             //player character moves horizontally to the right along the x-axis without disrupting jump
-            if (sr != null)
             if (sr != null)
             {
                 sr.flipX = false;
@@ -186,9 +180,6 @@ public class PlayerSuperclass : MonoBehaviour
         }
         Debug.Log("Player Health:" + health.ToString());
     }
-
-    public void AttackBoost(int boostAmount)
-
     public void AttackBoost(int boostAmount)
     {
         if (!isBoosted)
@@ -207,16 +198,5 @@ public class PlayerSuperclass : MonoBehaviour
         AttackDamage = normalAttackDamage;
         Debug.Log("Permanent Attack Damage Upgrade: " + AttackDamage.ToString());
     }
-}
-        BoostTime = 0f;
-        Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
-    }
-
     // Permanent damage upgrade (doesn't expire)
-    public void SpecialBoost(int boostAmount)
-    {
-        normalAttackDamage += boostAmount;
-        AttackDamage = normalAttackDamage;
-        Debug.Log("Permanent Attack Damage Upgrade: " + AttackDamage.ToString());
-    }
 }

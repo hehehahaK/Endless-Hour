@@ -70,3 +70,12 @@ TagManager:
   - name: columns
     uniqueID: 3604664629
     locked: 0
+  - name: Fountain
+    uniqueID: 1820795941
+    locked: 0
+  - name: Wagon
+    uniqueID: 4157313477
+    locked: 0
+  - name: SheildSolider
+    uniqueID: 2960003879
+    locked: 0

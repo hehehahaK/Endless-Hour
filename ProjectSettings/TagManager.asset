@@ -6,6 +6,7 @@ TagManager:
   tags:
   - spikes
   - Wall
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -69,4 +70,7 @@ TagManager:
     locked: 0
   - name: columns
     uniqueID: 3604664629
+    locked: 0
+  - name: Platform
+    uniqueID: 219006721
     locked: 0

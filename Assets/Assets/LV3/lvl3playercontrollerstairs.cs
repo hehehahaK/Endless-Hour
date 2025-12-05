@@ -55,7 +55,7 @@ public class lvl3playercontrollerstairs : MonoBehaviour
         float currentMoveSpeed;
         if (Input.GetKey(RunKey))
         {
-            currentMoveSpeed = moveSpeed * 2f;
+            currentMoveSpeed = moveSpeed * 1f;
         }
         else
         {

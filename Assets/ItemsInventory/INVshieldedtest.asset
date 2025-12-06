@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dbcea8ef89b26046b57cdc1f9a69ac9, type: 3}
   m_Name: INVshieldedtest
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: shield
   stackable: 1
   image: {fileID: -737695483, guid: d02a2f194dbf4eb44bf5f2a5cdd60fcc, type: 3}

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dbcea8ef89b26046b57cdc1f9a69ac9, type: 3}
   m_Name: INVchildtest
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: child
   stackable: 1
   image: {fileID: 1790821665, guid: d148f751d45d39045b16d31867af3411, type: 3}

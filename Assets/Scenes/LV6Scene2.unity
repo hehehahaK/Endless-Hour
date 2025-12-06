@@ -429,7 +429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpHeight: 10
+  jumpHeight: 15
   Spacebar: 32
   L: 97
   R: 100
@@ -610,7 +610,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695650352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.173, y: 9.8481, z: 0}
+  m_LocalPosition: {x: 17.23, y: 9.79, z: 0}
   m_LocalScale: {x: 5.09, y: 4.3595047, z: 3.018868}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -711,6 +711,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1856225067}
   - component: {fileID: 1856225066}
+  - component: {fileID: 1856225069}
+  - component: {fileID: 1856225068}
   - component: {fileID: 1856225065}
   m_Layer: 0
   m_Name: Main Camera
@@ -785,3 +787,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1856225068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856225064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a4602a0945c862499e87894fb96b9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetZoom: 3
+  ZoomSpeed: 3
+--- !u!114 &1856225069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856225064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd071d724a1d5a4bb193f79684ef29f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 1424304152}
+  CameraSpeed: 5
+  minX: 0
+  maxX: 17.173
+  minY: 0
+  maxY: 9.8481

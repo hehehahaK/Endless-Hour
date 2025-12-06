@@ -24,7 +24,7 @@ public class lvl3playercontrollerstairs : MonoBehaviour
 
     // Health Variables
     public int health = 20;
-    private int maxHealth = 20;
+    public int maxHealth = 20;
     private int normalAttackDamage = 5;
     private float BoostDuration = 30f;
     private float BoostTime = 0f;

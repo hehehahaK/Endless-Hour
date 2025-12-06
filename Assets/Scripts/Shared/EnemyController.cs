@@ -4,7 +4,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public int maxHealth = 20;
-    public GameObject deathEffect;
+    //public GameObject deathEffect;
     private float currentHealth;
     public float moveSpeed = 3f;
 
@@ -13,8 +13,8 @@ public class EnemyController : MonoBehaviour
     public float detectionRange = 10f;
     public float attackRange = 2f;
     public float attackCooldown = 1f;
-    public GameObject attackEffect;
-    public Transform attackPoint;
+    //public GameObject attackEffect;
+    //public Transform attackPoint;
     private float nextAttackTime = 0f;
 
     public Transform player;
@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        weaponHitbox = transform.Find("WeaponHitbox").GetComponent<Collider2D>();
+        //weaponHitbox = transform.Find("WeaponHitbox").GetComponent<Collider2D>();
         if (weaponHitbox != null)
         {
             weaponHitbox.enabled = false;
@@ -80,10 +80,10 @@ public class EnemyController : MonoBehaviour
     public void Attack()
     {
         // slash/whatever weapon effect
-        if (attackEffect != null && attackPoint != null)
+        /*if (attackEffect != null && attackPoint != null)
         {
             Instantiate(attackEffect, attackPoint.position, attackPoint.rotation);
-        }
+        }*/
 
         // Make weapon hitbox active just for a bit so it doesnt keep hitting without attack
         if (weaponHitbox != null)
@@ -114,10 +114,10 @@ public class EnemyController : MonoBehaviour
     {
         isDead = true;
 
-        if (deathEffect != null)
-        {
-            Instantiate(deathEffect, transform.position, transform.rotation);
-        }
+        //if (deathEffect != null)
+        //{
+        //    Instantiate(deathEffect, transform.position, transform.rotation);
+        //}
 
         rb.velocity = Vector2.zero;
         Destroy(gameObject, 0.1f);

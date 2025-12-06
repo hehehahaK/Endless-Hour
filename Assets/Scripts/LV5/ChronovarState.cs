@@ -5,7 +5,6 @@ using UnityEngine;
 public abstract class ChronovarState : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Transform player;
     protected Chronovar chronovar;
     protected ChronovarStateMachine machine;
     public void Initialize(Chronovar chronovar, ChronovarStateMachine machine)

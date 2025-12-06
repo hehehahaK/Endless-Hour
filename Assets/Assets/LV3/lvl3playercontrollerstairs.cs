@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class lvl3playercontrollerstairs : MonoBehaviour
 {
@@ -16,14 +17,14 @@ public class lvl3playercontrollerstairs : MonoBehaviour
     public Transform groundCheck;// empty child positioned at the player's feet. Used to detect if the player is touching ground.
     public float groundCheckRadius;
     public LayerMask whatIsGround; //this variable stores what is considered a ground to the character,defines which physics layers count as ground.
-    protected bool grounded;
-    protected Animator anim; // ANIMATOR 
-    protected SpriteRenderer sr; //SpritRenderer for flickering effect
-    protected Rigidbody2D rb;
+    private bool grounded;
+    private Animator anim; // ANIMATOR 
+    private SpriteRenderer sr; //SpritRenderer for flickering effect
+    private Rigidbody2D rb;
 
     // Health Variables
     public int health = 20;
-    private int maxHealth = 20;
+    public int maxHealth = 20;
     private int normalAttackDamage = 5;
     private float BoostDuration = 30f;
     private float BoostTime = 0f;
@@ -49,16 +50,19 @@ public class lvl3playercontrollerstairs : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    public virtual void Update()
+    void Update()
     {
         /////////////new part is herererrereerer
         float currentMoveSpeed;
-        if (Input.GetKey(RunKey))
+        if (Input.GetKey(RunKey) && isOnStairs)
         {
             currentMoveSpeed = moveSpeed * 1f;
         }
-        else
+        else if (Input.GetKey(RunKey))
         {
+            currentMoveSpeed = moveSpeed * 2f;
+        }
+        else {
             currentMoveSpeed = moveSpeed;
         }
 
@@ -110,6 +114,8 @@ public class lvl3playercontrollerstairs : MonoBehaviour
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
+        if (Input.GetKeyDown(Spacebar) && grounded)
+            { Jump(); }
         
 
         if (isImmune == true)
@@ -143,7 +149,7 @@ public class lvl3playercontrollerstairs : MonoBehaviour
         //exactly the character is considered by Unity's engine to be standing on the ground. 
     }
 
-    protected void Jump()
+    void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
     }

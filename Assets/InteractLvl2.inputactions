@@ -1,0 +1,34 @@
+{
+    "name": "InteractLvl2",
+    "maps": [
+        {
+            "name": "MC",
+            "id": "79e2bb8c-1542-4793-b850-ac22d467b071",
+            "actions": [
+                {
+                    "name": "Interactt",
+                    "type": "Button",
+                    "id": "07a47580-5774-4d6f-af9e-b665cb44e58b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9c9f438c-2aa5-44e0-97e3-7be809c5a787",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interactt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

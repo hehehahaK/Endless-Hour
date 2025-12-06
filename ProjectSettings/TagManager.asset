@@ -41,11 +41,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: hiBackground
+    uniqueID: 2387131021
+    locked: 0
   - name: background
     uniqueID: 3379842301
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: spikes
+    uniqueID: 2568071757
     locked: 0
   - name: ground
     uniqueID: 1630746603
@@ -58,6 +64,9 @@ TagManager:
     locked: 0
   - name: torches
     uniqueID: 1102237851
+    locked: 0
+  - name: fountain
+    uniqueID: 878363861
     locked: 0
   - name: mcs
     uniqueID: 3834352817
@@ -73,4 +82,10 @@ TagManager:
     locked: 0
   - name: Platform
     uniqueID: 219006721
+    locked: 0
+  - name: soliders
+    uniqueID: 1316594175
+    locked: 0
+  - name: block
+    uniqueID: 2110175937
     locked: 0

@@ -17,6 +17,7 @@ public class Healthbar : MonoBehaviour
     public float currentFillAmount = 1f;
     private float targetFillAmount = 1f;
     public TextMeshProUGUI healthtxt;
+    public Gradient colorgradientwowowoow;
 
     PlayerSuperclass playerHealth;
 
@@ -27,6 +28,7 @@ public class Healthbar : MonoBehaviour
         this.targetFillAmount = initialRatio;
         this.currentFillAmount = initialRatio;
         
+        healthbarfill.color = colorgradientwowowoow.Evaluate(initialRatio);
         healthtxt.text = "Health: " + playerHealth.health.ToString();
     }
 
@@ -38,6 +40,10 @@ public class Healthbar : MonoBehaviour
         this.targetFillAmount = (float)playerHealth.health / playerHealth.maxHealth;
         }
        // lazemmm float bec represents ratio in unity, the drag scroll bar thingy 
+       // makontsh 3yza ast3ml DGTweening, lesa n3ml install 3nd kolo w instructions w bta3, lallala heya math lerp
+
+
+
        
     }
 
@@ -48,6 +54,9 @@ public class Healthbar : MonoBehaviour
     
     // 2. Apply the smoothed value to the UI image
     healthbarfill.fillAmount = currentFillAmount;
+
+
+    healthbarfill.color = colorgradientwowowoow.Evaluate(currentFillAmount);
 
     healthtxt.text = "Health: " + playerHealth.health.ToString();
     }

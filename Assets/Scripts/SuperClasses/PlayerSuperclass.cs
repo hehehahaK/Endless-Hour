@@ -22,8 +22,8 @@ public class PlayerSuperclass : MonoBehaviour
     private Rigidbody2D rb;
 
     // Health Variables
-    public float health = 20;
-    public float maxHealth = 20;
+    public float health = 100;
+    public float maxHealth = 100;
     public Healthbar healthBarUI;
     private int normalAttackDamage = 5;
     private float BoostDuration = 30f;
@@ -145,7 +145,7 @@ public class PlayerSuperclass : MonoBehaviour
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = maxHealth;
-                healthBarUI.currentFillAmount=1f;
+                healthBarUI.updateHealthBar();
                 
             }
             Debug.Log("Player Health:" + health.ToString());

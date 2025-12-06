@@ -7,7 +7,7 @@ public class woodenlogwithspikespawner : MonoBehaviour
     // Start is called before the first frame update
     public float moveSpeed = 8f; 
     public int moveDirection = -1;
-    public int damageAmount = 3;
+    public int damageAmount = 5;
     
     private Rigidbody2D rb;
     

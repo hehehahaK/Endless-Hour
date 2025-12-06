@@ -59,6 +59,12 @@ TagManager:
   - name: torches
     uniqueID: 1102237851
     locked: 0
+  - name: fountain
+    uniqueID: 878363861
+    locked: 0
+  - name: mcs
+    uniqueID: 3834352817
+    locked: 0
   - name: front shops
     uniqueID: 135852129
     locked: 0
@@ -70,4 +76,10 @@ TagManager:
     locked: 0
   - name: Platform
     uniqueID: 219006721
+    locked: 0
+  - name: soliders
+    uniqueID: 1316594175
+    locked: 0
+  - name: block
+    uniqueID: 2110175937
     locked: 0

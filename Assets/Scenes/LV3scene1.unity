@@ -618,8 +618,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93535151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 92.02, y: 9.52, z: 0}
-  m_LocalScale: {x: 1.2391, y: 1.0137, z: 1}
+  m_LocalPosition: {x: 93.42, y: 8.34, z: 0}
+  m_LocalScale: {x: 0.6007157, y: 0.5567241, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1371,8 +1371,8 @@ PolygonCollider2D:
     - - {x: 53.09752, y: -9.768144}
       - {x: 40.673527, y: -9.697327}
       - {x: 12.257664, y: -9.388131}
-      - {x: 0.7346916, y: -9.329824}
-      - {x: -2.0314026, y: -8.765293}
+      - {x: 0.52182007, y: -9.46287}
+      - {x: 1.587429, y: -9.643392}
       - {x: 3.9140673, y: -10.090557}
       - {x: 1.2689896, y: -9.68428}
       - {x: 0.88531494, y: -12.637039}
@@ -2291,8 +2291,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 219006721
-  m_SortingLayer: 9
+  m_SortingLayerID: -690302667
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 73479697, guid: e48e7997d9a6a3b43a5ac367a7ad3e4c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2418,8 +2418,8 @@ MonoBehaviour:
   isBoosted: 0
   immunityDuration: 1.5
   isOnStairs: 0
-  stairClimbBias: 2.8
-  stairSpeedMultiplier: 0.5
+  stairClimbBias: 4
+  stairSpeedMultiplier: 0.3
 --- !u!114 &338725182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6817,6 +6817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbarfill: {fileID: 1315706050}
   fillSpeed: 2
+  currentFillAmount: 1
   healthtxt: {fileID: 1155114170}
 --- !u!1 &1043319945
 GameObject:
@@ -9594,8 +9595,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401334637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96.1282, y: 9.4735, z: 0}
-  m_LocalScale: {x: 1.2993, y: 1.056, z: 1}
+  m_LocalPosition: {x: 97.0699, y: 8.2363, z: 0}
+  m_LocalScale: {x: 0.7485267, y: 0.60455996, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 65aa14d8ca0ee5241ac303ca8f14f563
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1071
+        width: 100
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89beeeefde62b1940b91c5aa713d2817
+      internalID: 832743290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1071
+        width: 103
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936e656e9d6bf7c468cee021d50f94a3
+      internalID: 210924255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1070
+        width: 112
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd21677f56dea64eaed68b1e7f91946
+      internalID: -172336082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_3
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1069
+        width: 127
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c995bd33d89774db39be5947b0e8b4
+      internalID: -2089073015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_4
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1068
+        width: 133
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5081af53b955ccd45a37b48ddf1b6196
+      internalID: 185330358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 801
+        width: 143
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5444ea4af942b143b011774ba507ca6
+      internalID: -269179281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 801
+        width: 198
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd88042534bd2c049917aab84077d337
+      internalID: 1655027830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_7
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 801
+        width: 225
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496251a07cb8c7742ba3c6154f25b716
+      internalID: -971180507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_8
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 801
+        width: 227
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f0dd84d0972854788dfcb8e0f33880
+      internalID: 806935306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_9
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 801
+        width: 245
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba738ca73de85d4bbaab072b372ae8f
+      internalID: 15517388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534
+        width: 255
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46c781a6d1500349b003032b56b992e
+      internalID: -517774247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_11
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 534
+        width: 257
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcfdfd2cb463bf4a84cd2591246c306
+      internalID: 1618557318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_12
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 534
+        width: 268
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1507fd2b7479b43a33e38e45527398
+      internalID: 2123036835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_13
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 534
+        width: 279
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d3226827a105642ab1f2bd0f6268eb
+      internalID: 802865889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_14
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 534
+        width: 279
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d0d75677c90d144bf017e90b6a8806
+      internalID: 1902706230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 267
+        width: 279
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31365a337632444794b56d2bb44c243
+      internalID: 2060195018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_16
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 267
+        width: 278
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da426b702da0e9246ac7ced5f49c9765
+      internalID: 2040238442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_17
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 267
+        width: 278
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1197e8ccffd24498099c08d2d7931d
+      internalID: -1454187101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_18
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 267
+        width: 279
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccc0f84f95b13a488410ec00ebab4f4
+      internalID: 292115542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_19
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 267
+        width: 280
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91bdb03794ac264c9aef8547537635c
+      internalID: -1049242578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 281
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1d816239a0af447b092981edadf730
+      internalID: 1852917239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_21
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 282
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913444b8648fada43ad46db9d517b4fa
+      internalID: 1084881129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_22
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 282
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d901bfcd52898b499b06ac9169bd241
+      internalID: -8226863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_23
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 0
+        width: 239
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18afcb5ea6a4b34aa946970e0de4f66
+      internalID: 371588286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Attack) x25_24
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 230
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76a1481971815d469462ad265cef77c
+      internalID: -2032349202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemySoldier(Attack) x25_23: 371588286
+      EnemySoldier(Attack) x25_4: 185330358
+      EnemySoldier(Attack) x25_0: 832743290
+      EnemySoldier(Attack) x25_22: -8226863
+      EnemySoldier(Attack) x25_2: -172336082
+      EnemySoldier(Attack) x25_7: -971180507
+      EnemySoldier(Attack) x25_24: -2032349202
+      EnemySoldier(Attack) x25_17: -1454187101
+      EnemySoldier(Attack) x25_9: 15517388
+      EnemySoldier(Attack) x25_14: 1902706230
+      EnemySoldier(Attack) x25_3: -2089073015
+      EnemySoldier(Attack) x25_16: 2040238442
+      EnemySoldier(Attack) x25_8: 806935306
+      EnemySoldier(Attack) x25_21: 1084881129
+      EnemySoldier(Attack) x25_6: 1655027830
+      EnemySoldier(Attack) x25_19: -1049242578
+      EnemySoldier(Attack) x25_20: 1852917239
+      EnemySoldier(Attack) x25_12: 2123036835
+      EnemySoldier(Attack) x25_18: 292115542
+      EnemySoldier(Attack) x25_10: -517774247
+      EnemySoldier(Attack) x25_11: 1618557318
+      EnemySoldier(Attack) x25_1: 210924255
+      EnemySoldier(Attack) x25_13: 802865889
+      EnemySoldier(Attack) x25_15: 2060195018
+      EnemySoldier(Attack) x25_5: -269179281
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

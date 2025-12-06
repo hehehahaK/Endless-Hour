@@ -22,8 +22,9 @@ public class PlayerSuperclass : MonoBehaviour
     private Rigidbody2D rb;
 
     // Health Variables
-    public int health = 20;
-    private int maxHealth = 20;
+    public float health = 20;
+    public float maxHealth = 20;
+    public Healthbar healthBarUI;
     private int normalAttackDamage = 5;
     private float BoostDuration = 30f;
     private float BoostTime = 0f;
@@ -136,10 +137,16 @@ public class PlayerSuperclass : MonoBehaviour
         if (!isImmune)
         {
             health -= damage;
+            health = Mathf.Clamp(health, 0f, maxHealth);
+            healthBarUI.updateHealthBar();
+            
+            
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = maxHealth;
+                healthBarUI.currentFillAmount=1f;
+                
             }
             Debug.Log("Player Health:" + health.ToString());
             isImmune = true;

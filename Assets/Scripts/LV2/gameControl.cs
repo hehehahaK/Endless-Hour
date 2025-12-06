@@ -1,3 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+public class GameControl : MonoBehaviour
 
 // // --- GameControl.cs (COMPLETE) ---
 // using UnityEngine;
@@ -54,15 +59,6 @@
 //     }
 // }
 
-
-
-
-
-// --- GameControl.cs (Complete Logic) ---
-using UnityEngine;
-using UnityEngine.UI; // Required for the Text component
-
-public class GameControl : MonoBehaviour
 {
     public static bool youWin = false; 
 

@@ -41,11 +41,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: hiBackground
+    uniqueID: 2387131021
+    locked: 0
   - name: background
     uniqueID: 3379842301
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: spikes
+    uniqueID: 2568071757
     locked: 0
   - name: ground
     uniqueID: 1630746603

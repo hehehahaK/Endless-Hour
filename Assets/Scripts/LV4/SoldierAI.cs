@@ -5,9 +5,10 @@ using UnityEngine;
 public class SoldierAI : MonoBehaviour
 {
     public Transform player;
+
     public float chaseSpeed = 3f;
-    public float stopDistance = 6f;   // Stop chasing when player is this far
-    public bool isActivated = false;  // Trigger activates this
+    public float attackDistance = 1.5f;  // When soldier starts attacking
+    public bool isActivated = false;
 
     private Animator anim;
 
@@ -22,32 +23,38 @@ public class SoldierAI : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        if (distance < stopDistance)
+        // If far from player → RUN
+        if (distance > attackDistance)
         {
             RunTowardsPlayer();
         }
         else
         {
-            StopRunning();
+            AttackPlayer();
         }
     }
 
     void RunTowardsPlayer()
     {
         anim.SetBool("isRunning", true);
+        anim.SetBool("isAttacking", false);
 
         Vector2 direction = (player.position - transform.position).normalized;
         transform.position += (Vector3) direction * chaseSpeed * Time.deltaTime;
 
-        // Flip sprite based on direction
+        // Flip sprite
         if (direction.x > 0)
             transform.localScale = new Vector3(1, 1, 1);
         else
             transform.localScale = new Vector3(-1, 1, 1);
     }
 
-    void StopRunning()
+    void AttackPlayer()
     {
         anim.SetBool("isRunning", false);
+        anim.SetBool("isAttacking", true);
+
+        // Optional: stop moving when attacking
+        // (No movement code here)
     }
 }

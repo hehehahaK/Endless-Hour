@@ -64,7 +64,7 @@ public class PlayerSuperclass : MonoBehaviour
 
         if (Input.GetKey(L))
         {
-            Debug.Log("going left"); // note to anyone, remove later on!!
+            //Debug.Log("going left"); // note to anyone, remove later on!!
             rb.velocity = new Vector2(-currentSpeed, rb.velocity.y);
             //player character moves horizontally to the left along the x-axis without disrupting jump
             if (sr != null)
@@ -73,7 +73,7 @@ public class PlayerSuperclass : MonoBehaviour
 
         if (Input.GetKey(R))
         {
-            Debug.Log("going right");
+            //Debug.Log("going right");
             rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
             //player character moves horizontally to the right along the x-axis without disrupting jump
             if (sr != null)

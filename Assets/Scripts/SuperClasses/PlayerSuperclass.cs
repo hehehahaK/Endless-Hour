@@ -185,5 +185,7 @@ public class PlayerSuperclass : MonoBehaviour
         normalAttackDamage += boostAmount;
         AttackDamage = normalAttackDamage;
         Debug.Log("Permanent Attack Damage Upgrade: " + AttackDamage.ToString());
+
     }
+    
 }

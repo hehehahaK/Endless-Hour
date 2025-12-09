@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5771553920851514250}
   - component: {fileID: 5771553920851514253}
+  - component: {fileID: -4660051723121846172}
+  - component: {fileID: -1364121895311020309}
   m_Layer: 0
   m_Name: heltposhunnn (1)
   m_TagString: Untagged
@@ -84,3 +86,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4660051723121846172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5771553920851514252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a16e72f3b96abe47b510a00b4aff16b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 63e9ed904fd952549a6ae58678f79a10, type: 2}
+  pickupKey: 101
+  pickupPromptUI: {fileID: 2364989286732750550, guid: e8dea39202dc6d04eaaa983e3e6b42a2, type: 3}
+--- !u!58 &-1364121895311020309
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5771553920851514252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 5.12

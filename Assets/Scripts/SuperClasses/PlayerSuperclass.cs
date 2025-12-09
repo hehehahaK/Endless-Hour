@@ -138,14 +138,14 @@ public class PlayerSuperclass : MonoBehaviour
         {
             health -= damage;
             health = Mathf.Clamp(health, 0f, maxHealth);
-            healthBarUI.updateHealthBar();
+           // healthBarUI.updateHealthBar();
             
             
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = maxHealth;
-                healthBarUI.updateHealthBar();
+             //   healthBarUI.updateHealthBar();
                 
             }
             Debug.Log("Player Health:" + health.ToString());

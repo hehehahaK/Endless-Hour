@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c0acc497502f9846a8594061f61c875
+guid: 9523f120925b1da41adc2f3f5796f270
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: settled running_0
+      name: runningher_0
       rect:
         serializedVersion: 2
-        x: 97
-        y: 1646
-        width: 281
-        height: 392
+        x: 0
+        y: 671.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59c42113fbd369040a6d5891c0972d06
-      internalID: 858877682
+      spriteID: 24c42ed8a2c3cbf4294262a9fca7fe05
+      internalID: -724826763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_1
+      name: runningher_1
       rect:
         serializedVersion: 2
-        x: 498
-        y: 1636
-        width: 265
-        height: 396
+        x: 171
+        y: 671.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fbd6714784d544428bcc3c6d8dff8ad
-      internalID: -757565301
+      spriteID: b845dec6e2507264291c194625dff27d
+      internalID: 746978017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_2
+      name: runningher_2
       rect:
         serializedVersion: 2
-        x: 892
-        y: 1636
-        width: 264
-        height: 392
+        x: 342
+        y: 671.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00328efd2e81af4a86337ab7ca590be
-      internalID: 916549068
+      spriteID: 171bdb82ffc59b140b1b58b947108538
+      internalID: -1262244842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_3
+      name: runningher_3
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 1643
-        width: 253
-        height: 382
+        x: 513
+        y: 671.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81445b8c4d0d1324098d15849ca24c59
-      internalID: 2108289973
+      spriteID: 48e3c595352d517428a3344d6de27581
+      internalID: -1895168973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_4
+      name: runningher_4
       rect:
         serializedVersion: 2
-        x: 1647
-        y: 1647
-        width: 265
-        height: 383
+        x: 684
+        y: 671.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1d5f9d8b00e01a478267b439537d633
-      internalID: 1353304515
+      spriteID: e8cbd1ea4e3d0524eb61cf89b30bcba9
+      internalID: 781449535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_5
+      name: runningher_5
       rect:
         serializedVersion: 2
-        x: 55
-        y: 1246
-        width: 322
-        height: 384
+        x: 0
+        y: 504.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb7196f830284e74fa1bb4d4fe6f80d0
-      internalID: -486496999
+      spriteID: 174609bbba09b32458829d70214c5c34
+      internalID: 2089169101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_6
+      name: runningher_6
       rect:
         serializedVersion: 2
-        x: 432
-        y: 1239
-        width: 333
-        height: 389
+        x: 171
+        y: 504.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66227acc54691ee429ed2e3984794b77
-      internalID: 1372706193
+      spriteID: a21f7be1692c0da47b130ebe5599d729
+      internalID: -563129182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_7
+      name: runningher_7
       rect:
         serializedVersion: 2
-        x: 786
-        y: 1239
-        width: 379
-        height: 375
+        x: 342
+        y: 504.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6bf2128e4765ee4f9bb56239abb40f7
-      internalID: -1047308178
+      spriteID: 5475efec9581cee479b093a05eecc871
+      internalID: 1533357382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_8
+      name: runningher_8
       rect:
         serializedVersion: 2
-        x: 1199
-        y: 1239
-        width: 366
-        height: 386
+        x: 513
+        y: 504.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 075b7a4b6b8f7604ba308b2ca3a91ed6
-      internalID: -1393238757
+      spriteID: a137bd0b57701084caf222411f2dda29
+      internalID: -1775903078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_9
+      name: runningher_9
       rect:
         serializedVersion: 2
-        x: 1617
-        y: 1237
-        width: 326
-        height: 393
+        x: 684
+        y: 504.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22f530a082b845449a2d0d5fa12ac15e
-      internalID: -1247000451
+      spriteID: e96b43a50be67e248bc7b050d6145891
+      internalID: 65467299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_10
+      name: runningher_10
       rect:
         serializedVersion: 2
-        x: 70
-        y: 821
-        width: 303
-        height: 385
+        x: 0
+        y: 337.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba1b64eb4b4c4a24091c8367a3573f7b
-      internalID: -413424327
+      spriteID: 5935d92690ab80340ae9a2558e88edb1
+      internalID: 1511075408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_11
+      name: runningher_11
       rect:
         serializedVersion: 2
-        x: 465
-        y: 823
-        width: 292
-        height: 383
+        x: 171
+        y: 337.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db1fb55aa2591f443bb216a8eae65d3d
-      internalID: 510318074
+      spriteID: 00bea98c4f307514e9af99d0f8c75c7c
+      internalID: -2056428739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_12
+      name: runningher_12
       rect:
         serializedVersion: 2
-        x: 838
-        y: 832
-        width: 293
-        height: 388
+        x: 342
+        y: 337.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c698a8c2ab16a844a2393c62f1d73fa
-      internalID: -1605787236
+      spriteID: 064649cfa77d23a4d8a6fdeace93e891
+      internalID: 939203519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_13
+      name: runningher_13
       rect:
         serializedVersion: 2
-        x: 1224
-        y: 841
-        width: 329
-        height: 381
+        x: 513
+        y: 337.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8735a67376181847bc9ae68b6f2a581
-      internalID: -887936151
+      spriteID: ff22eee43d5c5604bb3be32de48a4192
+      internalID: 1193350929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_14
+      name: runningher_14
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 829
-        width: 324
-        height: 382
+        x: 684
+        y: 337.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6751b5feaf6abb846be8bdfcd6b3a3ed
-      internalID: -549938697
+      spriteID: 9e0b7225c93720d40adb030ce3f33edb
+      internalID: -1368290385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_15
+      name: runningher_15
       rect:
         serializedVersion: 2
-        x: 2
-        y: 422
-        width: 338
-        height: 377
+        x: 0
+        y: 170.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b734e992403ae3448480422d7747d8c
-      internalID: 364271779
+      spriteID: c7388c4b28c61054a8e83ab5704a28f0
+      internalID: 1475568331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_16
+      name: runningher_16
       rect:
         serializedVersion: 2
-        x: 404
-        y: 418
-        width: 378
-        height: 387
+        x: 171
+        y: 170.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d534a3998e168649a16de608a511a50
-      internalID: -1747349058
+      spriteID: ea46bba7ce3cbf94b9c5f2fe8d9374fa
+      internalID: 1417436173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_17
+      name: runningher_17
       rect:
         serializedVersion: 2
-        x: 810
-        y: 426
-        width: 362
-        height: 385
+        x: 342
+        y: 170.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +476,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5d80c8ac19d39c41ba9415f22873b34
-      internalID: -933544839
+      spriteID: 7fa8b230e2ee1ad419ef9891dc543979
+      internalID: -1404965891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_18
+      name: runningher_18
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 416
-        width: 323
-        height: 397
+        x: 513
+        y: 170.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +497,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ae0ae23ca2284449bfb11cba760db3
-      internalID: -421228280
+      spriteID: f1f55514204acfa4f91a7ad807e8c4d5
+      internalID: -1052483926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_19
+      name: runningher_19
       rect:
         serializedVersion: 2
-        x: 1643
-        y: 414
-        width: 289
-        height: 385
+        x: 684
+        y: 170.2
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +518,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe89711a7bdd7a45ade8f3adc7d5ff2
-      internalID: -1822633233
+      spriteID: 265b6174fe19883418dfd0d2dc53bdb1
+      internalID: -1536842467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_20
+      name: runningher_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 15
-        width: 280
-        height: 383
+        x: 0
+        y: 3.199997
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,20 +539,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eb535c288d25ff4e9eee0c7a3e716ae
-      internalID: 450620810
+      spriteID: 9ddcbfb19bbd1f845bc1e2077caac1f5
+      internalID: 1331840802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_21
+      name: runningher_21
       rect:
         serializedVersion: 2
-        x: 440
-        y: 22
-        width: 336
-        height: 384
+        x: 171
+        y: 3.199997
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,20 +560,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b32c50a17c29f194ca85f844f79dceb7
-      internalID: -172596453
+      spriteID: 2d8fdb32b803b54409e2bacc0740495d
+      internalID: -1743090839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_22
+      name: runningher_22
       rect:
         serializedVersion: 2
-        x: 822
-        y: 15
-        width: 335
-        height: 389
+        x: 342
+        y: 3.199997
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +581,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 991007b7dfb9c224eb237a9a93efe75e
-      internalID: -1430142313
+      spriteID: 0374aa8e017df7445bedbe19f2da7d33
+      internalID: 1180200702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_23
+      name: runningher_23
       rect:
         serializedVersion: 2
-        x: 1182
-        y: 15
-        width: 375
-        height: 375
+        x: 513
+        y: 3.199997
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +602,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26ad46720b65b934fa091871c4033d01
-      internalID: -1081857467
+      spriteID: 7bfff2f8d93803e418ab487a481a1dff
+      internalID: -420021161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: settled running_24
+      name: runningher_24
       rect:
         serializedVersion: 2
-        x: 1597
-        y: 14
-        width: 360
-        height: 386
+        x: 684
+        y: 3.199997
+        width: 171
+        height: 167.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,8 +623,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8f166e79faf9004d965a595e03f6b12
-      internalID: -509781496
+      spriteID: fb7c3a0e85acf4342998b19cc1d7b01f
+      internalID: -1580251707
       vertices: []
       indices: 
       edges: []
@@ -640,31 +640,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      settled running_3: 2108289973
-      settled running_14: -549938697
-      settled running_18: -421228280
-      settled running_17: -933544839
-      settled running_20: 450620810
-      settled running_21: -172596453
-      settled running_5: -486496999
-      settled running_7: -1047308178
-      settled running_19: -1822633233
-      settled running_23: -1081857467
-      settled running_4: 1353304515
-      settled running_8: -1393238757
-      settled running_16: -1747349058
-      settled running_11: 510318074
-      settled running_24: -509781496
-      settled running_6: 1372706193
-      settled running_13: -887936151
-      settled running_9: -1247000451
-      settled running_0: 858877682
-      settled running_15: 364271779
-      settled running_1: -757565301
-      settled running_2: 916549068
-      settled running_10: -413424327
-      settled running_22: -1430142313
-      settled running_12: -1605787236
+      runningher_8: -1775903078
+      runningher_17: -1404965891
+      runningher_7: 1533357382
+      runningher_13: 1193350929
+      runningher_20: 1331840802
+      runningher_21: -1743090839
+      runningher_3: -1895168973
+      runningher_6: -563129182
+      runningher_14: -1368290385
+      runningher_15: 1475568331
+      runningher_18: -1052483926
+      runningher_23: -420021161
+      runningher_1: 746978017
+      runningher_11: -2056428739
+      runningher_12: 939203519
+      runningher_2: -1262244842
+      runningher_5: 2089169101
+      runningher_4: 781449535
+      runningher_0: -724826763
+      runningher_9: 65467299
+      runningher_19: -1536842467
+      runningher_16: 1417436173
+      runningher_10: 1511075408
+      runningher_22: 1180200702
+      runningher_24: -1580251707
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

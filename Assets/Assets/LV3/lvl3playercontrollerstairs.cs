@@ -40,7 +40,7 @@ public class lvl3playercontrollerstairs : MonoBehaviour
 
 //new variables
     public bool isOnStairs = false;
-    public float stairClimbBias = 0.3f;
+    public float stairClimbBias = 0.5f;
     public float stairSpeedMultiplier = 0.2f;
 
     void Start()
@@ -70,7 +70,7 @@ public class lvl3playercontrollerstairs : MonoBehaviour
 
         if (isOnStairs)
         {
-            currentMoveSpeed *= stairSpeedMultiplier;
+            currentMoveSpeed = moveSpeed;
 
             if (Input.GetKey(R)) 
             {
@@ -78,7 +78,7 @@ public class lvl3playercontrollerstairs : MonoBehaviour
             }
             else if (Input.GetKey(L)) 
             {
-                yVelocity = -stairClimbBias; // Going DOWN
+                yVelocity = -stairClimbBias; 
             }
             else
             {

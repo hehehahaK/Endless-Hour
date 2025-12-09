@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: dfeb70f7b63f123479a30561ac9085cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1740.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6aa453063e7bac4e8991f0a5940a09b
+      internalID: -285728378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1740.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77258b1af7043e543b8e87390dd88593
+      internalID: -1814072133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_2
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1740.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4150bf820eb1adf4ea889ecf32510e37
+      internalID: -1635945263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_3
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1740.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a16be9a5aae6b4d88adf5b045f95f3
+      internalID: -1279304540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_4
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1740.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f172efeebf40e4d48b0183e772a98f00
+      internalID: -1685183081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1305.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdd392023bf77c4fa34d3c82e113737
+      internalID: 450287072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_6
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1305.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6928d28df7a4947b9ef5a06476bb49
+      internalID: 530996795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_7
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1305.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf0bf4c62331424d92fa4647529da99
+      internalID: -2087673801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_8
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1305.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e172fa621dc0c24c9a77c8fc003b33b
+      internalID: 1837414856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_9
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1305.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587628d1eff72774b95a3bf619cec06f
+      internalID: 1595557657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b12456a90af85643bc30e8e7855843e
+      internalID: -659984046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_11
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 870.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3312d4b8e670da14e9fc5cd19e98cdcc
+      internalID: 576882070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_12
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 870.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1a94a4cc619c546a0d1035237f3f4a
+      internalID: -288752525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_13
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 870.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46199dc0d24e0cc44a5600e94fca3070
+      internalID: -1793592135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_14
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 870.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cf99955985a4142b8839ce8dd06da0
+      internalID: 1643992358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633e8f90386d9c340bc7437cac2d92a6
+      internalID: -1163239585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_16
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 435.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b8ca34c11bd5b49a8dce2da94bd355
+      internalID: 274867707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_17
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 435.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cade8e718084acc4a95db8d3402f2f47
+      internalID: 2128175010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_18
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 435.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcdbf9c90bba4240a5a1205455ada30
+      internalID: 534558215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_19
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 435.8
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24403aaf6012b924683df9f5ce9a1558
+      internalID: 1827974862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.7999878
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec41f967fc8f96a4396377f6125a484e
+      internalID: -535183137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_21
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0.7999878
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b07c3d66e8b0d14ba8bb8a8358c8b1e
+      internalID: 1343656141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_22
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0.7999878
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d06b64e31602f542b39493c36566dad
+      internalID: 1374410583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_23
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 0.7999878
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df28fc807b0fbf43843050bc23e8d6b
+      internalID: 1606725012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Dying Animation x25 (Updated_Inshallah)_24
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 0.7999878
+        width: 523.2
+        height: 435.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26228031002ba44f8ac69aa924b0c31
+      internalID: 884572460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_1: -1814072133
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_6: 530996795
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_2: -1635945263
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_9: 1595557657
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_10: -659984046
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_16: 274867707
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_3: -1279304540
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_20: -535183137
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_12: -288752525
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_15: -1163239585
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_13: -1793592135
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_18: 534558215
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_7: -2087673801
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_22: 1374410583
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_14: 1643992358
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_19: 1827974862
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_5: 450287072
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_17: 2128175010
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_21: 1343656141
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_23: 1606725012
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_8: 1837414856
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_4: -1685183081
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_0: -285728378
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_11: 576882070
+      Enemy Soldier Dying Animation x25 (Updated_Inshallah)_24: 884572460
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -51,7 +51,8 @@ public class JuliusController : MonoBehaviour
         }
         else
         {
-            yield return StartCoroutine(SummonSpells());
+            SpawnSpell();
+            yield return new WaitForSeconds(2f);
         }
     }
     //phase 1
@@ -73,7 +74,7 @@ while (timer<attackDuration)
     isAttacking=false;
 }
 // phase 2
-IEnumerator SummonSpells()
+/*IEnumerator SummonSpells()
 {
     float attackDuration=3f;
 float timeBetweenWheels=0.6f;
@@ -86,7 +87,7 @@ timer+=timeBetweenWheels;
 }
     Debug.Log("Spell Attack Finished!");
 }
-
+*/
 void SpawnSkull(){
 float minX=Mathf.Min(transform.position.x,player.position.x);
 float maxX=Mathf.Max(transform.position.x,player.position.x );

@@ -20,7 +20,9 @@ public class PlayerSuperclass : MonoBehaviour
     private Animator anim; // ANIMATOR 
     private SpriteRenderer sr; //SpritRenderer for flickering effect
     private Rigidbody2D rb;
-
+    private float speedBoostTime = 0f;
+    public float originalMoveSpeed=5f;
+    public float speedBoostDuration = 10f;
     // Health Variables
     public float health = 100;
     public float maxHealth = 100;
@@ -29,23 +31,42 @@ public class PlayerSuperclass : MonoBehaviour
     private float BoostDuration = 30f;
     private float BoostTime = 0f;
     public int AttackDamage = 5;
-
+    private bool speedBoosted = false;
     private float flickerTime = 0f;
     private float flickerDuration = 0.1f;
     public bool isImmune = false;
     public bool isBoosted = false;
     private float immunityTime = 0f;
     public float immunityDuration = 1.5f;
-
+    public float attackDuration = 0.3f; // How long the attack lasts
+    public bool isAttacking = false;
     void Start()
     {
+        moveSpeed = originalMoveSpeed;
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
     }
 
+    void Attack()
+    {
+        isAttacking = true;
+        anim.SetTrigger("Attack");
+        StartCoroutine(ResetAttack());
+    }
+    IEnumerator ResetAttack()
+    {
+        yield return new WaitForSeconds(attackDuration);
+        isAttacking = false;
+    }
+
     void Update()
     {
+        if (Input.GetMouseButtonDown(0) && !isAttacking)
+        {
+            Attack();
+        }
+
         if (Input.GetKey(RunKey))
         {
             currentSpeed = moveSpeed * 2f;
@@ -100,6 +121,16 @@ public class PlayerSuperclass : MonoBehaviour
                 isBoosted = false;
                 AttackDamage = normalAttackDamage;
             }
+
+        }
+        if (speedBoosted == true)
+        {
+            speedBoostTime += Time.deltaTime;
+            if (speedBoostTime >= speedBoostDuration)
+            {
+                speedBoosted = false;
+                moveSpeed = originalMoveSpeed;
+            }
         }
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("Height", rb.velocity.y);
@@ -138,15 +169,15 @@ public class PlayerSuperclass : MonoBehaviour
         {
             health -= damage;
             health = Mathf.Clamp(health, 0f, maxHealth);
-           // healthBarUI.updateHealthBar();
-            
-            
+             healthBarUI.updateHealthBar();
+
+
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = maxHealth;
-             //   healthBarUI.updateHealthBar();
-                
+                  healthBarUI.updateHealthBar();
+
             }
             Debug.Log("Player Health:" + health.ToString());
             isImmune = true;
@@ -180,6 +211,18 @@ public class PlayerSuperclass : MonoBehaviour
     }
 
     // Permanent damage upgrade (doesn't expire)
+    public void speedBoost(int boostAmount)
+    {
+        if (!speedBoosted)
+        {
+            moveSpeed += boostAmount;
+            speedBoosted = true;
+        }
+
+        Debug.Log("Permanent Speed Upgrade: " + moveSpeed.ToString());
+
+    }
+
     public void SpecialBoost(int boostAmount)
     {
         normalAttackDamage += boostAmount;

@@ -641,7 +641,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Atreuswalk6_10: -964120036
-      Atreuswalk6_21: -1100030719
+      Atreuswalk6_23: -1266555555
       Atreuswalk6_24: -2094489743
       Atreuswalk6_7: 2124921496
       Atreuswalk6_20: -1557693529
@@ -660,11 +660,11 @@ TextureImporter:
       Atreuswalk6_22: 806898887
       Atreuswalk6_12: 1359347003
       Atreuswalk6_6: 939611163
-      Atreuswalk6_11: -999945944
-      Atreuswalk6_23: -1266555555
       Atreuswalk6_9: 502264201
-      Atreuswalk6_0: -1124901666
       Atreuswalk6_3: -590965224
+      Atreuswalk6_0: -1124901666
+      Atreuswalk6_11: -999945944
+      Atreuswalk6_21: -1100030719
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

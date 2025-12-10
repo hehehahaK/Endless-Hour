@@ -5,21 +5,22 @@ using UnityEngine;
 public class NewEnemyController : MonoBehaviour
 {
     public int maxHealth = 20;
-    private int currentHealth;
-    private PlayerSuperclass playerController;
+    public int currentHealth;
+    public PlayerSuperclass playerController;
     public float moveSpeed = 3f;
     public float stoppingDistance = 1.5f;
     public float detectionRange = 10f;
     public float attackRange = 2f;
     public float attackCooldown = 1f;
     public bool isArcher;
-    private float nextAttackTime = 0f; // plz work
+    public float nextAttackTime = 0f; // plz work
     public Transform player;
-    private Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer;
-
-    private bool isDead = false;
+    public Rigidbody2D rb;
+    public SpriteRenderer spriteRenderer;
+    public bool isAttacking=true;
+    public bool isDead = false;
     public Animator anim;
+    public int attackDamage = 5;
     public virtual void Start()
     {
         anim = GetComponent<Animator>();
@@ -56,7 +57,7 @@ public class NewEnemyController : MonoBehaviour
         }
     }
 
-    private void FlipSprite()
+    public void FlipSprite()
     {
         if (spriteRenderer)
             spriteRenderer.flipX = player.position.x < transform.position.x;
@@ -70,6 +71,7 @@ public class NewEnemyController : MonoBehaviour
         }
         else
         {
+            isAttacking=true;
             MeleeAttack();
         }
     }
@@ -93,7 +95,7 @@ public class NewEnemyController : MonoBehaviour
             Die();
     }
 
-    private void Die()
+    public void Die()
     {
         isDead = true;
 
@@ -102,7 +104,7 @@ public class NewEnemyController : MonoBehaviour
         Destroy(gameObject, 0.1f);
     }
 
-    private void MoveTowardsPlayer(float distance)
+    public virtual void MoveTowardsPlayer(float distance)
     {
         if (distance > stoppingDistance)
         {

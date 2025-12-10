@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 3ab5c4d29f8766745b9efc0fb0551cd2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1682.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc4bbfe5ddf78843959c8392758f40f
+      internalID: 816281146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1682.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d43726df135414cb59c36fd8c6bc57
+      internalID: 166486541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1682.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b97b0b176a8d48b47ce58e24c755d
+      internalID: -400517527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_3
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1682.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2124f0499624c141b7aeac65daf77c8
+      internalID: 492303395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_4
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1682.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a499d8d24e51b7545b38f0bd26349fd0
+      internalID: -1426596995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1262.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00edb4ebb9079444fbfe0e4910e8de37
+      internalID: -1786403231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1262.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979d242fe521358499bc1219d53ff31c
+      internalID: 1698620979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1262.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b32babd60345e40b08cb46a75674ed
+      internalID: -418388775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_8
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1262.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af88ed8a3c474d46b2623a786d37be5
+      internalID: -2075585592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_9
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1262.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb66b2b5621516c46baedffd22758b92
+      internalID: -964752484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 842.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77420608b8567844acfa8c7a1115b50
+      internalID: 1966433455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 842.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7b4d5eee6845f43a0465f0d0b95ec0
+      internalID: 1603753435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 842.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4be854996a5994189d42afd11c5667
+      internalID: -903018465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_13
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 842.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7915ebc63e5858943a98ac5addc5707a
+      internalID: -2129199022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_14
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 842.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b2da24e2bda6941920375af894c33e
+      internalID: -1126657159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e78a3ab8c19194b989ba4dcf1d2727
+      internalID: 661554235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_16
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 422.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30656afd007af9f45954cfef668d2437
+      internalID: -702586640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 422.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e404fe57b80d00448aa750eb44f34186
+      internalID: -810534535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_18
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 422.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3621a76500e5c4c8e33367bdb283c5
+      internalID: 1713347856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 422.4
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb78ac632982354ba72a8023550e36c
+      internalID: 747238422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.399994
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdfbf920637d8e41aba7ffeda3e928b
+      internalID: -1873447978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2.399994
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5493566790db0454c9c3f652c757a2c7
+      internalID: -1274775016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_22
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2.399994
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ac067cdfbb4434fab4b52485714fe9
+      internalID: 1063402088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_23
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2.399994
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19de53e700f06304eada0f4ba9d1e0f6
+      internalID: 910140721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySoldier(Idle) x25 (Updated_Inshallah)_24
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2.399994
+        width: 234.8
+        height: 420.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c02cc70d0e0b954d917cc8e0c314015
+      internalID: 1103003751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_4: -1426596995
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_23: 910140721
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_8: -2075585592
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_6: 1698620979
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_21: -1274775016
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_20: -1873447978
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_0: 816281146
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_12: -903018465
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_14: -1126657159
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_18: 1713347856
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_16: -702586640
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_22: 1063402088
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_19: 747238422
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_10: 1966433455
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_11: 1603753435
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_7: -418388775
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_2: -400517527
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_9: -964752484
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_13: -2129199022
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_24: 1103003751
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_17: -810534535
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_1: 166486541
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_15: 661554235
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_5: -1786403231
+      EnemySoldier(Idle) x25 (Updated_Inshallah)_3: 492303395
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

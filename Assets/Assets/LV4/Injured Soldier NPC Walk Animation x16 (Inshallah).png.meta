@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 594baa4b299b6e94b884653caf73d450
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 62
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1347
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0411f7aa44b6de040ab0a328c83d23f0
+      internalID: 1563088904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1347
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536eeda7cca045449954f15e30a2880d
+      internalID: 257066691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1347
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31acdd0f6b0d5a47907e314d0fbc7d4
+      internalID: 217469467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1347
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc04858571b7984b802abff2f99f766
+      internalID: -715536648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 898
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e368d4acd44f1d44b312c48e2b4f91d
+      internalID: -31422392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 898
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aff84aecb7be54daa4c20965f1e642
+      internalID: 1413726102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_6
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 898
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad3296ac202ee54d94375abd7e6b237
+      internalID: 2113414460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_7
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 898
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a064b0a5a50176946aa386cdf4ebf013
+      internalID: -986790775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a3ccfd40c3fed4aabecda590c1403d
+      internalID: -28795543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_9
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 449
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933792a1b2a6eb149b3fc71db85c46fd
+      internalID: -279627512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 449
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f42085fa63bbca41bf78ccdaea458b0
+      internalID: 1793619298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_11
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 449
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9b9ae299d7bc42b55250d172b097c
+      internalID: -1092656979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78732d730b796a34c9dee2446d288add
+      internalID: -1262283775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_13
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b06db07da70f141b5e04e8e52f9b4d
+      internalID: 302485061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_14
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26efdb2257f13e44f8be620f19acffe3
+      internalID: -1682158771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC Walk Animation x16 (Inshallah)_15
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 0
+        width: 283.75
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e91129a7688da40a514794d480a491
+      internalID: 1348127750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_12: -1262283775
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_11: -1092656979
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_14: -1682158771
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_2: 217469467
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_5: 1413726102
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_7: -986790775
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_13: 302485061
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_8: -28795543
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_4: -31422392
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_6: 2113414460
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_0: 1563088904
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_9: -279627512
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_1: 257066691
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_15: 1348127750
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_10: 1793619298
+      Injured Soldier NPC Walk Animation x16 (Inshallah)_3: -715536648
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

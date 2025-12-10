@@ -7,6 +7,8 @@ TagManager:
   - spikes
   - Wall
   - Platform
+  - ground
+  - Skull
   layers:
   - Default
   - TransparentFX

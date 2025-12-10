@@ -3514,7 +3514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 481438194}
   chaseSpeed: 3
-  stopDistance: 6
+  attackDistance: 1.5
   isActivated: 0
 --- !u!1 &811813185
 GameObject:

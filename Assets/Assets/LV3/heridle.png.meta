@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: babc2b391302b2a4586cae3e2781120e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heridle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 669.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1d608e151dab64abeb3ded21809a9a
+      internalID: -1404380026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 669.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4b4954f1b9b654594d333f921c69f5
+      internalID: 1757466785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 670
+        width: 122
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdbaf09b00472145832341e59169a1b
+      internalID: 2125047015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 669.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a109485fe39adb42a22038090b42482
+      internalID: -1446581747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 669.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11152cceac1c9894e811d959b07db1eb
+      internalID: 1635316714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea45a3814f191444a7b1a0344787a73
+      internalID: -2054599422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 502.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bf57b7e2d11eb40a89ded50cefaf75
+      internalID: 147782047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 502.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9b9a0133b85454cacd0a0dd742eb3a
+      internalID: -718274460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_8
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 503
+        width: 122
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07d17e4ad3f1824fbad5a49b0545b9e
+      internalID: -814549319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 502.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d401a022c471ceb48bdb1438ea67beed
+      internalID: 551731755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7b5fd1092aa3d4f8e04cfd64a5d12f
+      internalID: 1279817750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 335.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091580be09c6bee4ebaff5d19ebc1a71
+      internalID: -1285578353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_12
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 335.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ab86562600c7d428b03c060b348ac2
+      internalID: -1451148629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_13
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 336
+        width: 122
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37410bdec3bd2404ba3df166f1502575
+      internalID: 1203324779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_14
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 335.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff5ad1e059a0e54ba4ad55252de6c9b
+      internalID: -1313619394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75fe3a6ed320a04fb5c71d2a6d80228
+      internalID: -996724165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 168.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51112beed2636bf408d86ab77b13751b
+      internalID: -462965717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_17
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 168.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2659f8cd571249b98ff46154573c8
+      internalID: -186153725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_18
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 168.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b33b6d14687c940be34d41c6b2f242
+      internalID: -1711757387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_19
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 168.6
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cbd8676037a1a47bec7d0f1e193f00
+      internalID: 2052379964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.6000061
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708f08d6949ac9d439e04d4d5bc7c242
+      internalID: 302877072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_21
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1.6000061
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b85dbbdd12be4d4293837d4b859dbc3
+      internalID: 64037207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_22
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1.6000061
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3f97117a6d5f64aab75064c019f892
+      internalID: -909485619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_23
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1.6000061
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3911f881a7a851849a37c0bbc62e7fcf
+      internalID: -2103787156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heridle_24
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1.6000061
+        width: 122.2
+        height: 167.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35491c39817ab2a4cabe134e557ad5fb
+      internalID: -1496416938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      heridle_4: 1635316714
+      heridle_14: -1313619394
+      heridle_11: -1285578353
+      heridle_19: 2052379964
+      heridle_21: 64037207
+      heridle_3: -1446581747
+      heridle_20: 302877072
+      heridle_13: 1203324779
+      heridle_17: -186153725
+      heridle_12: -1451148629
+      heridle_9: 551731755
+      heridle_2: 2125047015
+      heridle_16: -462965717
+      heridle_6: 147782047
+      heridle_1: 1757466785
+      heridle_10: 1279817750
+      heridle_8: -814549319
+      heridle_23: -2103787156
+      heridle_5: -2054599422
+      heridle_22: -909485619
+      heridle_18: -1711757387
+      heridle_24: -1496416938
+      heridle_0: -1404380026
+      heridle_15: -996724165
+      heridle_7: -718274460
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6005727743d860540b8ba56846de6f5e, type: 3}
+  m_Name: Injured Soldier NPC
+  m_EditorClassIdentifier: 
+  npcName: Injured Soldier
+  npcPortrait: {fileID: 1333767024, guid: 113de26f43811ef469472269e677e7b3, type: 3}
+  dialogueLines:
+  - hello there! how are you?
+  typingsSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: 0803e03ecfc1b6d409c6b03bc11141bb, type: 3}
+  voicePitch: 1

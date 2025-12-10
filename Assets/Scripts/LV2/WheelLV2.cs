@@ -8,23 +8,21 @@ public class WheelLV2 : MonoBehaviour
     public Transform player;
     public int damage = 1;
     private SpriteRenderer sr;
+public Rigidbody2D rb;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        rb=GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
+void FixedUpdate()
+{
+    if (player != null)
     {
-        if (player != null)
-        {
-            transform.position = Vector2.MoveTowards(
-                transform.position,
-                player.position,
-                moveSpeed * Time.deltaTime
-            );
-        }
+rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
     }
+}
 
     public void OnTriggerEnter2D(Collider2D other)
     {

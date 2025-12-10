@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: 9399fa6724e84674486a2f5a6f2c2620
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atreuswalkingher_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 671.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18cd0d722bb8384b9a840b6d130214d
+      internalID: -2114957015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 671.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dee9093e9c86f43a28804d8d4071e3
+      internalID: 930626547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 671.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564807b0b16afff4681243e22e0b8a43
+      internalID: -254993018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 671.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2083c988f7cc734bb3eef38ad321aa9
+      internalID: -1959323308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 671.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0b0dfac217c8542b6462c2ad87ba1c
+      internalID: -1625425514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6a431d1396cb846aa5cb9ed71bc05b
+      internalID: -1694200128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 504.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d87e012a658604088ddf5c45cf669d
+      internalID: 501291150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 504.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388189f472787124294ac8cfd9341101
+      internalID: -330042889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_8
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 504.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4105a5a7cf97a884da3137c660f5928e
+      internalID: 89809975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 504.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb42257f023a404da21c81316a2f7a2
+      internalID: 712324376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0928766eab3f64b8fb5a169746dc44
+      internalID: -1532528435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 337.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e3a2baba8afd548878c3eb2e2b42f4
+      internalID: -1308316678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 337.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025536890108b7a44b794c351ebb686c
+      internalID: 511949205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_13
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 337.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bb984904e85b748bfd2989fac6d3a3
+      internalID: 1623143942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_14
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 337.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0e50ca446c2544494eb2aa714d2e6f
+      internalID: 713017506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acd0ed180b47094d968c8eebe189858
+      internalID: 1213295341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 170.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099022d2773da8742bf310261629ebd3
+      internalID: 820882900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 170.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c8db43d254ef04eb8de1eb332ad3ee
+      internalID: 159228986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_18
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 170.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc9e05fb98f40d4da5af9844bafad12
+      internalID: 1294376741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_19
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 170.2
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aa61d1742a1ae46bba2ca226f3a7f8
+      internalID: 627047262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8bb3ac7e5785f47be9c60a454d55f5
+      internalID: 1927424028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3.199997
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c02db5c5c7040f4e8ee1d371cb3e930
+      internalID: -518429201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_22
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 3.199997
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9478bfb4724e884da835c02cc26cb2e
+      internalID: 1056409719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_23
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3.199997
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff0e08b16d4a794a8ce04c27b6e6b5a
+      internalID: 458355118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atreuswalkingher_24
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 3.199997
+        width: 147
+        height: 167.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78840bf785769c488b11c0141a9b41b
+      internalID: -113147900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      atreuswalkingher_12: 511949205
+      atreuswalkingher_23: 458355118
+      atreuswalkingher_19: 627047262
+      atreuswalkingher_5: -1694200128
+      atreuswalkingher_17: 159228986
+      atreuswalkingher_22: 1056409719
+      atreuswalkingher_20: 1927424028
+      atreuswalkingher_10: -1532528435
+      atreuswalkingher_21: -518429201
+      atreuswalkingher_3: -1959323308
+      atreuswalkingher_16: 820882900
+      atreuswalkingher_15: 1213295341
+      atreuswalkingher_7: -330042889
+      atreuswalkingher_24: -113147900
+      atreuswalkingher_11: -1308316678
+      atreuswalkingher_18: 1294376741
+      atreuswalkingher_13: 1623143942
+      atreuswalkingher_14: 713017506
+      atreuswalkingher_2: -254993018
+      atreuswalkingher_6: 501291150
+      atreuswalkingher_4: -1625425514
+      atreuswalkingher_1: 930626547
+      atreuswalkingher_8: 89809975
+      atreuswalkingher_0: -2114957015
+      atreuswalkingher_9: 712324376
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

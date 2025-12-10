@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 93c241f188a41a54e8f8b9c53e5defa7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 58
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1767.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed78d96cd3696914a99d9b7eedd0af1a
+      internalID: 604981951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1767.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e04fb2dac087e5409096d3e6f3f8843
+      internalID: -287051969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_2
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1767.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7742305a261370d4985052919b31cad2
+      internalID: -2063752299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_3
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1767.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da4eb366c90a9e47b6af14e3b3b2d90
+      internalID: -846026401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_4
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1767.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9456286c4d35ae149889789ebbee07b5
+      internalID: 112981679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1326.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf67cbde851b874ba2e3ef92709337b
+      internalID: 292466178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1326.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ba05185c9982d4c9dfc2c629e7ba04
+      internalID: -2121644623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1326.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330ee88eccea0894db80a5361594929d
+      internalID: -1560168981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_8
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1326.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd84bdefc5773e4488a338428628cd2
+      internalID: 1144644163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_9
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1326.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ca86a4297a74a41bcabb3a621abacf
+      internalID: 88054341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 885.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf53fd674a4e39f4c90f9120e0a038a0
+      internalID: 1207376489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 885.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8f26d1ad5956044bdebe96971a87aa
+      internalID: -699668065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_12
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 885.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28f7419b4bae7146b54b78e2b2a132d
+      internalID: -261363407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_13
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 885.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299f4662c5b2cb942979a7cd044eed85
+      internalID: 491034748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_14
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 885.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eef5c5d65888094fb37986e9001be9c
+      internalID: 1304372041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dbdce66acf1b04cbfbcc0f273270bd
+      internalID: 1623956798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_16
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 444.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7ad4546f3ba2847b353c7bde926c90
+      internalID: 484810100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_17
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 444.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1258c78bfd9d8b64d9b704676cc818eb
+      internalID: -830488403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_18
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 444.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ced1de09be2bc4590743c4b06aaa89
+      internalID: 881520169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_19
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 444.2
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e90b2498dce1f458018eec8a57e35e
+      internalID: -1526905044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.2000122
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd6ce7f1cd808647ae390adb8021b0c
+      internalID: 44770712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_21
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3.2000122
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e93b617fad6d2448de11404a4fef38
+      internalID: -1245689896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_22
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 3.2000122
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc138b12201185459519c6c211d72fe
+      internalID: 1219202731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_23
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 3.2000122
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e8a576326d6314e800500da17769ab
+      internalID: -371379246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Soldier Running Animation x25 (Updated_Inshallah)_24
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3.2000122
+        width: 420.6
+        height: 441.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9e63cc966f68745be1f797c623ef31
+      internalID: 1615230291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_8: 1144644163
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_18: 881520169
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_3: -846026401
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_7: -1560168981
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_19: -1526905044
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_17: -830488403
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_11: -699668065
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_20: 44770712
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_5: 292466178
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_16: 484810100
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_15: 1623956798
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_24: 1615230291
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_9: 88054341
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_14: 1304372041
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_4: 112981679
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_23: -371379246
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_2: -2063752299
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_13: 491034748
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_22: 1219202731
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_21: -1245689896
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_1: -287051969
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_10: 1207376489
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_0: 604981951
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_12: -261363407
+      Enemy Soldier Running Animation x25 (Updated_Inshallah)_6: -2121644623
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

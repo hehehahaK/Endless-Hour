@@ -24,7 +24,7 @@ public class EnemyController : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        
         //weaponHitbox = transform.Find("WeaponHitbox").GetComponent<Collider2D>();
         if (weaponHitbox != null)
         {

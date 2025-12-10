@@ -21,7 +21,7 @@ public class PlayerSuperclass : MonoBehaviour
     private SpriteRenderer sr; //SpritRenderer for flickering effect
     private Rigidbody2D rb;
     private float speedBoostTime = 0f;
-    public float originalMoveSpeed=5f;
+    public float originalMoveSpeed = 5f;
     public float speedBoostDuration = 10f;
     // Health Variables
     public float health = 100;
@@ -169,14 +169,14 @@ public class PlayerSuperclass : MonoBehaviour
         {
             health -= damage;
             health = Mathf.Clamp(health, 0f, maxHealth);
-             healthBarUI.updateHealthBar();
+            //   healthBarUI.updateHealthBar();
 
 
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = maxHealth;
-                  healthBarUI.updateHealthBar();
+                //                  healthBarUI.updateHealthBar();
 
             }
             Debug.Log("Player Health:" + health.ToString());
@@ -230,5 +230,5 @@ public class PlayerSuperclass : MonoBehaviour
         Debug.Log("Permanent Attack Damage Upgrade: " + AttackDamage.ToString());
 
     }
-    
+
 }

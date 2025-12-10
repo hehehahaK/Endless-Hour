@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewEnemyController : MonoBehaviour
 {
     public int maxHealth = 20;
-    public int currentHealth;
+    public int currentHealth = 20;
     public PlayerSuperclass playerController;
     public float moveSpeed = 3f;
     public float stoppingDistance = 1.5f;
@@ -17,10 +17,19 @@ public class NewEnemyController : MonoBehaviour
     public Transform player;
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
-    public bool isAttacking=true;
+    public bool isAttacking = true;
     public bool isDead = false;
     public Animator anim;
     public int attackDamage = 5;
+    protected bool hasRecentlyTakenDamage = false;
+    public float damageIntakeCooldown = 0.3f; // player can only hit every 0.3s
+    protected IEnumerator DamageIntakeCooldown() // dh cooldown l damage el enemy so that bro doesnt die in one sec
+    {
+        hasRecentlyTakenDamage = true;
+        yield return new WaitForSeconds(damageIntakeCooldown);
+        hasRecentlyTakenDamage = false;
+    }
+
     public virtual void Start()
     {
         anim = GetComponent<Animator>();
@@ -38,7 +47,7 @@ public class NewEnemyController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    void Update()
+    public void Update()
     {
         if (isDead) return;
 
@@ -57,7 +66,7 @@ public class NewEnemyController : MonoBehaviour
         }
     }
 
-    public void FlipSprite()
+    public virtual void FlipSprite()
     {
         if (spriteRenderer)
             spriteRenderer.flipX = player.position.x < transform.position.x;
@@ -71,7 +80,7 @@ public class NewEnemyController : MonoBehaviour
         }
         else
         {
-            isAttacking=true;
+            isAttacking = true;
             MeleeAttack();
         }
     }
@@ -116,16 +125,19 @@ public class NewEnemyController : MonoBehaviour
             rb.velocity = Vector2.zero;
         }
     }
-    public virtual void OnCollisionEnter2D(Collision2D collision)
+    public virtual void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (!collision.gameObject.CompareTag("Player")) return;
+
+        //player dmg enemy
+        if (playerController.isAttacking && !hasRecentlyTakenDamage)
         {
-            if (playerController.isAttacking)
-            {
-                TakeDamage(playerController.AttackDamage); // takes damage from player attack, should also do damage if they're attacking
-         }
-         
+            TakeDamage(playerController.AttackDamage);
+            StartCoroutine(DamageIntakeCooldown());
         }
+
+
     }
+
 }
 

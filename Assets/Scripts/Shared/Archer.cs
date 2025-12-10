@@ -13,6 +13,11 @@ public class Archer : NewEnemyController
         isArcher = true;
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+base.Update();
+    }
     public override void RangeAttack()
     {
 

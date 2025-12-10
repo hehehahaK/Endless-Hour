@@ -26,7 +26,7 @@ public class arrow : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerSuperclass>().TakeDamage(damage);
+        other.GetComponent<PlayerSuperclass>().TakeDamage(damage);
         Destroy(gameObject);
         }
     }

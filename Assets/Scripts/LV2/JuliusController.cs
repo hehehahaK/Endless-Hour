@@ -10,7 +10,10 @@ public class JuliusController : MonoBehaviour
     public int maxHealth = 100;
     //public GameObject deathEffect;
     public float currentHealth;
+    public int phase = 1;
     public float moveSpeed = 4f;
+    public bool hasRecentlyTakenDamage = false;
+    public float damageIntakeCooldown = 0.3f; // player can only hit every 0.3s
     public float attackCooldown = 10f;
     //public GameObject attackEffect;
     //public Transform attackPoint;
@@ -31,40 +34,48 @@ public class JuliusController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         playerController = player.GetComponent<PlayerSuperclass>();
+        rb = GetComponent<Rigidbody2D>();
+        StartCoroutine(AttackLoop());
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (currentHealth == 0) isDead = true;
-        if (!isAttacking)
-        {
-
-            StartCoroutine(DoAttacks());
-        }
-        if (isDead)
+        if (currentHealth == 0)
         {
             Die();
+            return;
+        }
+        if (currentHealth <= AttackThreshold * maxHealth)
+        {
+            phase = 2;
         }
 
     }
-    IEnumerator DoAttacks()
+    IEnumerator AttackLoop()
     {
-        isAttacking = true;
-        if (currentHealth > AttackThreshold * maxHealth)
+        while (!isDead)
         {
-            yield return StartCoroutine(SummonSkulls());
-        }
-        else
-        {
-            SpawnSpell();
-            yield return new WaitForSeconds(2f);
+            // Update phase
+            if (currentHealth <= AttackThreshold * maxHealth)
+                phase = 2;
+
+            if (phase == 1)
+                yield return StartCoroutine(SummonSkulls());
+            else
+                yield return StartCoroutine(SummonSpells());
+
+            // Optional: small delay between attack cycles
+            yield return new WaitForSeconds(0.5f);
         }
     }
+
+
     //phase 1
     IEnumerator SummonSkulls()
     {
-        Debug.Log("Start Skull Attack!");
+        //Debug.Log("Start Skull Attack!");
 
         float attackDuration = 3f;
         float timeBetweenSkulls = 0.6f;
@@ -76,24 +87,32 @@ public class JuliusController : MonoBehaviour
             yield return new WaitForSeconds(timeBetweenSkulls);
             timer += timeBetweenSkulls;
         }
-        Debug.Log("Skull Attack Finished!");
+       // Debug.Log("Skull Attack Finished!");
         isAttacking = false;
     }
-    // phase 2
-    /*IEnumerator SummonSpells()
+
+    IEnumerator SummonSpells()
     {
-        float attackDuration=3f;
-    float timeBetweenWheels=0.6f;
-    float timer=0f;
-        Debug.Log("Start Spell Attack!");
-    while (timer<attackDuration){
-        SpawnSpell();
-        yield return new WaitForSeconds(timeBetweenWheels);
-    timer+=timeBetweenWheels;
+        float attackDuration = 7f;
+        float timeBetweenWheels = 2.5f;
+        float timer = 0f;
+        //Debug.Log("Start Spell Attack!");
+        while (timer < attackDuration)
+        {
+            SpawnSpell();
+            yield return new WaitForSeconds(timeBetweenWheels);
+            timer += timeBetweenWheels;
+        }
+       // Debug.Log("Spell Attack Finished!");
     }
-        Debug.Log("Spell Attack Finished!");
+
+    protected IEnumerator DamageIntakeCooldown() // dh cooldown l damage el enemy so that bro doesnt die in one sec
+    {
+        hasRecentlyTakenDamage = true;
+        yield return new WaitForSeconds(damageIntakeCooldown);
+        hasRecentlyTakenDamage = false;
     }
-    */
+
     void SpawnSkull()
     {
         float minX = Mathf.Min(transform.position.x, player.position.x);
@@ -138,17 +157,18 @@ public class JuliusController : MonoBehaviour
         GameObject wheel = Instantiate(spellProjectilePrefab, spawnPos, Quaternion.Euler(0f, 0f, 0f));
         wheel.GetComponent<WheelLV2>().player = player;
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            if (playerController.isAttacking)
-            {
-                TakeDamage(playerController.AttackDamage); // takes damage from player attack, should also do damage if they're attacking
-            }
+        if (!collision.gameObject.CompareTag("Player")) return;
 
+        //player dmg enemy
+        if (playerController.isAttacking && !hasRecentlyTakenDamage)
+        {
+            TakeDamage(playerController.AttackDamage);
+            StartCoroutine(DamageIntakeCooldown());
         }
     }
+
     public void TakeDamage(int damage)
     {
 

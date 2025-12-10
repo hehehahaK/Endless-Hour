@@ -179,13 +179,13 @@ public class PlayerSuperclass : MonoBehaviour
                 //                  healthBarUI.updateHealthBar();
 
             }
-            Debug.Log("Player Health:" + health.ToString());
+       //     Debug.Log("Player Health:" + health.ToString());
             isImmune = true;
             immunityTime = 0f;
         }
         else
         {
-            Debug.Log("Player took no damage.");
+         //   Debug.Log("Player took no damage.");
         }
     }
 
@@ -196,7 +196,7 @@ public class PlayerSuperclass : MonoBehaviour
         {
             health = maxHealth;
         }
-        Debug.Log("Player Health:" + health.ToString());
+        //Debug.Log("Player Health:" + health.ToString());
     }
 
     public void AttackBoost(int boostAmount)
@@ -207,7 +207,7 @@ public class PlayerSuperclass : MonoBehaviour
             isBoosted = true;
         }
         BoostTime = 0f;
-        Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
+       // Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
     }
 
     // Permanent damage upgrade (doesn't expire)
@@ -219,7 +219,7 @@ public class PlayerSuperclass : MonoBehaviour
             speedBoosted = true;
         }
 
-        Debug.Log("Permanent Speed Upgrade: " + moveSpeed.ToString());
+        Debug.Log("Speed Upgrade: " + moveSpeed.ToString());
 
     }
 

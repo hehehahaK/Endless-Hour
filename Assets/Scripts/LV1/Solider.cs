@@ -81,6 +81,7 @@ public class Solider : NewEnemyController
             playerController.TakeDamage(attackDamage);
         }
         isAttacking = false;
+
     }
 
 }

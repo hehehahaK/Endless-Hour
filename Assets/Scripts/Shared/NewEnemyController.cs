@@ -17,7 +17,7 @@ public class NewEnemyController : MonoBehaviour
     public Transform player;
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
-    public bool isAttacking = true;
+    public bool isAttacking = false;
     public bool isDead = false;
     public Animator anim;
     public int attackDamage = 5;

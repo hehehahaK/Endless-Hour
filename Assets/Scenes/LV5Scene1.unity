@@ -2869,7 +2869,7 @@ SpriteRenderer:
   m_SortingLayerID: -1178621431
   m_SortingLayer: 9
   m_SortingOrder: 0
-  m_Sprite: {fileID: -109883900, guid: 9ef4d3650ba50be49929ad06d40f8b47, type: 3}
+  m_Sprite: {fileID: 36866566, guid: 4c93908b053f12444ae8bcbae306c141, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2888,9 +2888,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264238289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.2892, y: -5.66, z: 0}
-  m_LocalScale: {x: 0.5869, y: 0.7443897, z: 0.27940765}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 90.68, y: -5.98, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -3999,7 +3999,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.25, y: 2.85}
+    oldSize: {x: 6.5625, y: 3.5625}
     newSize: {x: 5.25, y: 2.85}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4015,7 +4015,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872829662}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fd3701418961dd4bab775881f7ea300, type: 3}
   m_Name: 
@@ -4027,9 +4027,16 @@ MonoBehaviour:
   attackDamage: 10
   shortRange: 3
   midRange: 6
+  flyHeight: 3
+  isDead: 0
+  isAttacking: 0
+  hasRecentlyTakenDamage: 0
+  damageIntakeCooldown: 0.3
+  spriteRenderer: {fileID: 0}
   anim: {fileID: 0}
   rb: {fileID: 0}
   stateMachine: {fileID: 0}
+  isFlying: 0
   player: {fileID: 0}
   phase2Threshold: 0.6
   phase3Threshold: 0.35
@@ -4041,7 +4048,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872829662}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c77639462685462439b7c4aad05a9e14, type: 3}
   m_Name: 
@@ -4053,11 +4060,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872829662}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 274405475765aaa4faffbf25191072e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NumberOfAttacks: 2
 --- !u!114 &1872829668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4065,7 +4073,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872829662}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 817a1a73e871a0144b08702767f141f4, type: 3}
   m_Name: 
@@ -4078,7 +4086,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872829662}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 725b88282b2eca64da97ce73fb360b77, type: 3}
   m_Name: 
@@ -4087,6 +4095,7 @@ MonoBehaviour:
   phase1State: {fileID: 1872829668}
   phase2State: {fileID: 1872829667}
   phase3State: {fileID: 1872829666}
+  phase: 1
 --- !u!95 &1872829670
 Animator:
   serializedVersion: 4
@@ -4497,7 +4506,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
-  originalMoveSpeed: 0
+  originalMoveSpeed: 5
   speedBoostDuration: 10
   health: 20
   maxHealth: 100
@@ -4779,6 +4788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274405475765aaa4faffbf25191072e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NumberOfAttacks: 2
 --- !u!114 &6558824113918341076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4810,11 +4820,18 @@ MonoBehaviour:
   attackDamage: 10
   shortRange: 3
   midRange: 6
+  flyHeight: 3
+  isDead: 0
+  isAttacking: 0
+  hasRecentlyTakenDamage: 0
+  damageIntakeCooldown: 0.3
+  spriteRenderer: {fileID: 0}
   anim: {fileID: 0}
   rb: {fileID: 0}
   stateMachine: {fileID: 0}
-  player: {fileID: 0}
-  phase2Threshold: 0.6
+  isFlying: 0
+  player: {fileID: 2032109927}
+  phase2Threshold: 1.1
   phase3Threshold: 0.35
   isEnraged: 0
 --- !u!114 &6558824113918341078
@@ -4833,6 +4850,7 @@ MonoBehaviour:
   phase1State: {fileID: 2867184200841287245}
   phase2State: {fileID: 4560076179941383230}
   phase3State: {fileID: 6558824113918341076}
+  phase: 1
 --- !u!50 &6558824113918341079
 Rigidbody2D:
   serializedVersion: 4
@@ -4853,7 +4871,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &6558824113918341080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4871,7 +4889,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.25, y: 2.85}
+    oldSize: {x: 6.225, y: 3.35}
     newSize: {x: 5.25, y: 2.85}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

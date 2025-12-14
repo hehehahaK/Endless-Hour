@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WheelLV2 : MonoBehaviour
+public class arrow : MonoBehaviour
 {
     public float moveSpeed = 3f;
     public Transform player;
@@ -14,10 +14,7 @@ public class WheelLV2 : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
-        StartCoroutine(SelfDestructAfterTime(2f));
-
     }
-
     void FixedUpdate()
     {
         if (player != null)
@@ -25,23 +22,18 @@ public class WheelLV2 : MonoBehaviour
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
         }
     }
-
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerSuperclass>().TakeDamage(damage);
-        }
-
-        if (other.CompareTag("Wall"))
-        {
-            // Destroy the wheel when it hits a wall, depreciated
-            Destroy(gameObject);
+        other.GetComponent<PlayerSuperclass>().TakeDamage(damage);
+        Destroy(gameObject);
         }
     }
-    private IEnumerator SelfDestructAfterTime(float seconds)
+
+    // Update is called once per frame
+    void Update()
     {
-        yield return new WaitForSeconds(seconds);
-        Destroy(gameObject);
+
     }
 }

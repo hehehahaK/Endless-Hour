@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class soliderstrig: MonoBehaviour
 {
-    public sheildsoliders soliders;
+/*    public sheildsoliders soliders;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -14,5 +14,5 @@ public class soliderstrig: MonoBehaviour
         {
             soliders.isActivated = true;
         }
-    }
+    }*/
 }

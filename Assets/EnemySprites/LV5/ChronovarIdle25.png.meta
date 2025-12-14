@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,10 +120,10 @@ TextureImporter:
       name: ChronovarIdle25_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1085
-        width: 460
-        height: 245
+        x: 0
+        y: 1072
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: ChronovarIdle25_1
       rect:
         serializedVersion: 2
-        x: 516
-        y: 1085
-        width: 463
-        height: 245
+        x: 498
+        y: 1072
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: ChronovarIdle25_2
       rect:
         serializedVersion: 2
-        x: 1012
-        y: 1084
-        width: 468
-        height: 245
+        x: 996
+        y: 1072
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: ChronovarIdle25_3
       rect:
         serializedVersion: 2
-        x: 1507
-        y: 1084
-        width: 476
-        height: 244
+        x: 1494
+        y: 1072
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: ChronovarIdle25_4
       rect:
         serializedVersion: 2
-        x: 2004
-        y: 1084
-        width: 479
-        height: 243
+        x: 1992
+        y: 1072
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: ChronovarIdle25_5
       rect:
         serializedVersion: 2
-        x: 10
-        y: 816
-        width: 483
-        height: 243
+        x: 0
+        y: 804
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: ChronovarIdle25_6
       rect:
         serializedVersion: 2
-        x: 508
-        y: 816
-        width: 484
-        height: 242
+        x: 498
+        y: 804
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: ChronovarIdle25_7
       rect:
         serializedVersion: 2
-        x: 1006
-        y: 816
-        width: 486
-        height: 242
+        x: 996
+        y: 804
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: ChronovarIdle25_8
       rect:
         serializedVersion: 2
-        x: 1503
-        y: 815
-        width: 487
-        height: 242
+        x: 1494
+        y: 804
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: ChronovarIdle25_9
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 814
-        width: 479
-        height: 243
+        x: 1992
+        y: 804
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: ChronovarIdle25_10
       rect:
         serializedVersion: 2
-        x: 10
-        y: 546
-        width: 484
-        height: 243
+        x: 0
+        y: 536
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: ChronovarIdle25_11
       rect:
         serializedVersion: 2
-        x: 508
-        y: 545
-        width: 482
-        height: 244
+        x: 498
+        y: 536
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: ChronovarIdle25_12
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 545
-        width: 473
-        height: 244
+        x: 996
+        y: 536
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: ChronovarIdle25_13
       rect:
         serializedVersion: 2
-        x: 1509
-        y: 544
-        width: 471
-        height: 246
+        x: 1494
+        y: 536
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: ChronovarIdle25_14
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 543
-        width: 465
-        height: 247
+        x: 1992
+        y: 536
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
       name: ChronovarIdle25_15
       rect:
         serializedVersion: 2
-        x: 20
-        y: 275
-        width: 458
-        height: 247
+        x: 0
+        y: 268
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: ChronovarIdle25_16
       rect:
         serializedVersion: 2
-        x: 523
-        y: 273
-        width: 446
-        height: 251
+        x: 498
+        y: 268
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: ChronovarIdle25_17
       rect:
         serializedVersion: 2
-        x: 1021
-        y: 273
-        width: 445
-        height: 251
+        x: 996
+        y: 268
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: ChronovarIdle25_18
       rect:
         serializedVersion: 2
-        x: 1523
-        y: 272
-        width: 440
-        height: 253
+        x: 1494
+        y: 268
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: ChronovarIdle25_19
       rect:
         serializedVersion: 2
-        x: 2021
-        y: 271
-        width: 441
-        height: 255
+        x: 1992
+        y: 268
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: ChronovarIdle25_20
       rect:
         serializedVersion: 2
-        x: 30
-        y: 3
-        width: 441
-        height: 255
+        x: 0
+        y: 0
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,10 +561,10 @@ TextureImporter:
       name: ChronovarIdle25_21
       rect:
         serializedVersion: 2
-        x: 526
-        y: 2
-        width: 444
-        height: 257
+        x: 498
+        y: 0
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: ChronovarIdle25_22
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 2
-        width: 447
-        height: 257
+        x: 996
+        y: 0
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: ChronovarIdle25_23
       rect:
         serializedVersion: 2
-        x: 1519
-        y: 2
-        width: 451
-        height: 258
+        x: 1494
+        y: 0
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: ChronovarIdle25_24
       rect:
         serializedVersion: 2
-        x: 2014
-        y: 2
-        width: 456
-        height: 259
+        x: 1992
+        y: 0
+        width: 498
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

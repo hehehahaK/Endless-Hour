@@ -8,7 +8,7 @@ public class ChronovarStateMachine : MonoBehaviour
     public ChronovarPhase1 phase1State;
     public ChronovarPhase2 phase2State;
     public ChronovarPhase3 phase3State;
-
+    public int phase= 1;
     public void ChangeState(ChronovarState newState)
     {
         if (activeState != null)

@@ -15,8 +15,8 @@ public class ChronovarPhase1 : ChronovarState
     }
     public override void UpdateState()
     {
-        chronovar.MoveTowardsPlayer();
-
+        chronovar.GroundMove();
+        
         HandleAttackLogic();
     }
     void Start()

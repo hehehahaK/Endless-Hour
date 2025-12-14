@@ -45,9 +45,7 @@ public class SandEnemy : MonoBehaviour
     {
         if (currentPoint.position.x < transform.position.x)
         {
-            Vector3 localScale = transform.localScale;
-            localScale.x = -1f * Mathf.Abs(localScale.x);
-            transform.localScale = localScale;
+             
         }
         else
         {

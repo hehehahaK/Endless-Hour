@@ -732,8 +732,12 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1726895539
       objectReference: {fileID: 0}
+    - target: {fileID: 5279871146672804042, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 5279871146672804043, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
 --- !u!1 &93805199 stripped
 GameObject:
@@ -1030,8 +1034,12 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1726895539
       objectReference: {fileID: 0}
+    - target: {fileID: 5279871146672804042, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 5279871146672804043, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
 --- !u!1 &194500656
 GameObject:
@@ -1328,8 +1336,12 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1726895539
       objectReference: {fileID: 0}
+    - target: {fileID: 5279871146672804042, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 5279871146672804043, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
 --- !u!1 &270425824
 GameObject:
@@ -9028,8 +9040,11 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1726895539
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5279871146672804043, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+    - target: {fileID: 5279871146672804042, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
 --- !u!1 &667740691
 GameObject:
@@ -10948,8 +10963,12 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1726895539
       objectReference: {fileID: 0}
+    - target: {fileID: 5279871146672804042, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 5279871146672804043, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
 --- !u!1 &933547051
 GameObject:
@@ -12355,6 +12374,7 @@ GameObject:
   - component: {fileID: 1136842487}
   - component: {fileID: 1136842485}
   - component: {fileID: 1136842490}
+  - component: {fileID: 1136842491}
   m_Layer: 0
   m_Name: Julius
   m_TagString: Untagged
@@ -12492,11 +12512,35 @@ MonoBehaviour:
   redDotSkull: {fileID: 1904224541586787279, guid: ec5641c9c055c124eb06e65cf5e3fdbd, type: 3}
   maxHealth: 100
   currentHealth: 0
+  phase: 1
   moveSpeed: 4
+  hasRecentlyTakenDamage: 0
+  damageIntakeCooldown: 0.3
   attackCooldown: 10
   player: {fileID: 1415196733}
   anim: {fileID: 0}
   AttackThreshold: 0.35
+--- !u!50 &1136842491
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136842484}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 5
 --- !u!1 &1160116928
 GameObject:
   m_ObjectHideFlags: 0
@@ -12687,7 +12731,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f98cf051edcdc408625cb1a726cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 9
+  distance: 200
+  damage: 5
 --- !u!1 &1256617458
 GameObject:
   m_ObjectHideFlags: 0
@@ -12835,8 +12880,12 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1726895539
       objectReference: {fileID: 0}
+    - target: {fileID: 5279871146672804042, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 5279871146672804043, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
 --- !u!1 &1267120065
 GameObject:
@@ -18963,7 +19012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415196730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 142.07, y: 32.95, z: 0}
+  m_LocalPosition: {x: -0.1, y: -0.5, z: 0}
   m_LocalScale: {x: 1.5507503, y: 1.6333202, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18987,21 +19036,25 @@ MonoBehaviour:
   moveSpeed: 8
   jumpHeight: 9
   Spacebar: 32
-  L: 276
-  R: 275
+  L: 97
+  R: 100
   RunKey: 304
   groundCheck: {fileID: 1925388627}
   groundCheckRadius: 0.2
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
-  health: 20
+  originalMoveSpeed: 5
+  speedBoostDuration: 10
+  health: 100
   maxHealth: 100
   healthBarUI: {fileID: 0}
   AttackDamage: 5
   isImmune: 0
   isBoosted: 0
   immunityDuration: 1.5
+  attackDuration: 0.3
+  isAttacking: 0
 --- !u!50 &1415196735
 Rigidbody2D:
   serializedVersion: 4
@@ -19106,7 +19159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f98cf051edcdc408625cb1a726cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 9
+  distance: 200
+  damage: 5
 --- !u!1 &1451744966
 GameObject:
   m_ObjectHideFlags: 0
@@ -19239,7 +19293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f98cf051edcdc408625cb1a726cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 9
+  distance: 200
+  damage: 5
 --- !u!1 &1461923259
 GameObject:
   m_ObjectHideFlags: 0
@@ -24899,8 +24954,12 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1726895539
       objectReference: {fileID: 0}
+    - target: {fileID: 5279871146672804042, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 5279871146672804043, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
 --- !u!1 &1593305329
 GameObject:
@@ -25310,7 +25369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f98cf051edcdc408625cb1a726cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 9
+  distance: 200
+  damage: 5
 --- !u!1 &1679931384
 GameObject:
   m_ObjectHideFlags: 0
@@ -31140,7 +31200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f98cf051edcdc408625cb1a726cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 9
+  distance: 200
+  damage: 5
 --- !u!1 &1818075603
 GameObject:
   m_ObjectHideFlags: 0
@@ -31567,8 +31628,12 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1726895539
       objectReference: {fileID: 0}
+    - target: {fileID: 5279871146672804042, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 5279871146672804043, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: c499c684723dc49418041ffa07a4e5a2, type: 3}
 --- !u!1 &1851595693
 GameObject:
@@ -32765,7 +32830,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f98cf051edcdc408625cb1a726cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 9
+  distance: 200
+  damage: 5
 --- !u!1 &2016889563
 GameObject:
   m_ObjectHideFlags: 0
@@ -33258,7 +33324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f98cf051edcdc408625cb1a726cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 9
+  distance: 200
+  damage: 5
 --- !u!1 &2051002269
 GameObject:
   m_ObjectHideFlags: 0
@@ -33646,7 +33713,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10f98cf051edcdc408625cb1a726cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 9
+  distance: 200
+  damage: 5
 --- !u!1001 &2533787031507231770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33664,7 +33732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2533787031609236632, guid: edc638762b8404f40a22178504665b4e, type: 3}
       propertyPath: maxY
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 2533787031609236632, guid: edc638762b8404f40a22178504665b4e, type: 3}
       propertyPath: minX

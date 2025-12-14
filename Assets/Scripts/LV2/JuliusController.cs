@@ -66,7 +66,7 @@ public class JuliusController : MonoBehaviour
             else
                 yield return StartCoroutine(SummonSpells());
 
-            // Optional: small delay between attack cycles
+            // small delay between attack cycles
             yield return new WaitForSeconds(0.5f);
         }
     }
@@ -78,7 +78,7 @@ public class JuliusController : MonoBehaviour
         //Debug.Log("Start Skull Attack!");
 
         float attackDuration = 3f;
-        float timeBetweenSkulls = 0.6f;
+        float timeBetweenSkulls = 1.8f;
         float timer = 0f;
         while (timer < attackDuration)
         {
@@ -182,8 +182,6 @@ public class JuliusController : MonoBehaviour
     private void Die()
     {
         isDead = true;
-
-        rb.velocity = Vector2.zero;
 
         Destroy(gameObject, 0.1f);
     }

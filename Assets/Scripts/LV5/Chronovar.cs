@@ -86,11 +86,11 @@ public class Chronovar : MonoBehaviour
         spriteRenderer.flipX = direction.x > 0; // faces RIGHT when moving right  spriteRenderer.flipX = direction.x < 0;
 
         anim.SetBool("isFlying", true);
-    }    // PHASE 1 ATTACKS
-
+    }    
+    // PHASE 1 ATTACKS
     public void Phase1Attack1() { Debug.Log("Chronovar Boss Phase 1 Attack 1 executed. chrono BITE"); }
     public void Phase1Attack2() { Debug.Log("Chronovar Boss Phase 1 Attack 2 executed. CHRONO LUNGE "); }
-    public void Phase1Attack3() { Debug.Log("Chronovar Boss Phase 1 Attack 3 executed."); }
+    public void Phase1Attack3() { Debug.Log("Chronovar Boss Phase 1 Attack 3 executed. Tail SWEEP"); }
 
 
     // PHASE 2 ATTACKS

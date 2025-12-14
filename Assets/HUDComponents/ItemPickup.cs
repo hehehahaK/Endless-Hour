@@ -47,6 +47,7 @@ public class ItemPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerNearby = true;
+            Debug.Log("Player is nearby item: " + item.itemName);
 
             if (pickupPromptUI != null)
             {

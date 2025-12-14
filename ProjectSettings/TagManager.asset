@@ -9,6 +9,7 @@ TagManager:
   - Platform
   - ground
   - Skull
+  - NPC
   layers:
   - Default
   - TransparentFX

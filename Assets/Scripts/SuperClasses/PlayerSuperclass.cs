@@ -40,6 +40,9 @@ public class PlayerSuperclass : MonoBehaviour
     public float immunityDuration = 1.5f;
     public float attackDuration = 0.3f; // How long the attack lasts
     public bool isAttacking = false;
+    public bool isBlocking = false;
+
+
     void Start()
     {
         moveSpeed = originalMoveSpeed;
@@ -62,7 +65,7 @@ public class PlayerSuperclass : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !isAttacking)
+if (Input.GetMouseButtonDown(0) && !isAttacking && !isBlocking)
         {
             Attack();
         }
@@ -132,10 +135,25 @@ public class PlayerSuperclass : MonoBehaviour
                 moveSpeed = originalMoveSpeed;
             }
         }
+        // Shield 
+if (Input.GetMouseButton(1))
+{
+    isBlocking = true;
+    anim.SetBool("ShieldUp", true);
+}
+else
+{
+    isBlocking = false;
+    anim.SetBool("ShieldUp", false);
+}
+
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("Height", rb.velocity.y);
         anim.SetBool("Grounded", grounded);
         anim.SetBool("IsRunning", Input.GetKey(RunKey));
+
+
+        
     }
 
     void FixedUpdate()

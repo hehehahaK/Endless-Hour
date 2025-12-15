@@ -10,30 +10,34 @@ public class SoldierAI : MonoBehaviour
     public float attackDistance = 1.5f;  // When soldier starts attacking
     public bool isActivated = false;
 
+    public int damage = 10;
+    public float attackCooldown = 1f;
+    private float nextAttackTime = 0f;
+
+    public int maxHealth = 1;   // dies in one hit
+    private int currentHealth;
+    private bool isDead = false;
+
     private Animator anim;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        currentHealth = maxHealth;
     }
 
     void Update()
     {
-        if (!isActivated) return;
+        if (!isActivated || isDead) return;
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // If far from player → RUN
         if (distance > attackDistance)
-        {
             RunTowardsPlayer();
-        }
         else
-        {
             AttackPlayer();
-        }
     }
-
+    
     void RunTowardsPlayer()
     {
         anim.SetBool("isRunning", true);
@@ -54,7 +58,60 @@ public class SoldierAI : MonoBehaviour
         anim.SetBool("isRunning", false);
         anim.SetBool("isAttacking", true);
 
-        // Optional: stop moving when attacking
-        // (No movement code here)
+        if (Time.time >= nextAttackTime)
+        {
+            nextAttackTime = Time.time + attackCooldown;
+
+        // Damage the player (uses your existing script!)
+            PlayerSuperclass playerHealth = player.GetComponent<PlayerSuperclass>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+            }
+        }
+    }
+
+    public void TakeDamage(int damageAmount)
+    {
+        if (isDead) return;
+
+        currentHealth -= damageAmount;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    public void Die()
+    {
+        if (isDead) return;
+        isDead = true;
+
+        anim.SetBool("isRunning", false);
+        anim.SetBool("isAttacking", false);
+        anim.SetTrigger("Die");
+
+        isActivated = false;
+
+        // Stop physics
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.velocity = Vector2.zero;
+            rb.bodyType = RigidbodyType2D.Static;
+        }
+
+        // Disable collider so it can’t be triggered again
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null) col.enabled = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") || other.CompareTag("PlayerWeapon"))
+        {
+            Die();
+        }
     }
 }

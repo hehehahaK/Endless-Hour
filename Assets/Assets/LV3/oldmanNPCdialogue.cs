@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class oldmanNPCdialogue : MonoBehaviour{
 
-    public DialogueManager dialogueManager;
+    public DMhealthpotion dialogueManager;
 
     public GameObject healthPotionPrefab;
     

@@ -41,10 +41,10 @@ public class PlayerSuperclass : MonoBehaviour
     public float attackDuration = 0.3f; // How long the attack lasts
     public bool isAttacking = false;
     public bool isBlocking = false;
-
-
+    public lvl3playercontroller isOnStairs;
     void Start()
     {
+        isOnStairs = GetComponent<lvl3playercontroller>();    
         moveSpeed = originalMoveSpeed;
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
@@ -69,8 +69,10 @@ if (Input.GetMouseButtonDown(0) && !isAttacking && !isBlocking)
         {
             Attack();
         }
-
-        if (Input.GetKey(RunKey))
+        if(isOnStairs.isOnStairs == true && Input.GetKey(RunKey)){
+            currentSpeed = moveSpeed;
+        }
+        if (Input.GetKey(RunKey) && !isOnStairs.isOnStairs)
         {
             currentSpeed = moveSpeed * 2f;
         }
@@ -187,14 +189,14 @@ else
         {
             health -= damage;
             health = Mathf.Clamp(health, 0f, maxHealth);
-            //   healthBarUI.updateHealthBar();
+            healthBarUI.updateHealthBar();
 
 
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = maxHealth;
-                //                  healthBarUI.updateHealthBar();
+                healthBarUI.updateHealthBar();
 
             }
        //     Debug.Log("Player Health:" + health.ToString());

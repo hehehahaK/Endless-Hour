@@ -19,7 +19,7 @@ public class StairsZoneController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         
         
-        lvl3playercontrollerstairs player = other.GetComponent<lvl3playercontrollerstairs>();
+        lvl3playercontroller player = other.GetComponent<lvl3playercontroller>();
         Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
 
         if (player != null && rb != null)
@@ -38,7 +38,7 @@ public class StairsZoneController : MonoBehaviour
 
         if (other.CompareTag("Player"))
     {
-        lvl3playercontrollerstairs player = other.GetComponent<lvl3playercontrollerstairs>();
+        lvl3playercontroller player = other.GetComponent<lvl3playercontroller>();
         Rigidbody2D rb = other.GetComponent<Rigidbody2D>(); // Get the Rigidbody2D
 
         if (player != null && rb != null)

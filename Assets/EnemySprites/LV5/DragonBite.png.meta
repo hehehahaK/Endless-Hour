@@ -120,10 +120,10 @@ TextureImporter:
       name: DragonBite_0
       rect:
         serializedVersion: 2
-        x: 131
-        y: 1403
-        width: 433
-        height: 221
+        x: 0
+        y: 1344
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: DragonBite_1
       rect:
         serializedVersion: 2
-        x: 783
-        y: 1403
-        width: 437
-        height: 220
+        x: 640
+        y: 1344
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: DragonBite_2
       rect:
         serializedVersion: 2
-        x: 1433
-        y: 1403
-        width: 439
-        height: 219
+        x: 1280
+        y: 1344
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: DragonBite_3
       rect:
         serializedVersion: 2
-        x: 2082
-        y: 1403
-        width: 439
-        height: 217
+        x: 1920
+        y: 1344
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: DragonBite_4
       rect:
         serializedVersion: 2
-        x: 2725
-        y: 1403
-        width: 442
-        height: 215
+        x: 2560
+        y: 1344
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: DragonBite_5
       rect:
         serializedVersion: 2
-        x: 168
-        y: 1067
-        width: 441
-        height: 213
+        x: 0
+        y: 1008
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: DragonBite_6
       rect:
         serializedVersion: 2
-        x: 815
-        y: 1067
-        width: 440
-        height: 210
+        x: 640
+        y: 1008
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: DragonBite_7
       rect:
         serializedVersion: 2
-        x: 1466
-        y: 1066
-        width: 436
-        height: 202
+        x: 1280
+        y: 1008
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: DragonBite_8
       rect:
         serializedVersion: 2
-        x: 2110
-        y: 1067
-        width: 434
-        height: 198
+        x: 1920
+        y: 1008
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: DragonBite_9
       rect:
         serializedVersion: 2
-        x: 2755
-        y: 1067
-        width: 427
-        height: 190
+        x: 2560
+        y: 1008
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: DragonBite_10
       rect:
         serializedVersion: 2
-        x: 199
-        y: 731
-        width: 421
-        height: 182
+        x: 0
+        y: 672
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: DragonBite_11
       rect:
         serializedVersion: 2
-        x: 841
-        y: 731
-        width: 423
-        height: 172
+        x: 640
+        y: 672
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: DragonBite_12
       rect:
         serializedVersion: 2
-        x: 1482
-        y: 731
-        width: 418
-        height: 168
+        x: 1280
+        y: 672
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: DragonBite_13
       rect:
         serializedVersion: 2
-        x: 2122
-        y: 731
-        width: 423
-        height: 166
+        x: 1920
+        y: 672
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: DragonBite_14
       rect:
         serializedVersion: 2
-        x: 2762
-        y: 731
-        width: 420
-        height: 160
+        x: 2560
+        y: 672
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
       name: DragonBite_15
       rect:
         serializedVersion: 2
-        x: 202
-        y: 394
-        width: 412
-        height: 160
+        x: 0
+        y: 336
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: DragonBite_16
       rect:
         serializedVersion: 2
-        x: 841
-        y: 393
-        width: 423
-        height: 160
+        x: 640
+        y: 336
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: DragonBite_17
       rect:
         serializedVersion: 2
-        x: 1481
-        y: 392
-        width: 422
-        height: 161
+        x: 1280
+        y: 336
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: DragonBite_18
       rect:
         serializedVersion: 2
-        x: 2120
-        y: 393
-        width: 428
-        height: 160
+        x: 1920
+        y: 336
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: DragonBite_19
       rect:
         serializedVersion: 2
-        x: 2761
-        y: 393
-        width: 439
-        height: 133
+        x: 2560
+        y: 336
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: DragonBite_20
       rect:
         serializedVersion: 2
-        x: 203
-        y: 58
-        width: 437
-        height: 117
+        x: 0
+        y: 0
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,10 +561,10 @@ TextureImporter:
       name: DragonBite_21
       rect:
         serializedVersion: 2
-        x: 843
-        y: 41
-        width: 433
-        height: 134
+        x: 640
+        y: 0
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: DragonBite_22
       rect:
         serializedVersion: 2
-        x: 1484
-        y: 2
-        width: 395
-        height: 181
+        x: 1280
+        y: 0
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: DragonBite_23
       rect:
         serializedVersion: 2
-        x: 2098
-        y: 41
-        width: 364
-        height: 197
+        x: 1920
+        y: 0
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: DragonBite_24
       rect:
         serializedVersion: 2
-        x: 2464
-        y: 61
-        width: 4
-        height: 4
+        x: 2560
+        y: 0
+        width: 640
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,48 +637,6 @@ TextureImporter:
       bones: []
       spriteID: cdbce2a5387232a45a6fad3f2cd7337c
       internalID: -1561391412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonBite_25
-      rect:
-        serializedVersion: 2
-        x: 2720
-        y: 54
-        width: 387
-        height: 216
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a37da1a1778c7964e9456495f7ef43ac
-      internalID: -523337300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonBite_26
-      rect:
-        serializedVersion: 2
-        x: 2470
-        y: 53
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03f9e6bce9deb89409a7ef943361f3b2
-      internalID: 366360829
       vertices: []
       indices: 
       edges: []
@@ -697,7 +655,6 @@ TextureImporter:
       DragonBite_7: 342911417
       DragonBite_15: 1417150467
       DragonBite_1: 454000199
-      DragonBite_26: 366360829
       DragonBite_4: 1209783438
       DragonBite_5: -657939056
       DragonBite_8: 1360038304
@@ -706,7 +663,6 @@ TextureImporter:
       DragonBite_14: 770765090
       DragonBite_9: -982180850
       DragonBite_16: -1446492166
-      DragonBite_25: -523337300
       DragonBite_18: -876836432
       DragonBite_10: 709459940
       DragonBite_20: 171868052

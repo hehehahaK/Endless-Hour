@@ -120,10 +120,10 @@ TextureImporter:
       name: ChronovarFlying25_0
       rect:
         serializedVersion: 2
-        x: 109
-        y: 2507
-        width: 501
-        height: 344
+        x: 0
+        y: 2352
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: ChronovarFlying25_1
       rect:
         serializedVersion: 2
-        x: 713
-        y: 2509
-        width: 537
-        height: 252
+        x: 640
+        y: 2352
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: ChronovarFlying25_2
       rect:
         serializedVersion: 2
-        x: 1330
-        y: 2488
-        width: 590
-        height: 263
+        x: 1280
+        y: 2352
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: ChronovarFlying25_3
       rect:
         serializedVersion: 2
-        x: 2027
-        y: 2387
-        width: 510
-        height: 375
+        x: 1920
+        y: 2352
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: ChronovarFlying25_4
       rect:
         serializedVersion: 2
-        x: 2721
-        y: 2354
-        width: 397
-        height: 411
+        x: 2560
+        y: 2352
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: ChronovarFlying25_5
       rect:
         serializedVersion: 2
-        x: 2023
-        y: 2433
-        width: 4
-        height: 4
+        x: 0
+        y: 1764
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: ChronovarFlying25_6
       rect:
         serializedVersion: 2
-        x: 195
-        y: 1790
-        width: 347
-        height: 391
+        x: 640
+        y: 1764
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: ChronovarFlying25_7
       rect:
         serializedVersion: 2
-        x: 819
-        y: 1840
-        width: 340
-        height: 340
+        x: 1280
+        y: 1764
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: ChronovarFlying25_8
       rect:
         serializedVersion: 2
-        x: 1429
-        y: 1884
-        width: 341
-        height: 293
+        x: 1920
+        y: 1764
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: ChronovarFlying25_9
       rect:
         serializedVersion: 2
-        x: 2041
-        y: 1924
-        width: 406
-        height: 240
+        x: 2560
+        y: 1764
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: ChronovarFlying25_10
       rect:
         serializedVersion: 2
-        x: 2699
-        y: 1943
-        width: 435
-        height: 244
+        x: 0
+        y: 1176
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: ChronovarFlying25_11
       rect:
         serializedVersion: 2
-        x: 158
-        y: 1348
-        width: 434
-        height: 309
+        x: 640
+        y: 1176
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: ChronovarFlying25_12
       rect:
         serializedVersion: 2
-        x: 812
-        y: 1340
-        width: 423
-        height: 384
+        x: 1280
+        y: 1176
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: ChronovarFlying25_13
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 1334
-        width: 477
-        height: 356
+        x: 1920
+        y: 1176
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: ChronovarFlying25_14
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 1333
-        width: 527
-        height: 284
+        x: 2560
+        y: 1176
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
       name: ChronovarFlying25_15
       rect:
         serializedVersion: 2
-        x: 2610
-        y: 1330
-        width: 590
-        height: 241
+        x: 0
+        y: 588
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: ChronovarFlying25_16
       rect:
         serializedVersion: 2
-        x: 57
-        y: 738
-        width: 583
-        height: 252
+        x: 640
+        y: 588
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: ChronovarFlying25_17
       rect:
         serializedVersion: 2
-        x: 746
-        y: 658
-        width: 525
-        height: 338
+        x: 1280
+        y: 588
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: ChronovarFlying25_18
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 595
-        width: 410
-        height: 406
+        x: 1920
+        y: 588
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: ChronovarFlying25_19
       rect:
         serializedVersion: 2
-        x: 2106
-        y: 642
-        width: 333
-        height: 362
+        x: 2560
+        y: 588
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: ChronovarFlying25_20
       rect:
         serializedVersion: 2
-        x: 2701
-        y: 719
-        width: 357
-        height: 280
+        x: 0
+        y: 0
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,10 +561,10 @@ TextureImporter:
       name: ChronovarFlying25_21
       rect:
         serializedVersion: 2
-        x: 739
-        y: 690
-        width: 6
-        height: 6
+        x: 640
+        y: 0
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: ChronovarFlying25_22
       rect:
         serializedVersion: 2
-        x: 128
-        y: 151
-        width: 376
-        height: 255
+        x: 1280
+        y: 0
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: ChronovarFlying25_23
       rect:
         serializedVersion: 2
-        x: 766
-        y: 172
-        width: 422
-        height: 236
+        x: 1920
+        y: 0
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: ChronovarFlying25_24
       rect:
         serializedVersion: 2
-        x: 1431
-        y: 180
-        width: 440
-        height: 284
+        x: 2560
+        y: 0
+        width: 640
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,48 +637,6 @@ TextureImporter:
       bones: []
       spriteID: bf12596e9fcbd8d40ab26693347411f6
       internalID: 1538564245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChronovarFlying25_25
-      rect:
-        serializedVersion: 2
-        x: 2091
-        y: 168
-        width: 420
-        height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d3112bd4441b6f4694832c03c7a1bfb
-      internalID: 1796087604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChronovarFlying25_26
-      rect:
-        serializedVersion: 2
-        x: 2708
-        y: 160
-        width: 445
-        height: 385
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a335273fbf3b4f043bec381abd2e8234
-      internalID: 2043436117
       vertices: []
       indices: 
       edges: []
@@ -698,7 +656,6 @@ TextureImporter:
       ChronovarFlying25_19: -589860757
       ChronovarFlying25_23: 657907816
       ChronovarFlying25_1: -508387725
-      ChronovarFlying25_26: 2043436117
       ChronovarFlying25_6: -698240551
       ChronovarFlying25_13: -1446557531
       ChronovarFlying25_9: 1206729337
@@ -717,7 +674,6 @@ TextureImporter:
       ChronovarFlying25_5: 1266751506
       ChronovarFlying25_20: -1191878673
       ChronovarFlying25_0: -798349401
-      ChronovarFlying25_25: 1796087604
       ChronovarFlying25_22: -921480742
       ChronovarFlying25_18: -1860833057
       ChronovarFlying25_2: 732451195

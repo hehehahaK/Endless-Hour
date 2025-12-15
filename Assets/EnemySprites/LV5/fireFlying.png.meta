@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
@@ -120,12 +120,12 @@ TextureImporter:
       name: fireFlying_0
       rect:
         serializedVersion: 2
-        x: 153
-        y: 1733
-        width: 168
-        height: 168
+        x: 0
+        y: 1640
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: fireFlying_1
       rect:
         serializedVersion: 2
-        x: 559
-        y: 1762
-        width: 256
-        height: 145
+        x: 430
+        y: 1640
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: fireFlying_2
       rect:
         serializedVersion: 2
-        x: 1003
-        y: 1760
-        width: 223
-        height: 233
+        x: 860
+        y: 1640
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: fireFlying_3
       rect:
         serializedVersion: 2
-        x: 1433
-        y: 1759
-        width: 215
-        height: 241
+        x: 1290
+        y: 1640
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: fireFlying_4
       rect:
         serializedVersion: 2
-        x: 1819
-        y: 1760
-        width: 273
-        height: 177
+        x: 1720
+        y: 1640
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: fireFlying_5
       rect:
         serializedVersion: 2
-        x: 891
-        y: 1499
-        width: 23
-        height: 18
+        x: 0
+        y: 1230
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: fireFlying_6
       rect:
         serializedVersion: 2
-        x: 1719
-        y: 1304
-        width: 369
-        height: 269
+        x: 430
+        y: 1230
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: fireFlying_7
       rect:
         serializedVersion: 2
-        x: 37
-        y: 1297
-        width: 299
-        height: 185
+        x: 860
+        y: 1230
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: fireFlying_8
       rect:
         serializedVersion: 2
-        x: 429
-        y: 1286
-        width: 328
-        height: 199
+        x: 1290
+        y: 1230
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: fireFlying_9
       rect:
         serializedVersion: 2
-        x: 559
-        y: 1473
-        width: 15
-        height: 14
+        x: 1720
+        y: 1230
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: fireFlying_10
       rect:
         serializedVersion: 2
-        x: 859
-        y: 1303
-        width: 338
-        height: 188
+        x: 0
+        y: 820
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: fireFlying_11
       rect:
         serializedVersion: 2
-        x: 1289
-        y: 1273
-        width: 383
-        height: 221
+        x: 430
+        y: 820
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: fireFlying_12
       rect:
         serializedVersion: 2
-        x: 1744
-        y: 1278
-        width: 4
-        height: 4
+        x: 860
+        y: 820
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: fireFlying_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 880
-        width: 353
-        height: 306
+        x: 1290
+        y: 820
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: fireFlying_14
       rect:
         serializedVersion: 2
-        x: 429
-        y: 875
-        width: 365
-        height: 264
+        x: 1720
+        y: 820
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: fireFlying_15
       rect:
         serializedVersion: 2
-        x: 859
-        y: 898
-        width: 380
-        height: 198
+        x: 0
+        y: 410
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: fireFlying_16
       rect:
         serializedVersion: 2
-        x: 1485
-        y: 1067
-        width: 4
-        height: 4
+        x: 430
+        y: 410
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -477,12 +477,12 @@ TextureImporter:
       name: fireFlying_17
       rect:
         serializedVersion: 2
-        x: 1498
-        y: 1065
-        width: 5
-        height: 6
+        x: 860
+        y: 410
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -498,12 +498,12 @@ TextureImporter:
       name: fireFlying_18
       rect:
         serializedVersion: 2
-        x: 1719
-        y: 827
-        width: 431
-        height: 244
+        x: 1290
+        y: 410
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -519,12 +519,12 @@ TextureImporter:
       name: fireFlying_19
       rect:
         serializedVersion: 2
-        x: 1289
-        y: 887
-        width: 338
-        height: 178
+        x: 1720
+        y: 410
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,11 +541,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 820
-        width: 10
-        height: 12
+        y: 0
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: fireFlying_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 474
-        width: 336
-        height: 178
+        x: 430
+        y: 0
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: fireFlying_22
       rect:
         serializedVersion: 2
-        x: 429
-        y: 516
-        width: 362
-        height: 133
+        x: 860
+        y: 0
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: fireFlying_23
       rect:
         serializedVersion: 2
-        x: 859
-        y: 495
-        width: 364
-        height: 228
+        x: 1290
+        y: 0
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -624,12 +624,12 @@ TextureImporter:
       name: fireFlying_24
       rect:
         serializedVersion: 2
-        x: 1289
-        y: 490
-        width: 343
-        height: 262
+        x: 1720
+        y: 0
+        width: 430
+        height: 410
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -637,237 +637,6 @@ TextureImporter:
       bones: []
       spriteID: fd8eaac8efefeb240ab023d15d5e230b
       internalID: 816970752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_25
-      rect:
-        serializedVersion: 2
-        x: 1719
-        y: 498
-        width: 168
-        height: 127
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e6518ee88f8ff9409d892ecb3e988f5
-      internalID: -1044707154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_26
-      rect:
-        serializedVersion: 2
-        x: 1828
-        y: 475
-        width: 322
-        height: 259
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a9e32884d7c6744aa0be717fb04c4f1
-      internalID: -855532047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_27
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 100
-        width: 148
-        height: 114
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a972766bcf29c934b9af49db07c69ad7
-      internalID: 1514399129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_28
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 122
-        width: 272
-        height: 172
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31275cb8f9e0cec47950c1e3fd03d6e2
-      internalID: 1002391692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_29
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 113
-        width: 82
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3aa4b1b89f73fa4f8f4152991156469
-      internalID: 1151585085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_30
-      rect:
-        serializedVersion: 2
-        x: 521
-        y: 107
-        width: 277
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 762151c9223191f4f9cadf59a43bb4a4
-      internalID: -1719698856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_31
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 120
-        width: 52
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 715673e7945fe3e47b1d7fa518643ee1
-      internalID: 131823976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_32
-      rect:
-        serializedVersion: 2
-        x: 971
-        y: 75
-        width: 216
-        height: 188
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b29427dd5c4927a4585054ecfe2c3859
-      internalID: -98763052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_33
-      rect:
-        serializedVersion: 2
-        x: 1443
-        y: 73
-        width: 170
-        height: 198
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7e2a4a951c17554da5ad5a5015294fd
-      internalID: -1160139091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_34
-      rect:
-        serializedVersion: 2
-        x: 1881
-        y: 90
-        width: 269
-        height: 187
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f4b129d599fd6244b131be9124095e5
-      internalID: 319919957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fireFlying_35
-      rect:
-        serializedVersion: 2
-        x: 801
-        y: 103
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2161db496cb315a439ce82e0fbe43e43
-      internalID: 1839028188
       vertices: []
       indices: 
       edges: []
@@ -883,20 +652,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fireFlying_22: -196608377
       fireFlying_18: 463333447
       fireFlying_4: 1601494868
       fireFlying_13: -1044665015
       fireFlying_19: -2146863514
       fireFlying_14: 106210068
-      fireFlying_34: 319919957
       fireFlying_20: -1360460176
-      fireFlying_28: 1002391692
       fireFlying_16: 1938831618
       fireFlying_5: 1462412173
       fireFlying_21: -1180130815
       fireFlying_17: -421978423
-      fireFlying_30: -1719698856
       fireFlying_24: 816970752
       fireFlying_0: -1296530
       fireFlying_6: -2064261590
@@ -904,21 +669,14 @@ TextureImporter:
       fireFlying_1: -1206802617
       fireFlying_2: 714854611
       fireFlying_3: 1123923157
-      fireFlying_32: -98763052
       fireFlying_9: -226366471
       fireFlying_7: -1179521454
       fireFlying_12: -1306341205
       fireFlying_23: -1003206386
-      fireFlying_29: 1151585085
-      fireFlying_25: -1044707154
       fireFlying_8: 791392153
-      fireFlying_33: -1160139091
-      fireFlying_35: 1839028188
       fireFlying_15: -1969343441
-      fireFlying_27: 1514399129
       fireFlying_11: 633459186
-      fireFlying_31: 131823976
-      fireFlying_26: -855532047
+      fireFlying_22: -196608377
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

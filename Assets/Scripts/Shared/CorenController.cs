@@ -7,9 +7,10 @@ public class CorenController : MonoBehaviour // Script that has Coren Follow our
 
     public Transform player;  // Reference to the player's transform
     public float followSpeed = 2f;  // Speed at which Coren follows the player
-    public Vector3 offSet = new Vector3(2f, 0f, 0f); /* the offSet distance between her and player. how does this work?
+    public Vector3 offSet; /* the offSet distance between her and player. how does this work?
     ely by7sl enha it checks this offSet before following the player. if player is at 10,0,0 and offSet is 2,0,0 like this default value yb2a coren will stop at 8,0,0.
     */
+    public float xOffset=10f;
     public SpriteRenderer sr; // SpriteRenderer for Coren
     public SpriteRenderer playerSR;// sprite renderer for player to check which direction he is facing
     public float teleportDistance = 6f; // if coren is  too far, she teleports behind the player
@@ -41,11 +42,11 @@ public class CorenController : MonoBehaviour // Script that has Coren Follow our
             // dynamic offSet based on direction
             if (sr.flipX == true) // if player is facing left
             {
-                offSet = new Vector3(-2f, 0f, 0f); // coren should be on the right side of player
+                offSet = new Vector3((-1*xOffset), 0f, 0f); // coren should be on the right side of player
             }
             else
             {
-                offSet = new Vector3(2f, 0f, 0f); // coren should be on the left side of player
+                offSet = new Vector3(xOffset, 0f, 0f); // coren should be on the left side of player
             }
 
             // Teleport behind player if too far

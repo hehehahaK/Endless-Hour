@@ -5,64 +5,74 @@ using UnityEngine;
 public class ChronovarPhase1 : ChronovarState
 {
     public int NumberOfAttacks = 3;
-    private float attackCooldown = 3f;
+    private float attackCooldown = 1f;
     private float attackTimer = 0f;
-    // Start is called before the first frame update
+
     public override void EnterState()
     {
         Debug.Log("Entered Chronovar Phase 1");
         attackTimer = attackCooldown;
     }
+
     public override void UpdateState()
     {
-        chronovar.GroundMove();
-        
+        float dist = Vector2.Distance(chronovar.transform.position, chronovar.player.position);
+
+        // Only move if NOT attacking AND beyond stopping distance
+        if (!chronovar.isAttacking && dist > chronovar.stoppingDistance)
+        {
+            chronovar.GroundMove();
+        }
+        else
+        {
+            // Stop movement when close enough or attacking
+            chronovar.rb.velocity = Vector2.zero;
+        }
+
         HandleAttackLogic();
     }
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void HandleAttackLogic()
     {
+        // Don't start a new attack if already attacking
+        if (chronovar.isAttacking) return;
+
         attackTimer -= Time.deltaTime;
-        if (attackTimer > 0) return;
-        float dist = Vector2.Distance(chronovar.transform.position, chronovar.player.position);
-        int AttackDecision = Random.Range(0, NumberOfAttacks); // Randomly choose an attack from 0 to 2
-        if (dist < chronovar.shortRange)
+        
+        if (attackTimer <= 0)
         {
-            switch (AttackDecision)
+            float dist = Vector2.Distance(chronovar.transform.position, chronovar.player.position);
+            
+            // Attack if within short range
+            if (dist <= chronovar.shortRange)
             {
-                case 0:
-                    chronovar.anim.SetTrigger("Attack_Bite");
-                    chronovar.Phase1Attack1();
-                    break;
+                int AttackDecision = Random.Range(0, NumberOfAttacks);
+                
+                switch (AttackDecision)
+                {
+                    case 0:
+                        chronovar.anim.SetTrigger("Bite");
+                        chronovar.Phase1Attack1();
+                        break;
 
-                case 1:
-                    chronovar.anim.SetTrigger("Attack_TailSwipe");
-                    chronovar.Phase1Attack2();
-                    break;
+                    case 1:
+                        chronovar.anim.SetTrigger("Tail");
+                        chronovar.Phase1Attack2();
+                        break;
 
-                case 2:
-                    chronovar.anim.SetTrigger("Attack_Lunge");
-                    chronovar.Phase1Attack3();
-                    break;
-                default:
-                    chronovar.anim.SetTrigger("Attack_Bite");
-                    chronovar.Phase1Attack1();
-                    break;
+                    case 2:
+                        chronovar.anim.SetTrigger("Lunge");
+                        chronovar.Phase1Attack3();
+                        break;
+
+                    default:
+                        chronovar.anim.SetTrigger("Bite");
+                        chronovar.Phase1Attack1();
+                        break;
+                }
+                
+                attackTimer = attackCooldown;
             }
         }
-        attackTimer = attackCooldown; // reset cooldown
-
     }
-
-
-
 }

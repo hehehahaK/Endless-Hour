@@ -124,7 +124,7 @@ public class PlayerSuperclass : MonoBehaviour
             }
         }
         // Shield 
-if (Input.GetMouseButton(1))
+/*if (Input.GetMouseButton(0))
 {
     isBlocking = true;
     anim.SetBool("ShieldUp", true);
@@ -132,8 +132,8 @@ if (Input.GetMouseButton(1))
 else
 {
     isBlocking = false;
-    anim.SetBool("ShieldUp", false);
-}
+    //anim.SetBool("ShieldUp", false);
+} */
 
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("Height", rb.velocity.y);

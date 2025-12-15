@@ -8,11 +8,11 @@ public class Chronovar : MonoBehaviour
 
     public int maxHealth = 100;
     public int currentHealth;
-    public float stoppingDistance = 2f;
+    public float stoppingDistance = 22f;
     public float moveSpeed = 3f;
     public int attackDamage = 10;
-    public float shortRange = 3f;
-    public float midRange = 6f;
+    public float shortRange = 50f;
+    public float midRange = 200f;
     public float flyHeight = 3f; // desired Y offset above player
     public bool isDead = false;
     public bool isAttacking = false;
@@ -78,30 +78,57 @@ public class Chronovar : MonoBehaviour
     {
         if (!player) return;
 
-        Vector2 targetPos = new Vector2(player.position.x, player.position.y + flyHeight);
+        Vector2 targetPos = new Vector2(player.position.x, flyHeight);
         Vector2 direction = (targetPos - (Vector2)transform.position).normalized;
 
         rb.velocity = direction * moveSpeed;
 
-        spriteRenderer.flipX = direction.x > 0; // faces RIGHT when moving right  spriteRenderer.flipX = direction.x < 0;
-
+        spriteRenderer.flipX = direction.x > 0; // 
         anim.SetBool("isFlying", true);
-    }    
+    }
     // PHASE 1 ATTACKS
-    public void Phase1Attack1() { Debug.Log("Chronovar Boss Phase 1 Attack 1 executed. chrono BITE"); }
-    public void Phase1Attack2() { Debug.Log("Chronovar Boss Phase 1 Attack 2 executed. CHRONO LUNGE "); }
-    public void Phase1Attack3() { Debug.Log("Chronovar Boss Phase 1 Attack 3 executed. Tail SWEEP"); }
+    public void Phase1Attack1()
+    {
+        Debug.Log("Chronovar Boss Phase 1 Attack 1 executed. chrono BITE");
+        StartCoroutine(StopAttack(0.5f));
+    }
+    public void Phase1Attack2()
+    {
+        Debug.Log("Chronovar Boss Phase 1 Attack 2 executed. CHRONO LUNGE ");
+        StartCoroutine(StopAttack(1f));
+    }
+    public void Phase1Attack3()
+    {
+        Debug.Log("Chronovar Boss Phase 1 Attack 3 executed. Tail SWEEP");
+        StartCoroutine(StopAttack(2f));
+    }
 
 
     // PHASE 2 ATTACKS
 
 
-    public void Phase2Attack1() { Debug.Log("Chronovar Boss Phase 2 Attack 1 executed. dragon BREATHH"); }
-    public void Phase2Attack2() { Debug.Log("Chronovar Boss Phase 2 Attack 2 executed. dive BOMB"); }
+    public void Phase2Attack1()
+    {
+        Debug.Log("Chronovar Boss Phase 2 Attack 1 executed. dragon BREATHH");
+
+        StartCoroutine(StopAttack(5f));
+    }
+    public void Phase2Attack2()
+    {
+        Debug.Log("Chronovar Boss Phase 2 Attack 2 executed. dive BOMB");
+        attackDamage += 20;
+
+        StartCoroutine(StopAttack(4f));
+        attackDamage -= 20;
+    }
 
 
     // PHASE 3 ATTACKS
-    public void Phase3Attack1() { Debug.Log("Chronovar Boss Phase 3 Attack 1 executed. DRAGON WRATHH"); }
+    public void Phase3Attack1()
+    {
+        Debug.Log("Chronovar Boss Phase 3 Attack 1 executed. DRAGON WRATHH");
+        StartCoroutine(StopAttack(4f));
+    }
 
     public void TakeDamage(int damage)
     {
@@ -127,7 +154,7 @@ public class Chronovar : MonoBehaviour
 
         Destroy(gameObject, 0.1f);
     }
-    public virtual void OnCollisionStay2D(Collision2D collision)
+    public void OnCollisionStay2D(Collision2D collision)
     {
         if (!collision.gameObject.CompareTag("Player")) return;
 
@@ -137,12 +164,31 @@ public class Chronovar : MonoBehaviour
             TakeDamage(playerController.AttackDamage);
             StartCoroutine(DamageIntakeCooldown());
         }
+
         if (collision.gameObject.CompareTag("Player") && isAttacking)
         {
             playerController.TakeDamage(attackDamage);
         }
-        isAttacking = false;
 
 
     }
+
+    IEnumerator StopAttack(float duration)
+    {
+        isAttacking = true;
+
+        yield return new WaitForSeconds(duration);
+
+        isAttacking = false;
+
+    }
+
+    /*TBD - > make it so that chronovar goes down,
+    dive bomb, 2 fire prefab -> one lava and one is breath along with lava ground,
+    timer coroutine ->ez actually
+    link some animations,
+ phase 1 finished
+ phase 2 needs logic to go down
+ phase 3 will just be a random check!
+    */
 }

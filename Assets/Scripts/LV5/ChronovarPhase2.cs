@@ -28,20 +28,16 @@ public class ChronovarPhase2 : ChronovarState
         if (attackTimer <= 0)
         {
             float dist = Vector2.Distance(chronovar.transform.position, chronovar.player.position);
-            int AttackDecision = Random.Range(0, NumberOfAttacks);
-
-            // Phase 2 attacks work at mid-range since boss is flying
-            if (dist < chronovar.midRange)
-            
+            int AttackDecision = Random.Range(0, NumberOfAttacks);            
                 switch (AttackDecision)
                 {
                     case 0:
-                        chronovar.anim.SetTrigger("Attack_Breath");
+                        chronovar.anim.SetTrigger("Breath");
                         chronovar.Phase2Attack1();
                         break;
 
                     case 1:
-                        chronovar.anim.SetTrigger("Attack_DiveBomb");
+                        chronovar.anim.SetTrigger("DiveBomb");
                         chronovar.Phase2Attack2();
                         break;
 

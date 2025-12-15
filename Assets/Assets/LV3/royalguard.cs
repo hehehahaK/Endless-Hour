@@ -6,10 +6,7 @@ public class royalguard : NewEnemyController
 {
     public bool canFight = false;
 
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     public override void Update()
@@ -22,9 +19,9 @@ public class royalguard : NewEnemyController
     {
         if(isAttacking) return;
         
-        anim.SetTrigger("Attack"); // Ensure you have this Trigger in Animator
+        anim.SetBool("IsAttacking", true);
         
-        // Check for player in range
+        
         Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(transform.position, attackRange);
         foreach (Collider2D playerHit in hitPlayers) // honestly i but its what works 
         {
@@ -39,7 +36,8 @@ public class royalguard : NewEnemyController
     }
     IEnumerator ResetAttackCooldown()
     {
-        yield return new WaitForSeconds(0.3f); 
+        yield return new WaitForSeconds(0.3f);
+        anim.SetBool("IsAttacking", false);
         isAttacking = false;
     }
 

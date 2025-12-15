@@ -4,30 +4,75 @@ using UnityEngine;
 
 public class BrokenCannon : MonoBehaviour, InterfaceInteractable
 {
+    public Item requiredItemA;
+    public Item requiredItemB;
+
     public bool IsFixed { get; private set; }
     public Sprite FixedCannonSprite;
 
-    public ParticleSystem smokeEffect; // Assign your particle system in the Inspector
-    public float smokeDelay = 0f;      // Delay before smoke starts, e.g., 1.5f
+    private bool HasItem(Item item, int amount = 1)
+    {
+        InventoryManager inv = FindObjectOfType<InventoryManager>();
+        if (inv == null) return false;
+
+        int count = 0;
+
+        foreach (InventorySlot slot in inv.slots)
+        {
+            InventoryItem inventoryItem = slot.GetComponentInChildren<InventoryItem>();
+            if (inventoryItem != null && inventoryItem.item == item)
+            {
+                count += inventoryItem.stackCount;
+                if (count >= amount)
+                    return true;
+            }
+        }
+
+        return false;
+    }
 
     public bool CanInteract()
     {
-        return !IsFixed;
+        if (IsFixed) return true;
+
+        return HasItem(requiredItemA, 1) && HasItem(requiredItemB, 1);
     }
 
     public void Interact()
     {
         if (!CanInteract()) return;
 
+        RemoveItem(requiredItemA, 1);
+        RemoveItem(requiredItemB, 1);
+
         FixedCannon(true);
 
-        // Trigger particle system after a delay
-        if (smokeEffect != null)
-        {
-            StartCoroutine(TriggerSmokeAfterDelay(smokeDelay));
-        }
-
         Debug.Log("Broken Cannon Fixed!");
+    }
+
+    private void RemoveItem(Item item, int amount = 1)
+    {
+        InventoryManager inv = FindObjectOfType<InventoryManager>();
+        if (inv == null) return;
+
+        foreach (InventorySlot slot in inv.slots)
+        {
+            InventoryItem inventoryItem = slot.GetComponentInChildren<InventoryItem>();
+            if (inventoryItem != null && inventoryItem.item == item)
+            {
+                int remove = Mathf.Min(amount, inventoryItem.stackCount);
+                inventoryItem.stackCount -= remove;
+                amount -= remove;
+
+                if (inventoryItem.stackCount <= 0)
+                    Destroy(inventoryItem.gameObject);
+                else
+                    inventoryItem.SendMessage("UpdateStackUI");
+
+                if (amount <= 0)
+                    return;
+            }
+        }
     }
 
     private void FixedCannon(bool CannonFixed)
@@ -37,11 +82,5 @@ public class BrokenCannon : MonoBehaviour, InterfaceInteractable
         {
             GetComponent<SpriteRenderer>().sprite = FixedCannonSprite;
         }
-    }
-
-    private IEnumerator TriggerSmokeAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        smokeEffect.Play(); // Play the particle system
     }
 }

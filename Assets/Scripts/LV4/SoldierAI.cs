@@ -109,7 +109,7 @@ public class SoldierAI : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") || other.CompareTag("PlayerWeapon"))
+        if (other.CompareTag("Player"))
         {
             Die();
         }

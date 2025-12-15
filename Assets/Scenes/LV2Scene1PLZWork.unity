@@ -18646,6 +18646,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1415196733}
     - target: {fileID: 4374356616352567426, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
+      propertyPath: xOffset
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374356616352567426, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
       propertyPath: offSet.x
       value: 7
       objectReference: {fileID: 0}
@@ -18878,6 +18882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ff5834ebf8ccb4d857f96e69d878a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSpeed: 5
   moveSpeed: 8
   jumpHeight: 9
   Spacebar: 32
@@ -18900,6 +18905,7 @@ MonoBehaviour:
   immunityDuration: 1.5
   attackDuration: 0.3
   isAttacking: 0
+  isBlocking: 0
 --- !u!50 &1415196735
 Rigidbody2D:
   serializedVersion: 4

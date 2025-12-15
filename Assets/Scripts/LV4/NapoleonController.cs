@@ -12,7 +12,12 @@ public class NapoleonController : MonoBehaviour
     public float attackCooldown = 1.2f;
     private float nextAttackTime;
 
-    public int maxHealth = 1;
+    private SpriteRenderer spriteRenderer;
+    public float flickerDuration = 0.1f;
+    public int flickerCount = 3;
+
+
+    public int maxHealth = 3;
     private int currentHealth;
     private bool isDead = false;
 
@@ -21,6 +26,7 @@ public class NapoleonController : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
     }
 
@@ -56,7 +62,7 @@ public class NapoleonController : MonoBehaviour
             PlayerSuperclass playerHealth = player.GetComponent<PlayerSuperclass>();
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(damage);
+             Debug.Log("the player has taken damage");   playerHealth.TakeDamage(damage);
             }
         }
     }
@@ -66,6 +72,8 @@ public class NapoleonController : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damageAmount;
+
+        StartCoroutine(Flicker());
 
         if (currentHealth <= 0)
         {
@@ -96,9 +104,23 @@ public class NapoleonController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") || other.CompareTag("PlayerWeapon"))
+        if (isDead) return;
+
+        if (other.CompareTag("Player"))
         {
-            Die();
+            TakeDamage(1);
+        }
+    }
+
+    IEnumerator Flicker()
+    {
+        for (int i = 0; i < flickerCount; i++)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(flickerDuration);
+
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(flickerDuration);
         }
     }
 }

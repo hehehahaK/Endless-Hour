@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14278836}
   - component: {fileID: 14278835}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 193655113}
   - component: {fileID: 193655112}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: colo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193655111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.468414, y: -0.4984, z: 0.20078103}
+  m_LocalPosition: {x: -14.461197, y: -0.5196438, z: 0.20078103}
   m_LocalScale: {x: 2.6271951, y: 1.0270535, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -347,7 +347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308908354}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 194.4036, y: -2.7982, z: 0}
+  m_LocalPosition: {x: 177.54, y: -1.25, z: 0}
   m_LocalScale: {x: 3.4137251, y: 2.856002, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1291,6 +1291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ff5834ebf8ccb4d857f96e69d878a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSpeed: 5
   moveSpeed: 5
   jumpHeight: 70
   Spacebar: 32
@@ -1298,7 +1299,7 @@ MonoBehaviour:
   R: 275
   RunKey: 114
   groundCheck: {fileID: 1096972473}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 0.6
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
@@ -1313,7 +1314,6 @@ MonoBehaviour:
   immunityDuration: 1.5
   attackDuration: 0.3
   isAttacking: 0
-  ShieldKey: 324
   isBlocking: 0
 --- !u!61 &929793873
 BoxCollider2D:
@@ -1422,7 +1422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929793870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 173.41, y: -4.29, z: 0}
+  m_LocalPosition: {x: 190.66, y: -3.08, z: 0}
   m_LocalScale: {x: 1.6905546, y: 1.6923159, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1440,7 +1440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1006234259}
   - component: {fileID: 1006234258}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: colo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1507,7 +1507,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006234257}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.023819, y: -0.4736, z: 0.20078103}
+  m_LocalPosition: {x: -29.019165, y: -0.5249511, z: 0.20078103}
   m_LocalScale: {x: 1.6420008, y: 1.0261247, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1524,7 +1524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043971827}
   - component: {fileID: 1043971826}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: colo3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

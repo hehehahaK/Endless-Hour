@@ -108,10 +108,10 @@ TextureImporter:
       name: henniabel attack_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 1695
-        width: 191
-        height: 256
+        x: 0
+        y: 1660
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: henniabel attack_1
       rect:
         serializedVersion: 2
-        x: 446
-        y: 1695
-        width: 192
-        height: 254
+        x: 374
+        y: 1660
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: henniabel attack_2
       rect:
         serializedVersion: 2
-        x: 814
-        y: 1695
-        width: 192
-        height: 251
+        x: 748
+        y: 1660
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: henniabel attack_3
       rect:
         serializedVersion: 2
-        x: 1186
-        y: 1695
-        width: 192
-        height: 250
+        x: 1122
+        y: 1660
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: henniabel attack_4
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 1695
-        width: 192
-        height: 248
+        x: 1496
+        y: 1660
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: henniabel attack_5
       rect:
         serializedVersion: 2
-        x: 1928
-        y: 1695
-        width: 194
-        height: 243
+        x: 1870
+        y: 1660
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: henniabel attack_6
       rect:
         serializedVersion: 2
-        x: 59
-        y: 1363
-        width: 192
-        height: 238
+        x: 0
+        y: 1328
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: henniabel attack_7
       rect:
         serializedVersion: 2
-        x: 435
-        y: 1363
-        width: 193
-        height: 233
+        x: 374
+        y: 1328
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: henniabel attack_8
       rect:
         serializedVersion: 2
-        x: 810
-        y: 1363
-        width: 192
-        height: 227
+        x: 748
+        y: 1328
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: henniabel attack_9
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 1363
-        width: 186
-        height: 224
+        x: 1122
+        y: 1328
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: henniabel attack_10
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 1363
-        width: 182
-        height: 226
+        x: 1496
+        y: 1328
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: henniabel attack_11
       rect:
         serializedVersion: 2
-        x: 1954
-        y: 1363
-        width: 172
-        height: 252
+        x: 1870
+        y: 1328
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: henniabel attack_12
       rect:
         serializedVersion: 2
-        x: 91
-        y: 1031
-        width: 168
-        height: 260
+        x: 0
+        y: 996
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: henniabel attack_13
       rect:
         serializedVersion: 2
-        x: 482
-        y: 1031
-        width: 168
-        height: 244
+        x: 374
+        y: 996
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: henniabel attack_14
       rect:
         serializedVersion: 2
-        x: 862
-        y: 1031
-        width: 206
-        height: 250
+        x: 748
+        y: 996
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: henniabel attack_15
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 1031
-        width: 201
-        height: 250
+        x: 1122
+        y: 996
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +444,10 @@ TextureImporter:
       name: henniabel attack_16
       rect:
         serializedVersion: 2
-        x: 1618
-        y: 1031
-        width: 182
-        height: 297
+        x: 1496
+        y: 996
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: henniabel attack_17
       rect:
         serializedVersion: 2
-        x: 1988
-        y: 1031
-        width: 244
-        height: 258
+        x: 1870
+        y: 996
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,9 +487,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 699
-        width: 373
-        height: 222
+        y: 664
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: henniabel attack_19
       rect:
         serializedVersion: 2
-        x: 494
-        y: 699
-        width: 248
-        height: 203
+        x: 374
+        y: 664
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,10 +528,10 @@ TextureImporter:
       name: henniabel attack_20
       rect:
         serializedVersion: 2
-        x: 871
-        y: 699
-        width: 244
-        height: 203
+        x: 748
+        y: 664
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: henniabel attack_21
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 699
-        width: 253
-        height: 204
+        x: 1122
+        y: 664
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,10 +570,10 @@ TextureImporter:
       name: henniabel attack_22
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 699
-        width: 260
-        height: 204
+        x: 1496
+        y: 664
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: henniabel attack_23
       rect:
         serializedVersion: 2
-        x: 1981
-        y: 699
-        width: 263
-        height: 206
+        x: 1870
+        y: 664
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: henniabel attack_24
       rect:
         serializedVersion: 2
-        x: 112
-        y: 367
-        width: 263
-        height: 208
+        x: 0
+        y: 332
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,10 +633,10 @@ TextureImporter:
       name: henniabel attack_25
       rect:
         serializedVersion: 2
-        x: 487
-        y: 367
-        width: 252
-        height: 210
+        x: 374
+        y: 332
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,10 +654,10 @@ TextureImporter:
       name: henniabel attack_26
       rect:
         serializedVersion: 2
-        x: 863
-        y: 367
-        width: 216
-        height: 212
+        x: 748
+        y: 332
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,10 +675,10 @@ TextureImporter:
       name: henniabel attack_27
       rect:
         serializedVersion: 2
-        x: 1241
-        y: 367
-        width: 189
-        height: 213
+        x: 1122
+        y: 332
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,10 +696,10 @@ TextureImporter:
       name: henniabel attack_28
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 367
-        width: 156
-        height: 214
+        x: 1496
+        y: 332
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,10 +717,10 @@ TextureImporter:
       name: henniabel attack_29
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 367
-        width: 128
-        height: 215
+        x: 1870
+        y: 332
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,10 +738,10 @@ TextureImporter:
       name: henniabel attack_30
       rect:
         serializedVersion: 2
-        x: 112
-        y: 23
-        width: 163
-        height: 244
+        x: 0
+        y: 0
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,10 +759,10 @@ TextureImporter:
       name: henniabel attack_31
       rect:
         serializedVersion: 2
-        x: 485
-        y: 35
-        width: 155
-        height: 225
+        x: 374
+        y: 0
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,10 +780,10 @@ TextureImporter:
       name: henniabel attack_32
       rect:
         serializedVersion: 2
-        x: 835
-        y: 35
-        width: 183
-        height: 243
+        x: 748
+        y: 0
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,10 +801,10 @@ TextureImporter:
       name: henniabel attack_33
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 35
-        width: 195
-        height: 252
+        x: 1122
+        y: 0
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +822,10 @@ TextureImporter:
       name: henniabel attack_34
       rect:
         serializedVersion: 2
-        x: 1571
-        y: 35
-        width: 196
-        height: 254
+        x: 1496
+        y: 0
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,10 +843,10 @@ TextureImporter:
       name: henniabel attack_35
       rect:
         serializedVersion: 2
-        x: 1945
-        y: 35
-        width: 196
-        height: 254
+        x: 1870
+        y: 0
+        width: 374
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

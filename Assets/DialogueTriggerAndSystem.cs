@@ -49,11 +49,7 @@ public class DialogueTriggerAndSystem : MonoBehaviour
             {
                 npcToEnable.SetActive(true);
 
-                // optionally move NPC to a position relative to trigger
-                npcToEnable.transform.position = new Vector2(
-                    transform.position.x + spawnOffsetX,
-                    transform.position.y
-                );
+            
 
                 Debug.Log("NPC Enabled!");
             }

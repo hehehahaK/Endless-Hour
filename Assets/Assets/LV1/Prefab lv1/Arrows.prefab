@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8365542706628677082}
   - component: {fileID: 1969743146157467029}
   m_Layer: 0
-  m_Name: arrows
+  m_Name: Arrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6591711389961495666}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7128882, w: 0.70127773}
   m_LocalPosition: {x: -636.699, y: -556.947, z: 0}
   m_LocalScale: {x: 0.10138195, y: 0.08176302, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.941}
 --- !u!212 &6591711389961495665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -123,7 +123,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!61 &1969743146157467029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -134,7 +134,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

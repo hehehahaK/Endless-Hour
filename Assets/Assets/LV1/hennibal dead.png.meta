@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hennibal dead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1865
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f9b2cf373f1fd448739ac4ffea8605
+      internalID: 1437468093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1865
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11a0b237ecea8843bea593e700443ce
+      internalID: 545068008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_2
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1865
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08a52cb9eceff34ba082ecca0307b64
+      internalID: 957349502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_3
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1865
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10681be0432ca29408ee78d58766b5de
+      internalID: -90056743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_4
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1865
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418848da98e10ce42bf82ab8ce3c8766
+      internalID: 33569331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_5
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 1865
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4602dfac6e16f8b468a5a65a7aef9654
+      internalID: 47779323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1492
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a2483072a56445a513e704040dc0a
+      internalID: 444365403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1492
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0180fc37e6f4742a105e61fafdd419
+      internalID: 987600718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1492
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4f20801e531354189015efdceff87d
+      internalID: 1445798896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_9
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1492
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d3b4d203b5243498a3dffb63f2e10c
+      internalID: 1539231483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_10
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1492
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4ac09c94c864943b2064edde2921fc
+      internalID: 1719409712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_11
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 1492
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a6a5c27c2e4074eaa892aeb2f88438
+      internalID: -1436938600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1119
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2434958ed948144f827fbfd9e093b64
+      internalID: 1749849426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1119
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79534da3108f59409b6dafbc83b0362
+      internalID: -665410128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_14
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1119
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a7f7623fe973a4a88414b376c28a6d
+      internalID: 1090973790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_15
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1119
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa1b67d5b81409498493eec12ca493d
+      internalID: 840704915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_16
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1119
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43da3242fc4833499f905c120b8155f
+      internalID: 281691735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_17
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 1119
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b68d18ab5a35b48b84cff34662594b
+      internalID: -294704973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c5f147c8392414d823cbbabed11694
+      internalID: -319514527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_19
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 746
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4d284de0af59b4995bc6cc2cb0b987
+      internalID: -48806880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_20
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 746
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c2b3d150c864c4587cc06e89a10865
+      internalID: -1981532372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_21
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 746
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b250a7fee44c784e828974361fa39ba
+      internalID: 2029928848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_22
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 746
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4939142b0aa6be4b8227a85677f992b
+      internalID: 1104852444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_23
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 746
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85261584564b94844a6753546b3247be
+      internalID: -1797234801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 373
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255ac3f3b6cbedf418c29952e2bfecd3
+      internalID: 161282802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_25
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 373
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41211340da3cc9e419f60399b863f4e7
+      internalID: -557616833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_26
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 373
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad492523797e45242b2a383235bfabce
+      internalID: 506574468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_27
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 373
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e4faa417ce3d743b00f2dbed3fe9fb
+      internalID: 1300386209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_28
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 373
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660b6f7c83ca5b5468ec01b2a316fe08
+      internalID: -1674201982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_29
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 373
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ee0ff32f9933f43a018f09258db393
+      internalID: -363569489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5b724028def3640ad59d67c9fc698d
+      internalID: 1353576798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_31
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1fa5424b9b3e042b3481046368ff1a
+      internalID: -1108234919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_32
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9d83879eeccd64280b9de0b328a3fd
+      internalID: 1995215572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_33
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb8e1c64bcb4f45a8c2ab186650e63
+      internalID: 2101596300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_34
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd03adc96b933e4789ec501884484e8
+      internalID: -376064356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hennibal dead_35
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 0
+        width: 424
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6221e62139faef04b80d462c4867d836
+      internalID: -1193571922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +894,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hennibal dead_18: -319514527
+      hennibal dead_25: -557616833
+      hennibal dead_29: -363569489
+      hennibal dead_8: 1445798896
+      hennibal dead_6: 444365403
+      hennibal dead_10: 1719409712
+      hennibal dead_27: 1300386209
+      hennibal dead_14: 1090973790
+      hennibal dead_31: -1108234919
+      hennibal dead_4: 33569331
+      hennibal dead_5: 47779323
+      hennibal dead_2: 957349502
+      hennibal dead_33: 2101596300
+      hennibal dead_19: -48806880
+      hennibal dead_13: -665410128
+      hennibal dead_12: 1749849426
+      hennibal dead_20: -1981532372
+      hennibal dead_26: 506574468
+      hennibal dead_23: -1797234801
+      hennibal dead_28: -1674201982
+      hennibal dead_35: -1193571922
+      hennibal dead_11: -1436938600
+      hennibal dead_24: 161282802
+      hennibal dead_22: 1104852444
+      hennibal dead_7: 987600718
+      hennibal dead_9: 1539231483
+      hennibal dead_15: 840704915
+      hennibal dead_1: 545068008
+      hennibal dead_32: 1995215572
+      hennibal dead_3: -90056743
+      hennibal dead_17: -294704973
+      hennibal dead_0: 1437468093
+      hennibal dead_16: 281691735
+      hennibal dead_21: 2029928848
+      hennibal dead_30: 1353576798
+      hennibal dead_34: -376064356
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

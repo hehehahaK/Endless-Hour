@@ -108,10 +108,10 @@ TextureImporter:
       name: monster_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 2381
-        width: 263
-        height: 242
+        x: 0
+        y: 2275
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: monster_1
       rect:
         serializedVersion: 2
-        x: 485
-        y: 2381
-        width: 263
-        height: 242
+        x: 411
+        y: 2275
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: monster_2
       rect:
         serializedVersion: 2
-        x: 905
-        y: 2381
-        width: 253
-        height: 244
+        x: 822
+        y: 2275
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: monster_3
       rect:
         serializedVersion: 2
-        x: 1316
-        y: 2381
-        width: 254
-        height: 244
+        x: 1233
+        y: 2275
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: monster_4
       rect:
         serializedVersion: 2
-        x: 1724
-        y: 2381
-        width: 257
-        height: 242
+        x: 1644
+        y: 2275
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: monster_5
       rect:
         serializedVersion: 2
-        x: 2121
-        y: 2381
-        width: 270
-        height: 241
+        x: 2055
+        y: 2275
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: monster_6
       rect:
         serializedVersion: 2
-        x: 56
-        y: 1926
-        width: 281
-        height: 241
+        x: 0
+        y: 1820
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: monster_7
       rect:
         serializedVersion: 2
-        x: 433
-        y: 1926
-        width: 315
-        height: 240
+        x: 411
+        y: 1820
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: monster_8
       rect:
         serializedVersion: 2
-        x: 829
-        y: 1926
-        width: 328
-        height: 239
+        x: 822
+        y: 1820
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: monster_9
       rect:
         serializedVersion: 2
-        x: 1232
-        y: 1926
-        width: 336
-        height: 239
+        x: 1233
+        y: 1820
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: monster_10
       rect:
         serializedVersion: 2
-        x: 1660
-        y: 1926
-        width: 326
-        height: 255
+        x: 1644
+        y: 1820
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: monster_11
       rect:
         serializedVersion: 2
-        x: 2111
-        y: 1926
-        width: 296
-        height: 331
+        x: 2055
+        y: 1820
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: monster_12
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1472
-        width: 287
-        height: 348
+        x: 0
+        y: 1365
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: monster_13
       rect:
         serializedVersion: 2
-        x: 529
-        y: 1472
-        width: 244
-        height: 332
+        x: 411
+        y: 1365
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: monster_14
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1472
-        width: 222
-        height: 317
+        x: 822
+        y: 1365
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: monster_15
       rect:
         serializedVersion: 2
-        x: 1370
-        y: 1472
-        width: 223
-        height: 322
+        x: 1233
+        y: 1365
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +444,10 @@ TextureImporter:
       name: monster_16
       rect:
         serializedVersion: 2
-        x: 1781
-        y: 1472
-        width: 222
-        height: 322
+        x: 1644
+        y: 1365
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: monster_17
       rect:
         serializedVersion: 2
-        x: 2193
-        y: 1472
-        width: 221
-        height: 323
+        x: 2055
+        y: 1365
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +486,10 @@ TextureImporter:
       name: monster_18
       rect:
         serializedVersion: 2
-        x: 137
-        y: 1016
-        width: 222
-        height: 324
+        x: 0
+        y: 910
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: monster_19
       rect:
         serializedVersion: 2
-        x: 548
-        y: 1016
-        width: 221
-        height: 323
+        x: 411
+        y: 910
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,10 +528,10 @@ TextureImporter:
       name: monster_20
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1016
-        width: 220
-        height: 324
+        x: 822
+        y: 910
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: monster_21
       rect:
         serializedVersion: 2
-        x: 1370
-        y: 1016
-        width: 222
-        height: 324
+        x: 1233
+        y: 910
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,10 +570,10 @@ TextureImporter:
       name: monster_22
       rect:
         serializedVersion: 2
-        x: 1781
-        y: 1016
-        width: 222
-        height: 326
+        x: 1644
+        y: 910
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: monster_23
       rect:
         serializedVersion: 2
-        x: 2193
-        y: 1016
-        width: 221
-        height: 324
+        x: 2055
+        y: 910
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: monster_24
       rect:
         serializedVersion: 2
-        x: 137
-        y: 561
-        width: 220
-        height: 320
+        x: 0
+        y: 455
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,10 +633,10 @@ TextureImporter:
       name: monster_25
       rect:
         serializedVersion: 2
-        x: 533
-        y: 561
-        width: 233
-        height: 309
+        x: 411
+        y: 455
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,10 +654,10 @@ TextureImporter:
       name: monster_26
       rect:
         serializedVersion: 2
-        x: 871
-        y: 561
-        width: 298
-        height: 311
+        x: 822
+        y: 455
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,10 +675,10 @@ TextureImporter:
       name: monster_27
       rect:
         serializedVersion: 2
-        x: 1237
-        y: 561
-        width: 337
-        height: 236
+        x: 1233
+        y: 455
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,10 +696,10 @@ TextureImporter:
       name: monster_28
       rect:
         serializedVersion: 2
-        x: 1646
-        y: 561
-        width: 336
-        height: 233
+        x: 1644
+        y: 455
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,10 +717,10 @@ TextureImporter:
       name: monster_29
       rect:
         serializedVersion: 2
-        x: 2067
-        y: 561
-        width: 326
-        height: 232
+        x: 2055
+        y: 455
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -738,10 +738,10 @@ TextureImporter:
       name: monster_30
       rect:
         serializedVersion: 2
-        x: 19
-        y: 107
-        width: 318
-        height: 232
+        x: 0
+        y: 0
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,10 +759,10 @@ TextureImporter:
       name: monster_31
       rect:
         serializedVersion: 2
-        x: 440
-        y: 107
-        width: 309
-        height: 233
+        x: 411
+        y: 0
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,10 +780,10 @@ TextureImporter:
       name: monster_32
       rect:
         serializedVersion: 2
-        x: 865
-        y: 107
-        width: 297
-        height: 234
+        x: 822
+        y: 0
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -801,10 +801,10 @@ TextureImporter:
       name: monster_33
       rect:
         serializedVersion: 2
-        x: 1282
-        y: 107
-        width: 291
-        height: 234
+        x: 1233
+        y: 0
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,10 +822,10 @@ TextureImporter:
       name: monster_34
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 107
-        width: 285
-        height: 234
+        x: 1644
+        y: 0
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,10 +843,10 @@ TextureImporter:
       name: monster_35
       rect:
         serializedVersion: 2
-        x: 2119
-        y: 107
-        width: 274
-        height: 236
+        x: 2055
+        y: 0
+        width: 411
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

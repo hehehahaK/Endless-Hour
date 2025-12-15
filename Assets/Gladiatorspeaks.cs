@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gladiatorspeaks : MonoBehaviour{
 
-    public dialogueLv1 dialogueManager;
+    public DialogueLv1 dialogueManager;
 
     public GameObject powerPotionPrefab;
     

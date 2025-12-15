@@ -83,5 +83,7 @@ public class Solider : NewEnemyController
         isAttacking = false;
 
     }
-
+public override void Die(){
+    base.Die();
+}
 }

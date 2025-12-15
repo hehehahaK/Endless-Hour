@@ -24,13 +24,29 @@ base.Update();
         anim.SetTrigger("Shoot");
         ShootArrow();
     }
+public override void Die(){
+    base.Die();
+}
+   private void ShootArrow()
+{
+    if (player == null) return;
 
-    private void ShootArrow()
-    {
-        if (player == null) return;
-        float offsetX = Random.Range(-5f, 5f); // random range for x offset
-        Vector3 spawnPos = new Vector3(transform.position.x + offsetX, transform.position.y, 0f);
-        GameObject arrow = Instantiate(arrowPrefab, spawnPos, Quaternion.Euler(0f, 0f, 0f));
-        arrow.GetComponent<arrow>().player = player;
+    float offsetX = Random.Range(-5f, 5f);
+    Vector3 spawnPos = new Vector3(transform.position.x + offsetX, transform.position.y, 0f);
+    float zRotation=0f;
+    if(spriteRenderer.flipX){
+    zRotation=90f;
     }
+    else
+{zRotation = -90f;
+}
+    GameObject arrow = Instantiate(
+        arrowPrefab,
+        spawnPos,
+        Quaternion.Euler(0f, 0f, zRotation)
+    );
+
+    arrow.GetComponent<arrow>().player = player;
+}
+
 }

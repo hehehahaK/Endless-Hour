@@ -42,18 +42,13 @@ public class JuliusController : MonoBehaviour
     }
 
     // Update is called once per frame
+  
     void Update()
     {
-        if (currentHealth == 0)
-        {
-            Die();
-            return;
-        }
-        if (currentHealth <= AttackThreshold * maxHealth)
-        {
-            phase = 2;
-        }
+        if (isDead) return;
 
+        if (currentHealth <= AttackThreshold * maxHealth)
+            phase = 2;
     }
     IEnumerator AttackLoop()
     {
@@ -181,17 +176,21 @@ public class JuliusController : MonoBehaviour
 
     if (currentHealth <= 0)
         Die();
-
-        if (currentHealth <= 0)
-            Die();
     }
     private void Die()
+{
+    isDead = true;
+    anim.SetTrigger("die");
+    
+    Destroy(gameObject, 2f);
+
+    CameraShakeLv2 camShake = Camera.main.GetComponent<CameraShakeLv2>();
+    if (camShake != null)
     {
-        isDead = true;
-        anim.SetTrigger("die");
-        Destroy(gameObject, 2f);
-        Camera.main.GetComponent<CameraShakeLv2>().Shake(3.5f,0.15f);
+        camShake.StartCoroutine(camShake.Shake(3.5f, 0.15f));
     }
+}
+
 
     /*Julius logic? how should i make his logic? 
     brain says to do this : -> this is how the fight will go, 

@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LV6Scene2.unity
     guid: 55f6ce4f47a6a6447a76b4fab18bcde7
+  - enabled: 1
+    path: Assets/Scenes/lvl2scene1.unity
+    guid: 186b8938bff837f43b999f10b863744b
+  - enabled: 1
+    path: Assets/Scenes/LV2Scene1PLZWork.unity
+    guid: 889f2d04d06154a46b0df3fc18f1666b
+  - enabled: 1
+    path: Assets/Scenes/lvl2Puzzle.unity
+    guid: 35d6e0617376bcf4b95eadf90f027278
   m_configObjects: {}

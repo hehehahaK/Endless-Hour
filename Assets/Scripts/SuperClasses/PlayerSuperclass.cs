@@ -66,7 +66,13 @@ public class PlayerSuperclass : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey(RunKey)){
 
+            currentSpeed=2*moveSpeed;
+        }
+        else{
+            currentSpeed=moveSpeed;
+        }
         if (Input.GetKeyDown(Spacebar) && grounded)
         { Jump(); }
 
@@ -179,14 +185,14 @@ public class PlayerSuperclass : MonoBehaviour
         {
             health -= damage;
             health = Mathf.Clamp(health, 0f, maxHealth);
-            //   healthBarUI.updateHealthBar();
+            healthBarUI.updateHealthBar();
 
 
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = maxHealth;
-                //                  healthBarUI.updateHealthBar();
+                          healthBarUI.updateHealthBar();
 
             }
        //     Debug.Log("Player Health:" + health.ToString());
@@ -227,6 +233,7 @@ public class PlayerSuperclass : MonoBehaviour
         {
             moveSpeed += boostAmount;
             speedBoosted = true;
+            currentSpeed=moveSpeed;
         }
 
         Debug.Log("Speed Upgrade: " + moveSpeed.ToString());

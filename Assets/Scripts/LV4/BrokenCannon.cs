@@ -7,6 +7,9 @@ public class BrokenCannon : MonoBehaviour, InterfaceInteractable
     public bool IsFixed { get; private set; }
     public Sprite FixedCannonSprite;
 
+    public ParticleSystem smokeEffect; // Assign your particle system in the Inspector
+    public float smokeDelay = 0f;      // Delay before smoke starts, e.g., 1.5f
+
     public bool CanInteract()
     {
         return !IsFixed;
@@ -15,19 +18,30 @@ public class BrokenCannon : MonoBehaviour, InterfaceInteractable
     public void Interact()
     {
         if (!CanInteract()) return;
+
         FixedCannon(true);
-        // Mark wheel as taken so it can't be interacted twice
-  
+
+        // Trigger particle system after a delay
+        if (smokeEffect != null)
+        {
+            StartCoroutine(TriggerSmokeAfterDelay(smokeDelay));
+        }
 
         Debug.Log("Broken Cannon Fixed!");
     }
 
-    public void FixedCannon(bool CannonFixed)
+    private void FixedCannon(bool CannonFixed)
     {
-        if (IsFixed = CannonFixed)
+        IsFixed = CannonFixed;
+        if (IsFixed)
         {
             GetComponent<SpriteRenderer>().sprite = FixedCannonSprite;
         }
     }
-}
 
+    private IEnumerator TriggerSmokeAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        smokeEffect.Play(); // Play the particle system
+    }
+}

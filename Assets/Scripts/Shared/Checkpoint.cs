@@ -21,7 +21,7 @@ public class Checkpoint : MonoBehaviour
         if (other.tag == "Player")
         {
             // if the collider of the object whose name is Player GameObject touches the checkpoint circle collider
-            FindObjectOfType<LevelManager>().CurrentCheckpoint = transform;
+FindObjectOfType<LevelManager>().SetCheckpoint(transform);
             //go to the level manager script and update the value of currentcheckpoint to become the new checkpoint the player has just pass through. this is necessary when you have several checkpoints in a level.
         }
     }

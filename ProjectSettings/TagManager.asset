@@ -9,7 +9,8 @@ TagManager:
   - Platform
   - ground
   - Skull
-  - CorenEnemy
+  - NPC
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -1,4 +1,3 @@
-// DMdaggers.cs
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,9 +13,13 @@ public class DMdaggers : MonoBehaviour
     public GameObject dialogueBox; 
     public Rigidbody2D playerRB;
 
+    // Prefabs and Locations
     private GameObject daggers;
     private GameObject lockpick;
-    private Transform spawnLocation;
+    private Transform spawnLocationdag;
+    private Transform spawnlocationlockpick;
+    
+    // Track if items have been given so we don't spawn them twice
     private bool daggersSpawned = false;
     private bool lockpickSpawned = false;
     
@@ -31,11 +34,14 @@ public class DMdaggers : MonoBehaviour
         this.dialogueSentences = sentences;
     }
 
-    public void SetPrefabToSpawn(GameObject prefab, GameObject prefabLP, Transform location)
+    public void SetPrefabToSpawn(GameObject prefab, GameObject prefabLP, Transform location, Transform lockloc)
     {
         daggers = prefab;
         lockpick = prefabLP;
-        spawnLocation = location;
+        spawnLocationdag = location;
+        spawnlocationlockpick = lockloc;
+        
+        // Reset spawning flags
         daggersSpawned = false;
         lockpickSpawned = false;
     }
@@ -43,70 +49,42 @@ public class DMdaggers : MonoBehaviour
     public IEnumerator TypeDialogue()
     {
         dialogueBox.SetActive(true);
-        playerRB.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
+        // Freeze X and Y movement, keep rotation frozen
+        playerRB.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
         
-        Debug.Log("TypeDialogue - Current index: " + index);
-        
-        // Check daggers spawn at index 1
-        if (index == 1 && daggers != null && spawnLocation != null) 
+        // --- SPAWN LOGIC (Inside TypeDialogue) ---
+        // Spawn Daggers at Index 1 (Second sentence)
+        if (index == 1 && daggers != null && !daggersSpawned) 
         {
-            Debug.Log("Spawning DAGGERS at position: " + spawnLocation.position);
-            GameObject spawnedDagger = Instantiate(daggers, spawnLocation.position, Quaternion.identity);
-            Debug.Log("Daggers spawned! GameObject name: " + spawnedDagger.name + " | Active: " + spawnedDagger.activeSelf);
-            daggers = null;
-        }
-        else if (index == 1)
-        {
-            Debug.LogWarning("Daggers spawn failed - daggers null: " + (daggers == null) + " | spawnLocation null: " + (spawnLocation == null));
+            // Fixed: changed 'spawnLocation' to 'spawnLocationdag'
+            Instantiate(daggers, spawnLocationdag.position, Quaternion.identity);
+            daggersSpawned = true;
+            Debug.Log("Daggers spawned!");
         }
         
-        // Check lockpick spawn at index 4
-        if (index == 4 && lockpick != null && spawnLocation != null) 
+        
+        if (index == 3 && lockpick != null && !lockpickSpawned) 
         {
-            Debug.Log("Spawning LOCKPICK at position: " + spawnLocation.position);
-            GameObject spawnedLockpick = Instantiate(lockpick, spawnLocation.position, Quaternion.identity);
-            Debug.Log("Lockpick spawned! GameObject name: " + spawnedLockpick.name + " | Active: " + spawnedLockpick.activeSelf);
-            lockpick = null;
+            Instantiate(lockpick, spawnlocationlockpick.position, Quaternion.identity);
+            lockpickSpawned = true;
+            Debug.Log("Lockpick spawned!");
         }
-        else if (index == 4)
-        {
-            Debug.LogWarning("Lockpick spawn failed - lockpick null: " + (lockpick == null) + " | spawnLocation null: " + (spawnLocation == null));
-        }
+        // -----------------------------------------
 
+        // Type the text
         foreach (char letter in dialogueSentences[index].ToCharArray())
         {
             textDisplay.text += letter; 
             yield return new WaitForSeconds(typingSpeed);
-            
-            if (textDisplay.text == dialogueSentences[index])
-            {
-                continueButton.SetActive(true);
-            }
         }
+        
+        continueButton.SetActive(true);
     }
 
     public void NextSentence()
     {
-        Debug.Log("NextSentence called. Current index: " + index);
         continueButton.SetActive(false);
         
-        // Spawn items AFTER the sentence is displayed (when clicking continue)
-        // Daggers spawn after sentence 1: "Here, a pair of sharp daggers..."
-        if (index == 1 && daggers != null && !daggersSpawned) 
-        {
-            Debug.Log("Spawning daggers!");
-            Instantiate(daggers, spawnLocation.position, Quaternion.identity);
-            daggersSpawned = true;
-        }
-        
-        // Lockpick spawns after sentence 3: "I also have this lockpick..."
-        if (index == 2 && lockpick != null && !lockpickSpawned) 
-        {
-            Debug.Log("Spawning lockpick!");
-            Instantiate(lockpick, spawnLocation.position, Quaternion.identity);
-            lockpickSpawned = true;
-        }
-
         if (index < dialogueSentences.Length - 1)
         {
             index++; 
@@ -115,19 +93,13 @@ public class DMdaggers : MonoBehaviour
         }
         else 
         {
-            Debug.Log("Dialogue finished. Closing dialogue box.");
+            // End of dialogue
             textDisplay.text = ""; 
             dialogueBox.SetActive(false);
-            this.dialogueSentences = null; 
             index = 0;
-            daggers = null;
-            lockpick = null;
-            spawnLocation = null;
-            daggersSpawned = false;
-            lockpickSpawned = false;
-            playerRB.constraints = RigidbodyConstraints2D.None; 
+            
+            // Unfreeze movement, but keep rotation frozen so player doesn't tip over
             playerRB.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
     }
 }
-

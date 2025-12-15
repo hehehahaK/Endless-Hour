@@ -4,20 +4,25 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public Transform CurrentCheckpoint; // so we can update the current checkpoint from within unity
+    public Vector3 CurrentCheckpoint;
     public Transform player;
-    // Start is called before the first frame update
+
     void Start()
     {
-        CurrentCheckpoint = player;
+        CurrentCheckpoint = player.position;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
     public void RespawnPlayer()
     {
-        player.position = CurrentCheckpoint.position;
+        player.position = CurrentCheckpoint;
+    }
+
+    public void SetCheckpoint(Vector3 newCheckpoint)
+    {
+        CurrentCheckpoint = newCheckpoint;
+    }
+        public void SetCheckpoint(Transform checkpointTransform)
+    {
+        CurrentCheckpoint = checkpointTransform.position;
     }
 }

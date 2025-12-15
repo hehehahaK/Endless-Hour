@@ -11,12 +11,13 @@ public class SandEnemy : MonoBehaviour
     private Animator anim;
     private Transform currentPoint;
     private int currentPointIndex;
-    
+    private SpriteRenderer sr;
+    public int AttackDamage=3;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        
+        sr= GetComponent<SpriteRenderer>();
         currentPoint = points[0];
     }
 
@@ -41,20 +42,23 @@ public class SandEnemy : MonoBehaviour
         Flip();
     }
 
-    private void Flip()
+private void Flip()
+{
+    if (currentPoint.position.x < transform.position.x)
     {
-        if (currentPoint.position.x < transform.position.x)
-        {
-            Vector3 localScale = transform.localScale;
-            localScale.x = -1f * Mathf.Abs(localScale.x);
-            transform.localScale = localScale;
-        }
-        else
-        {
-            Vector3 localScale = transform.localScale;
-            localScale.x = Mathf.Abs(localScale.x);
-            transform.localScale = localScale;
-        }
+        sr.flipX = true;
     }
-    
+    else if (currentPoint.position.x > transform.position.x) 
+    {
+        sr.flipX = false;
+    }
+}    
+private void OnCollisionEnter2D(Collision2D other){
+
+    if (other.gameObject.tag=="Player"){
+        other.gameObject.GetComponent<PlayerSuperclass>().TakeDamage(AttackDamage);
+
+    }
+
+}
 }

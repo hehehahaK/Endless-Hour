@@ -8,6 +8,8 @@ public class JuliusController : MonoBehaviour
     public GameObject spellProjectilePrefab;
     public GameObject redDotSkull;
     public int maxHealth = 100;
+    private float flickerTime = 0f;
+    private float flickerDuration = 0.1f;
     //public GameObject deathEffect;
     public float currentHealth;
     public int phase = 1;
@@ -175,6 +177,10 @@ public class JuliusController : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
+    StartCoroutine(Flicker(0.3f));
+
+    if (currentHealth <= 0)
+        Die();
 
         if (currentHealth <= 0)
             Die();
@@ -182,8 +188,9 @@ public class JuliusController : MonoBehaviour
     private void Die()
     {
         isDead = true;
-
-        Destroy(gameObject, 0.1f);
+        anim.SetTrigger("die");
+        Destroy(gameObject, 2f);
+        Camera.main.GetComponent<CameraShakeLv2>().Shake(3.5f,0.15f);
     }
 
     /*Julius logic? how should i make his logic? 
@@ -191,4 +198,31 @@ public class JuliusController : MonoBehaviour
     summon attack1 until HP goes below certain threshold, 
     after which he goes into the summon attack 2
     */
+        void SpriteFlicker()
+    {
+        if (flickerTime < flickerDuration)
+        {
+            flickerTime += Time.deltaTime;
+        }
+        else if (flickerTime >= flickerDuration)
+        {
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            flickerTime = 0;
+        }
+    }
+IEnumerator Flicker(float duration)
+{
+    float elapsed = 0f;
+
+    while (elapsed < duration)
+    {
+        spriteRenderer.enabled = !spriteRenderer.enabled;
+        yield return new WaitForSeconds(flickerDuration);
+        elapsed += flickerDuration;
+    }
+
+    // Ensure sprite is visible at the end
+    spriteRenderer.enabled = true;
+}
+
 }

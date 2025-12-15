@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 303868a5e23a2be418dc2438af6ee389
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireattacklol_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1097
+        width: 224
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca48e78ad87e4904f97ada3ff920f9e6
+      internalID: -719806363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_6
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1098
+        width: 262
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca06eb5bece6b034899ccdc10fef9afd
+      internalID: 1146107610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_7
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1096
+        width: 303
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06423e33fe84bb1469d4447e4888ea65
+      internalID: 1386181845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_8
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1096
+        width: 310
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adc1a3f34b72ea47ac92564f38b4505
+      internalID: -1846834110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_9
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1096
+        width: 266
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef362f2b8001d504d8f5c7f6d3831edb
+      internalID: 1195933282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 746
+        width: 224
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7c39ea7b995984d9d3b3c100d79298
+      internalID: 79405494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 746
+        width: 272
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccef5fd94375724ca6a4e8e5f801b60
+      internalID: 215033955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_13
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 746
+        width: 276
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aabf1af8fb55454d8769d675201e889
+      internalID: -419639033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_17
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 746
+        width: 275
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010d10a41c2869544a08a09ce1068c1e
+      internalID: -590778821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_18
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 746
+        width: 272
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a0d2a512e909e49b0a470514f158d5
+      internalID: -1713153157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_20
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 396
+        width: 303
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2aa1ee93e1f6b4ba7506ce9500ff88
+      internalID: -1401277346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_21
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 396
+        width: 295
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23ed849f59238e4c967eb7896f1d0b6
+      internalID: 19848149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 396
+        width: 270
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a4cb680925e3d41b4dd4c3e583b8ff
+      internalID: 982781327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_25
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 395
+        width: 330
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824c655613d6ae0429203f1133df127c
+      internalID: 1500145976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireattacklol_36
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 44
+        width: 229
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef917a29db98bb041ab2a4571e6903c0
+      internalID: -818914489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fireattacklol_31: -103215756
+      fireattacklol_33: 1613263147
+      fireattacklol_5: -719806363
+      fireattacklol_26: 1792878957
+      fireattacklol_8: -1846834110
+      fireattacklol_7: 1386181845
+      fireattacklol_3: 1423301969
+      fireattacklol_24: 982781327
+      fireattacklol_2: 424177443
+      fireattacklol_16: -752436758
+      fireattacklol_22: 1748722675
+      fireattacklol_11: 215033955
+      fireattacklol_21: 19848149
+      fireattacklol_17: -590778821
+      fireattacklol_39: 1688633137
+      fireattacklol_27: 1522682038
+      fireattacklol_15: 748673029
+      fireattacklol_13: -419639033
+      fireattacklol_36: -818914489
+      fireattacklol_38: 442621474
+      fireattacklol_34: 853795729
+      fireattacklol_37: 1378983344
+      fireattacklol_4: -1030243598
+      fireattacklol_25: 1500145976
+      fireattacklol_18: -1713153157
+      fireattacklol_30: 1456557581
+      fireattacklol_29: -1332856186
+      fireattacklol_9: 1195933282
+      fireattacklol_40: -311214351
+      fireattacklol_14: -979755657
+      fireattacklol_28: 1881836318
+      fireattacklol_10: 79405494
+      fireattacklol_35: -2047622597
+      fireattacklol_19: -2038018824
+      fireattacklol_23: 614851353
+      fireattacklol_1: 843501276
+      fireattacklol_32: -75185670
+      fireattacklol_12: 289608450
+      fireattacklol_6: 1146107610
+      fireattacklol_0: -332256069
+      fireattacklol_20: -1401277346
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

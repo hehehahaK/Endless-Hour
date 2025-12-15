@@ -11,4 +11,5 @@ public class Checkpoint67 : MonoBehaviour
             FindObjectOfType<LevelManager>().SetCheckpoint(transform);
         }
     }*/
+    
 }

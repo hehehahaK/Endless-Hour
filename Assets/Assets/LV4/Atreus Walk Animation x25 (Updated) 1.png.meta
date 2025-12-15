@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 34ea40f2723e1b6418e6c7f48ce9bccd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f10bd81364eb748a65522005265354
+      internalID: -1777199838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 904
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805d960353c92a2448aae0e88ef220b2
+      internalID: -562454543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 904
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fda70166ef8f940975ab3de54c1820
+      internalID: 707768150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_3
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 904
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb42c6f60463324db14b5ade5cbd517
+      internalID: -1027106002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_4
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 904
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99506be5fd9a1564ca3eba6cace7aa73
+      internalID: 798006188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dc54eceb364b34797bc00e08aa260a
+      internalID: 1853113514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 678
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4173788e33feca04481f2838bfbe1306
+      internalID: -943122440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_7
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 678
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20673f6a3001165439d2c127fd871c0c
+      internalID: -2139479167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_8
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 678
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2967e82912de59d43bf447b356cf8f02
+      internalID: -213398359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_9
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 678
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6307179c8a5538f418f1336f8fb35abe
+      internalID: 326677099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca17c8e02a4d44e4d92e1746225ac6ac
+      internalID: 1344365053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 452
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9fbe82cad396148923a15d5dc60b1c
+      internalID: 1306057317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 452
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d7d487df5e23743b60533e4be1fa8e
+      internalID: 1079928809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_13
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 452
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4573a6dd6757d84fa5544f2e4b970df
+      internalID: -1910620034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_14
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 452
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1e3de30225a2142b307c88ad78d47d
+      internalID: 1620399980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01a7c84b22bac944bab1232a62c0905
+      internalID: 274246538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_16
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 226
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12de86f5d2e993249a3c9b6951d66697
+      internalID: 1033225728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_17
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 226
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2542fdf1e5b9b9640b35730844e76b74
+      internalID: 300291072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_18
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 226
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8be0ae34bb5e9418fb4952d72a1c1e
+      internalID: 484020510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_19
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 226
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed426301904406b4faa41841e59e66b6
+      internalID: 224052578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b876d7d88266354f908fd43fa2a2dc5
+      internalID: 1390024814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_21
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4e65a61ab621c4fabee1bbe8c04d10
+      internalID: 175335974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_22
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059cea5fcc5a463459aa519b5d41dbff
+      internalID: 1045520688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_23
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f765e650286559a49b0aeece9d02ee0c
+      internalID: -687553683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Walk Animation x25 (Updated)_24
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 0
+        width: 332
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba27f40132ac5442a1348864689f769
+      internalID: -1024036507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Atreus Walk Animation x25 (Updated)_11: 1306057317
+      Atreus Walk Animation x25 (Updated)_6: -943122440
+      Atreus Walk Animation x25 (Updated)_7: -2139479167
+      Atreus Walk Animation x25 (Updated)_3: -1027106002
+      Atreus Walk Animation x25 (Updated)_16: 1033225728
+      Atreus Walk Animation x25 (Updated)_8: -213398359
+      Atreus Walk Animation x25 (Updated)_18: 484020510
+      Atreus Walk Animation x25 (Updated)_24: -1024036507
+      Atreus Walk Animation x25 (Updated)_17: 300291072
+      Atreus Walk Animation x25 (Updated)_19: 224052578
+      Atreus Walk Animation x25 (Updated)_10: 1344365053
+      Atreus Walk Animation x25 (Updated)_12: 1079928809
+      Atreus Walk Animation x25 (Updated)_4: 798006188
+      Atreus Walk Animation x25 (Updated)_13: -1910620034
+      Atreus Walk Animation x25 (Updated)_9: 326677099
+      Atreus Walk Animation x25 (Updated)_0: -1777199838
+      Atreus Walk Animation x25 (Updated)_1: -562454543
+      Atreus Walk Animation x25 (Updated)_22: 1045520688
+      Atreus Walk Animation x25 (Updated)_14: 1620399980
+      Atreus Walk Animation x25 (Updated)_21: 175335974
+      Atreus Walk Animation x25 (Updated)_23: -687553683
+      Atreus Walk Animation x25 (Updated)_5: 1853113514
+      Atreus Walk Animation x25 (Updated)_20: 1390024814
+      Atreus Walk Animation x25 (Updated)_15: 274246538
+      Atreus Walk Animation x25 (Updated)_2: 707768150
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

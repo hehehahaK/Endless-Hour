@@ -4,83 +4,25 @@ using UnityEngine;
 using UnityEngine.UI;
 public class GameControl : MonoBehaviour
 
-// // --- GameControl.cs (COMPLETE) ---
-// using UnityEngine;
-// using UnityEngine.UI; // Required for the Text component
-
-// public class GameControl : MonoBehaviour
-// {
-//     // The static variable used by your touchPuzzle script
-//     public static bool youWin = false; 
-
-//     // *** 1. ARRAY & UI REFERENCE ***
-//     // Drag all 9 puzzle pieces from the Hierarchy into this slot in the Inspector
-//     public Transform[] pieces; 
-
-//     // Drag your UI Text object (the "YOU WIN" message) here
-//     public Text winText; 
-
-//     void Start()
-//     {
-//         youWin = false; 
-//         if (winText != null) 
-//         {
-//             winText.gameObject.SetActive(false);
-//         }
-//     }
-
-//     void Update()
-//     {
-//         if (!youWin)
-//         {
-//             CheckForWin();
-//         }
-//     }
-
-//     void CheckForWin()
-//     {
-//         int correctPieces = 0;
-//         foreach (Transform piece in pieces)
-//         {
-//             if (piece.rotation.eulerAngles.z == 0)
-//             {
-//                 correctPieces++;
-//             }
-//         }
-//         if (correctPieces == pieces.Length)
-//         {
-//             youWin = true;
-//             Debug.Log("YOU WIN!");
-//             if (winText != null) 
-//             {
-//                 winText.gameObject.SetActive(true);
-//             }
-//         }
-//     }
-// }
 
 {
-    public static bool youWin = false; 
-
-    // Drag all 9 puzzle pieces here in the Inspector
-    public Transform[] pieces; 
-
-    // Drag your "You Win!" UI Text object here
+    //unity 2 main
+    public static bool youWin = false; //tracks the wining state, static belongs to the class not to an instance
+    public Transform[] pieces; //array assiging the peices 3ndk f unity el 9 peices
     public Text winText; 
 
     void Start()
     {
         youWin = false; 
-        // Hide the win message at the start
-        if (winText != null) 
-        {
-            winText.gameObject.SetActive(false);
+        if (winText != null) // ui text connected //teamates//nullReferenceException, game crashes or freezes
+        {//s3at other scripts momken heya elly tdestroy el object bel8alat
+            winText.gameObject.SetActive(false);// el wintext bta3et el gameobject  mt4a8laha4 
         }
     }
 
     void Update()
     {
-        if (!youWin)
+        if (!youWin)//law lessa mksb4 checkforwin
         {
             CheckForWin();
         }
@@ -88,26 +30,25 @@ public class GameControl : MonoBehaviour
 
     void CheckForWin()
     {
-        int correctPieces = 0;
+        int correctPieces = 0;// counter for the peoces in the correct position
 
-        foreach (Transform piece in pieces)
+        foreach (Transform piece in pieces) //loop 3la kol peice f le array
         {
-            // Checks if the Z-rotation is 0 (the initial, correct position)
-            if (piece.rotation.eulerAngles.z == 0)
+            //
+            if (piece.rotation.eulerAngles.z == 0)//Quaternion->rotaion data
             {
                 correctPieces++;
             }
         }
 
-        if (correctPieces == pieces.Length)
+        if (correctPieces == pieces.Length)//9=9
         {
             youWin = true;
             Debug.Log("YOU WIN!");
             
-            // Show the "YOU WIN" message
-            if (winText != null) 
+            if (winText != null) // ui text connected 
             {
-                winText.gameObject.SetActive(true);
+                winText.gameObject.SetActive(true);//visiblleee
             }
         }
     }

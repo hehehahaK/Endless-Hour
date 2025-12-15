@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: db749b8352f74674e8f57bf686a2000d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1550
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975ab01701fdf9f48a7f652f266d1248
+      internalID: -1107076953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1550
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51faa1c8dd7481f4ebec89cd2bf8add2
+      internalID: -541713080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_2
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1550
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3397ce13c6918614eb86c76b6f74ae4c
+      internalID: -200170629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_3
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1550
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f32811226f31342a51d09ad414e047
+      internalID: 866336572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_4
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1550
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59b9a610f62c3e4890d6618ec86b47d
+      internalID: -213707363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_5
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 1550
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7ccdc56baa0d54e8837571313c465b
+      internalID: 1333579910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1240
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78db5c57d6cd6234dadb8bcc96727378
+      internalID: 229768734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1240
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3067e917c9624b34aa7bdb9e24627b4b
+      internalID: -1366678509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_8
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1240
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c670b7fc6936a5499d4cba93148df9b
+      internalID: -1930506887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_9
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1240
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fab47c3d7743914a9f5f8b641a44040
+      internalID: 1911018606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_10
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1240
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3529337c0050ec148bf77d65a2d70e30
+      internalID: -656375171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_11
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 1240
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8054e1a6d56be464ab82399b90faffc2
+      internalID: -181021818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d25fe8f2dd0944d808d134f34b28d2
+      internalID: 2051302207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 930
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35057a5a44f60d41b65b94901087ecd
+      internalID: 1784908357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_14
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 930
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff15f418ac186449203a7d03f51ff9
+      internalID: -1157307067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_15
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 930
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc740d13b2dc464db636b7ead8e23e2
+      internalID: 790431654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_16
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 930
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00bdb652eb4d6c4ebf998bd4fbf1359
+      internalID: -1385760974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_17
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 930
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404bcd50f98b56945950c7e8d652f527
+      internalID: -1570882785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b78dae781794b4092f243489386926
+      internalID: 2139846772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_19
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 620
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49401e39f00d229429b32278b3535a6d
+      internalID: 1595589314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_20
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 620
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3567427452c74a546886fae7e8a55dd7
+      internalID: -674321550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_21
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 620
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df16d2ef1c4c415449479898b2d56b7b
+      internalID: -1470010089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_22
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 620
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a465fa959b8bc144c963a4764832b40d
+      internalID: -1569880637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_23
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 620
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63977188a8f2ffd48a5f98a52dd4c3be
+      internalID: -60537522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa53f141a5e8c045a21dc3829e81207
+      internalID: 2035032393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_25
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 310
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267d379878231fc4d8c55033952d9603
+      internalID: -2017306339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_26
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 310
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d786708bcf96b4d419bb66529e10e279
+      internalID: -2130464807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_27
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 310
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dfe243df411b04d969131617095f6c
+      internalID: 367836506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_28
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 310
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b201e4ba73ec7d444bab2d01e42825de
+      internalID: 1940576722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_29
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 310
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee094d4dfd490514d8846bd05585d09e
+      internalID: 1539034765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f901237679d896c43bf277a1c3f40bee
+      internalID: 431705191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_31
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297cab4aed6c9cf4684e874afb575318
+      internalID: 284176517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_32
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373b371605c6d9747be8cd09e42b802e
+      internalID: -1357088206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_33
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 0
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2950b7ca6ed039c4997bb22be051c3f3
+      internalID: -1376316593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_34
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 0
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503a78a47f684054598bec15236f1d5f
+      internalID: -1629364323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Attack Animation x36_35
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 0
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a28593166d95546ba06ec1425ad50a
+      internalID: 593263335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Napolean Attack Animation x36_0: -1107076953
+      Napolean Attack Animation x36_1: -541713080
+      Napolean Attack Animation x36_8: -1930506887
+      Napolean Attack Animation x36_23: -60537522
+      Napolean Attack Animation x36_27: 367836506
+      Napolean Attack Animation x36_12: 2051302207
+      Napolean Attack Animation x36_13: 1784908357
+      Napolean Attack Animation x36_19: 1595589314
+      Napolean Attack Animation x36_26: -2130464807
+      Napolean Attack Animation x36_20: -674321550
+      Napolean Attack Animation x36_29: 1539034765
+      Napolean Attack Animation x36_10: -656375171
+      Napolean Attack Animation x36_2: -200170629
+      Napolean Attack Animation x36_28: 1940576722
+      Napolean Attack Animation x36_35: 593263335
+      Napolean Attack Animation x36_21: -1470010089
+      Napolean Attack Animation x36_5: 1333579910
+      Napolean Attack Animation x36_16: -1385760974
+      Napolean Attack Animation x36_18: 2139846772
+      Napolean Attack Animation x36_22: -1569880637
+      Napolean Attack Animation x36_25: -2017306339
+      Napolean Attack Animation x36_34: -1629364323
+      Napolean Attack Animation x36_31: 284176517
+      Napolean Attack Animation x36_6: 229768734
+      Napolean Attack Animation x36_14: -1157307067
+      Napolean Attack Animation x36_32: -1357088206
+      Napolean Attack Animation x36_9: 1911018606
+      Napolean Attack Animation x36_30: 431705191
+      Napolean Attack Animation x36_7: -1366678509
+      Napolean Attack Animation x36_11: -181021818
+      Napolean Attack Animation x36_3: 866336572
+      Napolean Attack Animation x36_24: 2035032393
+      Napolean Attack Animation x36_4: -213707363
+      Napolean Attack Animation x36_15: 790431654
+      Napolean Attack Animation x36_17: -1570882785
+      Napolean Attack Animation x36_33: -1376316593
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

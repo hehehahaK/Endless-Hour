@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 72cbb6923ed41a344ba252707ccbdd74
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2775.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcf5705db5934741aea78dbbf0dc830
+      internalID: -99327491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2775.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9516c56201401744c81cd44cd4842105
+      internalID: 977248948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2775.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd85a00b2dcdd74887739406ff0886d
+      internalID: 688557008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_3
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 2775.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931cb8e8d55ad8f4293d6d5ba2345115
+      internalID: 1314058472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1850.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8ff75e0d473934982662b40575b329
+      internalID: 1597627670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1850.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2f90141060e514c940495225ac1980
+      internalID: 2029060643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_6
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1850.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8705299af22363d4a9c856236bf17fcc
+      internalID: -1493193045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_7
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1850.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108b84e97d77da440b091c340c81985d
+      internalID: 338454906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 925.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3e783f1ede71d43932f3757ebfb8aa
+      internalID: -1256609206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_9
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 925.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b6272675b486a4dbe17a1f4e396558
+      internalID: 502584188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_10
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 925.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85464db589905aa40a9a664700a07775
+      internalID: 512336064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_11
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 925.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2483ca3dc0d64474dbeb9b8af5734cb9
+      internalID: 819973464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cbf39c9d9dd9b4dad5ea675cb2f861
+      internalID: 1034911922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_13
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851b5fae971986f46b3da37e352b37f4
+      internalID: 1876364076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_14
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adad4c3aa0449042aa6ac1aaedd99ba
+      internalID: -412368226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured Soldier NPC (Idle Animation) x16 (Inshallah)_15
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0.75
+        width: 375
+        height: 925.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febf970d3c502634d9f65b9834262d07
+      internalID: 1084313242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_8: -1256609206
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_4: 1597627670
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_9: 502584188
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_10: 512336064
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_15: 1084313242
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_5: 2029060643
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_3: 1314058472
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_6: -1493193045
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_13: 1876364076
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_11: 819973464
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_7: 338454906
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_1: 977248948
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_12: 1034911922
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_2: 688557008
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_14: -412368226
+      Injured Soldier NPC (Idle Animation) x16 (Inshallah)_0: -99327491
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

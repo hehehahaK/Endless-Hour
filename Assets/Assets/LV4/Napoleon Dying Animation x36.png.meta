@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: a85b09e9e80b21049b11c27f2c48f789
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1540
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3173e674bc5d87e4d89fbdf0a1f67633
+      internalID: -1067913833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1540
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1c503ec13949f40b5a35d64f225de8
+      internalID: -37147258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_2
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1540
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c043cd9a56acf2a4c9b9d14373c51982
+      internalID: 112505810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_3
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1540
+        width: 437
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f8e2c346e738847b8d00d6b864c4d6
+      internalID: -1405825671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_4
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1540
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2e88dbbdc37d148ac098a3068f5828
+      internalID: -2060051192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_5
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 1540
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f00a494aa8280d4782850af71aac9b6
+      internalID: -374445981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1232
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326d7031cef9c6445b31d0d42f030a15
+      internalID: 727338272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_7
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1232
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e7f5292932b124697ad6ba72e713fa
+      internalID: 1252743220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_8
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1232
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa80485f25c17af4dabe1a272b367813
+      internalID: -1187841374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_9
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1232
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cc3922a2f53bb4aac66e9d5f27a619
+      internalID: 1877383305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_10
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1232
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7b68fcfe701734f9179dff987a08c6
+      internalID: -415931190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_11
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 1232
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f085d623191ac448ac4b180afe438d7
+      internalID: 163611265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 924
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00681d3c4189434b8438cf41f055832
+      internalID: -1960681580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 924
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17813e992c78e941ac4e97087f86f69
+      internalID: 1944258511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_14
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 924
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0406f4c83ab7a046899ce3f32d9816a
+      internalID: 2036772819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_15
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 924
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa96565812e9944f9ee321e47e11d63
+      internalID: -204485318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_16
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 924
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7e4b67d2350504cb703334749f77e1
+      internalID: -1039510256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_17
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 924
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1521e2f222fb4554d9d582b5a013d328
+      internalID: -723658788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 616
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a83fc6a78a1404b82a01dae30bccee
+      internalID: -51562611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 616
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b49885d9b8f74419c8075afc137f5e
+      internalID: 719808420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_20
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 616
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9039fd74f56543948b8abda25f7bc2a4
+      internalID: 1343609511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_21
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 616
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8a8b572317e884f9f9e247c8b6cc5a
+      internalID: -1979381691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_22
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 616
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618ed7111d284d04fac5d1b34fa2fcbd
+      internalID: 1845850440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_23
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 616
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a66e4c2b230fef44b05ba702bb4a574
+      internalID: -883608919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 308
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7949d89a82a46a540b4c1ff72ae00b07
+      internalID: 1366589705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 308
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b60f4bec968f3c46acb01c7efadc827
+      internalID: -1237653781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_26
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 308
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beda03253547d0b4f89f921c5eb488ef
+      internalID: -163329598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_27
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 308
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862ddb4c41585904ba07b65efc0e4b34
+      internalID: -1128526316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_28
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 308
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de90c8f890d897a44949efa8076b14ad
+      internalID: -1283566476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_29
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 308
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbe75e0c6e5a4e44bbbba6209d7d0d0
+      internalID: -1889360683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87457b4545aa6354aa049a632a1a9545
+      internalID: -753698212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77deb686a1e6c3d4d889208b307d57ac
+      internalID: -12432365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_32
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 0
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0111eafa784de4fa049c4cc427e376
+      internalID: -1024188748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_33
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 0
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3996c1627377e94dae13e41d4cf2bf3
+      internalID: -1393501054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_34
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 0
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7fa6e8571ff934e8de5758e9f0b23d
+      internalID: 1774279039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napoleon Dying Animation x36_35
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 0
+        width: 336
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf304e4eecdcc7744ae8114e2a3e25d5
+      internalID: -281689753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Napoleon Dying Animation x36_17: -723658788
+      Napoleon Dying Animation x36_11: 163611265
+      Napoleon Dying Animation x36_8: -1187841374
+      Napoleon Dying Animation x36_22: 1845850440
+      Napoleon Dying Animation x36_2: 112505810
+      Napoleon Dying Animation x36_20: 1343609511
+      Napoleon Dying Animation x36_1: -37147258
+      Napoleon Dying Animation x36_3: -1405825671
+      Napoleon Dying Animation x36_33: -1393501054
+      Napoleon Dying Animation x36_25: -1237653781
+      Napoleon Dying Animation x36_16: -1039510256
+      Napoleon Dying Animation x36_4: -2060051192
+      Napoleon Dying Animation x36_24: 1366589705
+      Napoleon Dying Animation x36_21: -1979381691
+      Napoleon Dying Animation x36_14: 2036772819
+      Napoleon Dying Animation x36_6: 727338272
+      Napoleon Dying Animation x36_7: 1252743220
+      Napoleon Dying Animation x36_27: -1128526316
+      Napoleon Dying Animation x36_34: 1774279039
+      Napoleon Dying Animation x36_0: -1067913833
+      Napoleon Dying Animation x36_15: -204485318
+      Napoleon Dying Animation x36_28: -1283566476
+      Napoleon Dying Animation x36_9: 1877383305
+      Napoleon Dying Animation x36_19: 719808420
+      Napoleon Dying Animation x36_26: -163329598
+      Napoleon Dying Animation x36_10: -415931190
+      Napoleon Dying Animation x36_30: -753698212
+      Napoleon Dying Animation x36_32: -1024188748
+      Napoleon Dying Animation x36_31: -12432365
+      Napoleon Dying Animation x36_18: -51562611
+      Napoleon Dying Animation x36_12: -1960681580
+      Napoleon Dying Animation x36_23: -883608919
+      Napoleon Dying Animation x36_29: -1889360683
+      Napoleon Dying Animation x36_5: -374445981
+      Napoleon Dying Animation x36_35: -281689753
+      Napoleon Dying Animation x36_13: 1944258511
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

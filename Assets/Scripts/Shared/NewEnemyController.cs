@@ -47,7 +47,7 @@ public class NewEnemyController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    public void Update()
+    public virtual void Update()
     {
         if (isDead) return;
 
@@ -104,7 +104,7 @@ public class NewEnemyController : MonoBehaviour
             Die();
     }
 
-    public void Die()
+    public virtual void Die()
     {
         isDead = true;
 

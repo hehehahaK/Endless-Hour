@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: b7d0db32340be00408d83e4767f74980
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463ce494c0a7b554c841b0c4d912a6c0
+      internalID: 679841209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1320
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a17d6dd6bd8f124bb73d95d1f49fa06
+      internalID: -878588228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1320
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb24d27fcd2c354b9151c4b2e60059f
+      internalID: -184143772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_3
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1320
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a2def4b75dd0844afb5613d0d0358e
+      internalID: -245474832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_4
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1320
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b5812f1ec6dff4e85ad657a9af07f4
+      internalID: -1147123170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_5
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1320
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875f8f87ed4614240a600995dd401543
+      internalID: -1423738613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f51b385d0a2c9c4db1d2413102c57a8
+      internalID: 370206025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1056
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8730a4062a088684e89614a6a561e638
+      internalID: -1401779050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_8
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1056
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3408b5c88c90fd441a5bb2021579c4a7
+      internalID: 525877771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_9
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1056
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42417e4df77894a4fb18cd2771ab2176
+      internalID: -316122809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1056
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b483de2c83eddb949813b6597293636a
+      internalID: 1251885885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_11
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1056
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04beeaa1baf893e4ba2247e483b5aedc
+      internalID: -112406068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b12f72a94e9e24e927af1f5b6c9ea3
+      internalID: -569779699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_13
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 792
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31a11c292a79844085cd7f662bdd309
+      internalID: 1631777036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_14
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 792
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb588fff275e4ae4690d8ab4b1dd1a08
+      internalID: -890945532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_15
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 792
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5c4a19f7108ba41ae66bf3c99cb0e9
+      internalID: 1330886502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_16
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 792
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4c5b98cf1faa84fbe6372530594e79
+      internalID: -732361633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_17
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 792
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43676feb33212d04e86500af98792be4
+      internalID: -186767256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f93cc222ac2aec4d89b7098178cf561
+      internalID: -351819178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_19
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 528
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a33d5164a308f1498013846060c809f
+      internalID: 1677309689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_20
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 528
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566199addf84a1e43bbec7561aad4cfb
+      internalID: 441425330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_21
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 528
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f2705d3822f694d976a0dc57adad0d
+      internalID: 982032226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 528
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e05614493f18f746a356c7c4417b50e
+      internalID: -656153469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_23
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 528
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0788f218634540c4e98185cee6921a34
+      internalID: 2050857342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23671d6c88ac5444f8dca1c58d7bc397
+      internalID: -1984555063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_25
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 264
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974c7117291bc12418f9b486201b6674
+      internalID: 107093056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_26
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 264
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f084ae3fa760a419361f4826199c57
+      internalID: -1955903518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_27
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 264
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d018a003fc2b6934193c5ad823967450
+      internalID: -1923649407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_28
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 264
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76514b65e8b38e49a4003ddd3735b26
+      internalID: -1408578585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_29
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 264
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51d440d5bf1475418de15574755da1c
+      internalID: -562610281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c076de70807ef640acd6f0ba5abace7
+      internalID: 916338567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_31
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0f522239e5ad14a833a490b5781f25
+      internalID: -2011585809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_32
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91acac0c4a17bd44cb0646ee4d46dc19
+      internalID: 2003740617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_33
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea734fdfefa09409caaf101918b756
+      internalID: -1883332278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_34
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f47b71f4650bc428c6c15990358e28
+      internalID: -1330798111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Napolean Running Animation x36_35
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 0
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd0761265305ae4ba46f0af533460f0
+      internalID: 93247982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Napolean Running Animation x36_35: 93247982
+      Napolean Running Animation x36_13: 1631777036
+      Napolean Running Animation x36_25: 107093056
+      Napolean Running Animation x36_19: 1677309689
+      Napolean Running Animation x36_24: -1984555063
+      Napolean Running Animation x36_22: -656153469
+      Napolean Running Animation x36_7: -1401779050
+      Napolean Running Animation x36_11: -112406068
+      Napolean Running Animation x36_2: -184143772
+      Napolean Running Animation x36_5: -1423738613
+      Napolean Running Animation x36_3: -245474832
+      Napolean Running Animation x36_18: -351819178
+      Napolean Running Animation x36_15: 1330886502
+      Napolean Running Animation x36_34: -1330798111
+      Napolean Running Animation x36_9: -316122809
+      Napolean Running Animation x36_21: 982032226
+      Napolean Running Animation x36_1: -878588228
+      Napolean Running Animation x36_4: -1147123170
+      Napolean Running Animation x36_8: 525877771
+      Napolean Running Animation x36_20: 441425330
+      Napolean Running Animation x36_26: -1955903518
+      Napolean Running Animation x36_29: -562610281
+      Napolean Running Animation x36_14: -890945532
+      Napolean Running Animation x36_30: 916338567
+      Napolean Running Animation x36_31: -2011585809
+      Napolean Running Animation x36_17: -186767256
+      Napolean Running Animation x36_12: -569779699
+      Napolean Running Animation x36_0: 679841209
+      Napolean Running Animation x36_33: -1883332278
+      Napolean Running Animation x36_6: 370206025
+      Napolean Running Animation x36_10: 1251885885
+      Napolean Running Animation x36_16: -732361633
+      Napolean Running Animation x36_32: 2003740617
+      Napolean Running Animation x36_27: -1923649407
+      Napolean Running Animation x36_28: -1408578585
+      Napolean Running Animation x36_23: 2050857342
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

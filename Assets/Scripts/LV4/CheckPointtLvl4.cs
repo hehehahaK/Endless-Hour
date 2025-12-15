@@ -20,7 +20,7 @@ public class CheckPointtLvl4 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            FindObjectOfType<LevelManager>().CurrentCheckpoint = transform;
+FindObjectOfType<LevelManager>().SetCheckpoint(transform);
         }
     }
 }

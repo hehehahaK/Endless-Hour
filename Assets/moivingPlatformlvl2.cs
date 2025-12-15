@@ -6,8 +6,7 @@ public class moivingPlatformlvl2 : MonoBehaviour
 {
     public Transform pointA;
     public Transform pointB;
-    public float moveSpeed = 2f;
-
+    public float moveSpeed;
     private Vector3 nextPosition;
 
     void Start()
@@ -31,20 +30,21 @@ public class moivingPlatformlvl2 : MonoBehaviour
             }
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    //built in func
+    private void OnCollisionEnter2D(Collision2D collision)//package of data of the obj that just hit us
     {
         if (collision.gameObject.CompareTag("Player"))
+        //collisiondata el game object bta3ha(player) el transform bta3o(posiotion scale rotation) el parent bta3 atreas=transform el platform
         {
-            collision.gameObject.transform.parent = transform;
+            collision.gameObject.transform.parent = transform;//position and rotation only homa elly inherited
         }
     }
-
+    //built in func
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.transform.parent = null;
+            collision.gameObject.transform.parent = null;//deattatch y ba4a
         }
     }
 }

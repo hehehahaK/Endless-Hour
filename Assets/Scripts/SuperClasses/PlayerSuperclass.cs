@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerSuperclass : MonoBehaviour
 {
     // Movement Variables incl. jump and its relation w/ ground and speed
-    private float currentSpeed;
+    public float currentSpeed;
     public float moveSpeed;
     public float jumpHeight;
     public KeyCode Spacebar = KeyCode.Space;
@@ -41,11 +41,12 @@ public class PlayerSuperclass : MonoBehaviour
     public float attackDuration = 0.3f; // How long the attack lasts
     public bool isAttacking = false;
     public bool isBlocking = false;
-    
+
     void Start()
     {
-           
+
         moveSpeed = originalMoveSpeed;
+        currentSpeed = moveSpeed;
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
@@ -124,24 +125,27 @@ public class PlayerSuperclass : MonoBehaviour
             }
         }
         // Shield 
-/*if (Input.GetMouseButton(0))
-{
-    isBlocking = true;
-    anim.SetBool("ShieldUp", true);
-}
-else
-{
-    isBlocking = false;
-    //anim.SetBool("ShieldUp", false);
-} */
+        /*if (Input.GetMouseButton(0))
+        {
+            isBlocking = true;
+            anim.SetBool("ShieldUp", true);
+        }
+        else
+        {
+            isBlocking = false;
+            //anim.SetBool("ShieldUp", false);
+        } */
 
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("Height", rb.velocity.y);
         anim.SetBool("Grounded", grounded);
         anim.SetBool("IsRunning", Input.GetKey(RunKey));
+        if (Input.GetMouseButton(0))
+        {
+            Attack();
+        }
 
 
-        
     }
 
     void FixedUpdate()
@@ -185,13 +189,13 @@ else
                 healthBarUI.updateHealthBar();
 
             }
-       //     Debug.Log("Player Health:" + health.ToString());
+            //     Debug.Log("Player Health:" + health.ToString());
             isImmune = true;
             immunityTime = 0f;
         }
         else
         {
-         //   Debug.Log("Player took no damage.");
+            //   Debug.Log("Player took no damage.");
         }
     }
 
@@ -213,7 +217,7 @@ else
             isBoosted = true;
         }
         BoostTime = 0f;
-       // Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
+        // Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
     }
 
     // Permanent damage upgrade (doesn't expire)

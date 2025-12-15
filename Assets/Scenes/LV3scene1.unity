@@ -1203,7 +1203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 176.99992, y: 144.51999}
+  m_AnchoredPosition: {x: 176.99994, y: 144.51999}
   m_SizeDelta: {x: -592.65, y: -308.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130193456
@@ -6490,9 +6490,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: ff954b0131270f944870ee7cc46973de, type: 3}
-        m_TargetAssemblyTypeName: DMhealthpotion, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 224201909}
+        m_TargetAssemblyTypeName: DMGuard, Assembly-CSharp
+        m_MethodName: NextSentence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

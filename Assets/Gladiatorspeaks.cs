@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gladiatorspeaks : MonoBehaviour{
 
-    public DialogueManager dialogueManager;
+    public dialogueLv1 dialogueManager;
 
     public GameObject powerPotionPrefab;
     
@@ -13,7 +13,7 @@ public class Gladiatorspeaks : MonoBehaviour{
         if (other.tag == "Player"){
             string[] dialogue ={
 
-    "Easy there, warrior. I died in this arena—Hannibal himself took me down.",
+    "Easy there, warrior. I died in this arena, Hannibal himself took me down.",
     "A beast guards the gate now. Beat it, and you’ll earn the right to face him inside.",
     "Take this potion—my last strength. It’ll help you survive what I couldn’t.",
 };

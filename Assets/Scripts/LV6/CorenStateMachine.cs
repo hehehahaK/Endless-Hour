@@ -8,6 +8,21 @@ public class CorenStateMachine : MonoBehaviour
     public CorenState activeState;
     public CorenPhase1 phase1State;
     public CorenPhase2 phase2State;
+    private CorenBoss coren;
+
+    void Start()
+    {
+        CorenBoss Coren = GetComponent<CorenBoss>();
+        phase1State = GetComponent<CorenPhase1>();
+        phase2State = GetComponent<CorenPhase2>();
+        
+        phase1State.Initialize(Coren, this);
+        phase2State.Initialize(Coren, this);
+
+        // Start Phase1
+        ChangeState(phase1State);
+
+    }
     public void ChangeState(CorenState newState)
     {
         if (activeState != null)
@@ -18,19 +33,9 @@ public class CorenStateMachine : MonoBehaviour
         if (activeState != null)
             activeState.EnterState();
     }
-    void Start()
-    {
-        CorenBoss Coren = GetComponent<CorenBoss>();
-        phase1State.Initialize(Coren, this);
-        phase2State.Initialize(Coren, this);
-
-        // Start Phase1
-        ChangeState(phase1State);
-
-    }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         if (activeState != null)
             activeState.UpdateState();

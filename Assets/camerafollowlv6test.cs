@@ -10,7 +10,7 @@ public class camerafollowlv6test : MonoBehaviour
     public float minX = -0.7f;
     public float maxX = 34.6f;
     public float minY = 0f;
-    public float maxY = 15f;
+     public float maxY = 15f;
 
     void LateUpdate()
     {

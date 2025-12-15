@@ -1,99 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class HannibalScript : MonoBehaviour
+
+public class HannibalScript : NewEnemyController
 {
-    public int maxHealth = 100;
-    public int attackDamage = 15;
-
-    private int currentHealth;
-    private bool isDead = false;
-    private bool isAttacking = false;
-
-    private Animator anim;
-    private Rigidbody2D rb;
-    private Collider2D col;
-    private PlayerSuperclass player;
-
+    // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
-
-        anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        col = GetComponent<Collider2D>();
-        player = FindObjectOfType<PlayerSuperclass>();
+        base.Start();
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if (isDead) return;
-
-        anim.SetBool("Run", true);
+        base.Update();
     }
-
-    // =======================
-    // DAMAGE & DEATH
-    // =======================
-    
-
-   private void Die()
-{
-    if (isDead) return;
-
-    isDead = true;
-
-    rb.velocity = Vector2.zero;
-    rb.simulated = false;
-    col.enabled = false;
-
-    anim.SetTrigger("Die");
-    StartCoroutine(
-   
-    Camera.main.GetComponent<CameraShakeLv1>()
-    .Shake(3.5f, 0.15f)
-);
-
-}
-
-
-    // =======================
-    // ATTACK
-    // =======================
-    private void OnCollisionStay2D(Collision2D collision)
+    public override void MeleeAttack()
     {
-        if (isDead) return;
-
-        if (collision.gameObject.CompareTag("Player") && isAttacking)
-        {
-            player.TakeDamage(attackDamage);
-        }
-    }
-
-    // Call this from animation event
-    public void StartAttack()
-    {
-        if (isDead) return;
-
         isAttacking = true;
         anim.SetTrigger("Attack");
     }
-
-    // Call this from animation event
-    public void EndAttack()
+    public override void OnCollisionStay2D(Collision2D collision)
     {
+        base.OnCollisionStay2D(collision);
+        if (collision.gameObject.CompareTag("Player") && isAttacking)
+        {
+            playerController.TakeDamage(attackDamage);
+        }
         isAttacking = false;
     }
-
-    public void TakeDamage(int damage)
+    public override void MoveTowardsPlayer(float distance)
     {
-    if (isDead) return;
+        base.MoveTowardsPlayer(distance);
+        anim.SetTrigger("Run");
 
-    currentHealth -= damage;
-    if (currentHealth <= 0)
-    {
-        Die();
     }
-}
-
+    public override void Die()
+    {
+        isDead = true;
+        anim.SetTrigger("die");
+        Destroy(gameObject, 2f);
+    }
 }

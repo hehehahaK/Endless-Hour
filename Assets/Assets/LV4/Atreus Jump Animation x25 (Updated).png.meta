@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 61f2bb20a07ad8545badd87aaec1f673
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1783
+        width: 274
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2265633b0a497d54ba2cf5f15ed4ac73
+      internalID: -1391924288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1783
+        width: 285
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9328cb015161a54fb44647a696e7d6f
+      internalID: -104219037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_2
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1783
+        width: 297
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83d33f40505fda45946f1a7d16496c7
+      internalID: -1023280659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_3
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1783
+        width: 298
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6b2fa2c0e6b9f4f94ac166f5bf04d8
+      internalID: 2136827369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_4
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1783
+        width: 286
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf2ef3c3aff2024faf17778752b291d
+      internalID: 1056300896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1362
+        width: 286
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8845f5580483e45ad10d614edb3a76
+      internalID: -1026132613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_6
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1362
+        width: 291
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578ac235f8d8dd148bd7a954e3556593
+      internalID: -1471377160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1362
+        width: 292
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f587bb32743b4e8cd8f2aaaeaced5
+      internalID: 480430329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_8
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1362
+        width: 295
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc670cbaf84fd6e41a9b0961ad9fe685
+      internalID: 784000324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_9
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1362
+        width: 292
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a49772b470114c46bc7d2646c6592ca
+      internalID: 1370351313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 940
+        width: 276
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba0169ea63337341aa673acf81095ed
+      internalID: -948291740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_11
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 980
+        width: 246
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ab053635df68f49917de055cade3a3
+      internalID: -1712235009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_12
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1022
+        width: 242
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9620b186ef5e5a742b0eef240be6459d
+      internalID: -42579639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_13
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1031
+        width: 250
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634ab3ec8deb5ca4faa2eba924d17039
+      internalID: 1035591759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_14
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1035
+        width: 258
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a717a5afc606e342abe331a96613f68
+      internalID: 1537209904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 609
+        width: 264
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4d3a6a4664fd34ca7ef619ebc348b0
+      internalID: 2054564063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_16
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 594
+        width: 271
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae3023d4b2d6964a88b7bdd191ec7e6
+      internalID: -211718044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 545
+        width: 285
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70357d8669ff2a4bbf124782370a5be
+      internalID: 1929353025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_18
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 520
+        width: 299
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950a91a55a3b45b4f854ed37bfafd936
+      internalID: -551133800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_19
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 520
+        width: 308
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36e2ed0b853d8a46b987c62378a70eb
+      internalID: -744742695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 101
+        width: 313
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474b162cbe0b5d14dba9774c971ccd5c
+      internalID: 1394405535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 101
+        width: 302
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d870ca881c7e545ad3cb81a81ea0fc
+      internalID: -657239823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_22
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 101
+        width: 288
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efad0850b1a63914ea1759efd9457ac3
+      internalID: 1286305686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_23
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 101
+        width: 251
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdf2a0588d17f14aa4e55b3b51abc8b
+      internalID: -146147508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atreus Jump Animation x25 (Updated)_24
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 101
+        width: 241
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94a272808ce730488906d0ede9673f9
+      internalID: 2117799332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Atreus Jump Animation x25 (Updated)_1: -104219037
+      Atreus Jump Animation x25 (Updated)_14: 1537209904
+      Atreus Jump Animation x25 (Updated)_24: 2117799332
+      Atreus Jump Animation x25 (Updated)_12: -42579639
+      Atreus Jump Animation x25 (Updated)_7: 480430329
+      Atreus Jump Animation x25 (Updated)_3: 2136827369
+      Atreus Jump Animation x25 (Updated)_9: 1370351313
+      Atreus Jump Animation x25 (Updated)_8: 784000324
+      Atreus Jump Animation x25 (Updated)_20: 1394405535
+      Atreus Jump Animation x25 (Updated)_16: -211718044
+      Atreus Jump Animation x25 (Updated)_22: 1286305686
+      Atreus Jump Animation x25 (Updated)_19: -744742695
+      Atreus Jump Animation x25 (Updated)_5: -1026132613
+      Atreus Jump Animation x25 (Updated)_21: -657239823
+      Atreus Jump Animation x25 (Updated)_17: 1929353025
+      Atreus Jump Animation x25 (Updated)_23: -146147508
+      Atreus Jump Animation x25 (Updated)_6: -1471377160
+      Atreus Jump Animation x25 (Updated)_2: -1023280659
+      Atreus Jump Animation x25 (Updated)_13: 1035591759
+      Atreus Jump Animation x25 (Updated)_18: -551133800
+      Atreus Jump Animation x25 (Updated)_15: 2054564063
+      Atreus Jump Animation x25 (Updated)_11: -1712235009
+      Atreus Jump Animation x25 (Updated)_10: -948291740
+      Atreus Jump Animation x25 (Updated)_0: -1391924288
+      Atreus Jump Animation x25 (Updated)_4: 1056300896
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

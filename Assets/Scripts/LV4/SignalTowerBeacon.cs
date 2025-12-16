@@ -28,7 +28,7 @@ public class SignalTowerBeacon : MonoBehaviour, InterfaceInteractable
             SignalTowerToDisable.SetActive(false);
 
         if (cameraShake != null)
-            StartCoroutine(cameraShake.Shake(2.5f, 0.08f));
+            StartCoroutine(cameraShake.Shake(3.5f, 0.08f));
 
         Debug.Log("Signal Tower Activated!");
     }

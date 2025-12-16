@@ -14,9 +14,9 @@ public class moivingPlatformlvl2 : MonoBehaviour
         nextPosition = pointB.position;
     }
 
-    void Update()
+    void Update()//update func dee ll frames tb efrdy comp slow 30FPS la 5leeha bel time
     {
-        transform.position = Vector3.MoveTowards(transform.position, nextPosition, moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, nextPosition, moveSpeed * Time.deltaTime);//v=d/t f last param is distance moved
 
         if (transform.position == nextPosition)
         {

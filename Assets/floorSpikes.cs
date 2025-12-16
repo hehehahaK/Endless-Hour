@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class floorSpikes : MonoBehaviour
 {
-    // Start is called before the first frame update
     public int AttackDamage=14;
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         

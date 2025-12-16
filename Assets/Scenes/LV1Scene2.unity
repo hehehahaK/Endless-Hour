@@ -460,7 +460,7 @@ MonoBehaviour:
   moveSpeed: 3
   stoppingDistance: 1.5
   detectionRange: 10
-  attackRange: 2
+  attackRange: 30
   attackCooldown: 1
   isArcher: 0
   nextAttackTime: 0

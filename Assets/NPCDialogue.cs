@@ -14,7 +14,7 @@ public class NPCDialogue : MonoBehaviour
             {
               "Hold, warrior None may enter the arena unchallenged.",
 
-"A monstrous guardian stands watch. Steel alone will not be enough.",
+"A monstrous guardian stands watch.",
 
 "Seek the power potion nearby. You will need its strength to survive.",
 

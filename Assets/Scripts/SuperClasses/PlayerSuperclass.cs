@@ -157,7 +157,14 @@ public class PlayerSuperclass : MonoBehaviour
         {
             Attack();
         }
-    }
+        if (Input.GetMouseButton(1)) { isBlocking = true;
+         anim.SetBool("ShieldUp", true); }
+        else
+        {
+            isBlocking = false; 
+            anim.SetBool("ShieldUp", false); } 
+        }
+    
 
     // Physics update
     public virtual void FixedUpdate()
@@ -226,7 +233,7 @@ public class PlayerSuperclass : MonoBehaviour
         {
             moveSpeed += boostAmount;
             speedBoosted = true;
-            currentSpeed=moveSpeed;
+            currentSpeed = moveSpeed;
         }
         Debug.Log("Speed Upgrade: " + moveSpeed);
     }

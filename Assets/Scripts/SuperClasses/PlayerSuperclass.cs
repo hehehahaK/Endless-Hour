@@ -43,7 +43,7 @@ public class PlayerSuperclass : MonoBehaviour
     public bool isAttacking = false;
     public bool isBlocking = false;
 
-    void Start()
+    public void Start()
     {
 
         moveSpeed = originalMoveSpeed;

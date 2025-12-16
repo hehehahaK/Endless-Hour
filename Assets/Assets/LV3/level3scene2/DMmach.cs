@@ -12,7 +12,7 @@ public class DMmach : MonoBehaviour
 
     private string[] dialogueSentences; 
     private int index = 0;
-    private machcontroller currentNPC; // Reference to Machiavelli
+    private machcontroller currentNPC;
 
     void Start()
     {
@@ -20,7 +20,7 @@ public class DMmach : MonoBehaviour
         continueButton.SetActive(false);
     }
 
-    // Call this to start everything
+   
     public void StartDialogue(string[] sentences, machcontroller npc)
     {
         dialogueSentences = sentences;
@@ -29,7 +29,7 @@ public class DMmach : MonoBehaviour
 
         dialogueBox.SetActive(true);
         
-        // Freeze Player
+       
         if(playerRB)
             playerRB.constraints = RigidbodyConstraints2D.FreezeAll;
 
@@ -39,7 +39,7 @@ public class DMmach : MonoBehaviour
     IEnumerator Type()
     {
         continueButton.SetActive(false);
-        textDisplay.text = ""; // Clear old text
+        textDisplay.text = ""; 
         
         foreach (char letter in dialogueSentences[index].ToCharArray())
         {
@@ -71,11 +71,11 @@ public class DMmach : MonoBehaviour
         textDisplay.text = "";
         dialogueBox.SetActive(false);
         
-        // Unfreeze Player (Keep rotation frozen if needed)
+        
         if(playerRB)
             playerRB.constraints = RigidbodyConstraints2D.FreezeRotation;
 
-        // Tell Machiavelli to walk away
+        // walk away machy
         if (currentNPC != null)
         {
             currentNPC.FinishDialogueAndWalk();

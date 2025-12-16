@@ -4,45 +4,55 @@ using UnityEngine;
 
 public class Solider : NewEnemyController
 {
-    // Start is called before the first frame update
-    bool facingRight;
-    private Vector3 stopPosition; // where soldier will stop moving
+    private bool facingRight;
+    private Vector3 stopPosition;
     private bool hasDetectedPlayer = false;
-    private bool stopped;
+    private bool stopped = false;
+    public float attackDuration = 0.5f;
+    private float attackTimer = 0f;
+
     void Start()
     {
-        stopped = false;
         base.Start();
+        stopped = false;
         facingRight = !spriteRenderer.flipX;
     }
 
-    // Update is called once per frame
     void Update()
     {
         base.Update();
+
+        // Attack duration timer
+        if (isAttacking)
+        {
+            attackTimer -= Time.deltaTime;
+            if (attackTimer <= 0f)
+            {
+                isAttacking = false;
+                hasDealtDamage = false;
+                rb.velocity = Vector2.zero;
+            }
+        }
     }
+
     public override void MeleeAttack()
     {
         anim.SetTrigger("Attack");
-
+        isAttacking = true;
+        hasDealtDamage = false;
+        attackTimer = attackDuration;
     }
+
     public override void MoveTowardsPlayer(float distance)
     {
-        // First detection: set the stop point
         if (!hasDetectedPlayer && distance <= detectionRange)
         {
-            stopPosition = transform.position; // record current position
+            stopPosition = transform.position;
             hasDetectedPlayer = true;
         }
 
-        // If already stopped, do nothing
-        if (stopped)
-        {
-            rb.velocity = Vector2.zero;
-            return;
-        }
+        if (stopped) { rb.velocity = Vector2.zero; return; }
 
-        // Move toward stopPosition
         if (Vector2.Distance(transform.position, stopPosition) > 0.05f)
         {
             Vector2 direction = (stopPosition - transform.position).normalized;
@@ -51,37 +61,33 @@ public class Solider : NewEnemyController
         else
         {
             rb.velocity = Vector2.zero;
-            stopped = true; // freeze movement  forever
+            stopped = true;
         }
     }
-    public override void FlipSprite()
-    {
-    }
+
+    public override void FlipSprite() { /* do nothing */ }
+
     public override void OnCollisionStay2D(Collision2D collision)
     {
         if (!collision.gameObject.CompareTag("Player")) return;
 
-        //player dmg enemy
+        // Player damages soldier
         if (playerController.isAttacking && !hasRecentlyTakenDamage)
         {
-            Vector2 attackDirection = (player.position - transform.position).normalized;
-            if (facingRight && attackDirection.x > 0)
-                return; // attack is from front, ignore
-
-            // For left-facing soldier
-            if (!facingRight && attackDirection.x < 0)
-                return; // attack is from front, ignore
-
-            TakeDamage(playerController.AttackDamage);
-            StartCoroutine(DamageIntakeCooldown());
+            Vector2 attackDir = (player.position - transform.position).normalized;
+            if ((facingRight && attackDir.x < 0) || (!facingRight && attackDir.x > 0))
+            {
+                TakeDamage(playerController.AttackDamage);
+                StartCoroutine(DamageIntakeCooldownRoutine());
+            }
         }
 
-        if (collision.gameObject.CompareTag("Player") && isAttacking)
+        // Soldier damages player
+        if (isAttacking && !hasDealtDamage)
         {
             playerController.TakeDamage(attackDamage);
+            hasDealtDamage = true;
         }
-        isAttacking = false;
-
     }
 public override void Die(){
     base.Die();

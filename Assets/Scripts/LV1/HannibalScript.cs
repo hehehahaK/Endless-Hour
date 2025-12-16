@@ -17,9 +17,16 @@ public class HannibalScript : NewEnemyController
     }
     public override void MeleeAttack()
     {
-        isAttacking = true;
         anim.SetTrigger("Attack");
+        StartCoroutine(ResetAttack());
     }
+
+    IEnumerator ResetAttack()
+    {
+        yield return new WaitForSeconds(0.5f); 
+        isAttacking = false;
+    }
+
     public override void OnCollisionStay2D(Collision2D collision)
     {
         base.OnCollisionStay2D(collision);
@@ -34,11 +41,5 @@ public class HannibalScript : NewEnemyController
         base.MoveTowardsPlayer(distance);
         anim.SetTrigger("Run");
 
-    }
-    public override void Die()
-    {
-        isDead = true;
-        anim.SetTrigger("die");
-        Destroy(gameObject, 2f);
     }
 }

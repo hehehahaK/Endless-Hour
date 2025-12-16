@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class Chronovar : MonoBehaviour
 {
-    // Dragon stats
 
+    // Dragon stats
+    private bool hasDealtDamage = false;
     public int maxHealth = 100;
+    public bool isLanding = false;
+
     public int currentHealth;
     public float stoppingDistance = 22f;
     public float moveSpeed = 3f;
     public int attackDamage = 10;
-    public float shortRange = 50f;
+    public float shortRange = 30f;
     public float midRange = 200f;
     public float flyHeight = 3f; // desired Y offset above player
     public bool isDead = false;
@@ -20,17 +23,31 @@ public class Chronovar : MonoBehaviour
     public float damageIntakeCooldown = 0.3f; // player can only hit every 0.3s
     protected PlayerSuperclass playerController;
     public SpriteRenderer spriteRenderer;
+    public bool phase3AttackStarted = false;
+
     public Animator anim;
     public Rigidbody2D rb;
     public ChronovarStateMachine stateMachine;
     public bool isFlying;
     public Transform player;
+    public float hoverDistance = 12f;
+    public float hoverTolerance = 2f;
+    public GameObject lavaProjectilePrefab;
+    public float lavaFallSpeed = 10f; // how fast it falls
+
 
     // Phase thresholds
     public float phase2Threshold = 0.6f; // 60% health
     public float phase3Threshold = 0.35f; // 35% health
     public bool isEnraged = false;
-
+    public ChronovarFireBreath fireBreath;
+    public Transform fireSpawnPoint;
+    public float diveSpeed = 15f;
+    public float impactRadius = 8f;
+    public int diveBombDamage = 35;
+    public LayerMask groundLayer; // bro needs access to layer :SOb:
+    public float groundCheckDistance = 5f;
+    public bool isGrounded = false;
     void Start()
     {
         currentHealth = maxHealth;
@@ -54,10 +71,26 @@ public class Chronovar : MonoBehaviour
             stateMachine.phase = 2;
         }
         UpdateMovementAnim();
-
+        if (isAttacking)
+        {
+            rb.velocity = Vector2.zero;
+        }
     }
 
     // MOVEMENT  LOGIC
+    public IEnumerator FireBreathRoutine()
+    {
+        anim.SetTrigger("Breath");
+
+        isAttacking = true;
+
+        fireBreath.ActivateBreath();
+
+        yield return new WaitForSeconds(1.2f); // breath duration
+
+        isAttacking = false;
+    }
+
 
     private void UpdateMovementAnim()
     {
@@ -67,40 +100,86 @@ public class Chronovar : MonoBehaviour
     public void GroundMove()
     {
         if (!player) return;
+
+        // STOP moving 
+        if (isAttacking || isLanding)
+        {
+            rb.velocity = Vector2.zero;
+            return;
+        }
+
         float direction;
         if ((player.position.x - transform.position.x) > 0) { direction = 1f; }
         else { direction = -1f; }
+
         spriteRenderer.flipX = direction > 0; // face left if player is on left   
-        rb.velocity = new Vector2(direction * moveSpeed, 0f);
+
+        rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y); // keep current Y velocity (gravity)
     }
 
     public void AirMove()
     {
-        if (!player) return;
+        if (!player || isLanding || isAttacking) return;
 
-        Vector2 targetPos = new Vector2(player.position.x, flyHeight);
-        Vector2 direction = (targetPos - (Vector2)transform.position).normalized;
+        Vector2 target = new Vector2(player.position.x, player.position.y + flyHeight);
+        Vector2 toTarget = target - (Vector2)transform.position;
+        float distance = toTarget.magnitude;
 
-        rb.velocity = direction * moveSpeed;
+        if (distance < hoverDistance - hoverTolerance)
+        {
+            rb.velocity = -toTarget.normalized * moveSpeed;
+        }
+        // TOO FAR
+        else if (distance > hoverDistance + hoverTolerance)
+        {
+            rb.velocity = toTarget.normalized * moveSpeed;
+        }
+        // IDEAL ZONE 
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
 
-        spriteRenderer.flipX = direction.x > 0; // 
+        spriteRenderer.flipX = toTarget.x > 0;
         anim.SetBool("isFlying", true);
     }
     // PHASE 1 ATTACKS
+    public IEnumerator LandRoutine()
+    {
+        isLanding = true;
+        isFlying = false;
+        isAttacking = true;
+
+        rb.gravityScale = 1f;
+        anim.SetTrigger("Land");
+        //  downward movement
+        rb.velocity = Vector2.down * 12f;
+
+        // Wait until ground hit
+        while (!isGrounded)
+        {
+            yield return null;
+        }
+
+        // Clamp cleanly
+        rb.velocity = Vector2.zero;
+        rb.gravityScale = 1f;
+
+        anim.SetBool("isFlying", false);
+
+        isLanding = false;
+        isAttacking = false;
+    }
+
     public void Phase1Attack1()
     {
-        Debug.Log("Chronovar Boss Phase 1 Attack 1 executed. chrono BITE");
-        StartCoroutine(StopAttack(0.5f));
+        Debug.Log("Chronovar Boss Phase 1 Attack 2 executed. CHRONO LUNGE ");
+        StartCoroutine(StopAttack(4f));
     }
     public void Phase1Attack2()
     {
-        Debug.Log("Chronovar Boss Phase 1 Attack 2 executed. CHRONO LUNGE ");
-        StartCoroutine(StopAttack(1f));
-    }
-    public void Phase1Attack3()
-    {
-        Debug.Log("Chronovar Boss Phase 1 Attack 3 executed. Tail SWEEP");
-        StartCoroutine(StopAttack(2f));
+        Debug.Log("Chronovar Boss Phase 1 Attack 2 executed. Tail SWEEP");
+        StartCoroutine(StopAttack(5f));
     }
 
 
@@ -109,26 +188,91 @@ public class Chronovar : MonoBehaviour
 
     public void Phase2Attack1()
     {
-        Debug.Log("Chronovar Boss Phase 2 Attack 1 executed. dragon BREATHH");
+        Debug.Log("Cdragon BREATHH");
 
         StartCoroutine(StopAttack(5f));
     }
     public void Phase2Attack2()
     {
-        Debug.Log("Chronovar Boss Phase 2 Attack 2 executed. dive BOMB");
-        attackDamage += 20;
+        Debug.Log("Chronovar Dive Bomb");
 
-        StartCoroutine(StopAttack(4f));
-        attackDamage -= 20;
+        StartCoroutine(DiveBombRoutine());
     }
-
-
-    // PHASE 3 ATTACKS
-    public void Phase3Attack1()
+    public IEnumerator DiveBombRoutine()
     {
-        Debug.Log("Chronovar Boss Phase 3 Attack 1 executed. DRAGON WRATHH");
-        StartCoroutine(StopAttack(4f));
+        isAttacking = true;
+        isLanding = true;
+        rb.velocity = Vector2.zero;
+
+        // Hover above player
+        Vector2 hoverPos = new Vector2(player.position.x, player.position.y + 2f); // tweak hover
+        float hoverSpeed = 3f;
+        while ((Vector2)rb.position != hoverPos)
+        {
+            rb.MovePosition(Vector2.MoveTowards(rb.position, hoverPos, hoverSpeed * Time.fixedDeltaTime));
+            yield return new WaitForFixedUpdate();
+        }
+
+        yield return new WaitForSeconds(0.2f); // slight telegraph
+
+        // Dive down
+        Vector2 diveTarget = new Vector2(player.position.x, player.position.y); // dive target
+        float diveSpeedLocal = 8f;
+        while ((Vector2)rb.position != diveTarget)
+        {
+            rb.MovePosition(Vector2.MoveTowards(rb.position, diveTarget, diveSpeedLocal * Time.fixedDeltaTime));
+            yield return new WaitForFixedUpdate();
+        }
+
+        anim.SetTrigger("DiveBomB");
+
+        // Slight pause on the ground
+        yield return new WaitForSeconds(0.8f);
+
+        // Reset state
+        isAttacking = false;
+        isLanding = false;
     }
+
+
+
+    public IEnumerator Phase3Attack1Routine()
+    {
+        if (isAttacking) yield break;   // safety lock
+
+        isAttacking = true;
+        isFlying = false;
+
+        anim.SetTrigger("Wrath");
+
+        yield return new WaitForSeconds(0.5f);
+
+        // SPAWN ONE LAVA
+        Vector2 spawnPos = new Vector2(player.position.x, player.position.y + 5f);
+        GameObject lava = Instantiate(
+            lavaProjectilePrefab,
+            spawnPos,
+            Quaternion.Euler(0f, 0f, 90f)
+        );
+
+        Rigidbody2D lavaRb = lava.GetComponent<Rigidbody2D>();
+        lavaRb.velocity = Vector2.down * lavaFallSpeed;
+
+        Destroy(lava, 5f);
+
+        // WAIT A BIT FOR IMPACT FEEL
+        yield return new WaitForSeconds(0.6f);
+
+        // 🔥 THIS IS WHAT YOU WERE MISSING
+        yield return StartCoroutine(LandRoutine());
+
+        // HARD LOCK: NEVER FLY AGAIN
+        isFlying = false;
+        rb.gravityScale = 1f;
+
+        isAttacking = false;
+    }
+
 
     public void TakeDamage(int damage)
     {
@@ -158,37 +302,64 @@ public class Chronovar : MonoBehaviour
     {
         if (!collision.gameObject.CompareTag("Player")) return;
 
-        //player dmg enemy
+        // Player damages Chronovar
         if (playerController.isAttacking && !hasRecentlyTakenDamage)
         {
             TakeDamage(playerController.AttackDamage);
             StartCoroutine(DamageIntakeCooldown());
         }
 
-        if (collision.gameObject.CompareTag("Player") && isAttacking)
-        {
-            playerController.TakeDamage(attackDamage);
-        }
+        // Chronovar damages Player (ONCE per attack)
+        if (!isAttacking || hasDealtDamage) return;
 
-
+        playerController.TakeDamage(attackDamage);
+        hasDealtDamage = true;
     }
 
-    IEnumerator StopAttack(float duration)
+
+    public IEnumerator StopAttack(float duration)
+    {
+        isAttacking = false;
+        yield return new WaitForSeconds(duration);
+        anim.SetTrigger("Phase2");
+
+    }
+    public IEnumerator Phase1TailRoutine()
     {
         isAttacking = true;
+        rb.velocity = Vector2.zero;
 
-        yield return new WaitForSeconds(duration);
+        anim.SetTrigger("Tail");
+
+        yield return new WaitForSeconds(1f); // duration of tail sweep
 
         isAttacking = false;
+    }
 
+    public IEnumerator Phase1LungeRoutine()
+    {
+        isAttacking = true;
+        rb.velocity = Vector2.zero;
+
+        anim.SetTrigger("Lunge");
+
+        yield return new WaitForSeconds(2f); // duration of lunge
+
+        isAttacking = false;
     }
 
     /*TBD - > make it so that chronovar goes down,
     dive bomb, 2 fire prefab -> one lava and one is breath along with lava ground,
+    fire done
+    linking animations is kinda done
+    divebomb 80% done
+    timer, loop
+    phase 3 uh
+
     timer coroutine ->ez actually
     link some animations,
  phase 1 finished
  phase 2 needs logic to go down
- phase 3 will just be a random check!
+ phase 3 will just be a random check! MYFN3SH
     */
 }

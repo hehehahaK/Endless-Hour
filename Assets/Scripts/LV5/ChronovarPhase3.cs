@@ -12,16 +12,20 @@ public class ChronovarPhase3 : ChronovarState
     }
     public override void UpdateState()
     {
-        
+        if (!chronovar.phase3AttackStarted)
+        {
+            chronovar.phase3AttackStarted = true;
+            StartCoroutine(chronovar.Phase3Attack1Routine());
+        }
     }
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

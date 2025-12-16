@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NewEnemyController : MonoBehaviour
 {
+    protected bool hasDealtDamage = false;
+
     public int maxHealth = 20;
     public int currentHealth = 20;
     public PlayerSuperclass playerController;
@@ -13,7 +15,7 @@ public class NewEnemyController : MonoBehaviour
     public float attackRange = 2f;
     public float attackCooldown = 1f;
     public bool isArcher;
-    public float nextAttackTime = 0f; // plz work
+    public float nextAttackTime = 0f;
     public Transform player;
     public Rigidbody2D rb;
     public SpriteRenderer spriteRenderer;
@@ -22,8 +24,9 @@ public class NewEnemyController : MonoBehaviour
     public Animator anim;
     public int attackDamage = 5;
     protected bool hasRecentlyTakenDamage = false;
-    public float damageIntakeCooldown = 0.3f; // player can only hit every 0.3s
-    protected IEnumerator DamageIntakeCooldown() // dh cooldown l damage el enemy so that bro doesnt die in one sec
+    public float damageIntakeCooldown = 0.3f;
+
+    protected IEnumerator DamageIntakeCooldownRoutine()
     {
         hasRecentlyTakenDamage = true;
         yield return new WaitForSeconds(damageIntakeCooldown);
@@ -41,6 +44,7 @@ public class NewEnemyController : MonoBehaviour
             enabled = false;
             return;
         }
+
         playerController = player.GetComponent<PlayerSuperclass>();
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
@@ -53,13 +57,13 @@ public class NewEnemyController : MonoBehaviour
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        if (distanceToPlayer <= detectionRange)
+        if (!isAttacking && distanceToPlayer <= detectionRange)
         {
             MoveTowardsPlayer(distanceToPlayer);
             FlipSprite();
         }
 
-        if (distanceToPlayer <= attackRange && Time.time >= nextAttackTime)
+        if (!isAttacking && distanceToPlayer <= attackRange && Time.time >= nextAttackTime)
         {
             Attack();
             nextAttackTime = Time.time + attackCooldown;
@@ -81,21 +85,16 @@ public class NewEnemyController : MonoBehaviour
         else
         {
             isAttacking = true;
+            hasDealtDamage = false;
             MeleeAttack();
         }
     }
-    public virtual void RangeAttack()
-    {
-        // Ranged attack logic here
-    }
-    public virtual void MeleeAttack()
-    {
-        // Attack logic here
-    }
+
+    public virtual void RangeAttack() { }
+    public virtual void MeleeAttack() { }
 
     public void TakeDamage(int damage)
     {
-
         if (isDead) return;
 
         currentHealth -= damage;
@@ -107,9 +106,7 @@ public class NewEnemyController : MonoBehaviour
     public virtual void Die()
     {
         isDead = true;
-
         rb.velocity = Vector2.zero;
-
         Destroy(gameObject, 0.1f);
     }
 
@@ -118,30 +115,23 @@ public class NewEnemyController : MonoBehaviour
         if (distance > stoppingDistance)
         {
             Vector2 direction = (player.position - transform.position).normalized;
-            rb.velocity = direction * moveSpeed;
+            rb.velocity = new Vector2(direction.x * moveSpeed, rb.velocity.y); // freeze Y movement
         }
         else
         {
-            rb.velocity = Vector2.zero;
+            rb.velocity = new Vector2(0, rb.velocity.y); // stop horizontal movement
         }
     }
+
     public virtual void OnCollisionStay2D(Collision2D collision)
     {
         if (!collision.gameObject.CompareTag("Player")) return;
 
-        if (playerController == null) 
-        {
-            return; 
-        }
-
-        //player dmg enemy
+        // player damages enemy
         if (playerController.isAttacking && !hasRecentlyTakenDamage)
         {
             TakeDamage(playerController.AttackDamage);
-            StartCoroutine(DamageIntakeCooldown());
+            StartCoroutine(DamageIntakeCooldownRoutine());
         }
-
-
     }
-
 }

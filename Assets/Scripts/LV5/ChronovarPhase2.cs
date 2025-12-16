@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ChronovarPhase2 : ChronovarState
 {
+
     public int NumberOfAttacks = 2;
     private float attackCooldown = 2.5f;
     private float attackTimer = 0f;
@@ -18,39 +19,42 @@ public class ChronovarPhase2 : ChronovarState
 
     public override void UpdateState()
     {
-        chronovar.AirMove();
+        if (!chronovar.isAttacking && !chronovar.isLanding)
+        {
+            chronovar.AirMove();
+        }
+
         HandleAttackLogic();
     }
 
+
     void HandleAttackLogic()
     {
+        if (chronovar.isAttacking) return;
+
         attackTimer -= Time.deltaTime;
-        if (attackTimer <= 0)
+        if (attackTimer > 0) return;
+
+        int AttackDecision = Random.Range(0, NumberOfAttacks);
+
+        switch (AttackDecision)
         {
-            float dist = Vector2.Distance(chronovar.transform.position, chronovar.player.position);
-            int AttackDecision = Random.Range(0, NumberOfAttacks);            
-                switch (AttackDecision)
-                {
-                    case 0:
-                        chronovar.anim.SetTrigger("Breath");
-                        chronovar.Phase2Attack1();
-                        break;
+            case 0:
+                StartCoroutine(chronovar.FireBreathRoutine());
 
-                    case 1:
-                        chronovar.anim.SetTrigger("DiveBomb");
-                        chronovar.Phase2Attack2();
-                        break;
-
-                    default:
-                        chronovar.Phase2Attack1();
-                        break;
-                }
-            }
-            attackTimer = attackCooldown;
+                break;
+            case 1:
+                StartCoroutine(chronovar.DiveBombRoutine());
+                break;
         }
+
+        attackTimer = attackCooldown; // Reset  starting attack
+    }
 
 
     public override void Exit()
     {
+        chronovar.StartCoroutine(chronovar.LandRoutine());
     }
+
 }

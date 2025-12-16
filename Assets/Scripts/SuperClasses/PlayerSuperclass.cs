@@ -7,7 +7,6 @@ public class PlayerSuperclass : MonoBehaviour
 {
     // Movement Variables incl. jump and its relation w/ ground and speed
     public float currentSpeed;
-    public float currentSpeed;
     public float moveSpeed;
     public float jumpHeight;
     public KeyCode Spacebar = KeyCode.Space;

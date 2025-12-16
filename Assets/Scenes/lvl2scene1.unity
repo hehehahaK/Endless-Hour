@@ -640,6 +640,7 @@ GameObject:
   - component: {fileID: 484919503}
   - component: {fileID: 484919502}
   - component: {fileID: 484919501}
+  - component: {fileID: 484919504}
   m_Layer: 0
   m_Name: portalMazootBG_0 (1)
   m_TagString: Untagged
@@ -654,7 +655,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484919500}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -740,6 +741,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.838}
+--- !u!114 &484919504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484919500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd75556be3d5d17458b76b8233bc9f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneIndex: 5
 --- !u!114 &591915727 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1391791055123132472, guid: 765ca42feb1e1ea449b6bd47788a7135, type: 3}
@@ -2619,14 +2633,26 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
+  grounded: 0
+  anim: {fileID: 0}
+  sr: {fileID: 0}
+  rb: {fileID: 0}
+  speedBoostTime: 0
   originalMoveSpeed: 5
   speedBoostDuration: 10
+  speedBoosted: 0
   health: 100
   maxHealth: 10
   healthBarUI: {fileID: 0}
+  normalAttackDamage: 5
   AttackDamage: 5
-  isImmune: 0
+  BoostDuration: 30
+  BoostTime: 0
   isBoosted: 0
+  isImmune: 0
+  flickerTime: 0
+  flickerDuration: 0.1
+  immunityTime: 0
   immunityDuration: 1.5
   attackDuration: 0.3
   isAttacking: 0

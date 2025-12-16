@@ -295,8 +295,9 @@ public class Chronovar : MonoBehaviour
         isDead = true;
 
         rb.velocity = Vector2.zero;
-
-        Destroy(gameObject, 0.1f);
+        
+        Destroy(gameObject, 2f);
+        
     }
     public void OnCollisionStay2D(Collision2D collision)
     {

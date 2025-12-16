@@ -266,14 +266,26 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
+  grounded: 0
+  anim: {fileID: 0}
+  sr: {fileID: 0}
+  rb: {fileID: 0}
+  speedBoostTime: 0
   originalMoveSpeed: 5
   speedBoostDuration: 10
+  speedBoosted: 0
   health: 20
   maxHealth: 20
   healthBarUI: {fileID: 1398272779}
+  normalAttackDamage: 5
   AttackDamage: 500
-  isImmune: 0
+  BoostDuration: 30
+  BoostTime: 0
   isBoosted: 0
+  isImmune: 0
+  flickerTime: 0
+  flickerDuration: 0.1
+  immunityTime: 0
   immunityDuration: 1.5
   attackDuration: 0.4
   isAttacking: 0
@@ -803,7 +815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275cc6bc7e942d3489a5f116ff38c54c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndexToLoad: 8
+  sceneIndexToLoad: 11
 --- !u!1 &661025955
 GameObject:
   m_ObjectHideFlags: 0

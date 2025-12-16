@@ -6,23 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/LV5Scene1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/cutscene.unity
+    guid: 3778821ee5dfe594d86f538a89a54f63
   - enabled: 1
-    path: Assets/Scenes/LV6Scene1.unity
-    guid: 367acb93881b0614da9526550fe1ad99
+    path: Assets/Scenes/LV1Scene1.unity
+    guid: 5e565c7d4e8c3e44b9d516a1e236b81c
   - enabled: 1
-    path: Assets/Scenes/LV6Scene2.unity
-    guid: 55f6ce4f47a6a6447a76b4fab18bcde7
+    path: Assets/Scenes/LV1Scene2.unity
+    guid: 69a87b1604ee4034098ebe3b6759f8f8
+  - enabled: 1
+    path: Assets/Scenes/portalLV1.unity
+    guid: 7a42ebb9110edad4fae61204a961a429
   - enabled: 1
     path: Assets/Scenes/lvl2scene1.unity
     guid: 186b8938bff837f43b999f10b863744b
   - enabled: 1
+    path: Assets/Scenes/lvl2Puzzle.unity
+    guid: 35d6e0617376bcf4b95eadf90f027278
+  - enabled: 1
     path: Assets/Scenes/LV2Scene1PLZWork.unity
     guid: 889f2d04d06154a46b0df3fc18f1666b
   - enabled: 1
-    path: Assets/Scenes/lvl2Puzzle.unity
-    guid: 35d6e0617376bcf4b95eadf90f027278
+    path: Assets/Scenes/portalLV2.unity
+    guid: 58050bbbabca83148a60eb48dfd363e3
   - enabled: 1
     path: Assets/Scenes/LV3scene1.unity
     guid: e4ddcd2df8a3de34ea0eee38805bba01
@@ -30,6 +36,27 @@ EditorBuildSettings:
     path: Assets/Scenes/lv3scene2.unity
     guid: c664fae5323f1464bbb77990c7956073
   - enabled: 1
-    path: Assets/Scenes/lvl3scene3.unity
-    guid: 703fbbb9591cc3846b6765e42a5f6936
+    path: Assets/Scenes/portalLV3.unity
+    guid: 7d8f04953e0e38a4991602b85824bdba
+  - enabled: 1
+    path: Assets/Scenes/LV4Scene1.unity
+    guid: d0706979212f6184cbbb888b2218d0ab
+  - enabled: 1
+    path: Assets/Scenes/portalLV4.unity
+    guid: 5e6cda008bea1e74fb76c3aec1467ffb
+  - enabled: 1
+    path: Assets/Scenes/LV5Scene1Final.unity
+    guid: 64db368b06fd0564091e010875efc52f
+  - enabled: 1
+    path: Assets/Scenes/LV5SceneFight.unity
+    guid: c6281825fcd625943be544d2dee3e8e8
+  - enabled: 1
+    path: Assets/Scenes/LV5SceneFight2.unity
+    guid: cec9c05b0fc75aa45b7c3227842713ec
+  - enabled: 1
+    path: Assets/Scenes/LV6Scene1.unity
+    guid: 367acb93881b0614da9526550fe1ad99
+  - enabled: 1
+    path: Assets/Scenes/LV6Scene2.unity
+    guid: 55f6ce4f47a6a6447a76b4fab18bcde7
   m_configObjects: {}

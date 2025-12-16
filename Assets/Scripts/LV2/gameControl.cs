@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class GameControl : MonoBehaviour
 
 
@@ -45,11 +46,13 @@ public class GameControl : MonoBehaviour
         {
             youWin = true;
             Debug.Log("YOU WIN!");
-            
+            SceneManager.LoadScene(6);
+
             if (winText != null) // ui text connected 
             {
                 winText.gameObject.SetActive(true);//visiblleee
             }
+
         }
     }
 }

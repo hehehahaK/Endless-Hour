@@ -2656,14 +2656,26 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
+  grounded: 0
+  anim: {fileID: 0}
+  sr: {fileID: 0}
+  rb: {fileID: 0}
+  speedBoostTime: 0
   originalMoveSpeed: 5
   speedBoostDuration: 10
+  speedBoosted: 0
   health: 20
   maxHealth: 20
   healthBarUI: {fileID: 1036666729}
+  normalAttackDamage: 5
   AttackDamage: 500
-  isImmune: 0
+  BoostDuration: 30
+  BoostTime: 0
   isBoosted: 0
+  isImmune: 0
+  flickerTime: 0
+  flickerDuration: 0.1
+  immunityTime: 0
   immunityDuration: 1.5
   attackDuration: 0.4
   isAttacking: 0
@@ -11424,7 +11436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guard1: {fileID: 93535151}
   guard2: {fileID: 1401334637}
-  sceneIndexToLoad: 7
+  sceneIndexToLoad: 9
 --- !u!1 &1401334637
 GameObject:
   m_ObjectHideFlags: 0
@@ -17754,7 +17766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 177, y: 144.52}
+  m_AnchoredPosition: {x: 177, y: 144.52002}
   m_SizeDelta: {x: -592.65, y: -289.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2070872219

@@ -10903,17 +10903,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 929793876}
     - target: {fileID: 4374356616352567426, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
+      propertyPath: xOffset
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374356616352567426, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
       propertyPath: offSet.x
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4374356616352567426, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
       propertyPath: offSet.y
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4374356616352567426, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
       propertyPath: playerSR
       value: 
-      objectReference: {fileID: 929793875}
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374356616352567426, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
+      propertyPath: followSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374356616352567426, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
+      propertyPath: teleportDistance
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4374356616352567438, guid: ab7d7d8af370c8644bf91f12bf5f7f26, type: 3}
       propertyPath: m_Name
       value: Coren
@@ -11121,14 +11133,26 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
+  grounded: 0
+  anim: {fileID: 0}
+  sr: {fileID: 0}
+  rb: {fileID: 0}
+  speedBoostTime: 0
   originalMoveSpeed: 5
   speedBoostDuration: 10
+  speedBoosted: 0
   health: 20
   maxHealth: 20
   healthBarUI: {fileID: 0}
+  normalAttackDamage: 5
   AttackDamage: 5
-  isImmune: 0
+  BoostDuration: 30
+  BoostTime: 0
   isBoosted: 0
+  isImmune: 0
+  flickerTime: 0
+  flickerDuration: 0.1
+  immunityTime: 0
   immunityDuration: 1.5
   attackDuration: 0.3
   isAttacking: 0

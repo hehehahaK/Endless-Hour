@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCDialogue : MonoBehaviour
+public class npcken: MonoBehaviour
 {
     public DialogueLv1 dialogueManager; // drag DialogueManager here in Inspector
 
@@ -12,15 +12,9 @@ public class NPCDialogue : MonoBehaviour
         {
             string[] dialogue = new string[]
             {
-              "Hold, warrior None may enter the arena unchallenged.",
-
-"A monstrous guardian stands watch. Steel alone will not be enough.",
-
-"Seek the power potion nearby. You will need its strength to survive.",
-
-"Defeat the beast, then face Hannibal to complete the First Trial.",
-
-"Only then will you be worthy to wield Excalibur and challenge the Dragon."
+              
+              "you should run before its too- is that the legendary excalibur? Humanity might actually have a chance.",
+"Hurry up , cross the platforms and fight chronovar, before it releases it's earth shattering breath"
 
 
             };

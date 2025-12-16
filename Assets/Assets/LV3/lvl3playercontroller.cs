@@ -2,110 +2,68 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lvl3playercontroller : MonoBehaviour
+public class lvl3playercontroller : PlayerSuperclass
 {
-    private float currentSpeed;
-    public float moveSpeed;
-    public float jumpHeight;
-    public KeyCode Spacebar = KeyCode.Space;
-    public KeyCode L = KeyCode.A;
-    public KeyCode R = KeyCode.D;
-    public KeyCode RunKey = KeyCode.LeftShift;
-    public Transform groundCheck;
-    public float groundCheckRadius;
-    public LayerMask whatIsGround; 
-    private bool grounded;
-    private Animator anim; 
-    private SpriteRenderer sr; 
-    private Rigidbody2D rb;
-
-    // Health Variables
-    public int health = 20;
-    public int maxHealth = 20;
-    private int normalAttackDamage = 5;
-    private float BoostDuration = 30f;
-    private float BoostTime = 0f;
-    public int AttackDamage = 5;
-
-    private float flickerTime = 0f;
-    private float flickerDuration = 0.1f;
-    public bool isImmune = false;
-    public bool isBoosted = false;
-    private float immunityTime = 0f;
-    public float immunityDuration = 1.5f;
-
-    // New variables
+    // Stairs Variables
     public bool isOnStairs = false;
-    private float stairClimbBias = 4f;
+    public float stairClimbBias = 4f;
     public float stairSpeedMultiplier = 0.2f;
+    private float defaultGravity;
 
-    // --- COMBAT VARIABLES ---
-    public bool hasDaggers = false;      // The variable the dagger script sets to TRUE
-    public bool isAttacking = false;     // To prevent button spamming
-    public float attackDuration = 0.4f;  // How long the attack lasts
+    // Combat Variables
+    public bool hasDaggers = true; 
+    private HashSet<GameObject> hitThisAttack = new HashSet<GameObject>(); 
 
     void Start()
     {
-        anim = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
+        base.Start();
+        defaultGravity = rb.gravityScale;
     }
 
     void Update()
     {
-        // --- 1. THE MISSING LOGIC TO SWITCH ANIMATIONS ---
-        // This tells the Animator: "Hey, the hasDaggers variable changed!"
-        if (anim != null)
+        // 1. GRAVITY FIX
+        if (isOnStairs) rb.gravityScale = 0f;
+        else rb.gravityScale = defaultGravity;
+
+        if (anim != null) anim.SetBool("HasDaggers", hasDaggers);
+
+        // 2. ATTACK INPUT
+        if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
-            anim.SetBool("HasDaggers", hasDaggers);
+            PerformAttack();
         }
 
-        // --- 2. ATTACK LOGIC (Left Click) ---
-        // Only attack if we have daggers and aren't already attacking
-        if (Input.GetMouseButtonDown(0) && hasDaggers && !isAttacking)
-        {
-            Attack();
+        // 3. JUMP
+        if (Input.GetKeyDown(Spacebar) && grounded) Jump();
+
+        // 4. MOVEMENT
+        if (Input.GetKey(RunKey)){
+           currentSpeed = moveSpeed*2;
+        }
+        else{
+            currentSpeed = moveSpeed;
         }
 
-        // --- MOVEMENT LOGIC (Existing Code) ---
-        float currentMoveSpeed;
-        if (Input.GetKey(RunKey) && isOnStairs)
-        {
-            currentMoveSpeed = moveSpeed;
-        }
-        else {
-            currentMoveSpeed = moveSpeed;
-        }
-
+        
         float yVelocity = rb.velocity.y;
-
         if (isOnStairs)
         {
-            currentMoveSpeed = moveSpeed;
-
-            if (Input.GetKey(R)) 
-            {
-                yVelocity = stairClimbBias; 
-            }
-            else if (Input.GetKey(L)) 
-            {
-                yVelocity = -stairClimbBias; 
-            }
-            else
-            {
-                yVelocity = 0; 
-            }
+            currentSpeed = moveSpeed;
+            if (Input.GetKey(R)) yVelocity = stairClimbBias;
+            else if (Input.GetKey(L)) yVelocity = -stairClimbBias;
+            else yVelocity = 0;
         }
 
         if (Input.GetKey(L))
         {
-            rb.velocity = new Vector2(-currentMoveSpeed, yVelocity);
-            if (sr != null) { sr.flipX = true; }
+            rb.velocity = new Vector2(-currentSpeed, yVelocity);
+            if (sr != null) sr.flipX = true;
         }
         else if (Input.GetKey(R))
         {
-            rb.velocity = new Vector2(currentMoveSpeed, yVelocity);
-            if (sr != null) { sr.flipX = false; }
+            rb.velocity = new Vector2(currentSpeed, yVelocity);
+            if (sr != null) sr.flipX = false;
         }
         else if (!Input.GetKey(L) && !Input.GetKey(R) && !isOnStairs)
         {
@@ -116,109 +74,67 @@ public class lvl3playercontroller : MonoBehaviour
             rb.velocity = new Vector2(0, yVelocity);
         }
 
-        if (Input.GetKeyDown(Spacebar) && grounded)
-        { Jump(); }
-        
-        // --- BUFFS ---
-        if (isImmune == true)
+        // --- 5. IMPORTANT: IMMUNITY TIMER (THIS WAS MISSING) ---
+        if (isImmune)
         {
             SpriteFlicker();
             immunityTime += Time.deltaTime;
             if (immunityTime >= immunityDuration)
             {
-                isImmune = false;
-                sr.enabled = true;
-            }
-        }
-        if (isBoosted == true)
-        {
-            BoostTime += Time.deltaTime;
-            if (BoostTime >= BoostDuration)
-            {
-                isBoosted = false;
-                AttackDamage = normalAttackDamage;
+                isImmune = false; // Player can take damage again
+                sr.enabled = true; // Make sure sprite is visible
             }
         }
         
+
+        
+
+        // Animation Updates
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("Height", rb.velocity.y);
         anim.SetBool("Grounded", grounded);
-        anim.SetBool("IsRunning", Input.GetKey(RunKey));
+        anim.SetBool("IsRunning", Input.GetKey(RunKey));  
     }
 
- 
-    void Attack()
+    void PerformAttack()
     {
         isAttacking = true;
-        
-        int randomAttack = Random.Range(0, 2);
-        if (randomAttack == 0)
-        {
-            anim.SetTrigger("topstablvl3");
-        }
-        else
-        {
-            anim.SetTrigger("firehitlvl3");
-        }
+        hitThisAttack.Clear(); 
 
-        StartCoroutine(ResetAttack());
+        int randomAttack = Random.Range(0, 2); 
+        if (randomAttack == 0) anim.SetTrigger("topstablvl3");
+        else anim.SetTrigger("firehitlvl3");
+
+        StartCoroutine(EndAttack());
     }
 
-    IEnumerator ResetAttack()
+    IEnumerator EndAttack()
     {
         yield return new WaitForSeconds(attackDuration);
         isAttacking = false;
     }
 
-    // --- PHYSICS & HEALTH (Existing Code) ---
     void FixedUpdate()
     {
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround); 
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
     }
 
-    void Jump()
+    // --- COLLISION LOGIC ---
+    void OnTriggerStay2D(Collider2D collision)
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-    }
-
-    void SpriteFlicker()
-    {
-        if (flickerTime < flickerDuration)
+        if (isAttacking) 
         {
-            flickerTime += Time.deltaTime;
-        }
-        else if (flickerTime >= flickerDuration)
-        {
-            sr.enabled = !sr.enabled;
-            flickerTime = 0;
-        }
-    }
-
-    public void TakeDamage(int damage)
-    {
-        if (!isImmune)
-        {
-            health -= damage;
-            if (health <= 0)
+            royalguard guard = collision.GetComponent<royalguard>();
+            
+            if (guard != null)
             {
-                FindObjectOfType<LevelManager>().RespawnPlayer();
-                health = maxHealth;
+                if (!hitThisAttack.Contains(collision.gameObject))
+                {
+                    guard.TakeDamage(AttackDamage);
+                    hitThisAttack.Add(collision.gameObject);
+                    Debug.Log("Hit Guard via Collision!");
+                }
             }
-            Debug.Log("Player Health:" + health.ToString());
-            isImmune = true;
-            immunityTime = 0f;
         }
     }
-
-    public void Heal(int healAmount)
-    {
-        health += healAmount;
-        if (health > maxHealth)
-        {
-            health = maxHealth;
-        }
-        Debug.Log("Player Health:" + health.ToString());
-    }
-
-
 }

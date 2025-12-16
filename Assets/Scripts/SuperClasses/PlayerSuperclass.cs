@@ -7,38 +7,40 @@ public class PlayerSuperclass : MonoBehaviour
 {
     // Movement Variables incl. jump and its relation w/ ground and speed
     public float currentSpeed;
+    public float currentSpeed;
     public float moveSpeed;
     public float jumpHeight;
     public KeyCode Spacebar = KeyCode.Space;
     public KeyCode L = KeyCode.A;
     public KeyCode R = KeyCode.D;
     public KeyCode RunKey = KeyCode.LeftShift;
-    public Transform groundCheck;// empty child positioned at the player's feet. Used to detect if the player is touching ground.
+    public Transform groundCheck;
     public float groundCheckRadius;
-    public LayerMask whatIsGround; //this variable stores what is considered a ground to the character,defines which physics layers count as ground.
-    private bool grounded;
-    private Animator anim; // ANIMATOR 
-    private SpriteRenderer sr; //SpritRenderer for flickering effect
-    private Rigidbody2D rb;
-    private float speedBoostTime = 0f;
+    public LayerMask whatIsGround;
+    protected bool grounded;
+    protected Animator anim;
+    protected SpriteRenderer sr;
+    protected Rigidbody2D rb;
+    protected float speedBoostTime = 0f;
     public float originalMoveSpeed = 5f;
     public float speedBoostDuration = 10f;
+
     // Health Variables
     public float health = 100;
     public float maxHealth = 100;
     public Healthbar healthBarUI;
-    private int normalAttackDamage = 5;
-    private float BoostDuration = 30f;
-    private float BoostTime = 0f;
+    protected int normalAttackDamage = 5;
+    protected float BoostDuration = 30f;
+    protected float BoostTime = 0f;
     public int AttackDamage = 5;
-    private bool speedBoosted = false;
-    private float flickerTime = 0f;
-    private float flickerDuration = 0.1f;
+    protected bool speedBoosted = false;
+    protected float flickerTime = 0f;
+    protected float flickerDuration = 0.1f;
     public bool isImmune = false;
     public bool isBoosted = false;
-    private float immunityTime = 0f;
+    protected float immunityTime = 0f;
     public float immunityDuration = 1.5f;
-    public float attackDuration = 0.3f; // How long the attack lasts
+    public float attackDuration = 0.3f;
     public bool isAttacking = false;
     public bool isBlocking = false;
 
@@ -54,10 +56,12 @@ public class PlayerSuperclass : MonoBehaviour
 
     void Attack()
     {
+        Debug.Log("ATTACK CALLED");
         isAttacking = true;
         anim.SetTrigger("Attack");
         StartCoroutine(ResetAttack());
     }
+
     IEnumerator ResetAttack()
     {
         yield return new WaitForSeconds(attackDuration);
@@ -74,7 +78,9 @@ public class PlayerSuperclass : MonoBehaviour
             currentSpeed=moveSpeed;
         }
         if (Input.GetKeyDown(Spacebar) && grounded)
-        { Jump(); }
+        {
+            Jump();
+        }
 
         if (!Input.GetKey(L) && !Input.GetKey(R))
         {
@@ -83,18 +89,16 @@ public class PlayerSuperclass : MonoBehaviour
 
         if (Input.GetKey(L))
         {
-            //Debug.Log("going left"); // note to anyone, remove later on!!
             rb.velocity = new Vector2(-currentSpeed, rb.velocity.y);
-            //player character moves horizontally to the left along the x-axis without disrupting jump
             if (sr != null)
-            { sr.flipX = true; }
+            {
+                sr.flipX = true;
+            }
         }
 
         if (Input.GetKey(R))
         {
-            //Debug.Log("going right");
             rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
-            //player character moves horizontally to the right along the x-axis without disrupting jump
             if (sr != null)
             {
                 sr.flipX = false;
@@ -111,6 +115,7 @@ public class PlayerSuperclass : MonoBehaviour
                 sr.enabled = true;
             }
         }
+
         if (isBoosted == true)
         {
             BoostTime += Time.deltaTime;
@@ -119,8 +124,8 @@ public class PlayerSuperclass : MonoBehaviour
                 isBoosted = false;
                 AttackDamage = normalAttackDamage;
             }
-
         }
+
         if (speedBoosted == true)
         {
             speedBoostTime += Time.deltaTime;
@@ -130,17 +135,17 @@ public class PlayerSuperclass : MonoBehaviour
                 moveSpeed = originalMoveSpeed;
             }
         }
-        // Shield 
-        /*if (Input.GetMouseButton(0))
-        {
-            isBlocking = true;
-            anim.SetBool("ShieldUp", true);
-        }
-        else
-        {
-            isBlocking = false;
-            //anim.SetBool("ShieldUp", false);
-        } */
+
+                /*if (Input.GetMouseButton(0))
+                {
+                    isBlocking = true;
+                    anim.SetBool("ShieldUp", true);
+                }
+                else
+                {
+                    isBlocking = false;
+                    //anim.SetBool("ShieldUp", false);
+                } */
 
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("Height", rb.velocity.y);
@@ -156,16 +161,15 @@ public class PlayerSuperclass : MonoBehaviour
 
     void FixedUpdate()
     {
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround); //this statement calculates when 
-        //exactly the character is considered by Unity's engine to be standing on the ground. 
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
     }
 
-    void Jump()
+    protected void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
     }
 
-    void SpriteFlicker()
+    protected void SpriteFlicker()
     {
         if (flickerTime < flickerDuration)
         {
@@ -178,7 +182,6 @@ public class PlayerSuperclass : MonoBehaviour
         }
     }
 
-    //Damage function, we send a DMG INT value to subtract from health. it also calls LevelManager to respawn player upon death.
     public void TakeDamage(int damage)
     {
         if (!isImmune)
@@ -187,21 +190,15 @@ public class PlayerSuperclass : MonoBehaviour
             health = Mathf.Clamp(health, 0f, maxHealth);
             healthBarUI.updateHealthBar();
 
-
             if (health <= 0)
             {
                 FindObjectOfType<LevelManager>().RespawnPlayer();
                 health = maxHealth;
-                          healthBarUI.updateHealthBar();
-
+                healthBarUI.updateHealthBar();
             }
-       //     Debug.Log("Player Health:" + health.ToString());
+
             isImmune = true;
             immunityTime = 0f;
-        }
-        else
-        {
-         //   Debug.Log("Player took no damage.");
         }
     }
 
@@ -211,6 +208,7 @@ public class PlayerSuperclass : MonoBehaviour
         if (health > maxHealth)
         {
             health = maxHealth;
+            healthBarUI.updateHealthBar();
         }
         Debug.Log("Player Health:" + health.ToString());
     }
@@ -223,10 +221,8 @@ public class PlayerSuperclass : MonoBehaviour
             isBoosted = true;
         }
         BoostTime = 0f;
-       // Debug.Log("Player Attack Damage:" + AttackDamage.ToString());
     }
 
-    // Permanent damage upgrade (doesn't expire)
     public void speedBoost(int boostAmount)
     {
         if (!speedBoosted)
@@ -237,7 +233,6 @@ public class PlayerSuperclass : MonoBehaviour
         }
 
         Debug.Log("Speed Upgrade: " + moveSpeed.ToString());
-
     }
 
     public void SpecialBoost(int boostAmount)
@@ -245,7 +240,6 @@ public class PlayerSuperclass : MonoBehaviour
         normalAttackDamage += boostAmount;
         AttackDamage = normalAttackDamage;
         Debug.Log("Permanent Attack Damage Upgrade: " + AttackDamage.ToString());
-
     }
     void OnCollisionStay2D(Collision2D collision)
 {

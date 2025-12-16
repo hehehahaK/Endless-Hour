@@ -15,13 +15,10 @@ public class DMdaggers : MonoBehaviour
 
     // Prefabs and Locations
     private GameObject daggers;
-    private GameObject lockpick;
     private Transform spawnLocationdag;
-    private Transform spawnlocationlockpick;
     
     // Track if items have been given so we don't spawn them twice
     private bool daggersSpawned = false;
-    private bool lockpickSpawned = false;
     
     void Start()
     {
@@ -34,16 +31,16 @@ public class DMdaggers : MonoBehaviour
         this.dialogueSentences = sentences;
     }
 
-    public void SetPrefabToSpawn(GameObject prefab, GameObject prefabLP, Transform location, Transform lockloc)
+    public void SetPrefabToSpawn(GameObject prefab, Transform location)
     {
         daggers = prefab;
-        lockpick = prefabLP;
+
         spawnLocationdag = location;
-        spawnlocationlockpick = lockloc;
+       
         
         // Reset spawning flags
         daggersSpawned = false;
-        lockpickSpawned = false;
+ 
     }
 
     public IEnumerator TypeDialogue()
@@ -63,13 +60,7 @@ public class DMdaggers : MonoBehaviour
         }
         
         
-        if (index == 3 && lockpick != null && !lockpickSpawned) 
-        {
-            Instantiate(lockpick, spawnlocationlockpick.position, Quaternion.identity);
-            lockpickSpawned = true;
-            Debug.Log("Lockpick spawned!");
-        }
-        // -----------------------------------------
+        
 
         // Type the text
         foreach (char letter in dialogueSentences[index].ToCharArray())

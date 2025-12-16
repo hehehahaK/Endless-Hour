@@ -129,6 +129,11 @@ public class NewEnemyController : MonoBehaviour
     {
         if (!collision.gameObject.CompareTag("Player")) return;
 
+        if (playerController == null) 
+        {
+            return; 
+        }
+
         //player dmg enemy
         if (playerController.isAttacking && !hasRecentlyTakenDamage)
         {

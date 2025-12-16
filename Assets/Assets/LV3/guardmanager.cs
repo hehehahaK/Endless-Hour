@@ -30,9 +30,9 @@ public class guardmanager : MonoBehaviour
 
         
         DialogueLine[] dialogue = {
-            new DialogueLine("Guard 1", "Halt! You're not supposed to be here. You think you can just enter the castle that easily by walking in?"),
-            new DialogueLine("Guard 2", "Who do you think you are?"),
-            new DialogueLine("Guard 1", "Let me get rid of you real quick.")
+            new DialogueLine("Guard 1:", "Halt! You're not supposed to be here. You think you can just enter the castle that easily by walking in?"),
+            new DialogueLine("Guard 2:", "Who do you think you are?"),
+            new DialogueLine("Guard 1:", "Let me get rid of you real quick.")
         };
        
 
